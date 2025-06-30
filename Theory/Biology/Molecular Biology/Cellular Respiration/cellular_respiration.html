@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cellular Respiration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../general.css">
+<script src="/navigationimport.js" type="module"></script>
+<script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+<!-- Page header -->
+<div class="page-header">
+<h2>Cellular Respiration</h2>
+<a href="../Molecular.html" class="back-btn">+ Back to Molecular Biology</a>
+</div>
+<!-- Main content -->
+<div class="container">
+<h2>Key Terminology/Things to be Familiar With:</h2>
+<ul>
+<li>\(\ce{NAD^+}\) and \(\ce{FADH^+}\) are oxidized forms of the electron carriers \(\ce{NADH}\) and \(\ce{FADH2}\) <br>(please note that \(\ce{FADH2}\) has less energy than \(\ce{NADH}\))</li>
+<li>ADP + Pi is phosphorylated to form ATP (the working form) → works like a battery</li>
+</ul>
+
+<h2>Introduction to cellular respiration:</h2>
+<ul>
+<li><strong>Goal:</strong> Break down glucose (\(\ce{C6H12​O6}\)​) to release energy and trap it in ATP (adenosine triphosphate) molecules.</li>
+<li><strong>Overall Equation (Aerobic):</strong> \(\ce{C6H12​O6 ​+ 6O2 ​→ 6CO2 ​+ 6H2O + Energy}\) (in the form of ATP and heat) </li>
+<li>Equation in words: Glucose and Oxygen yeilds Carbon Dioxide, water, and energy</li>
+</ul>
+
+<h2>Aerobic Respiration: The Efficient Pathway (Needs Oxygen!)</h2>
+<ul>
+    <li><strong>Location:</strong> Cytoplasm (outside the mitochondria).</li>
+    <li>No oxygen is needed for glycolysis, it happens wether oxygen is present or not</li>
+    <li><strong>Process:</strong> One glucose molecule (6-carbon sugar) is broken down into two pyruvate molecules (each is a 3-carbon molecule).</li>
+    <li><strong>Energy requiring-phase/key inputs:</strong> Glucose, 2 ATP, NAD\(^+\)</li>
+    <li><strong>Energy payoff phase/key Outputs (Net):</strong>
+      <ul>
+        <li>2 Pyruvate molecules</li>
+        <li>2 ATP <em>(Net gain: 4 produced – 2 invested)</em></li>
+        <li>2 NADH <em>(carrying high-energy electrons – it has been reduced)</em></li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+
+<img src="image1.png">
+<p>Note that memorization is not necessary and diagrams are added only for clarification</p>
+<h2>Stage 2: Pyruvate Oxidation ("The Link Reaction")</h2>
+<ul>
+    <li><strong>Location:</strong> Mitochondrial Matrix (inner space of the mitochondrion). Only happens if \(\ce{O2}\)​ is present (if not, process will divert to fermentation).</li>
+    <li><strong>Process:</strong> Each pyruvate molecule (from glycolysis) is converted into Acetyl-CoA (2-carbon molecule attached to Coenzyme A).</li>
+    <li><strong>Key Inputs (per pyruvate):</strong> Pyruvate, \(\ce{NAD^+}\), Coenzyme A.</li>
+    <li><strong>Key Outputs(per pyruvate):</strong>
+    <ul> 
+        <li>1 acetyl-CoA</li>
+        <li>1 NADH</li>
+        <li>1 carbon dioxide (waste product)</li>
+    </ul>
+    <li><strong>Per Glucose:</strong> Remember, glycolysis produces 2 pyruvates, so pyrivate oxidation always happens twice:<strong> 2 Acetyl-CoA, 2 NADH, 2 \(\ce{CO2}\)</strong></li>
+</ul>
+
+<h2>Stage 3:Krebs Cycle (Also known as "Citric Acid Cycle")</h2>
+<ul>
+    <li><strong>Location:</strong> Mitochondriak Matrix.</li>
+    <li><strong>Process:</strong> Acetyl-CoA enters a cycle of reactions. The 2-carbon acetyl group is completely oxidized to CO2. Energy is captured in electron carriers.</li>
+    <li><strong>Key Inputs (per turn, from 1 Acetyl-CoA):</strong> Acetyl-CoA, NAD+, FAD (another electron carrier), ADP + Pi</Li>
+    <li><strong>Key Outputs (per turn):</strong>
+        <ul>
+            <li>1 ATP (or GTP, which is easily converted to ATP)</li>
+            <li>3 \(\ce{NADH}\)</li>
+            <li>1 \(\ce{FADH2}\) (another loaded electron carrier)</li>
+            <li>2 \(\ce{CO2}\) (waste product)</li>
+    
+        </ul>
+    <li><strong>Per Glucose:</strong> The cycle turns twice (one for each Acetyl-CoA):<strong> 2 ATP, 6 NADH, 2 FADH\(_2\), 4\(\ce{CO2}\)</strong></li>
+</ul>
+
+<img src="image2.png">
+<h2>Stage 4: Oxidative Phosphorylation (Electron Transport Chain & Chemiosmosis)</h2>
+<ul>
+    <li><strong>Location:</strong>Inner Mitochondrial Membrane</li>
+    <li><strong>Process:</strong>
+        <ul>
+        <li><strong>Electron Transport Chain (ETC):</strong> NADH and FADH\(_2\) (from previous stages) drop off their high-energy electrons to a series of protein complexes embedded in the membrane. As electrons are passed down the chain, energy is released and used to pump protons (\(\ce{H^+}\)) from the matrix into the intermembrane space, creating a proton gradient (like water behind a dam). Oxygen (\(\ce{O2}\)​) is the final electron acceptor at the end of the chain, combining with electrons and protons to form water (\(\ce{H2​O}\)) - this is a <strong>dehydration synthesis reaction!</strong></li>
+        <li><strong>Chemiosmosis:</strong> The protons (H\(^+\)) flow back down their concentration gradient into the matrix through a special protein channel called ATP Synthase. This flow of protons powers ATP Synthase, which spins and catalyzes the addition of phosphate (Pi) to ADP, making ATP <strong>(phosphorylation)</strong></li>
+        </ul></li>
+        <li><strong>Key Inputs:</strong> NADH, FADH\(_2\), \(\ce{O2}\), ADP, Pi </li>
+        <li><strong>Key Outputs:</strong> ~28-34 ATP (The exact number varies slightly). This is where the majority of ATP is produced in the entire cellular respiration cycle! \(\ce{H2O}\) is also produced and NAD\(^+\) and FAD is regenerated.</li>
+        
+</ul>
+
+<h2>Summary of Aerobic Respiration (per glucose)</h2>
+<ul>
+    <li><strong>Total ATP Yield:</strong> ~32-38 ATP (2 from Glycolysis + 2 from Krebs + ~28-34 from Oxidative Phosphorylation).</li>
+    <li><strong>Key Waste Products:</strong> \(\ce{CO2}\), \(\ce{H2O}\)</li>
+</ul>
+
+<h2>Anaerobic Respiration/Fermendation (No Oxygen!)</h2>
+<ul>
+    <li><strong>Why?</strong> When oxygen is absent, the ETC backs up (no final electron acceptor), and NADH cannot unload its electrons. This stops the Krebs cycle and Pyruvate Oxidation.</li>
+    <li><strong>Location:</strong> Cytoplasm.</li>
+    <li><strong>Types:</strong>
+        <ul>
+        <li><strong>Lactic Acid Fermentation:</strong>
+            <ul>
+            <li>Pyruvate is directly reduced by NADH to form lactate (lactic acid). NAD\(^+\) is regenerated.</li>
+            <li>Happens in: Human muscle cells during intense exercise, some bacteria (used in yogurt production).</li>
+            <li>Equation: Pyruvate + NADH → Lactate + NAD\(^+\)</li>
+            <li><strong>Net ATP:</strong> 2 ATP (from glycolysis only).</li>
+            </ul>
+        
+        <li><strong>Alcoholic Fermentation:</strong>
+            <ul>
+            <li>Pyruvate is first converted to acetaldehyde (releasing \(\ce{CO2}\)​),<br>then acetaldehyde is reduced by NADH to form ethanol (alcohol). NAD\(^+\) is regenerated.
+            <li>Happens in: Yeast (used in baking and brewing)</li>
+            <li>Equations: 
+                <ol type="1">
+                <li>Pyruvate → Acetaldehyde + \(\ce{CO2}\)​ </li>
+                <li>Acetaldehyde + NADH → Ethanol + NAD\(^+\)</li>
+                </ul>
+            </li>
+            <li><strong>Net ATP:</strong> 2 ATP (from glycolysis only)</li>
+        </ul>
+        </ul>
+</ul>
+
+    <h2>Key Takeaways for IJSO</h2>
+    <ol>
+        <li>Cellular respiration extracts energy from glucose to make ATP.</li>
+        <li>Aerobic respiration (needs \(\ce{O2}\)​) is much more efficient (~32-38 ATP) than anaerobic fermentation (2 ATP).</li>
+        <li><strong>Know the Stages of Aerobic Respiration:</strong> Glycolysis (cytoplasm), Pyruvate Oxidation (matrix), Krebs Cycle (matrix), Oxidative Phosphorylation (inner membrane).</li>
+        <li><strong>Know the Key Molecules:</strong> Glucose, Pyruvate, Acetyl-CoA, ATP, NADH, FADH\(_2\)​, \(\ce{O2}\)​, \(\ce{CO2}\)​, \(\ce{H2​O}\).</li>
+        <li>Know that 2 ATP’s are produced from glycolysis and 2 ATP’s are produced from Kreb’s cycle.</li>
+        <li>Know that 2 NADHs are produced from glycolysis, 1 NADH is produced from pyruvate oxidation, 3 NADHs are produced from Krebs cycle per glucose molecule.</li>
+        <li><strong>Oxygen's Role:</strong> Final electron acceptor in the ETC, essential for oxidative phosphorylation and high ATP yield.</li>
+        <li><strong>Fermentation's Role:</strong> Regenerate NAD\(^+\) to allow glycolysis to continue in the absence of oxygen, producing minimal ATP. Know the two main types (lactic acid, alcoholic) and their products.</li>
+        <li><strong>Mitochondria:</strong> The powerhouse of the cell for aerobic respiration (except glycolysis).</li>
+    </ol>
+
+<p>Study these steps, understand the flow of molecules and energy, and visualize where each stage happens. Good luck!</p>
+
+<br>
+<p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+Written by <strong>Kasiban Parthipan</strong>
+</p>
+</div>
+<div class="footer">
+&copy; 2025 A Guide to the IJSO. All rights reserved.
+</div>
+</body>
+</html>
