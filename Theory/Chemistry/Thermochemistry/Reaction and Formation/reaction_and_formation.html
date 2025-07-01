@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reaction and Formation Enthalpies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Reaction and Formation Enthalpies</h2>
+    <a href="../thermochemistry.html" class="back-btn">← Back to Thermochemistry</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h2>Definition of Enthalpy</h2>
+    <p>Enthalpy (symbol: H) is a thermodynamic quantity representing the total heat content of a system at constant pressure. It is a state function, depending only on the system’s current state, not the path taken to reach it.</p>
+
+    <h2>Enthalpy Change (ΔH)</h2>
+    <p>The enthalpy change (ΔH) reflects the heat absorbed or released during a process at constant pressure.</p>
+    <ul>
+        <li>If ΔH > 0, the process is endothermic (absorbs heat).</li>
+        <li>If ΔH < 0, the process is exothermic (releases heat).</li>
+    </ul>
+
+    <h2>Standard Enthalpy of Formation (ΔH°f)</h2>
+    <p>The standard enthalpy of formation is defined as the enthalpy change when one mole of a compound is formed from its constituent elements in their standard states under standard conditions (298 K, 1 atm).</p>
+    <br><p>Example: C (s, graphite) + \(\ce{O2}\) (g) → \(\ce{CO2}\) (g) &emsp; ΔH°f = –393.5 kJ/mol</p>
+
+    <h2>Calculating Reaction Enthalpy Using Formation Enthalpies</h2>
+    <p>The enthalpy change of a chemical reaction can be determined using</p>
+    <p>\(\Delta \text{H}^{\circ} _{\text{rxn}} = \Sigma \Delta \text{H}^{\circ} _{\text{f}} ({\text{products}}) \;\; – \;\; \Sigma \Delta \text{H}^{\circ} _{\text{f}} ({\text{reactants}})\)</p>
+    <br><p>Each \(\text{H}^{\circ} _{\text{f}}\) value must be multiplied by its stoichiometric coefficient from the balanced chemical equation.</p>
+
+    <h2>Hess’s Law</h2>
+    <p>Hess’s Law states that the total enthalpy change of a reaction is independent of the route taken. The overall ΔH is the sum of the ΔH values of individual steps leading to the overall reaction.</p>
+    <p>\(\Delta \text{H}_{\text{total}} = \Delta \text{H}_1 + \Delta \text{H}_2 + ... + \Delta \text{H}_n\)</p>
+    <br><p>This is useful when direct measurement of ΔH is not possible.</p>
+    
+    <h2>Bond Enthalpy Method</h2>
+    <p>When formation enthalpies are not available, <a href="../Bond Enthalpy/bondenthalpy.html" style="color:#9081dd">bond enthalpies</a> can be used.</p>
+    <p>\(\Delta \text{H} = \Sigma \text{D} (\text{bonds broken}) \;\; – \;\; \Sigma \text{D} (\text{bonds formed})\)</p>
+    <p>Where D represents bond dissociation enthalpies. Bond breaking requires energy (endothermic), while bond formation releases energy (exothermic).</p>
+
+    <h2>Key Considerations</h2>
+    <ul>
+        <li>Ensure equations are balanced.</li>
+        <li>Use correct standard states for all elements.</li>
+        <li>Check units (typically kJ/mol).</li>
+        <li>Apply correct signs for all enthalpy values.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Reaction and formation enthalpies are essential for understanding the energy flow in chemical processes. Mastery of this topic provides insight into reaction feasibility, stability, and thermal behavior.</p>
+
+    <button class="collapsible">Example 1: Calculating Reaction Enthalpy</button>
+    <div class="content">
+      <p><strong>Question:</strong> Calculate the enthalpy change for the reaction:</p>
+      <p>\(\ce{CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)}\)</p>
+      <p>Given the following standard enthalpies of formation:</p>
+      <ul>
+        <li>\(\Delta H_f^\circ(\ce{CH4(g)}) = -74.8 \, \text{kJ/mol}\)</li>
+        <li>\(\Delta H_f^\circ(\ce{CO2(g)}) = -393.5 \, \text{kJ/mol}\)</li>
+        <li>\(\Delta H_f^\circ(\ce{H2O(l)}) = -285.8 \, \text{kJ/mol}\)</li>
+        <li>\(\Delta H_f^\circ(\ce{O2(g)}) = 0 \, \text{kJ/mol}\) (element in standard state)</li>
+      </ul>
+      <p><strong>Solution:</strong></p>
+      <p>\[
+      \Delta H^\circ_{\text{rxn}} = [(-393.5) + 2(-285.8)] - [(-74.8) + 0]
+      \]</p>
+      <p>\[
+      = (-393.5 - 571.6) - (-74.8) = -965.1 + 74.8 = -890.3 \, \text{kJ/mol}
+      \]</p>
+      <p><strong>Answer:</strong> \(\Delta H^\circ_{\text{rxn}} = -890.3 \, \text{kJ/mol}\)</p>
+    </div>
+
+    <button class="collapsible">Example 2: Using Bond Enthalpies</button>
+    <div class="content">
+      <p><strong>Question:</strong> Estimate the enthalpy change for the reaction:</p>
+      <p>\(\ce{H2(g) + Cl2(g) -> 2HCl(g)}\)</p>
+      <p>Given bond enthalpies:</p>
+      <ul>
+        <li>H–H = 436 kJ/mol</li>
+        <li>Cl–Cl = 243 kJ/mol</li>
+        <li>H–Cl = 431 kJ/mol</li>
+      </ul>
+      <p><strong>Solution:</strong></p>
+      <p>Bonds broken: 1 H–H + 1 Cl–Cl = 436 + 243 = 679 kJ/mol</p>
+      <p>Bonds formed: 2 H–Cl = 2 × 431 = 862 kJ/mol</p>
+      <p>\[
+      \Delta H = \text{Bonds broken} - \text{Bonds formed} = 679 - 862 = -183 \, \text{kJ/mol}
+      \]</p>
+      <p><strong>Answer:</strong> \(\Delta H = -183 \, \text{kJ/mol}\)</p>
+    </div>
+
+        <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Rand Ranj</strong>
+</p>
+</div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
