@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Faraday's Law of Induction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Faraday's Law of Induction</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electricity and Magnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p>Faraday's law of induction is the law that explains the correlation between the induced EMF and relevant parameters, which are the magnetic flux and time. The formula we get from this law is as follows:</p>
+    <p>\[\epsilon = - \frac{\Delta \Phi}{\Delta t}\]</p>
+    <p>Where:</p>
+    <ul>
+        <li>\(\epsilon\) - the induced EMF</li>
+        <li>\(\Delta \Phi\) - change of the magnetic flux</li>
+        <li>\(\Delta t\) - time interval during which the flux had changed</li>
+    </ul>
+
+    <h2>Other notable parameters</h2>
+    <p>Parameters that are important are the rates of change, which describe how physical quantities change over time. An example you already know is velocity, which is the rate of change of distance, describing how distance changes over time.</p>
+    <br><p>The general formula for any rate of change is the difference in the physical quantity observed over the time during which it had changed. Some rates of change that are important to mention are</p>
+    <p>The rate of change of the strength of a magnetic field = \(\frac{\Delta B}{\Delta t}\)</p>
+    <p>The rate of change of the surface area = \(\frac{\Delta A}{\Delta t}\)</p>
+    <p>The rate of change of magnetic flux = \(\frac{\Delta \Phi}{\Delta t}\)</p>
+    <br><p>As we can see, by Faraday’s law of induction, the induced EMF is equal to the negative rate of change of the magnetic flux.</p>
+    <br><p>If we have a circuit of a constant area and we try to induce an EMF by having a magnetic field of variable strength, the formula for the change in flux is \(\Delta \Phi = A \times \Delta B\). If the magnetic field strength decreases, the change in flux would be negative, and if it increases, the change in flux would be positive.</p>
+    <br><p>Another notable case is if we have a magnetic field of constant strength, we could try to induce an EMF by changing its surface area; in that case, the formula for the change in flux is \(\Delta \Phi = B \times \Delta A\). If the area decreases, the change in flux would be negative, and if it increases, the change in flux would be positive.</p>
+    <br><p>The last case is if both the strength of the magnetic field and the area change, the change in flux is \(\Phi = B \times \Delta A + A \times \Delta B + \Delta A \times \Delta B\).</p>
+    <p>The last term, \(\Delta A \times \Delta B\), is usually neglected if the changes are small.</p>
+    <br><p>One important note is that the minus sign in the formula for Faraday’s law refers to the direction of the EMF and the direction of the current. The direction is further explained by <a href="" style="color:#9081dd">Lenz’s law</a>.</p>
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Nemanja Maslak</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
