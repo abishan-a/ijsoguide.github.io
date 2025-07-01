@@ -28,7 +28,7 @@ function blurContent(){
             blur.classList.add('blur-overlay');
             blur.id = "blurOverlay";
             let p = document.createElement('p');
-            p.innerHTML = "Please sign in to read the full article!";
+            p.innerHTML = "Please sign in or sign up for a free account to read the full article!";
             blur.appendChild(p);
             let a = document.createElement('a');
             a.href = "/Account/sign-in.html?redirect=" + window.location.href;

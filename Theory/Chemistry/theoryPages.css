@@ -280,3 +280,14 @@ tbody tr{
     opacity: 0;
     pointer-events: none; /* Disable interaction when hidden */
 }
+
+
+@media (width < 768px){
+  .blur-overlay p{
+    top: 5rem;
+    margin: 2rem;
+  }
+  .blur-overlay .btn{
+    top: 13rem;
+  }
+}
