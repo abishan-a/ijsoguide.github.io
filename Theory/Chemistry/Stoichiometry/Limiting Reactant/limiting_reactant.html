@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Limiting Reactant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ <link rel="stylesheet" href="../../theoryPages.css">
+ <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Limiting Reactant</h2>
+    <a href="../stoichiometry.html" class="back-btn">← Back to Stoichiometry</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Limiting reactant</h2>
+    <p>On chemical reactions with more than 1 reactant, the limiting reactant is the one that is completely consumed, so it determines the amount of reactants formed. After the limiting reactant is completely consumed, the reaction completely stops, even if the other reactants are still available, the leftover reactants are called the excess reactants.</p>
+
+    <h2>Determining the limiting reactant</h2>
+    <p>The most important information you will need to determine which of the reactants is the limiting one is the proportion that they combine in order to form the products.</p>
+    <p>\(\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}\)</p>
+
+    <br><p>1 mole of \(\ce{C6H12O6}\) must combine with 6 moles of O2 for this reaction to happen, so if you have 4 moles of \(\ce{C6H12O6}\) and 23 moles of \(\ce{O2}\), we can see the that the limiting reactant would be \(\ce{O2}\), because you would need 24 moles of \(\ce{O2}\) to completely react with 4 moles of \(\ce{C6H12O6}\).</p>
+    <br><p>We can also do this for mass, 180 g of \(\ce{C6H12O6}\) will completely react with 192 g of \(\ce{O2}\) (We basically multiplied 1 mole and 6 moles by their molar masses), so if you have 576 g of O2 (3 x 192), you would need at least 540 g of \(\ce{C6H12O6}\) (3 x 180)  to completely consume the \(\ce{O2}\), if the mass of \(\ce{C6H12O6}\) is smaller than 540 g, it would be the limiting reactant, and if it is bigger than 540g, \(\ce{O2}\) would be the limiting reactant.</p>
+    <br><p>Once you discover the limiting reactant, you can just do the procedure you learned on the previous page to determine the amount of products formed. Assuming you have 576 g of \(\ce{O2}\) and 550 g of \(\ce{C6H12O6}\), let’s discover the mass of water formed. We already know that \(\ce{O2}\) is the limiting reactant, because the mass of \(\ce{O2}\) is bigger than 540 g, so 576 g won’t be enough to entirely consume 550g of \(\ce{C6H16O6}\). 576 g of \(\ce{O2}\) is the same as 18 moles, \(\ce{O2}\) reacts with \(\ce{CO2}\) and \(\ce{H2O}\) on a 6:6 = 1:1 mole ratio, so we will have 18 moles, multiplying by its molar mass (18 g/mol) we find a value of 324 g of water.</p>
+
+    <button class="collapsible">Example 1: Combustion of propane</button>
+    <div class="content">
+        <p>The combustion (unbalanced) of Propane (\(\ce{C3H8}\)) is given by</p>
+        <p>\(\ce{C3H8 + O2 -> CO2 + H2O}\)</p>
+        <br><p>If you have 10 g of \(\ce{C3H8}\) and 40 g of \(\ce{O2}\), determine</p>
+        <ol type="a">
+            <li>The limiting reactant</li>
+            <li>The amount of \(\ce{H2O}\) produced (in grams)</li>
+            <li>The mass of excess reactant left</li>
+        </ol>
+
+        <br><p>Solution:</p>
+        <ol type="a">
+            <li>
+                <p>First, we need to balance the equation, starting with carbon, there must be 3 \(\ce{CO2}\) moles formed for every mole of \(\ce{C3H8}\) that reacts, so we can put a 3 in front of the \(\ce{CO2}\), and 1 in front of propane. That gives us 8 hydrogens on the reactants' side, so there must be 4 water molecules on the products side. To balance the mass of oxygen, there must be 5 \(\ce{O2}\) molecules.</p>
+                <br><p>Now that our reaction has been balanced, we can determine the mole ratio between the reactants, 1 mole of propane reacts with 5 moles of \(\ce{O2}\). Converting to mass, we can find out that 44 g of propane completely reacts with 160 g of \(\ce{O2}\), so 40 g of \(\ce{O2}\) would completely react with 44/4 = 11 g of propane, which is more than 10 g, meaning that the amount of \(\ce{O2}\) we have is more than enough to react with the propane. Therefore \(\ce{O2}\) is in excess and <b>\(\ce{C3H8}\)</b> <b>is the limiting reactant.</b></p>
+            </li>
+            <li>
+                <p>From the balanced reaction, 1 mole of \(\ce{C3H8}\) will yield 4 moles of \(\ce{H2O}\), 10 g of \(\ce{C3H8}\) is \(\frac{10}{44} = 0.227 \: \text{moles}\), that will form \(0.227 \times 4 = 0.909 \: \text{moles}\) of \(\ce{H2O}\), which is equal to \(0.909 \times 18 = 16.36 \: \text{g}\) of water.</p>
+            </li>
+            <li>
+                <p>We saw from (b) that we have 0.227 moles of the limiting reactant (propane), those 0.227 moles react with \(5 \times 0.227 = 1.135 \: \text{moles}\) of \(\ce{O2}\) (excess reactant), which is equivalent, in mass, to \(1.135 \times 32 = 36.32 \: \text{g}\), subtracting this from the original 40g gives us <b>3.68 g of the excess reactant left</b>.</p>
+            </li>
+        </ol>
+    </div>
+    <button class="collapsible">Example 2: Aluminium reacting with chlorine</button>
+    <div class="content">
+        <p>Aluminum reacts with chlorine gas to form aluminum chloride</p>
+        <p>\(\ce{2Al + 3Cl2-> 2AlCl3}\)</p>
+        <br><p>If you have 50 g of \(\ce{Al}\) and 100 g of \(\ce{Cl2}\), determine</p>
+        <ol type="a">
+            <li>The limiting reactant</li>
+            <li>The mass of \(\ce{AlCl3}\) formed</li>
+            <li>Remaining mass of excess reactant</li>
+        </ol>
+        <br><p>Solution:</p>
+        <ol type="a">
+            <li>
+                <p>2 moles of \(\ce{Al}\) is \(27 \times 2 = 54 \: \text{g}\), and 3 moles of \(\ce{Cl2}\) is 212.7 g. So they combine on a 54:212.7 mass ratio, if you have 50 g of Aluminum, it reacts with \(50 \times \frac{212.7}{54} = 196.94 \: \text{g}\) of \(\ce{Cl2}\), which is more than 100g, so \(\ce{Cl2}\) is the limiting reactant.</p>
+            </li>
+            <li>
+                <p>We know that 100 g of \(\ce{Cl2}\) will react, that is 1.41  moles, therefore, the number of moles of \(\ce{AlCl3}\) will be \(1.41 \times \frac{2}{3} = 0.94\), giving a mass of 125.4 g</p>
+            </li>
+            <li>
+                <p>1.41 moles of \(\ce{Cl2}\) is what we have, it reacts with 0.94 moles of Al, that is a mass of 25.38, the remaining mass will be 50 - 25.38 = 24.62g.</p>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Jailson Godeiro</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
