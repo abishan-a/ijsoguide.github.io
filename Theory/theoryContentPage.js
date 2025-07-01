@@ -1,2 +1,4 @@
-import { guard } from "../authenticationGuard.js";
+import { blurContent } from "../authenticationGuard.js";
 //guard();
+
+blurContent();

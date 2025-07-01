@@ -13,7 +13,7 @@ color: #333;
 /* Top Bar */
 .top-bar {
   max-width: 900px;
-  margin: 1rem auto 0;
+  margin: 1rem auto;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
@@ -65,6 +65,8 @@ background: #1f1359;
 padding: 2rem;
 border-radius: 15px;
 box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+position: relative;
+overflow: hidden;
 }
 
 h1 {
@@ -205,4 +207,76 @@ th, td {
 tbody tr{
   background-color: #2a2a2a; 
   color: #d0d0d0; 
+}
+
+
+.blur-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Covers the bottom 50% of the wrapper */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  transition: opacity 0.5s ease-out; /* For fade out */
+  pointer-events: none; /* Allows interaction with article below if needed, except for buttons */
+}
+
+/* This pseudo-element creates the blur and the fade gradient */
+.blur-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px); /* The blur effect */
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  background: linear-gradient(to top, rgba(255,255,255,0.3), rgba(255,255,255,0)); /* Fades out the blur at the top */
+  pointer-events: auto; /* Ensure this pseudo-element can block clicks if it covers interaction */
+}
+
+.blur-overlay p {
+    position: absolute; /* To bring text above the ::before pseudo-element */
+    top: 10rem;
+    left: auto;
+    z-index: 1; /* To bring text above the ::before pseudo-element */
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 2px rgba(255,255,255,0.3); /* Helps text stand out against blur */
+    pointer-events: auto; /* Re-enable pointer events for the text itself */
+}
+
+.blur-overlay .btn {
+    position: absolute; /* To bring button above the ::before pseudo-element */
+    top: 15rem;
+    left: auto;
+    z-index: 1; /* To bring button above the ::before pseudo-element */
+    padding: 10px 20px;
+    background-color: #1f1359;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    pointer-events: auto; /* Re-enable pointer events for the button */
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.blur-overlay .btn:hover {
+    background-color: #2f1f7d;
+}
+
+/* Class to hide the overlay when the full article is visible */
+.blur-overlay.hidden {
+    opacity: 0;
+    pointer-events: none; /* Disable interaction when hidden */
 }

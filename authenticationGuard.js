@@ -19,4 +19,27 @@ function guard(){
     });
 }
 
+function blurContent(){
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
+            
+        } else {
+            let blur = document.createElement('div');
+            blur.classList.add('blur-overlay');
+            blur.id = "blurOverlay";
+            let p = document.createElement('p');
+            p.innerHTML = "Please sign in to read the full article!";
+            blur.appendChild(p);
+            let a = document.createElement('a');
+            a.href = "/Account/sign-in.html?redirect=" + window.location.href;
+            a.classList.add('btn');
+            a.innerHTML = "Sign in";
+            blur.appendChild(a);
+
+            document.querySelector('.container').appendChild(blur);
+        }
+    });
+}
+
 export {guard};
+export {blurContent};
