@@ -157,6 +157,10 @@ h2 {
   color: #fff;
 }
 
+.feature-box p{
+  padding: 1rem;
+}
+
 .success-stories {
   display: flex;
   flex-wrap: wrap;
@@ -318,6 +322,9 @@ footer {
   .header-about-us, .feature-box h3{
     font-size: 1.2rem;
   }
+  .feature-box p{
+    padding: 0.5rem;
+  }
   .contact input, .contact textarea{
     font-size: 1rem;
   }
@@ -333,12 +340,6 @@ footer {
   .pre-footer-right{
     text-align: left;
   }
-}
-
-
-body {
-  background: #0b0c2a; /* dark base for glow to show up nicely */
-  overflow-x: hidden;
 }
 
 .glowing-spots {
