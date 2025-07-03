@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Cell Biology</title>
+  <title>Cellular and Micro Biology</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="../sectionPages.css">
   <script src="/navigationimport.js" type="module"></script>
@@ -13,18 +13,26 @@
 
   <!-- Header -->
   <header>
-    <h1>Cell Biology</h1>
+    <h1>Cellular and Micro Biology</h1>
     <p>Dive into the structure and function of cells — the building blocks of life — from membranes to organelles.</p>
   </header>
 
   <!-- Page Header -->
   <div class="page-header">
-    <h2>Cell Biology</h2>
+    <h2>Cellular and Micro Biology</h2>
     <a class="back-btn" href="../Biology.html">← Back to Biology</a>
   </div>
 
   <!-- Cards -->
   <div class="container">
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">Biomolecules<span class="arrow">→</span></div>
+      <div class="card-content">
+        <p>Explore the structure and function of carbohydrates, proteins, lipids, nucleic acids, vitamins, and minerals.</p>
+        <br>
+        <a class="learn-btn" href="/mainlaunch.html">Learn more →</a>
+      </div>
+    </div>
 
     <div class="card" onclick="toggleCard(this)">
       <div class="card-header">Cell Structure and Organelles<span class="arrow">→</span></div>
@@ -34,6 +42,33 @@
         <a class="learn-btn" href="/mainlaunch.html">Learn more →</a>
       </div>
     </div>
+    
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">Cell Membranes<span class="arrow">→</span></div>
+      <div class="card-content">
+        <p>Structure of the phospholipid bilayer, membrane proteins, and fluid mosaic model.</p>
+        <br>
+        <a class="learn-btn" href="Cell Membranes/cell_membranes.html">Learn more →</a>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">Passive Transport<span class="arrow">→</span></div>
+      <div class="card-content">
+        <p>Movement of substances across membranes without energy, including diffusion, osmosis, and facilitated diffusion.</p>
+        <br>
+        <a class="learn-btn" href="Passive Transport/passivetransport.html">Learn more →</a>
+      </div>
+    </div>
+    
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">Active Transport<span class="arrow">→</span></div>
+      <div class="card-content">
+        <p>Energy-dependent movement of molecules against a concentration gradient using membrane proteins.</p>
+        <br>
+        <a class="learn-btn" href="Active Transport/activetransport.html">Learn more →</a>
+      </div>
+    </div> 
 
     <div class="card" onclick="toggleCard(this)">
       <div class="card-header">Prokaryotic vs. Eukaryotic Cells<span class="arrow">→</span></div>
@@ -72,47 +107,20 @@
     </div>
 
     <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">Cell Membranes<span class="arrow">→</span></div>
-      <div class="card-content">
-        <p>Structure of the phospholipid bilayer, membrane proteins, and fluid mosaic model.</p>
-        <br>
-        <a class="learn-btn" href="Cell Membranes/cell_membranes.html">Learn more →</a>
-      </div>
+    <div class="card-header">Ploidy and Gametogenesis<span class="arrow">→</span></div>
+    <div class="card-content">
+      <p>Explore how gametes are formed and how chromosome numbers are balanced between generations.</p>
+      <br>
+      <a class="learn-btn" href="/mainlaunch.html">Learn More →</a>
     </div>
-
+  </div>
+    
     <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">Passive Transport<span class="arrow">→</span></div>
+      <div class="card-header">Cellular Respiration<span class="arrow">→</span></div>
       <div class="card-content">
-        <p>Movement of substances across membranes without energy, including diffusion, osmosis, and facilitated diffusion.</p>
+        <p>Discover how cells break down glucose to release energy through glycolysis, the Krebs cycle, and the electron transport chain.</p>
         <br>
-        <a class="learn-btn" href="Passive Transport/passivetransport.html">Learn more →</a>
-      </div>
-    </div>
-
-    <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">Active Transport<span class="arrow">→</span></div>
-      <div class="card-content">
-        <p>Energy-dependent movement of molecules against a concentration gradient using membrane proteins.</p>
-        <br>
-        <a class="learn-btn" href="Active Transport/activetransport.html">Learn more →</a>
-      </div>
-    </div>    
-
-    <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">Basic Microscopy Principles<span class="arrow">→</span></div>
-      <div class="card-content">
-        <p>Understand the tools used to study cells, including types of microscopes, magnification, and resolution.</p>
-        <br>
-        <a class="learn-btn" href="/mainlaunch.html">Learn more →</a>
-      </div>
-    </div>
-
-     <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">Biomolecules<span class="arrow">→</span></div>
-      <div class="card-content">
-        <p>Explore the structure and function of carbohydrates, proteins, lipids, nucleic acids, vitamins, and minerals.</p>
-        <br>
-        <a class="learn-btn" href="/mainlaunch.html">Learn more →</a>
+        <a class="learn-btn" href="Cellular Respiration/cellular_respiration.html">Learn more →</a>
       </div>
     </div>
 
@@ -161,25 +169,22 @@
     </div>
 
     <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">
-        Introduction to biotechnology<span class="arrow">→</span>
-      </div>
+      <div class="card-header">Basic Microscopy Principles<span class="arrow">→</span></div>
       <div class="card-content">
-        <p>Discover the basics of how living organisms are used in science and industry to solve problems and create new products.</p>
+        <p>Understand the tools used to study cells, including types of microscopes, magnification, and resolution.</p>
         <br>
-        <a class="learn-btn" href="/mainlaunch.html">Learn More →</a>
+        <a class="learn-btn" href="/mainlaunch.html">Learn more →</a>
       </div>
     </div>
-    
   </div>
 
   <!-- Practice Section -->
   <div class="practice-section">
     <div class="practice-section-icon">🧬</div>
     <div class="practice-section-content">
-      <h4>Practice Cell Biology</h4>
-      <p>Sharpen your concepts with IJSO-style problems on cells, transport, respiration, and microscopy.</p>
-      <a href="../../../Practice Questions/Biology/Cell Biology/cellbio.html">Try Practice Questions →</a>
+      <h4>Ready to take IJSO-style cellular and micro biology practice questions?</h4>
+      <p>Apply your knowledge with our collection of IJSO-style cellular and micro biology problems.</p>
+      <a href="../../../Practice Questions/Biology/Cell Biology/cellbio.html">View Cellular and Micro Biology Practice Questions →</a>
     </div>
   </div>
 
@@ -187,9 +192,9 @@
 <div class="practice-section">
   <div class="practice-section-icon">📝</div>
   <div class="practice-section-content">
-    <h4>Ready to take IJSO-style cell biology mock tests?</h4>
-    <p>Challenge yourself with our collection of IJSO-style mock tests in cell biology, designed to test your problem-solving skills and understanding.</p>
-    <a href="../../../Mock Tests/Biology/Cell Biology/cellbio.html">View Cell Biology Mock Tests</a>
+    <h4>Ready to take IJSO-style cellular and micro biology mock tests?</h4>
+    <p>Challenge yourself with our collection of IJSO-style mock tests in cellular and micro biology, designed to test your problem-solving skills and understanding.</p>
+    <a href="../../../Mock Tests/Biology/Cell Biology/cellbio.html">View Cellular and Micro Biology Mock Tests</a>
   </div>
 </div>
 
