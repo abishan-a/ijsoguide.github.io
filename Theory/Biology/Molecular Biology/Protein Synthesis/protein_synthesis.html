@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Protein Synthesis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="../../general.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Protein Synthesis</h2>
+    <a href="../Molecular.html" class="back-btn">← Back to Molecular Biology</a>
+  </div>
+
+<!-- Main content -->
+<div class="container">
+
+<p>Protein synthesis is the process by which cells build proteins based on the instructions carried in DNA. It involves two main steps: transcription and translation.</p>
+
+<h2>General Procedural Steps - Central DOGMA:</h2>
+<ol>
+    <li> Transcription (DNA to mRNA)</li>
+    <li> mRNA processing (Splicing and adding tails or caps)</li>
+    <li> Translation (mRNA to protein)</li>
+    <li> Protein folding</li>
+</ol>
+
+<img src="image1.png">
+
+<h2>Transcription (DNA to mRNA)</h2>
+<p><strong>Where:</strong> In the nucleus (for eukaryotes).</p>
+<br><p><strong>General Process:</strong> One DNA strand acts as the template for the mRNA copy in which uracil is used instead of thymine.</p>
+<br><p><strong>Result:</strong> A strand of mRNA that carries the code for a protein out of the nucleus to the ribosome.</p>
+
+<h3>Initiation:</h3>
+<ul>
+    <li> RNA polymerase is the main enzyme involved in translation, as it binds to the promoter. The promoter is located BEFORE the gene itself, as a binding site for RNA polymerase. It is simply a specific DNA sequence, like the TATA box typically found in eukaryotic cells. </li>
+    <li> When RNA polymerase binds, it separates the DNA strands, only focusing on one template strand.</li>
+</ul>
+<h3>Elongation:</h3>
+<ul>
+    <li> RNA polymerase is able to read the template stand (also known as non-coding or antisense) and build an RNA molecule that is complementary to the template stand.</li>
+    <li> Remember that the coding strand (or sense strand) is the one that wasn’t used to generate the complementary strand, but it is nearly identical to the new complementary strand (only thymine is replaced with uracil, because it is now an RNA strand).</li>
+    <li> Note that RNA polymerase READS the strand from 3’ to 5’ but the strand always GROWS from 5’ to 3’.</li>
+</ul>
+
+<h3>Termination</h3>
+<ul>
+    <li> Another sequence, called a terminator, signals that RNA transcription is finished.</li>
+    <li> The transcript is finally released from the RNA polymerase. </li>
+</ul>
+
+<h2>mRNA Processing</h2>
+<h3>Modifications to the ends of mRNA:</h3>
+<ul>
+    <li> Before processing, the mRNA is more specifically called a pre-mRNA.</li>
+    <li> The ends of pre-mRNA’s are changed, a 5’ cap is added at the beginning (where the phosphate group on the molecule’s fifth carbon) and a 3’ poly-A tail is added at the end (where the hydroxyl group of the sugar molecule is).</li>
+    <li> Note that the 5’ cap is a modified guanine nucleotide, designed to protect from degradation and facilitate translation.</li>
+    <li> Note that the 3’ cap is made up of repeated adenine nucleotides, and only eukaryotic cells have them. It protects the DNA from degradation by exonucleases.</li>
+</ul>
+<h3>Splicing</h3>
+<ul>
+    <li> Introns are parts of the mRNA sequence that do not code for proteins. </li>
+    <li> Exons are parts of the mRNA sequence that contain important information for the translation to proteins. </li>
+    <li> During mRNA splicing, introns are spliced out by spliceosomes. </li>
+    <li> Exons are reconnected. </li>
+    <li> You may be wondering: why do introns even exist if they are going to be spliced out anyways? That’s because they can allow for alternative splicing, where different combinations of exons can occur, leading to different proteins to be made from the same gene. Introns can also affect gene regulation.</li>
+</ul>
+
+<h2>Transcription in eukaryotes vs prokaryotes:</h2>
+<ul>
+    <li> Transcription is controlled individually for each gene in the nucleus for eukaryotes, but in the cytoplasm for prokaryotes.</li>
+    <li> Prokaryotes use a single RNA polymerase to transcribe ALL genes</li>
+    <li> Eukaryotes use multiple RNA polymerases.</li>
+    <li> Transcription and translation can occur simultaneously in the cytoplasm of prokaryotes.</li>
+    <li> Transcription and translation are spatially separated by the nuclear membrane.</li>
+</ul>
+
+<img src="image2.png">
+
+<h2>Translation (mRNA to Protein)</h2>
+<p> <strong>Where:</strong> In the ribosome (in cytoplasm).</p>
+<br><p> <strong>Key Players:</strong> mRNA (messenger), ribosome (the reader and builder), tRNA (carrier of amino acids), amino acids (protein building blocks)
+<ul>
+    <li> The mRNA is now going to be read in groups of three nucleotides, called codons.</li>
+    <li> AUG is a specific codon which forms the amino acid methionine, acting as a START CODON to signal the start of protein building.</li>
+    <li> The following three STOP codons DO NOT specify amino acids: UAA, UAG, and UGA. They alert the cell when a polypeptide is complete.</li>
+</ul>
+
+<h3>Transfer RNAs (tRNAs)</h3>
+<ul>
+    <li>Each tRNA molecule carries a specific amino acid.</li>
+    <li>tRNA has an anticodon, a set of 3 bases that are complementary to the mRNA codon.</li>
+    <li>Process:</li>   
+    <ul>
+        <li>The tRNA matches its anticodon to the codon on the mRNA.</li>
+        <li>The ribosome links the carried amino acid of tRNA to the growing protein chain.</li>
+        <li>The ribosome moves along the mRNA, reading codons and bringing the correct tRNAs one by one.</li>
+    </ul>
+</ul>
+
+<h3>Ribosomes</h3>
+<ul>
+    <li> This is where the actual proteins are built.</li>
+    <li> They are made up of proteins and ribosomal RNA (rRNA).</li>
+    <li> It has a large and a small subunit - coming together to wrap around the mRNA.</li>
+</ul>
+
+<h2>Translation steps</h2>
+<ul>
+    <li> <strong>Inititation:</strong> The initiation complex is set up → ribosome assembles around the mRNA and the first tRNA
+    <li> <strong>Elongation:</strong> Each codon is read and a matching amino acids is added the growing polypeptide chain</li>
+    <li> <strong>Termination:</strong> When a stop codon is reached, the polypeptide chain is released from the ribosome </li>
+</ul>
+
+<img src="image3.png">
+
+<h2>Codons and Reading Frame</h2>
+<ul>
+    <li>Codon: A group of 3 mRNA bases (nucleotides) that codes for one amino acid.</li>
+    <li>The ribosome reads the mRNA 3 nucleotides at a time (so the 5th amino acid in the sequence is coded by the 5th codon).</li>
+    <li>Examples of codons:
+        <ul>
+            <li>AUG = Start codon (also codes for methionine)</li>
+            <li>UUU = Phenylalanine</li>
+            <li>GGC = Glycine</li>
+            <li>There are specific codons for each amino acid, and the matching is universal across most living organisms.</li>
+        </ul>
+</ul>
+
+<img src="image4.png">
+
+<h2>How Protein Shape Depends on Sequence:</h2>
+<p>Protein structure levels:</p>
+<ol>
+     <li>Primary structure: Sequence of amino acids.</li>
+     <li>Secondary structure: Folding into alpha helices or beta sheets.</li>
+     <li>Tertiary structure: Overall 3D shape due to side chain interactions.</li>
+     <li>Quaternary structure (for some proteins): Arrangement of multiple polypeptide chains.</li>
+</ol>
+
+<p>The order of amino acids directly influences how the protein folds and its final shape.</p>
+<p>A protein’s shape determines its function (e.g., enzymes, hormones, antibodies).</p>
+
+<h2>Quick Summary Table</h2>
+
+
+<table>
+    <thead>
+  <tr>
+    <th>Step</th>
+    <th>Location</th>
+    <th>Main Idea</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+   <td>Transcription</td>
+   <td>Nucleus</td>
+   <td>DNA to mRNA</td>
+  </tr>
+  <tr>
+    <td>Translation</td>
+    <td>Ribosome (cytoplasm)</td>
+    <td>mRNA to Amino acid chain</td>
+  </tr>
+  <tr>
+    <td>Codon Reading</td>
+    <td>Ribosome </td>
+    <td>Reads 3 bases (codon) at a time</td>
+  </tr>
+  <tr>
+    <td>tRNA Role</td>
+    <td>Cytplasm</td>
+    <td>Carries specific amino acid, matches codon</td>
+  </tr>
+  <tr>
+    <td>Protein Folding</td>
+    <td>Endoplasmic Reticulum</td>
+    <td>Sequence of amino acids decides final 3D shape</td>
+  </tr>
+</tbody>
+</table>
+
+
+<h2>Fun Facts!</h2>
+<ul>
+    <li>The genetic code is universal: same codons code for the same amino acids in almost all organisms!</li>
+    <li>One mistake in sequence (mutation) can change a protein’s shape and cause diseases (like sickle-cell anemia).</li>
+</ul>
+
+<br>
+    <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+      Written by <strong>Kasiban Parthipan</strong>
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+
+</body>
+</html>
+
