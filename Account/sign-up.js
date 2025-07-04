@@ -9,9 +9,15 @@ let surnameField = document.getElementById('lastName');
 let countryField = document.getElementById('country');
 let emailField = document.getElementById('email');
 let passwordField = document.getElementById('password');
+let passwordRepeatField = document.getElementById('passwordRepeat');
 let gradeField = document.getElementById('grade');
+let emailUpdates = document.getElementById('emailUpdates');
 
 let uid;
+
+emailUpdates.addEventListener('change', ()=>{
+  console.log(emailUpdates.checked);
+})
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
@@ -39,17 +45,20 @@ onAuthStateChanged(auth, (user) => {
     }
   });
 
-document.getElementById('signupButton').addEventListener('click', (e)=>{
+document.getElementById('signupForm').addEventListener('submit', (e)=>{
     e.preventDefault();
     let name = nameField.value;
     let surname = surnameField.value;
     let country = countryField.value;
     let email = emailField.value;
     let password = passwordField.value;
+    let passwordRepeat = passwordRepeatField.value;
     let grade = gradeField.value;
+    let updates = emailUpdates.checked;
+    console.log(updates)
     console.log(email)
     console.log(password)
-    //if (signUpDetailsValid(name, surname, email, password, grade, country)){
+    if (signUpDetailsValid(name, surname, email, password, passwordRepeat, grade, country)){
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed up 
@@ -65,6 +74,7 @@ document.getElementById('signupButton').addEventListener('click', (e)=>{
                 grade: grade,
                 email: email,
                 password: password,
+                updates: updates
             }
             setDoc(docRef, data)
             .then(()=>{
@@ -92,12 +102,46 @@ document.getElementById('signupButton').addEventListener('click', (e)=>{
             const errorMessage = error.message;
             console.log(errorCode)
             console.log(errorMessage)
+            alert("An error occured. Please make sure all the data is in valid format.")
             // ..
         });
     //}
+  }
 })
 
-function signUpDetailsValid(name, surname, email, password, grade, country){
+function signUpDetailsValid(name, surname, email, password, passwordRepeat, grade, country){
     return true;
 }
 
+let passwordVisibilityToggle1 = document.getElementById('togglePasswordVisibility1');
+let passwordField1 = document.getElementById('password');
+let passwordField2 = document.getElementById('passwordRepeat');
+passwordVisibilityToggle1.addEventListener('click', ()=>{
+  if (passwordVisibilityToggle1.classList.contains('fa-eye')){
+    passwordVisibilityToggle1.classList.remove('fa-eye');
+    passwordVisibilityToggle1.classList.add('fa-eye-slash')
+    passwordField1.type = "text";
+  } else{
+    passwordVisibilityToggle1.classList.add('fa-eye');
+    passwordVisibilityToggle1.classList.remove('fa-eye-slash')
+    passwordField1.type = "password";
+  }
+})
+let passwordVisibilityToggle2 = document.getElementById('togglePasswordVisibility2');
+passwordVisibilityToggle2.addEventListener('click', ()=>{
+  if (passwordVisibilityToggle2.classList.contains('fa-eye')){
+    passwordVisibilityToggle2.classList.remove('fa-eye');
+    passwordVisibilityToggle2.classList.add('fa-eye-slash')
+    passwordField2.type = "text";
+  } else{
+    passwordVisibilityToggle2.classList.add('fa-eye');
+    passwordVisibilityToggle2.classList.remove('fa-eye-slash')
+    passwordField2.type = "password";
+  }
+})
+
+let rptMsg = document.getElementById('passwordRepeatMessage');
+passwordRepeatField.addEventListener('change', ()=>{
+  if (passwordRepeatField.value == passwordField.value) rptMsg.style.display = "none";
+  else rptMsg.style.display = "block";
+})

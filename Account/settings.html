@@ -14,18 +14,28 @@
 </head>
 <body>
 
+  <div class="center" id="preload"></div>
   <!-- Account Section -->
-  <div class="section-card">
+  <div class="section-card" id="mainContent">
     <h2>Account Settings</h2>
     <p id="name"></p>
     <p id="country"></p>
     <p id="grade"></p>
     <p id="email"></p>
     <p id="password"></p>
-    <p>*Account data changing is temporarily disabled.</p>
+    <div class="checkbox-container">
+      <input type="checkbox" id="emailUpdates" name="emailUpdates">
+      <label for="emailUpdates" style="margin: 0;">Receive email updates</label>
+    </div>
+    <p>*Account data changing is temporarily disabled. Email updates preferences can be changed at any time.</p>
+    <button class="btn" id="saveChangesButton">Save changes</button>
     <a href="./progress.html"><button class="btn">Progress</button></a>
     <button class="btn signout" id="signoutButton">Sign Out</button>
   </div>
+
+  <footer>
+    <p>&copy; 2025 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
 
   <script>
     function toggleMenu() {

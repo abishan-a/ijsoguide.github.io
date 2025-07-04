@@ -22,6 +22,7 @@ onAuthStateChanged(auth, (user) => {
                 document.getElementById('country').innerHTML = "<b>Country: </b>" + d.country;
                 document.getElementById('grade').innerHTML = "<b>Grade: </b>" + d.grade;
                 document.getElementById('email').innerHTML = "<b>Email: </b>" + d.email;
+                if (d.updates) document.getElementById('emailUpdates').checked = true;
 
                 let passwordFill = "";
                 let realPw = d.password;
@@ -59,4 +60,31 @@ onAuthStateChanged(auth, (user) => {
         console.log(error)
       });
       
+})
+
+
+document.getElementById('saveChangesButton').addEventListener('click', ()=>{
+    let updatesValue = document.getElementById('emailUpdates').checked;
+    setDoc(doc(db, "users", uid), {
+        updates: updatesValue
+    }, {merge: true}).then(()=>{
+        alert("Settings saved.")
+    }).catch(()=>{
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorCode)
+        console.log(errorMessage)
+    })
+})
+
+
+/* Preloader */
+document.getElementById('mainContent').style.display = "none";
+document.querySelector('footer').style.display = "none";
+
+var loader = document.getElementById("preload")
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+    document.getElementById('mainContent').style.display = "block";
+    document.querySelector('footer').style.display = "block";
 })

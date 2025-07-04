@@ -161,3 +161,40 @@ body {
       padding: 1rem;
     }
   }
+
+  input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+  footer {
+  background-color: #1f1359;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+#preload{
+    margin: 350px auto;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
