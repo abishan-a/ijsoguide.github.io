@@ -27,7 +27,7 @@ onAuthStateChanged(auth, (user) => {
           .then(()=>{
             console.log("success")
             if (redirectLink) window.location.href = redirectLink;
-            else window.location.href = "settings.html?theIFlink"
+            else window.location.href = "settings.html"
           })
           .catch(()=>{
             const errorCode = error.code;
@@ -38,7 +38,7 @@ onAuthStateChanged(auth, (user) => {
       } else{
         console.log('in else')
         if (redirectLink) window.location.href = redirectLink;
-        else window.location.href = "settings.html?theELSElink"
+        else window.location.href = "settings.html"
       }
       // ...
     } else {
@@ -59,7 +59,6 @@ document.getElementById('signinForm').addEventListener('submit', (e)=>{
     if (signInDetailsValid(email, password)){
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-            //window.location.href = "settings.html?what"
             // Signed in 
             const user = userCredential.user;
             console.log(user)
