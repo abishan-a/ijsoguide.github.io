@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Magnification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Magnification</h2>
+    <a class="back-btn" href="../Light.html">← Back to Light</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p><strong>Lateral magnification</strong> \( m \) is the ratio of image height \( y' \) to object height \( y \):</p>
+  <p>\[ m = \frac{y'}{y} = -\frac{v}{u} \]</p>
+  <p>
+    - If \( m > 0 \), the image is upright. <br>
+    - If \( m < 0 \), the image is inverted.
+  </p>
+
+  <h2>Total Magnification</h2>
+  <p>In multi-lens systems, such as microscopes and telescopes, the total magnification is the product of individual magnifications:</p>
+  <p>\[ M_{\text{total}} = M_1 \times M_2 \]</p>
+  <p>For a compound microscope, the total magnification is:</p>
+  <p>\[ M = m_{\text{objective}} \times m_{\text{eyepiece}} \]</p>
+
+  <h2>Angular Magnification</h2>
+  <p>Used for devices like magnifying glasses and telescopes. It compares the angular size of the image with and without the instrument.</p>
+  <p>\[ M = \frac{\theta'}{\theta} \]</p>
+  <p>For a simple magnifier, the magnification is approximately:</p>
+  <p>\[ M = \frac{25\ \text{cm}}{f} \]</p>
+  <p>where \( f \) is the focal length of the lens and 25 cm is the near point of a relaxed human eye.</p>
+  <button class="collapsible">Example 1: Calculating magnification</button>
+  <div class="content">
+    <p>An object is placed 12 cm in front of a convex lens, and the image is formed 36 cm on the other side. Find the magnification and describe the image.</p>
+    <p>\[ m = -\frac{v}{u} = -\frac{36}{12} = -3 \]</p>
+    <p>The magnification is -3, meaning the image is real, inverted, and 3 times larger than the object.</p>
+  </div>
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Albert Marin</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>

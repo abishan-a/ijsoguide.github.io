@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lens and Mirror Formulas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Lens and Mirror Formulas</h2>
+    <a class="back-btn" href="../Light.html">← Back to Light</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p><strong>Mirror Formula:</strong> For spherical mirrors, the relationship between object distance \( u \), image distance \( v \), and focal length \( f \) is:</p>
+    <p>\[ \frac{1}{f} = \frac{1}{u} + \frac{1}{v} \]</p>
+  
+    <p><strong>Lens Formula:</strong> For thin lenses, the same form is used but with the sign convention for lenses:</p>
+    <p>\[ \frac{1}{f} = \frac{1}{v} - \frac{1}{u} \]</p>
+    <p>Note: This is often rewritten as:</p>
+    <p>\[ \frac{1}{v} + \left(-\frac{1}{u}\right) = \frac{1}{f} \]</p>
+  
+    <p>The radius of curvature \( R \) of a mirror is related to the focal length by:</p>
+    <p>\[ f = \frac{R}{2} \]</p>
+  
+
+  <h2>Sign Convention</h2>
+  <ul>
+    <li>All distances are measured from the optical center or pole.</li>
+    <li><strong>Object distance (\( u \)):</strong> Always taken as positive in front of mirror/lens.</li>
+    <li><strong>Image distance (\( v \)):</strong> 
+      <ul>
+        <li>Positive if image is on the same side as the outgoing rays (real image)</li>
+        <li>Negative if image is on the same side as incoming rays (virtual image)</li>
+      </ul>
+    </li>
+    <li><strong>Focal length (\( f \)):</strong>
+      <ul>
+        <li>Positive for converging (convex lens or concave mirror)</li>
+        <li>Negative for diverging (concave lens or convex mirror)</li>
+      </ul>
+    </li>
+  </ul>
+  <button class="collapsible">Example 1: Using mirror formula</button>
+  <div class="content">
+    <p>An object is placed 20 cm in front of a concave mirror with a focal length of 10 cm. Find the image distance.</p>
+    <p>\[ \frac{1}{f} = \frac{1}{u} + \frac{1}{v} \Rightarrow \frac{1}{10} = \frac{1}{20} + \frac{1}{v} \]</p>
+    <p>\[ \frac{1}{v} = \frac{1}{10} - \frac{1}{20} = \frac{1}{20} \Rightarrow v = 20\ \text{cm} \]</p>
+    <p>The image is real, inverted, and the same size as the object.</p>
+  </div>
+
+  <button class="collapsible">Example 2: Using lens formula</button>
+  <div class="content">
+    <p>An object is placed 10 cm from a concave lens of focal length -20 cm. Find the image distance.</p>
+    <p>\[ \frac{1}{f} = \frac{1}{v} - \frac{1}{u} \Rightarrow \frac{1}{-20} = \frac{1}{v} - \frac{1}{-10} \]</p>
+    <p>\[ \frac{1}{v} = -\frac{1}{20} + \frac{1}{10} = \frac{1}{20} \Rightarrow v = 20\ \text{cm} \]</p>
+    <p>The image is virtual, upright, and diminished, located 20 cm on the same side of the lens.</p>
+  </div>
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Albert Marin</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
