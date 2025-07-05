@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redox Reactions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Redox Reactions</h2>
+    <a href="../electrochemistry.html" class="back-btn">← Back to Electrochemistry</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <p>A <b>redox reaction</b> is a type of chemical reaction that involves a <b>transfer of electrons</b> between species (meaning that we will notice a change in an element’s oxidation number.)</p>
+    <br><p>The <b>oxidation state</b> is a number that represents the hypothetical charge an atom would have if all its bonds were completely ionic. Therefore, in polar molecules, the element that is more electronegative will receive a negative charge, while the other being less electronegative (more electropositive) will receive a positive charge.</p>
+    
+    <h2>Rules for assigning oxidation numbers</h2>
+    <ul>
+        <li>Each element of a molecule is assigned an oxidation number.</li>
+        <li>The sum of the elements’ oxidation numbers of a neutral species has to be 0.</li>
+        <li>The sum of the elements’ oxidation numbers of a polyatomic ion species has to be equal to the ionic charge.</li>
+        <li>Elements in their molecular state (free elements) are always assigned 0.</li>
+        <li>Hydrogen is always assigned +1 (exception: in metal hydrides -1), and in molecular state (\(\ce{H2}\)) it is assigned 0.</li>
+        <li>Oxygen is always assigned -2 (exception: in peroxides -1), and in molecular form (\(\ce{O2}\) and \(\ce{O3}\)) it is assigned 0.</li>
+        <li>Group 1, 2 and 3 elements have an oxidation number equal to their respective group, so equal to their respective charges.</li>
+        <li>Group 15, 16 and 17 elements have an oxidation number equal to the group number-18 (in group 17, fluorine always has -1, while the other elements can also have an oxidation number equal to +1, +3, +5, +7), so equal to their respective charges.</li>
+    </ul>
+
+    <h2>Redox Half-Reaction</h2>
+    <ul>
+        <li>It is a reaction that separately represents the oxidation or reduction process. Each redox reaction must always be represented by at least two half-reactions (one oxidation and one reduction).</li>
+        <li>During the <b>oxidation</b> process, the element’s oxidation number increases, meaning that it has lost electrons.</li>
+        <li>During the <b>reduction</b> process, the element’s oxidation number decreases, meaning that it has gained electrons.</li>
+    </ul>
+
+    <h2>Steps in Balancing a Redox Reaction</h2>
+    <ol type="1">
+        <li>Assign each element its corresponding oxidation number, following the rules given above.</li>
+        <li>Analyze the oxidation number for the same element in a reactant and then in a product to see if it has changed or not.</li>
+        <li>For the elements whose oxidation number has changed, write the redox half-reactions.</li>
+        <li>Multiply the reduction and oxidation processes so as the number of electrons gained and lost to be equal.</li>
+        <li>Add the coefficients with which you have multiplied the processes in front of the compounds that contain the respective element.</li>
+        <li>Verify if the other elements are balanced, and, if not, balance them by multiplying the compounds, keeping in mind the atom conservation (the same number of atoms of an element that enters the reaction through reactants must be found in the products of the reaction).</li>
+    </ol>
+
+    <h2>Examples of chemical species with assigned oxidation numbers</h2>
+    <ol type="1">
+        <li>\(\ce{K2O}\): potassium is the cation is a group 1 element therefore its charge will be +1. Oxygen’s charge will be -2 (it respects the rule as this molecule is not a peroxyde). To check that these are correct, this is a neutral molecule therefore the sum of the oxidation numbers has to be 0: 2⠂(+1) +  (-2) = 0.</li>
+        <li>\(\ce{AuCl3}\): chlorine is a group 17 element therefore its charge will be 17 - 18 = -1. Gold is a transitional metal (it has more possible charges), therefore, to find its oxidation number, we will calculate it using the sum 0: 0 = 3⠂(-1) + x. x will be equal to +3, so that will be the charge for gold.</li>
+        <li>\(\ce{NaClO}\): sodium, a group 1 element, therefore its charge will be +1. Oxygen will have the charge -2. To find chlorine’s charge: 0 = (+1) + x + (-2). x will be equal to +1, so that will be the charge for chlorine in this compound.</li>
+        <li>\(\ce{P4}\): it is phosphorus in molecular state, therefore its charge will be 0.</li>
+        <li>\(\ce{K2Cr2O7}\): potassium, a group 1 metal, will have the oxidation number +1. Oxygen will have -2. To find the oxidation number for chromium: 0 = 2⠂(+1) + 2 ⠂x + 7⠂(-2), so x will be equal to +6. That will be the charge for chromium in this compound.</li>
+        <li>\(\ce{Fe(NO3)3}\): nitrate (\(\ce{NO3^-}\)) is a ion that derivates from nitric acid \(\ce{HNO3}\). From this, we can see that the nitrate’s ion is -1, so to calculate the charge for nitrogen: -1 = x + 3⠂(-2). x is equal to +5 so that will be the charge for nitrogen in our compound. And to find the charge for iron: 0 = y + 3⠂(-1). y is equal to +3, so that will be the oxidation number for ions in this compound.</li>
+        <li>\(\ce{ICl3}\): chlorine is more electronegative than iodine, therefore it will have the negative charge -1. To calculate the oxidation number for  iodine: 0 = x + 3⠂(-1). x is equal +3, so that will be the charge for iodine.</li>
+        <li>\(\ce{OF2}\): fluorine is the most electronegative element, therefore it will have the negative charge -1. To calculate the oxidation number for oxygen: 0 = x + 2⠂(-1). x is equal to +2, so that will be the charge for oxygen.</li>
+    </ol>
+
+    <button class="collapsible">Example 1: Balancing reactions - 1</button>
+    <div class="content">
+        <p>Unbalanced reaction: \(\ce{Cu + AgNO3 → Cu(NO3)2 + Ag}\)</p>
+        <br><p>Solution:</p>
+        <p>Oxidation half-reaction: \(\ce{Cu^0 → Cu^{+2} + 2e^{-}}\)</p>
+        <p>Reduction half-reaction: \(\ce{Ag^{+1} + 1e^- → Ag^0 | \cdot 2}\)</p>
+        <p>The number of electrons gained has to be equal to the number of electrons lost, therefore we will multiply the reduction half-reaction by 2. Now, when we balance the equation, we will add 2 in front of the compounds that contain Ag involved in the reduction process. The rest of the elements are balanced, so we can write the final equation.</p>
+        <p>Balanced reaction: \(\ce{Cu + 2AgNO3 → Cu(NO3)2 + 2Ag}\)</p>
+    </div>
+
+    <button class="collapsible">Example 2: Balancing reactions - 2</button>
+    <div class="content">
+        <p>Unbalanced reaction: \(\ce{MnO₂ + HCl → MnCl₂ + Cl₂ + H₂O}\)</p>
+        <br><p>Solution:</p>
+        <p>Oxidation half-reaction: \(\ce{2Cl^{-1} → Cl₂^0 + 2e^-}\)</p>
+        <p>Reduction half-reaction: \(\ce{Mn^{+4} + 2e^- → Mn^{+2}}\)</p>
+        <p>Before we multiply the processes accordingly, we need to make sure that in our half-reactions we have the same number of atoms of the element involved as reactants and products, therefore for the oxidation reaction we will add the coefficient 2 in front of \(\ce{Cl^-}\). We now have an equal amount of electrons in the oxidation and reduction half-reactions. Now we will balance the rest of the elements and then we can write the final equation.</p>
+        <p>Balanced reaction: \(\ce{MnO2 + 4HCl → MnCl2 + Cl2 + 2H2O}\)</p>
+    </div>
+
+    <button class="collapsible">Example 3: Balancing reactions - 3</button>
+    <div class="content">
+        <p>Unbalanced reaction: \(\ce{KClO3 + HCl → KCl + Cl2 + H2O}\)</p>
+        <br><p>Solution:</p>
+        <p>Oxidation half-reaction: \(\ce{2Cl^{-1} → Cl2^0 + 2e^- | \cdot 3}\)</p>
+        <p>Reduction half-reaction: \(\ce{Cl^{+5} + 6e^- → Cl^{-1}}\)</p>
+        <p>Before we multiply the processes accordingly, we need to make sure that in our half-reactions we have the same number of atoms of the element involved as reactants and products, therefore for the oxidation reaction we will add the coefficient 2 in front of \(\ce{Cl^-}\). Now we will balance the rest of the elements and then we can write the final equation.</p>
+        <p>Balanced reaction: \(\ce{KClO3 + 6HCl → KCl + 3Cl2 + 3H2O}\)</p>
+    </div>
+
+    <button class="collapsible">Example 4: Balancing reactions - 4</button>
+    <div class="content">
+        <p>Unbalanced reaction: \(\ce{KMnO4 + H2O2 + H2SO4 → K2SO4 + MnSO4 + H2O + O2}\)</p>
+        <br><p>Solution:</p>
+        <p>Oxidation half-reaction: \(\ce{O2^{-1} → O2^0 + 2e^- | \cdot 5}\)</p>
+        <p>Reduction half-reaction: \(\ce{Mn^{+7} + 5e^- → Mn^{+2} | \cdot 2}\)</p>
+        <p>The number of electrons gained has to be equal to the number of electrons lost, therefore we will multiply the oxidation half-reaction by 5 and the reduction half-reaction by 2. Now, when we balance the equation, we will add 5in front of the compounds that contain the O involved in the reduction process (\(\ce{H2O2}\) and \(\ce{H2O}\)) and 2 in front of the compounds containing Mn (\(\ce{KMnO4}\) and \(\ce{MnSO4}\)). Now we will balance the rest of the elements, so we can write the final equation.</p>
+        <p>Balanced reaction: \(\ce{2KMnO4 + 5H2O2 + 3H2SO4 }\)\(\ce{→ K2SO4 + 2MnSO4 + 8H2O + 5O2}\)</p>
+    </div>
+
+    <button class="collapsible">Example 5: Balancing reactions - 5</button>
+    <div class="content">
+        <p>Unbalanced reaction: \(\ce{NaClO → NaClO3 + NaCl}\)</p>
+        <br><p>Solution:</p>
+        <p>Oxidation half-reaction: \(\ce{Cl^{+1} → Cl^{+5} + 4e^-}\)</p>
+        <p>Reduction half-reaction: \(\ce{Cl^{+1} + 2e^- → Cl^{-1} | \cdot 2}\)</p>
+        <p>The number of electrons gained has to be equal to the number of electrons lost, therefore we will multiply the reduction half-reaction by 2. Now, when we balance the equation, we will add 2 in front of the product compound that contains \(\ce{Cl^{-1}}\) (\(\ce{NaCl}\)) involved in the reduction process. We will balance the rest of the elements, adding 3 in front of \(\ce{NaClO}\) because we need 2\(\ce{Cl}\) for the two \(\ce{NaCl}\) and one Cl for the \(\ce{NaClO3}\), so now we can write the final equation.</p>
+        <p>Balanced reaction: \(\ce{3NaClO → NaClO3 + 2NaCl}\)</p>
+        <br><p>This reaction, where the same reactant contains the element that oxidizes and reduces, is called an <b>auto-redox reaction</b>.</p>
+    </div>
+
+<br>
+       <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Bianca Buzas</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
