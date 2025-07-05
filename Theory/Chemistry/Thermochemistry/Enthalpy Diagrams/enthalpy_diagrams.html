@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enthalpy Diagrams and Hess's Law</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Enthalpy Diagrams and Hess's Law</h2>
+    <a href="../thermochemistry.html" class="back-btn">← Back to Thermochemistry</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h2>Enthalpy Level Diagrams</h2>
+    <ul>
+        <li>The total chemical energy inside a substance is called the enthalpy (or heat content)</li>
+        <li>When chemical reactions take place, changes in chemical energy take place and therefore the enthalpy changes.</li>
+        <li>An enthalpy change is represented by the symbol ΔH (Δ = change; H = enthalpy)</li>
+        <li>An enthalpy change can be positive or negative.</li>
+    </ul>
+
+    <h2>Exothermic Reactions</h2>
+    <ul>
+        <li>A reaction is exothermic when the products have less energy than the reactants.</li>
+        <li>Heat energy is given off by the reaction to the surroundings
+            <ul>
+                <li>The temperature of the environment increases - this can be measured with a thermometer.</li>
+                <li>The energy of the system decreases.</li>
+            </ul>
+        </li>
+        <li>There is an enthalpy decrease during the reaction so ΔH is negative</li>
+        <img src="image1.png">
+    </ul>
+
+    <h2>Endothermic reactions</h2>
+    <ul>
+        <li>A reaction is endothermic when the products have more energy than the reactants.</li>
+        <li>Heat energy is absorbed by the reaction from the surroundings.
+            <ul>
+                <li>The temperature of the environment decreases - this can be measured with a thermometer.</li>
+                <li>The energy of the system increases</li>
+            </ul>
+        </li>
+        <li>There is an enthalpy increase during the reaction so ΔH is positive</li>
+        <img src="image2.png">
+    </ul>
+
+    <h2>Hess's Law</h2>
+    <p>Hess’s law of heat summation states that <b>for a chemical equation that can be written as the sum of two or more steps, the enthalpy change for the overall equation equals the sum of the enthalpy changes for the individual steps</b>.</p>
+    <br><p>In other words, no matter how you go from given reactants to products (whether in one step or several), the enthalpy change for the overall chemical change is the same.</p>
+    <br><p>Consider the following reaction:</p>
+    <p>\(\ce{A + B -> C + D}\)\(\; \; \; \; \; \; \Delta \text{H}_\text{x}\)</p>
+    <p>The enthalpy change for the reaction that forms products C + D directly (\(\Delta \text{H}_\text{x}\)) will be the same as the sum of the enthalpy changes for the production of C + D via an indirect route where intermediate products are formed and subsequently react to produce C + D.</p>
+    <br><p>This is shown in the diagram below.</p>
+    <img src="image3.png">
+    <p>One method of calculating an enthalpy change for a process involves rearranging a set of given reaction equations with known values.</p>
+    <br><p>The following points must be noted when manipulating equations:</p>
+    <ul>
+        <li>The enthalpy change for the process (ΔH) is independent of the route taken (This is Hess’s law).</li>
+        <li>The enthalpy change (ΔH) is proportional to the quantities of reactants and products. For example, burning twice as much fuel will result in twice the enthalpy change for the process.</li>
+        <li>If a reaction is reversed then the sign of the enthalpy change must also be reversed.</li>
+        <li>Changing the physical state of any reactant (or product) will involve an enthalpy change.</li>
+    </ul>
+
+    <button class="collapsible">Example 1: Hess's Law</button>
+    <div class="content">
+      <p><strong>Calculate the enthalpy for this reaction:</strong></p>
+      <p>2C(s) + H<sub>2</sub>(g) ---> C<sub>2</sub>H<sub>2</sub>(g)</p>
+      <p>ΔH° = ??? kJ</p>
+    
+      <p><strong>Given the following thermochemical equations:</strong></p>
+      <ul>
+        <li>C<sub>2</sub>H<sub>2</sub>(g) + 5⁄2O<sub>2</sub>(g) ---> 2CO<sub>2</sub>(g) + H<sub>2</sub>O(ℓ), ΔH° = −1299.5 kJ</li>
+        <li>C(s) + O<sub>2</sub>(g) ---> CO<sub>2</sub>(g), ΔH° = −393.5 kJ</li>
+        <li>H<sub>2</sub>(g) + 1⁄2O<sub>2</sub>(g) ---> H<sub>2</sub>O(ℓ), ΔH° = −285.8 kJ</li>
+      </ul>
+    
+      <p><strong>Solution:</strong></p>
+      <ol>
+        <li>Determine what we must do to the three given equations to get our target equation:
+          <ul>
+            <li>first eq: flip it so as to put C<sub>2</sub>H<sub>2</sub> on the product side</li>
+            <li>second eq: multiply it by two to get 2C</li>
+            <li>third eq: do nothing. We need one H<sub>2</sub> on the reactant side and that's what we have.</li>
+          </ul>
+        </li>
+    
+        <li>Rewrite all three equations with changes applied:</li>
+      </ol>
+    
+      <ul>
+        <li>2CO<sub>2</sub>(g) + H<sub>2</sub>O(ℓ) ---> C<sub>2</sub>H<sub>2</sub>(g) + 5⁄2O<sub>2</sub>(g), ΔH° = +1299.5 kJ</li>
+        <li>2C(s) + 2O<sub>2</sub>(g) ---> 2CO<sub>2</sub>(g), ΔH° = −787 kJ</li>
+        <li>H<sub>2</sub>(g) + \(\frac{1}{2}\) O<sub>2</sub>(g) ---> H<sub>2</sub>O(ℓ), ΔH° = −285.8 kJ</li>
+      </ul>
+    
+      <p><strong>Final reaction:</strong></p>
+      <p>2C(s) + H<sub>2</sub>(g) ---> C<sub>2</sub>H<sub>2</sub>(g)</p>
+      <p>ΔH° = 226.7 kJ</p>
+    </div>
+
+
+<br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Fillios Memtsoudis</strong>
+</p>
+</div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
