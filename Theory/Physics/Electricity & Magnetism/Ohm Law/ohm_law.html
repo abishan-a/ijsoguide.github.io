@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ohm's Law</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+  <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Ohm's Law</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electromagnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p>Even though his discoveries weren’t widely accepted at first, and called “a web a naked fantasy”, Georg Simon Ohm is now recognized as one of the main pillars for the understanding of electricity.</p>
+
+    <h2>Intensity</h2>
+    <p>- Definition: rate at which electrical charge flows past a specific point.</p>
+    <p>\[ I = \frac{\Delta q}{\Delta t} \]</p>
+    <p>We use the letter \( I \) to represent it, and it is measured in amperes (A) using an instrument called ammeter.</p>
+  
+    <h2>Voltage</h3>
+    <p>- Definition: difference of electrical potential energy between two different points.</p>
+    <br><p>In the content of a circuit, voltage is what makes current flow, meaning it makes the electrons move. The generators produce it.</p>
+    <br><p>We use the letter \( V \) or \( \Delta V \) to represent it, and it is measured in volts (V) using an instrument called voltmeter.</p>
+    <br><p>You can also find it as potential difference, electric pressure, or electric tension.</p>
+  
+    <h2>Resistance</h2>
+    <p>- Definition: opposition to the flow of electric current.</p>
+    <br><p>High resistance means less current flows for the same voltage, while low resistance means more current flows.</p>
+    <br><p>We use the letter \( R \) to refer to it, and it’s measured in ohms (Ω) using an instrument called ohmmeter.</p>
+  
+    <h2>Ohm’s Law Formula</h2>
+    <p>It states that the current through a conductor between two points is directly proportional to the voltage across the two points, and inversely proportional to the resistance between them.</p>
+    <p>\[ I = \frac{V}{R} \]</p>
+    <ul>
+      <li>\( I \): intensity [A]</li>
+      <li>\( V \): voltage [V]</li>
+      <li>\( R \): resistance [Ω]</li>
+    </ul>
+    <p>Tip: to understand better how a circuit works, it’s useful to visualize it like a flow of water, as shown in the figure below.</p>
+  
+    <h2>Summary</h2>
+    <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>Intensity</th>
+        <th>Voltage</th>
+        <th>Resistance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Representation</strong></td>
+        <td>I</td>
+        <td>V</td>
+        <td>R</td>
+      </tr>
+      <tr>
+        <td><strong>Units</strong></td>
+        <td>Amperes (A)</td>
+        <td>Volts (V)</td>
+        <td>Ohms (Ω)</td>
+      </tr>
+      <tr>
+        <td><strong>Instrument to measure it</strong></td>
+        <td>Ammeter</td>
+        <td>Voltmeter</td>
+        <td>Ohmmeter</td>
+      </tr>
+    </tbody>
+    </table>
+  <br>
+    <p>It’s important to note that you can apply Ohm’s Law in the whole circuit, using the equivalent resistance, or in a specific resistance, battery, or other ohmic components.</p>
+    <br><div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%;">
+    <iframe src="https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_en.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+    </div>
+  
+    <button class="collapsible">Example 1: Finding the current</button>
+    <div class="content">
+    <p><strong>A 20 Ω resistor has 10 V applied across it. What is the current?</strong></p>
+    <p>\[ I = \frac{V}{R} = \frac{10}{20} = 0.5 \, \text{A} \]</p>
+    </div>
+  
+    <button class="collapsible">Example 2: Finding the minimum resistance</button>
+    <div class="content">
+    <p><strong>A device operates at 12 V, but the maximum safe current is 0.2 A. What is the minimum resistance you must use to keep the current safe?</strong></p>
+    <p>\[ R_{\text{min}} = \frac{V}{I_{\text{max}}} = \frac{12}{0.2} = 60 \, \Omega \]</p>
+</div>
+
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Sofia Osorio</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
