@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lenz's Law</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Lenz's Law</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electromagnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p>Lenz’s law is used to determine the direction of the current induced by a change in flux.</p>
+    <br><p>Lenz’s law states that a current induced by a magnetic field always has a direction so that the magnetic field created by that current opposes the magnetic field that originally induced it. </p>
+    <br><p>In other words, if the current was induced because of an increase in flux, its magnetic field will have the direction that would decrease the flux and vice versa. This is true whether the change in flux is induced by a change in area, a change in the strength of the magnetic field, or the angle between the magnetic field and the circuit.</p>
+
+    <button class="collapsible">Example 1: Direction of current induced</button>
+    <div class="content">
+        <p>A magnet is moving towards a circular wire as depicted in the picture. Determine the direction of the current induced.</p>
+        <img src="image1.png">
+        <p>Solution:</p>
+        <p>Since the magnet is moving towards the wire with the north pole closer, the field lines of the magnet will be entering the area of the circuit from the side with the magnet, meaning, from Lenz’s law, that the field lines of the induced current will have the opposite direction. Using the right-hand rule, where our thumb represents the magnetic field line, our fingers show us that the direction of the current is counter-clockwise, as seen in the picture:</p>
+        <img src="image2.png">
+    </div>
+    
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Nemanja Maslak</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
