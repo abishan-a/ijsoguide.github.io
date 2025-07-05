@@ -51,7 +51,8 @@ onAuthStateChanged(auth, (user) => {
                 progressContainer.classList.add('progress-container');
                 let progressBar = document.createElement('div');
                 progressBar.classList.add('progress-bar');
-                progressBar.style.width = doc.data().percent + "%";
+                //progressBar.style.width = doc.data().percent + "%";
+                progressBar.style.setProperty('--progress', doc.data().percent + "%");
                 let progressText = document.createElement('span');
                 progressText.classList.add('progress-text');
                 progressText.innerHTML = Math.round(doc.data().percent) + "%";
@@ -64,6 +65,7 @@ onAuthStateChanged(auth, (user) => {
             });
             document.getElementById('overallProgressBar').style.width = testNo/totalTests * 100 + "%";
             document.getElementById('overallProgressText').innerHTML = Math.round(testNo/totalTests * 100) + "%";
+            document.getElementById('overallProgressBar').style.setProperty('--progress', testNo/totalTests * 100 + "%")
         })
         .catch(error => {
             console.log("Error getting document:", error);
