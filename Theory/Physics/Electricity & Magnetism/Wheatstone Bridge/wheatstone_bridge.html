@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wheatstone bridge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+  <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Wheatstone bridge</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electromagnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p>The Wheatstone bridge is a type of circuit usually used to measure resistance with high precision. The circuit is represented on the following scheme:</p>
+    <img src="image1.png">
+
+    <p>Using Kirchhoff’s law we can find that if the current flowing from point B to point D is equal to zero (if there is no current flowing between the two points) that the next formula is true for the resistances:</p>
+    <p>\[\frac{R_1}{R_2} = \frac{R_4}{R_5}\]</p>
+    <p>This also works in reverse order, if the resistors fulfill the formula above, no current will flow between points B and D, no matter the resistance or apparatus put in between them.</p>
+    <br><p>This gives us the next statement:</p>
+    <p>\[\frac{R_1}{R_2} = \frac{R_4}{R_5} ⟺ I_{BD} = 0\]</p>
+    <p>This means that, when observing current or resistance of the whole circuit, we can eliminate  the current between points B and D because no current is flowing, and we can neglect the resistance between the 2 points because it won’t contribute to the total resistance of the circuit. Because of this, when redrawing the circuit for simplicity, we can redraw the part between the 2 points where current isn’t flowing (points B and D in our case) as a wire without any apparatus in between them, or we can just redraw the bridge without the wire between the 2 points, giving us the next, much simpler circuit:</p>
+    <img src="image2.png">
+    <p>How is the Wheatstone bridge used to measure resistance?</p>
+    <br><p>By putting a galvanometer that measures current between points B and D, we know that when the galvanometer measures a current of 0, the already mentioned formula is satisfied. Because of this, if we know the resistances of 3 of the resistors, we can easily find the resistance of the fourth one that we are trying to find.</p>
+
+    <button class="collapsible">Example 1: Finding the resistance</button>
+    <div class="content">
+        <p>Find x if the bridge is balanced.</p>
+        <img src="image3.png">
+        <br><p>Solution:</p>
+        <p>When the bridge is balanced, it means there is no current flowing through the galvanometer, so we get the next equation:</p>
+        <p>\(\frac{R}{P}= \frac{S}{Q}\)</p>
+        <p>\(R=\frac{SP}{Q}\)</p>
+        <p>\(x + 400 = \frac{1000 \times 500}{800}\)</p>
+        <p>\(x + 400 = 625\)</p>
+        <p>\(x = 625 - 400\)</p>
+        <p>\(x = 225 \, \Omega\)</p>
+    </div>
+
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Nemanja Maslak</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
