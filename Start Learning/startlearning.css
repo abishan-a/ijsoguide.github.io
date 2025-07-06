@@ -1,79 +1,108 @@
+/* Base Styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
   background-color: #100839;
   color: #f0e9d6;
 }
 
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #1f1359, #23197a);
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-/*@media (width <= 768px){
-  .grid{
-    margin-top: 65px;
-  }
-}*/
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Grid Layout */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 50vh);
-  width: 100vw;
-  height: 100vh;
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
 }
 
+/* Section Card */
 .section {
   position: relative;
   background-size: cover;
   background-position: center;
+  border-radius: 14px;
   overflow: hidden;
   text-decoration: none;
-  transition: transform 0.3s ease;
-  z-index: 1; 
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  height: 350px;
 }
-
-
-
 
 .section:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
 }
 
-
+/* Overlay */
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1px);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.3s ease, color 0.3s ease;
-  z-index: 2; 
+  transition: background 0.3s ease;
 }
 
-
 .section:hover .overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .overlay span {
   color: white;
-  font-size: 1.8em;
-  font-weight: bold;
-  text-shadow: 1px 1px 5px black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
   transition: transform 0.3s ease;
 }
 
@@ -81,16 +110,114 @@ html {
   transform: scale(1.1);
 }
 
-/* Mobile responsive */
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 33vh);
+/* Glowing Background Spots */
+.glowing-spots {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.glowing-spots span {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(circle, #806aed, transparent 70%);
+  border-radius: 50%;
+  animation: moveGlow 20s linear infinite;
+  opacity: 0.5;
+  filter: blur(8px);
+}
+
+@keyframes moveGlow {
+  0% {
+    transform: translateY(100vh) translateX(0) scale(0.5);
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(50vw) scale(1);
+    opacity: 0;
   }
 }
+
+/* Custom Cursor */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(134, 110, 237, 0.6);
+  box-shadow: 0 0 8px 4px rgba(134, 110, 237, 0.7);
+  transition: transform 0.1s ease-out;
+  mix-blend-mode: screen;
+  z-index: 9999;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 2rem 1rem;
   background-color: #1f1359;
   border-top: 2px solid #233554;
+  color: #d0d0ff;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    height: 260px;
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none; /* Optional: Add logic to toggle this */
+    flex-direction: column;
+    background: #0d47a1;
+    padding: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .topic-card {
+    width: 100%;
+  }
 }
