@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Series and Parallel Circuits</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+  <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Series and Parallel Circuits</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electromagnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p>Depending on how the electrical components are arranged in the circuit, we can determine their properties and combine them into equivalent elements, such as total resistance or capacitance.</p>
+    
+    <h2>Circuits</h2>
+    <p>- Definition: closed loop or path that allows electrical current to flow from a power source, through components, and back to the source.</p>
+    <br><p>In a circuit, we can classify the components into different categories.</p>
+    <br><p>By their functions:</p>
+    <br><br>
+    <h3>Generators</h3>
+    <p>They supply energy to the circuit by creating a difference of potential.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="image1.png"></td>
+                <td><img src="image2.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><h3>Receivers</h3>
+    <p>They transform the electric energy to generate motion, light, sound, or heat.</p>
+
+    <table>
+        <body>
+            <tr>
+                <td><img src="image3.png"></td>
+                <td><img src="image4.png"></td>
+                <td><img src="image5.png"></td>
+            </tr>
+        </body>
+    </table>
+
+    <br><br><h3>Control and protection elements</h3>
+    <p>They control the flow of electricity or protect the circuit. Some are:</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="image6.png"></td>
+                <td><img src="image7.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><h3>Passive electronic components</h3>
+    <p>They can only receive energy, which it can either dissipate, absorb, or store in an electric field or a magnetic field.</p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="image8.png"></td>
+                <td><img src="image9.png"></td>
+            </tr>
+            <tr>
+                <td><img src="image10.png"></td>
+                <td><img src="image11.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><h3>Active electronic components</h3>
+    <p>They control the flow of current and, or amplify signals.</p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="image12.png"></td>
+                <td><img src="image13.png"></td>
+                <td><img src="image14.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Circuits in series</h2>
+    <p>Components are connected end to end, creating a single path for current to flow through.</p>
+    <br><p>Properties:</p>
+    <ul>
+        <li>Same path, which means that the circuit is disrupted if one part fails.</li>
+        <li>Same current / intensity in all elements</li>
+        <li>Voltage “distributed” across all the components</li>
+    </ul>
+
+    <br><h3>Batteries</h3>
+    <p>When batteries are connected in series and the positive terminal of one battery connects to the negative terminal of the next, the voltages of all the batteries add together. But when batteries are connected in opposition, the positive terminal of one battery is connected to the positive terminal of the other, or the negative to negative, effectively reversing one battery relative to the other, the voltages subtract.</p>
+    <br><p>\(V_{eq} = V_1 \; \pm \; V_2 \; \pm \; ... \; \pm \; V_n\)</p>
+
+    <br><h3>Resistances</h3>
+    <p>When resistors are connected in series, the same current flows through each of them. In this arrangement, the total or equivalent resistance is simply the sum of the individual resistances.</p>
+    <br><p>\(R_{eq} = R_1 + R_2 \; + \; ... \; + \; R_n\)</p>
+
+    <h2>Circuits in parallel</h2>
+    <p>Current flows through multiple paths, creating branches.</p>
+    <br><p>Properties:</p>
+    <ul>
+        <li>Multiple current paths, which summed should be equal to the total intensity of the circuit.</li>
+        <li>Constant voltage, equal to the one of the source.</li>
+        <li>Independent operation of the components</li>
+    </ul>
+
+    <br><h3>Batteries</h3>
+    <p>When batteries of the same voltage are connected in parallel, the total voltage equals the value of one.</p>
+    <br><p>\(V_{eq} = V_1 = V_2 = ... = V_n\)</p>
+
+    <br><h3>Resistances</h3>
+    <p>When resistors are connected in parallel, they’re all under the same voltage and the inverse of the equivalent resistance equals the sum of the inverses of the individual resistances:</p>
+    <br><p>\(\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}\)</p>
+
+    <h2>Tips</h2>
+    <ul>
+        <li>It’s important to note that in a same branch, there can be components in series. In these cases, find the equivalent resistance between those two and then find the equivalent resistance of the whole circuit.</li>
+        <li>To find the intensity or voltage in all the components, don’t forget to apply the properties mentioned before and ohm’s law in each component and in the entire circuit (with the equivalent resistance, voltage, and intensity).</li>
+        <li>Current will always prefer going through the easier path (with less resistance).</li>
+    </ul>
+
+    <h2>Measuring Instruments</h2>
+    <p>This is something we must apply to understand how the different devices that we use to measure electrical parameters work:</p>
+
+    <br><h3>Voltmeter</h3>
+    <p>Voltmeters are used to measure voltage at a certain point, therefore they’re connected in parallel. To assure that it doesn’t affect the rest of the circuit, they have an elevated internal resistance. This way, minimal current flows through the branch.</p>
+    <img src="image15.png">
+
+    <br><h3>Ammeter</h3>
+    <p>Ammeters are used to measure the intensity flowing at a certain point, hence they’re connected in series. In order to avoid an affection to the circuit, they have a really low resistance.</p>
+    <img src="image16.png">
+
+    <br><div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%;">
+        <iframe src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+        </div>
+
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Sofia Osorio</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
