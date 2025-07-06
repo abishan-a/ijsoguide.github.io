@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dimensions and Analysis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Dimensions and Analysis</h2>
+    <a href="../Units.html" class="back-btn">← Back to Units</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <p>Dimensions are the physical nature of a quantity and express how it depends on basic physical quantities like mass, length, and time. They are written using symbols: [M] for mass, [L] for length, [T] for time, and so on. Dimensional analysis helps us check the consistency of equations and derive relationships between physical quantities.</p>
+
+    <h2>Fundamental SI Quantities and Their Dimensions</h2>
+<p>There are seven fundamental physical quantities in the SI system. All other physical quantities are derived from these base dimensions:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Quantity</th>
+      <th>SI Unit</th>
+      <th>Dimension Symbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Length</td>
+      <td>meter (m)</td>
+      <td>[L]</td>
+    </tr>
+    <tr>
+      <td>Mass</td>
+      <td>kilogram (kg)</td>
+      <td>[M]</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>second (s)</td>
+      <td>[T]</td>
+    </tr>
+    <tr>
+      <td>Electric Current</td>
+      <td>ampere (A)</td>
+      <td>[I]</td>
+    </tr>
+    <tr>
+      <td>Temperature</td>
+      <td>kelvin (K)</td>
+      <td>[Θ]</td>
+    </tr>
+    <tr>
+      <td>Amount of Substance</td>
+      <td>mole (mol)</td>
+      <td>[N]</td>
+    </tr>
+    <tr>
+      <td>Luminous Intensity</td>
+      <td>candela (cd)</td>
+      <td>[J]</td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="collapsible">Example 1: Finding Dimensions of a Constant</button>
+<div class="content">
+  <p>Let’s say a formula is given: \( F = k \cdot \frac{q_1 q_2}{r^2} \), which is Coulomb's Law.</p>
+  <p>We want to find the dimensions of the constant \( k \).</p>
+  <p>We know:</p>
+  <ul>
+    <li>\( F \): Force → [M L T<sup>-2</sup>]</li>
+    <li>\( q \): Charge → [A T]</li>
+    <li>\( r \): Distance → [L]</li>
+  </ul>
+  <p>Substituting into the equation:</p>
+  <p>\[
+    [k] = \frac{[F] \cdot [r]^2}{[q]^2} = \frac{[M L T^{-2}] \cdot [L]^2}{[A T]^2} = \frac{M L^3 T^{-2}}{A^2 T^2} = [M L^3 A^{-2} T^{-4}]
+  \]</p>
+</div>
+
+<button class="collapsible">Example 2: Finding the Formula</button>
+<div class="content">
+  <p>Suppose power \( P \) depends on force \( F \) and velocity \( v \). Use dimensional analysis to find the formula.</p>
+  <p>Let \( P = k \cdot F^a \cdot v^b \)</p>
+  <p>Dimensions:</p>
+  <ul>
+    <li>\( P \): [M L<sup>2</sup> T<sup>-3</sup>]</li>
+    <li>\( F \): [M L T<sup>-2</sup>]</li>
+    <li>\( v \): [L T<sup>-1</sup>]</li>
+  </ul>
+  <p>\[
+    [M L^2 T^{-3}] = [M L T^{-2}]^a \cdot [L T^{-1}]^b = M^a L^{a+b} T^{-2a - b}
+  \]</p>
+  <p>Equating powers:</p>
+  <ul>
+    <li>Mass: \( a = 1 \)</li>
+    <li>Length: \( a + b = 2 \Rightarrow b = 1 \)</li>
+    <li>Time: \( -2a - b = -3 \)</li>
+  </ul>
+  <p>So the formula is: \( P = k \cdot F \cdot v \)</p>
+</div>
+
+    <br>
+    <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Matic Zimic</strong>
+</p>  
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+
+ <script src="../../../collapsibles.js"></script>
+</body>
+</html>
