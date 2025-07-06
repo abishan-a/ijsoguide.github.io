@@ -10,7 +10,7 @@ let countryField = document.getElementById('country');
 let emailField = document.getElementById('email');
 let passwordField = document.getElementById('password');
 let passwordRepeatField = document.getElementById('passwordRepeat');
-let gradeField = document.getElementById('grade');
+let birthYearField = document.getElementById('birthYear');
 let emailUpdates = document.getElementById('emailUpdates');
 
 let uid;
@@ -53,12 +53,12 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
     let email = emailField.value;
     let password = passwordField.value;
     let passwordRepeat = passwordRepeatField.value;
-    let grade = gradeField.value;
+    let birthYear = birthYearField.value;
     let updates = emailUpdates.checked;
     console.log(updates)
     console.log(email)
     console.log(password)
-    if (signUpDetailsValid(name, surname, email, password, passwordRepeat, grade, country)){
+    if (signUpDetailsValid(name, surname, email, password, passwordRepeat, birthYear, country)){
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed up 
@@ -71,7 +71,7 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
                 name: name,
                 surname: surname,
                 country: country,
-                grade: grade,
+                birthYear: birthYear,
                 email: email,
                 password: password,
                 updates: updates

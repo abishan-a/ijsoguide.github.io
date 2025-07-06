@@ -20,7 +20,7 @@ onAuthStateChanged(auth, (user) => {
                 console.log(d)
                 document.getElementById('name').innerHTML = "<b>Name: </b>" + d.name + " " + d.surname;
                 document.getElementById('country').innerHTML = "<b>Country: </b>" + d.country;
-                document.getElementById('grade').innerHTML = "<b>Grade: </b>" + d.grade;
+                document.getElementById('birthYear').innerHTML = "<b>Birth year: </b>" + d.birthYear;
                 document.getElementById('email').innerHTML = "<b>Email: </b>" + d.email;
                 if (d.updates) document.getElementById('emailUpdates').checked = true;
 
