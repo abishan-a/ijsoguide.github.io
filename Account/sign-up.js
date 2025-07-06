@@ -1,7 +1,7 @@
 import {app} from '/centralAuthenticationSystem.js';
 import {auth} from '/centralAuthenticationSystem.js';
 import {db} from '/centralAuthenticationSystem.js';
-import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged, sendEmailVerification } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
 import { getFirestore,  doc, setDoc , getDoc , getDocs, collection, query, deleteDoc} from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js"
 
 let nameField = document.getElementById('firstName');
@@ -80,7 +80,8 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
             .then(()=>{
               setDoc(doc(db, "userData", uid), {
                 tests: 0
-              }).then(()=>{
+              })
+              .then(()=>{
                 let redirect = window.location.href.split('redirect=')[1];
                 console.log(redirect)
                 if (redirect != null){
@@ -88,7 +89,6 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
                 } else{
                   window.location.href = "settings.html"
                 }
-                
               })
             })
             
@@ -102,7 +102,8 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
             const errorMessage = error.message;
             console.log(errorCode)
             console.log(errorMessage)
-            alert("An error occured. Please make sure all the data is in valid format.")
+            if(errorCode == "auth/email-already-in-use") alert("Account with that email address already exists.")
+            else alert("An error occured. Please make sure all the data is in valid format.")
             // ..
         });
     //}
