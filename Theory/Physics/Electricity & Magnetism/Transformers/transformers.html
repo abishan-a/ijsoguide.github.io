@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Transformers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+  <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Transformers</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electromagnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+
+    <p>A transformer is a device that changes the voltage of an alternating current (AC) supply using electromagnetic induction. Transformers work only with AC and are commonly used to increase or decrease voltages in power distribution.</p>
+
+    <h2>Basic Structure of a Transformer</h2>
+    <ul>
+      <li><strong>Primary coil:</strong> the coil connected to the input voltage source</li>
+      <li><strong>Secondary coil:</strong> the coil connected to the output circuit</li>
+      <li><strong>Core:</strong> a soft iron core that links the two coils and enhances the magnetic coupling</li>
+    </ul>
+
+    <h2>How a Transformer Works</h2>
+    <p>When alternating current flows through the primary coil, it produces a changing magnetic field in the core. This changing magnetic field induces an alternating voltage in the secondary coil through electromagnetic induction.</p>
+
+    <h2>Types of Transformers</h2>
+    <ul>
+      <li><strong>Step-up transformer:</strong> Increases voltage (secondary has more turns than primary)</li>
+      <li><strong>Step-down transformer:</strong> Decreases voltage (secondary has fewer turns than primary)</li>
+    </ul>
+
+    <h2>Transformer Equation</h2>
+    <p>The ratio of the number of turns in each coil determines how the voltage changes:</p>
+    <p>\[
+    \frac{V_s}{V_p} = \frac{N_s}{N_p}
+    \]</p>
+    <p>Where:</p>
+    <ul>
+      <li>\( V_s \): voltage across the secondary coil</li>
+      <li>\( V_p \): voltage across the primary coil</li>
+      <li>\( N_s \): number of turns in the secondary coil</li>
+      <li>\( N_p \): number of turns in the primary coil</li>
+    </ul>
+
+    <h2>Power and Efficiency</h2>
+    <p>If the transformer is ideal (no energy losses), the power input equals the power output:</p>
+    <p>\[
+    V_p I_p = V_s I_s
+    \]</p>
+    <p>Real transformers have energy losses due to heating, magnetic leakage, and eddy currents, so efficiency is usually less than 100%.</p>
+
+    <button class="collapsible">Example: Step-down Transformer</button>
+    <div class="content">
+      <p>A transformer has 400 turns in the primary coil and 100 turns in the secondary coil. The input voltage is 240 V.</p>
+      <p>What is the output voltage?</p>
+      <p>\[
+      \frac{V_s}{240} = \frac{100}{400} \Rightarrow V_s = \frac{100}{400} \times 240 = 60 \, \text{V}
+      \]</p>
+      <p><strong>Answer:</strong> The output voltage is 60 V.</p>
+    </div>
+
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Mubarak Aouda</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
