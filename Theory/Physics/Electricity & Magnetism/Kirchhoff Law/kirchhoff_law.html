@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kirchhoff's Law</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Page Header with Back Button -->
+  <div class="top-bar">
+    <h2>Kirchhoff's Law</h2>
+    <a class="back-btn" href="../electricity.html">← Back to Electromagnetism</a>
+   </div>
+
+  <!-- Content -->
+  <div class="container">
+    <p>Kirchhoff’s Laws are two fundamental rules that describe how electrical current and voltage behave in circuits, formulated by the German physicist Gustav Kirchhoff in 1845.</p>
+
+    <h2>Kirchhoff’s First Law</h2>
+    <p>Also known as Kirchhoff’s Current Law.</p>
+    <br><p>The algebraic sum of currents at a node is zero; which means that the total current entering a node equals the total current leaving it.</p>
+
+    <p>\(\Sigma i_{in} = \Sigma i_{out}\)</p>
+    <img src="image1.png">
+    <p>In this case, \(I_3 + I_4 + I_1 = I_5 + I_2\)</p>
+
+    <h2>Kirchhoff’s Second Law</h2>
+    <p>Also known as Kirchhoff’s Voltage Law.</p>
+    <br><p>The total voltage supplied in a closed loop is equal to the total voltage drop across all components within that loop. This law is a consequence of the principle of the conservation of energy.</p>
+    <br><p>\(\Sigma V=0\)</p>
+    <img src="image2.png">
+    <p>To apply this, we define a positive ( - → + ) and a negative ( + → - ) direction.  Therefore, in this case:</p>
+    <p>\(-v + v_1 + v_2 = 0\)</p>
+
+    <br><p>Even without a battery, if it’s a closed loop part of a bigger circuit, this law still applies:</p>
+    <img src="image3.png">
+    <p>\(V_1 + V_2 + V_3 + V_4 = 0\)</p>
+
+
+    <br>
+     <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Sofia Osorio</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+ <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
