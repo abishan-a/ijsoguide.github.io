@@ -74,7 +74,8 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
                 birthYear: birthYear,
                 email: email,
                 password: password,
-                updates: updates
+                updates: updates,
+                signUpDate: Date.now(),
             }
             setDoc(docRef, data)
             .then(()=>{
