@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #100839;
+    color: #fff;
+    line-height: 1.6;
+}
+
+h1{
+    font-size: large;
+}
+
+
+.section-card {
+    background-color: rgba(12, 15, 40, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px rgba(111, 66, 193, 0.3);
+    transition: transform 0.3s;
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+}
+
+.section-card h2 {
+    font-size: 1.8rem;
+    background: linear-gradient(to right, #00f0ff, #a600ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0f1471;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 0.5rem 0.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #060948;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+@media(width < 768px){
+    table{
+        width: 100%;
+    }
+}
+
+
+footer {
+  background-color: #1f1359;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+#preload{
+    margin: 350px auto;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -38,6 +38,17 @@ onAuthStateChanged(auth, (user) => {
                     if(pw.style.letterSpacing == "normal") pw.style.letterSpacing = "1.5px";
                     else pw.style.letterSpacing = "normal";
                 });
+
+                if(d.executive){
+                    // <a href="./progress.html"><button class="btn">Progress</button></a>
+                    let a = document.createElement('a');
+                    a.href = "./admin.html";
+                    let button = document.createElement('button');
+                    button.classList.add('btn');
+                    button.innerHTML = "Admin dashboard";
+                    a.appendChild(button);
+                    document.getElementById('mainContent').appendChild(a);
+                }
             }
         })
         .catch(error => {

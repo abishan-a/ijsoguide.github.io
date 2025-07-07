@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin dashboard | IJSO Guide</title>
+  <link rel="stylesheet" href="admin.css">
+  <script type="module" src="./admin.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+
+  <div class="center" id="preload"></div>
+  <!-- Account Section -->
+  <div class="section-card" id="mainContent">
+    <h1>Admin dashboard - platform users' statistics</h1>
+    <table id="countryStatistics">
+        <tr>
+            <th>Country</th>
+            <th>Account number (total: <span id="totalUsers"></span>)</th>
+        </tr>
+    </table>
+    <ul id="mailingList">
+        <p>Mailing list (<span id="mailingListLength"></span> accounts)</p>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector("nav ul");
+      menu.classList.toggle("show");
+    }
+    
+  </script>
+
+</body>
+</html>
