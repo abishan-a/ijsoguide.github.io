@@ -23,6 +23,7 @@ onAuthStateChanged(auth, (user) => {
                 document.getElementById('birthYear').innerHTML = "<b>Birth year: </b>" + d.birthYear;
                 document.getElementById('email').innerHTML = "<b>Email: </b>" + d.email;
                 if (d.updates) document.getElementById('emailUpdates').checked = true;
+                if (d.ijsoAlumni) document.getElementById('beenToIJSO').checked = true;
 
                 let passwordFill = "";
                 let realPw = d.password;
@@ -76,8 +77,10 @@ onAuthStateChanged(auth, (user) => {
 
 document.getElementById('saveChangesButton').addEventListener('click', ()=>{
     let updatesValue = document.getElementById('emailUpdates').checked;
+    let alumniValue = document.getElementById('beenToIJSO').checked;
     setDoc(doc(db, "users", uid), {
-        updates: updatesValue
+        updates: updatesValue,
+        ijsoAlumni: alumniValue
     }, {merge: true}).then(()=>{
         alert("Settings saved.")
     }).catch(()=>{

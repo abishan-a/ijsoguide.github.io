@@ -12,6 +12,7 @@ let passwordField = document.getElementById('password');
 let passwordRepeatField = document.getElementById('passwordRepeat');
 let birthYearField = document.getElementById('birthYear');
 let emailUpdates = document.getElementById('emailUpdates');
+let ijsoAlumniCheckbox = document.getElementById('beenToIJSO');
 
 let uid;
 
@@ -55,6 +56,7 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
     let passwordRepeat = passwordRepeatField.value;
     let birthYear = birthYearField.value;
     let updates = emailUpdates.checked;
+    let ijsoAlumni = ijsoAlumniCheckbox.checked;
     console.log(updates)
     console.log(email)
     console.log(password)
@@ -74,6 +76,7 @@ document.getElementById('signupForm').addEventListener('submit', (e)=>{
                 birthYear: birthYear,
                 email: email,
                 password: password,
+                ijsoAlumni: ijsoAlumni,
                 updates: updates,
                 signUpDate: Date.now(),
             }
