@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Circular Motion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Header with title + back to mechanics -->
+  <div class="page-header">
+    <h2>Circular Motion</h2>
+    <a href="../Mechanics.html" class="back-btn">← Back to Mechanics</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <p>In physics, a <b>rigid body</b> is an object with a definite shape and size that does not deform under external forces. When such a body rotates about a fixed axis, every point on the object moves in a circular path around that axis. The study of circular motion involves concepts analogous to those in linear motion but adapted for circular paths.</p>
+
+    <h2>Angular Position (\(\theta\))</h2>
+    <ul>
+        <li>In linear motion, position is described by coordinates (e.g., x, y).</li>
+        <li>Meanwhile, in circular motion, angular position (\(\theta\)) specifies the orientation of the body relative to a reference axis.</li>
+        <li>It is measured in radians (rad) where:
+            <ul>
+                <li>s: Arc length</li>
+                <li>r: Radius of the circular path</li>
+            </ul>
+            <img src="image1.png">
+        </li>
+    </ul>
+
+    <h2>Angular Velocity (\(\omega\))</h2>
+    <ul>
+        <li>Analogous to linear velocity (v), angular velocity (\(\omega\)) describes how fast the angle  changes with time.</li>
+        <li>It is measured usually in rad/s or rpm (revolutions per minute), where \(1 \; \text{rpm} = \frac{\pi}{30} \; \text{rad/s}\)</li>
+        <li>Average angular velocity = \(\omega _{avg} = \frac{\Delta \theta}{\Delta t}\)</li>
+        <img src="image2.png">
+    </ul>
+
+    <h2>Angular Acceleration (\(\alpha\))</h2>
+    <ul>
+        <li>Analogous to linear acceleration (a), angular acceleration (\(\alpha\)) measures the rate of change of angular velocity.</li>
+        <li>It is measured in \(\text{rad/s}^2\).</li>
+        <li>Average angular acceleration = \(\alpha _{avg} = \frac{\Delta \omega}{\Delta t}\)</li>
+        <img src="image3.png">
+    </ul>
+
+    <h2>Relating Linear and Angular Quantities</h2>
+    <p>For a point on a rotating rigid body at a distance r from the axis of rotation</p>
+
+    <br><h3>Velocity (v vs \(\omega\))</h3><br>
+    <ul>
+        <li>The tangential speed of the point is \(v_{tan} = r \omega\)</li>
+        <li>The farther the point is from the axis, the greater its linear speed for the same \(\omega).</li>
+        <li>Note: the total velocity of a point in a spinning object is the vectorial sum of the tangential velocity and the center-of-mass velocity \(v_p = v_{cm} + v_{tan}\)</li>
+    </ul>
+
+    <br><h3>Acceleration (a vs \(\alpha\))</h3><br>
+    <ul>
+        <li><b>Tangential acceleration</b> (changes speed) = \(a_{tan} = r \alpha \)</li>
+        <li><b>Centripetal acceleration</b> (changes direction, points toward the center) = \(a_{rad} = \frac{v^2}{r} = \omega ^2 r\)</li>
+        <li>Learn more about this in <a href="../Centripetal force/Centripetal Force.html" style="color:#9081dd">centripetal force</a></li>
+        <li>The <b>total linear acceleration</b> is the vector sum of tangential and centripetal components.</li>
+        <img src="image4.png">
+    </ul>
+
+    <h2>Period and Frequency</h2>
+    <br><h3>Period (T)</h3><br>
+    <ul>
+        <li>Time it takes for a rotating object to complete one full revolution (360° or 2π radians).</li>
+        <li>Measured in seconds (s).</li>
+        <li>\(T = \frac{2 \pi}{\omega} = \frac{1}{f}\)</li>
+    </ul>
+
+    <br><h3>Frequency (f)</h3><br>
+    <ul>
+        <li>Number of complete revolutions per unit time.</li>
+        <li>Measured in Hertz (Hz)</li>
+        <li>\(f = \frac{1}{T} = \frac{\omega}{2 \pi}\)</li>
+    </ul>
+
+    <p>Now that we have established the basic concepts, let's look at some examples.</p>
+
+    <button class="collapsible">Example 1: Bicycle Wheel</button>
+    <div class="content">
+        <p>A bicycle wheel rotates 5 complete revolutions in 2 seconds. Calculate</p>
+        <ul>
+            <li>The angular displacement in radians.</li>
+            <li>The average angular velocity in rad/s.</li>
+        </ul>
+        <br><p>Solution:</p>
+        <ul>
+            <li>\(\theta = 5 \times 2 \pi = 10 \pi \; \text{rad}\)</li>
+            <li>\(\omega = \frac{\Delta \theta}{\Delta t} = \frac{10 \pi \; \text{rad}}{2 \; s} = 5 \pi \; \text{rad/s}\)</li>
+        </ul>
+    </div>
+
+    <button class="collapsible">Example 2: Rotating Disc</button>
+    <div class="content">
+        <p>A disc of radius 0.5 m rotates at 120 rpm. Find</p>
+        <ul>
+            <li>The angular velocity in rad/s.</li>
+            <li>The linear speed of a point on the edge.</li>
+        </ul>
+        <br><p>Solution:</p>
+        <ul>
+            <li>\(120 \; \text{rpm} \times \frac{\pi}{30} = 4 \pi \; \text{rad/s}\)</li>
+            <li>\(v = r \omega = 0.5 \; \text{m} \times 4 \pi \; \text{rad/s} = 2 \pi \; \text{m/s}\)</li>
+        </ul>
+    </div>
+
+    <button class="collapsible">Example 3: Car Tyre</button>
+    <div class="content">
+        <p>A car’s tire of radius 0.3 m rotates at 20 rad/s. Find</p>
+        <ul>
+            <li>The linear speed of a point on the tire’s edge.</li>
+            <li>The centripetal acceleration.</li>
+        </ul>
+        <br><p>Solution:</p>
+        <ul>
+            <li>\(v = r \omega = 0.3 \; \text{m} \times 20 \; \text{rad/s} = 6 \; \text{m/s}\)</li>
+            <li>\(a_c = \omega ^2 r =(20 \; \text{rad/s})^2 \times 0.3 \; \text{m} = 120 \; \text{m/s}^2\)</li>
+        </ul>
+    </div>
+
+
+    <br>
+    <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Mateo Sancho</strong>
+</p>   
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+<script src="../../../collapsibles.js"></script>
+</body>
+</html>
