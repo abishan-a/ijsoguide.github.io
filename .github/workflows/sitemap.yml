@@ -24,6 +24,13 @@ jobs:
       with:
         base-url-path: https://ijsoguide.com/
 
+        exclude-paths: |
+          /404.html
+          /mainlaunch.html
+          /navigation.html
+          /Account/admin.html
+          /Practice Questions/test.html
+
     - name: Output stats
       run: |
           git config user.name "GitHub Actions Bot"
