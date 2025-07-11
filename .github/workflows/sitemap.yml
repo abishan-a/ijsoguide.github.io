@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate a sitemap
 
+    permissions:
+      contents: write
+
     steps:
     - name: Checkout the repo
       uses: actions/checkout@v4
