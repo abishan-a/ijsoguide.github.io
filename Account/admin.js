@@ -26,17 +26,22 @@ onAuthStateChanged(auth, (user) => {
                     let totalUsers = 0;
                     let mailingList = [];
                     let countryStats = {};
+                    let overview = [];
 
                     getDocs(collection(db, "users"))
                     .then((allUsers)=> {
                         allUsers.forEach((doc) => {
                             let userData = doc.data();
                             if(userData.name && userData.name.includes('test')) return;
+                            if(!userData.name) return;
                             totalUsers += 1;
                             if (userData.updates) mailingList.push(userData.email);
 
                             let country = userData.country;
                             if(country) countryStats[country] = (countryStats[country] || 0) + 1;
+
+                            let userOverview = [userData.name, userData.surname, userData.country, userData.birthYear];
+                            overview.push(userOverview);
                         });
                     }).then(()=>{
                         document.getElementById('totalUsers').innerHTML = totalUsers;
@@ -57,6 +62,22 @@ onAuthStateChanged(auth, (user) => {
                             tr.appendChild(td2);
                             document.getElementById('countryStatistics').appendChild(tr);
                         }
+                        overview.forEach(user => {
+                            let tr = document.createElement('tr');
+                            let td1 = document.createElement('td');
+                            let td2 = document.createElement('td');
+                            let td3 = document.createElement('td');
+                            let td4 = document.createElement('td');
+                            td1.innerHTML = user[0];
+                            td2.innerHTML = user[1];
+                            td3.innerHTML = user[2];
+                            td4.innerHTML = user[3];
+                            tr.appendChild(td1);
+                            tr.appendChild(td2);
+                            tr.appendChild(td3);
+                            tr.appendChild(td4);
+                            document.getElementById('overview').appendChild(tr);
+                        })
                     })
                     .catch(error => {
                         alert("An error happened. Please refresh the page.")
