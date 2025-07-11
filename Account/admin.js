@@ -62,21 +62,22 @@ onAuthStateChanged(auth, (user) => {
                             tr.appendChild(td2);
                             document.getElementById('countryStatistics').appendChild(tr);
                         }
+                        console.log(overview);
                         overview.forEach(user => {
-                            let tr = document.createElement('tr');
-                            let td1 = document.createElement('td');
-                            let td2 = document.createElement('td');
-                            let td3 = document.createElement('td');
-                            let td4 = document.createElement('td');
-                            td1.innerHTML = user[0];
-                            td2.innerHTML = user[1];
-                            td3.innerHTML = user[2];
-                            td4.innerHTML = user[3];
-                            tr.appendChild(td1);
-                            tr.appendChild(td2);
-                            tr.appendChild(td3);
-                            tr.appendChild(td4);
-                            document.getElementById('overview').appendChild(tr);
+                            let tr_overview = document.createElement('tr');
+                            let td1_overview = document.createElement('td');
+                            let td2_overview = document.createElement('td');
+                            let td3_overview = document.createElement('td');
+                            let td4_overview = document.createElement('td');
+                            td1_overview.innerHTML = user[0];
+                            td2_overview.innerHTML = user[1];
+                            td3_overview.innerHTML = user[2];
+                            td4_overview.innerHTML = user[3];
+                            tr_overview.appendChild(td1_overview);
+                            tr_overview.appendChild(td2_overview);
+                            tr_overview.appendChild(td3_overview);
+                            tr_overview.appendChild(td4_overview);
+                            document.getElementById('overview').appendChild(tr_overview);
                         })
                     })
                     .catch(error => {
