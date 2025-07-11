@@ -1,0 +1,30 @@
+name: Generate xml sitemap
+
+on:
+  push:
+    branches: [ new_website ]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Generate a sitemap
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 
+
+    - name: Generate the sitemap
+      id: sitemap
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://ijsoguide.com/
+
+    - name: Output stats
+      run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml # Or sitemap_index.xml if you're using an index
+          git commit -m "Automated sitemap update" || echo "No changes to sitemap.xml"
+          git push
