@@ -63,6 +63,20 @@ header {
   padding: 3rem 1rem;
 }
 
+#newest{
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #002B7F 0% 31%,  #FCD116 33% 64%, #CE1126 66% 100%);
+  font-weight: bold;
+  padding: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+#newest *{
+  margin: 0;
+}
+
 .hero-box {
   background-color: #131347;
   padding: 3rem;

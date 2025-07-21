@@ -14,39 +14,33 @@
   <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
   <script src="/navigationimport.js" type="module"></script>
 </head>
-
+<style>
+    .gradient-text {
+      background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      display: inline;
+    }
+</style>
 <body>
 
   <div class="glowing-spots" id="glowingSpots"></div>
 
-
-
-
-
+  <div id="newest" style="display: none;">
+    <p>Succes tuturor românilor la ONSJ din partea echipei "A Guide to the IJSO"!</p>
+    <p>Good luck to all Romanians at ONSJ from the "A Guide to the IJSO" team!</p>
+  </div>
 
   <div class="hero-box" style="position: relative; z-index: 2;">
-  <h1><span class="gradient-text">Your Ultimate Guide to IJSO Preparation</span></h1>
-  <p class="hero-description">Comprehensive resources, theory, practice questions, mock tests, national selection tests with solutions, lab and mindset guides, and more – all in one place!</p>
-  <div class="hero-cta">
-    <a href="Start Learning/startlearning.html" class="cta-button primary">Start Preparing Now</a>
-    <a href="Account/sign-up.html" class="cta-button secondary">Join the Community</a>
+    <h1><span class="gradient-text">Your Ultimate Guide to IJSO Preparation</span></h1>
+    <p class="hero-description">Comprehensive resources, theory, practice questions, mock tests, national selection tests with solutions, lab and mindset guides, and more – all in one place!</p>
+    <div class="hero-cta">
+      <a href="Start Learning/startlearning.html" class="cta-button primary">Start Preparing Now</a>
+      <a href="Account/sign-up.html" class="cta-button secondary">Join the Community</a>
+    </div>
   </div>
-</div>
-
-<style>
-  .gradient-text {
-    background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: inline;
-  }
   
- 
-</style>
-
-
-
 
   <div class="cursor"></div>
 
@@ -57,10 +51,6 @@
       Created by talented students and former IJSO medalists, this guide aims to provide accessible, high-quality resources for students preparing for the International Junior Science Olympiad. Our mission is to level the playing field and help students worldwide excel in science competitions.
     </p>
   </section>
-
-
-
-
 
   <section id="features" style="position: relative; z-index: 2;">
     <h2 style="border-left: 5px solid #b561ff;">Features</h2>
@@ -142,6 +132,14 @@
 
   <script src="/glowingspots.js"></script>
   
+  <script>
+    /* Expiration for the "newest" element */
+    let startDate = new Date('2025-07-22T00:00:00Z')
+    let endDate = new Date('2025-07-23T00:00:00Z')
+    
+    let current = new Date();
+    if (startDate < current && current < endDate) document.getElementById('newest').style.display = "flex"; 
+  </script>
 
 </body>
 
