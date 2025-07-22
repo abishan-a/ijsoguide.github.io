@@ -1,4 +1,5 @@
 console.log(window.location.search)
+
 function getQueryParam(param) {
   const queryString = window.location.search.substring(1);
   const pairs = queryString.split("&");
@@ -8,10 +9,22 @@ function getQueryParam(param) {
   }
   return null;
 }
+
+function quit(){
+  window.history.back();
+}
+
+/* Get parameters */
 const unitName = getQueryParam("unit");
 const subjectName = getQueryParam("subject");
-if (unitName == null || subjectName == null) window.history.back();
+let lev = getQueryParam("level");
+let levels;
+if(!lev || lev == "000") lev = "111";
+levels = lev.split('');
+if (unitName == null || subjectName == null) quit();
 
+
+/* Loading stylesheet */
 function loadStylesheet(href) {
   const link = document.createElement('link');
   link.rel = 'stylesheet';
@@ -26,6 +39,8 @@ if(subjectName == "physics"){
   loadStylesheet("./Biology/mcq/style.css")
 }
 
+
+/* Back button setup */
 const referrer = document.referrer;
 if (referrer) {
   document.querySelectorAll('.back-btn:not(#stats)').forEach(link => {
@@ -37,34 +52,67 @@ if (referrer) {
   });
 }
 
+
+ /* Loading problems */
 (async (unitName) => {
   try {
+    let filePath;
     let module;
+    let loadedData;
+
     if(subjectName == "physics"){
-      module = await import (`./Physics/mcq/tests/${unitName}.js`);
+      filePath = `./Physics/mcq/tests/${unitName}.json`;
+      /*module = await fetch (`./Physics/mcq/tests/${unitName}.json`);
+      let dttmp = await module.json();
+      console.log(dttmp);*/
+      //main(dttmp);
     } else if (subjectName == "chemistry"){
-      module = await import (`./Chemistry/mcq/tests/${unitName}.js`);
+      filePath = `./Chemistry/mcq/tests/${unitName}.json`;
+      /*module = await import (`./Chemistry/mcq/tests/${unitName}.js`);
+      main(module);*/
     } else if (subjectName == "biology"){
-      module = await import (`./Biology/mcq/tests/${unitName}.js`);
-    }
-    main(module);
+      filePath = `./Biology/mcq/tests/${unitName}.json`;
+    } else quit();
+
+    module = await fetch(filePath)
+    loadedData = await module.json();
+    main(loadedData);
+    
   } catch (err) {
     console.error("Failed to load unit:", err);
   }
 })(unitName)
 
-function main(module){
 
-  let problems = module.problems;
-  let title = module.title;
+
+/* Main function */
+function main(data){
+
+  console.log(data);
+
+  let title = data.title;
+  let authors = data.authors;
+
+  let difficulty = {
+    easy: levels[0] == 1,
+    medium: levels[1] == 1,
+    hard: levels[2] == 1,
+  };
+  
+  let problems = [];
+  data.problems.forEach(element => {
+      if (difficulty[element.level]) problems.push(element);
+  });
 
   const status = {};
   let countCompleted = 0;
   const totalProblems = problems.length;
 
+
   document.getElementById('landingProblemCounter').innerHTML = totalProblems;
   document.getElementById('dynamicMainContentTitle').innerHTML = title;
   document.getElementById('pageTitle').innerHTML = title;
+  document.getElementById('authors').innerHTML = "Authors: " + authors;
 
   let currentProblemID = -1;
 
@@ -159,6 +207,7 @@ function main(module){
     MathJax.typeset(); // re-render LaTeX
   }
 
+
   function showHint(id) {
     dynamicHint.classList.remove('non-active');
     dynamicHint.innerHTML = problems[id].hint;
@@ -175,38 +224,55 @@ function main(module){
       }
       id = 0;
     }
-    currentProblemID = id;
-    let problem = problems[id];
-    dynamicProblemHeader.innerHTML = "Problem " + (id + 1);
-    dynamicProblemText.innerHTML = problem.question;
 
-    dynamicHint.classList.add('non-active');
-    dynamicFeedback.classList.add('non-active');
-    dynamicExplanation.classList.add('non-active');
+    async function f(){
+      currentProblemID = id;
+      let problem = problems[id];
+      dynamicProblemHeader.innerHTML = "Problem " + (id + 1);
+      dynamicProblemText.innerHTML = problem.question;
 
-    checkSolutionButton.classList.remove('non-active');
-    hintButton.classList.remove('non-active');
-    dynamicSkipButton.classList.remove('non-active');
-    dynamicSkipButton.innerHTML = "Skip"
+      dynamicHint.classList.add('non-active');
+      dynamicFeedback.classList.add('non-active');
+      dynamicExplanation.classList.add('non-active');
 
-    document.getElementById("optionSpanA").innerHTML = "A) " + problem.options[0];
-    document.getElementById("optionSpanB").innerHTML = "B) " + problem.options[1];
-    document.getElementById("optionSpanC").innerHTML = "C) " + problem.options[2];
-    document.getElementById("optionSpanD").innerHTML = "D) " + problem.options[3];
+      checkSolutionButton.classList.remove('non-active');
+      hintButton.classList.remove('non-active');
+      dynamicSkipButton.classList.remove('non-active');
+      dynamicSkipButton.innerHTML = "Skip"
 
-    document.getElementById('inputA').name = "q" + id;
-    document.getElementById('inputB').name = "q" + id;
-    document.getElementById('inputC').name = "q" + id;
-    document.getElementById('inputD').name = "q" + id;
+      document.getElementById('labelA').style.display = "block";
+      document.getElementById('labelB').style.display = "block";
+      document.getElementById('labelC').style.display = "block";
+      document.getElementById('labelD').style.display = "block";
 
-    document.getElementById('inputA').checked = false;
-    document.getElementById('inputB').checked = false;
-    document.getElementById('inputC').checked = false;
-    document.getElementById('inputD').checked = false;
+      document.getElementById("optionSpanA").innerHTML = "A) " + problem.options[0];
+      document.getElementById("optionSpanB").innerHTML = "B) " + problem.options[1];
+      document.getElementById("optionSpanC").innerHTML = "C) " + problem.options[2];
+      document.getElementById("optionSpanD").innerHTML = "D) " + problem.options[3];
 
-    dynamicExplanation.innerHTML = problem.detailed;
+      document.getElementById('inputA').name = "q" + id;
+      document.getElementById('inputB').name = "q" + id;
+      document.getElementById('inputC').name = "q" + id;
+      document.getElementById('inputD').name = "q" + id;
 
-    MathJax.typeset(); // render question, options, and explanation LaTeX
+      document.getElementById('inputA').checked = false;
+      document.getElementById('inputB').checked = false;
+      document.getElementById('inputC').checked = false;
+      document.getElementById('inputD').checked = false;
+
+      if(!problem.options[0]) document.getElementById('labelA').style.display = "none";
+      if(!problem.options[1]) document.getElementById('labelB').style.display = "none";
+      if(!problem.options[2]) document.getElementById('labelC').style.display = "none";
+      if(!problem.options[3]) document.getElementById('labelD').style.display = "none";
+
+      dynamicExplanation.innerHTML = problem.detailed;
+    }
+    f().then(()=>{
+      MathJax.typeset(); // render question, options, and explanation LaTeX
+    })
+    
+
+    
   }
 
   function goToProblem(id) {

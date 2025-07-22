@@ -4,7 +4,7 @@ export let problems = [
     {
         question:"Which of the following best describes Newton’s 1st Law?",
         options:[
-            "\( F = ma \)", 
+            "\\( F = ma \\)", 
             "An object remains in motion/rest unless acted on",
             "Action = Reaction",
             "Force is gravitational"

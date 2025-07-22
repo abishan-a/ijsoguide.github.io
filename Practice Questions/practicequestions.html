@@ -12,6 +12,10 @@
       padding: 0;
     }
 
+    :root{
+      --cardColor: #1f1359;
+    }
+
     body {
       font-family: 'Montserrat', sans-serif;
       background-color: #0b0c2a;
@@ -32,6 +36,12 @@
       padding: 2rem;
     }
 
+    .container h2{
+      color: white;
+      margin: 0 auto 1rem auto;
+      text-align: center;
+    }
+
     .cards {
       display: flex;
       flex-wrap: wrap;
@@ -41,16 +51,13 @@
 
     .card {
       flex: 1 1 300px;
-      background-color: #1f1359;
+      background-color: var(--cardColor);
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
       overflow: hidden;
       transition: transform 0.3s;
     }
 
-    .card:hover {
-      transform: translateY(-10px);
-    }
 
     .card img {
       width: 100%;
@@ -64,8 +71,24 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  color: white;
 }
 
+    .card .content select{
+      display: flex;
+      width: 100%;
+      margin: 1rem;
+      padding: 0.5rem;
+      box-sizing: border-box;
+      background-color: var(--cardColor);
+      color: white;
+    }
+    .card .content select option{
+      margin: 0.5rem;
+    }
+    .card .content select[multiple]{
+      min-height: 100px;
+    }
     /* Color-coded headings */
     .physics h2 {
       color: #56a9ff;
@@ -215,12 +238,9 @@
     <p>Sharpen your skills with challenging Physics, Chemistry, and Biology problems tailored for the IJSO 🧠✨</p>
   </header>
 
-  <div class="back-button-right">
-    <a href="../Start Learning/startlearning.html">← Back to Start Preparing</a>
-  </div>
-
   <!-- Cards Section -->
   <div class="container">
+    <h2>Explore all topics</h2>
     <div class="cards">
       <!-- Physics -->
       <div class="card physics">
@@ -261,10 +281,354 @@
     </div>
   </div>
 
+  <div class="container">
+    <h2>Choose topic to practice:</h2>
+    <div class="cards">
+      <div class="card physics">
+        <img src="/images/theory/physics.jpeg" alt="Physics" />
+        <div class="content">
+          <h2>Physics</h2>
+          <select name="physicsSelect" id="physicsSelect">
+            <option value="1_001">Units</option>
+            <option value="1_002">Dimensions and Analysis</option>
+            <option value="1_003">Vectors</option>
+            <option value="1_004">Kinematic Formulas</option>
+            <option value="1_005">Motion graphs</option>
+            <option value="1_006">Newton's Laws</option>
+            <option value="1_007">Forces and Friction</option>
+            <option value="1_008">Circular Motion</option>
+            <option value="1_009">Centripetal Force</option>
+            <option value="1_010">Torque & Equilibirum</option>
+            <option value="1_011">Center of Mass</option>
+            <option value="1_012">Hooke's Law and Elastic Motion</option>
+            <option value="1_013">Harmonic Motion and Angular Frequency</option>
+            <option value="1_014">Nature of Energy and Energy Conservation</option>
+            <option value="1_015">Forms of Energy</option>
+            <option value="1_016">Sources of Energy</option>
+            <option value="1_017">Mechanical Energy & Work</option>
+            <option value="1_018">Power & Efficiency</option>
+            <option value="1_019">momentum and conservation of momentum</option>
+            <option value="1_020">elastic & inelastic collisions</option>
+            <option value="1_021">Gravity and Weight</option>
+            <option value="1_022">Law of Universal Gravitation</option>
+            <option value="1_023">Acceleration due to Gravity</option>
+            <option value="1_024">Gravitational Potential Energy</option>
+            <option value="1_025">Orbital Motion</option>
+            <option value="1_026">Pressure & Pascals law</option>
+            <option value="1_027">Buoyancy & archimedes' principle</option>
+            <option value="1_028">Bernoulli's principle</option>
+            <option value="1_029">Wave Properties</option>
+            <option value="1_030">Transversal and longitudinal wave</option>
+            <option value="1_031">Wave Equation</option>
+            <option value="1_032">Superposition and Interference of waves</option>
+            <option value="1_033">Sound Waves and Speed of Sound</option>
+            <option value="1_034">Doppler Effect</option>
+            <option value="1_035">Nature of Light</option>
+            <option value="1_036">Reflection of Light</option>
+            <option value="1_037">Refraction of Light and Snell's Law</option>
+            <option value="1_038">Dispersion of Light</option>
+            <option value="1_039">Lenses and Mirrors</option>
+            <option value="1_040">Lens and Mirror Formula</option>
+            <option value="1_041">Magnification</option>
+            <option value="1_042">Optical Instruments</option>
+            <option value="1_043">Diffraction</option>
+            <option value="1_044">Temperature Scales</option>
+            <option value="1_045">Thermal Equilibrium</option>
+            <option value="1_046">Zeroth Law of Thermodynamics</option>
+            <option value="1_047">Mechanisms of Heat Transfer</option>
+            <option value="1_048">Thermal Expansion</option>
+            <option value="1_049">Kinetic Model of Matter</option>
+            <option value="1_050">Change in States</option>
+            <option value="1_051">Specific Heat Capacity</option>
+            <option value="1_052">Latent heat</option>
+            <option value="1_053">Calorimeter</option>
+            <option value="1_054">Heating Curves, Cooling Curves</option>
+            <option value="1_055">First Law of Thermodynamics</option>
+            <option value="1_056">Ideal Gas Law</option>
+            <option value="1_057">Electric Charge and Properties</option>
+            <option value="1_058">Conductors and Insulators</option>
+            <option value="1_059">Charging by Induction and Friction</option>
+            <option value="1_060">Coulomb's Law</option>
+            <option value="1_061">Electric Field</option>
+            <option value="1_062">Electric Potential and Potential Energy</option>
+            <option value="1_063">Ohm's Law</option>
+            <option value="1_064">Resistivity and Factors Affecting Resistance</option>
+            <option value="1_065">Series and Parallel Circuits</option>
+            <option value="1_066">Kirchoff's Laws</option>
+            <option value="1_067">Wheatstone Bridge</option>
+            <option value="1_068">Electric Power and Energy</option>
+            <option value="1_069">Joule's Law</option>
+            <option value="1_070">Capacitors and Capacitance</option>
+            <option value="1_071">Magnetic Fields and Field Lines</option>
+            <option value="1_072">Magnetic Force on Moving Charges</option>
+            <option value="1_073">Magnetic Force on a Current Carrying Wire</option>
+            <option value="1_074">The Right Hand Rule</option>
+            <option value="1_075">Electromagneitc Induction</option>
+            <option value="1_076">Lenz's Law</option>
+            <option value="1_077">Transformers</option>
+            <option value="1_078">Applications : Electric Motors, Generators</option>
+            <option value="1_079">Structure of particles and atoms (neutrons, protons, electrons)</option>
+            <option value="1_080">Bohr model of the atom</option>
+            <option value="1_081">Types of radioactive decay (alpha, beta, gamma)</option>
+            <option value="1_082">Half-life and radioactive decay law</option>
+            <option value="1_083">Photoelectric effect</option>
+            <option value="1_084">Structure of the universe (galaxies, stars, planets)</option>
+            <option value="1_085">Solar system</option>
+            <option value="1_086">Celestial mechanics</option>
+          </select>
+          <label for="physicsLevel">Choose difficulty:</label>
+          <select name="physicsLevel" id="physicsLevel" multiple>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <a href="../Practice Questions/test.html?subject=physics&unit=1_001&level=111" id="physicsLink">Practice physics</a>
+        </div>
+      </div>
+      <div class="card chemistry">
+        <img src="/images/theory/chemistry.avif" alt="Chemistry" />
+        <div class="content">
+          <h2>Chemistry</h2>
+          <select name="chemistrySelect" id="chemistrySelect">
+            <option value="2_001">Atomic Structure</option>
+            <option value="2_002">Electron Configurations</option>
+            <option value="2_003">Elements, isotopes</option>
+            <option value="2_004">Types of Chemical Bonds</option>
+            <option value="2_005">Lewis Dot Structures</option>
+            <option value="2_006">The Periodic Table</option>
+            <option value="2_007">Trends in the Periodic Table</option>
+            <option value="2_008">Polarity of Bonds</option>
+            <option value="2_009">Intermolecular Forces</option>
+            <option value="2_010">Basic VSEPR and molecular geometries</option>
+            <option value="2_011">Mole of a Compound</option>
+            <option value="2_012">Concentration</option>
+            <option value="2_013">Purity</option>
+            <option value="2_014">Molecular and Empirical formula</option>
+            <option value="2_015">Mass Composition of a Chemical Compound</option>
+            <option value="2_016">Reaction Stoichiometry</option>
+            <option value="2_017">Limiting reactant</option>
+            <option value="2_018">Reaction Yield</option>
+            <option value="2_019">The Combination and Decomposition Reactions</option>
+            <option value="2_020">The Single and Double Displacement reactions</option>
+            <option value="2_021">Chemical Properties of Main Group Metals</option>
+            <option value="2_022">Chemical Properties of Nonmetals</option>
+            <option value="2_023">Chemical Properties of Transition Metals</option>
+            <option value="2_024">States of Matter</option>
+            <option value="2_025">The Gas Phase</option>
+            <option value="2_026">Phase Changes</option>
+            <option value="2_027">Reaction and Formation Enthalpies</option>
+            <option value="2_028">Bond Enthalpy</option>
+            <option value="2_029">Enthalpy Diagrams and Hess's Law</option>
+            <option value="2_030">Thermochemistry of Common Processes</option>
+            <option value="2_031">Gibbs Free Energy</option>
+            <option value="2_032">Rate of Reaction</option>
+            <option value="2_033">Rate Laws</option>
+            <option value="2_034">Integrated Rate Laws</option>
+            <option value="2_035">Factors affecting reaction rates</option>
+            <option value="2_036">Activation Energy (+Arrhenius Law)</option>
+            <option value="2_037">Equilibrium Constants</option>
+            <option value="2_038">Conversions Between Equilibrium Constants</option>
+            <option value="2_039">Factors affecting equilibrium position</option>
+            <option value="2_040">Varying Definitions of Acids & Bases</option>
+            <option value="2_041">Acidity and Basicity constants and the pH scale</option>
+            <option value="2_042">Buffer solutions and the Henderson-Hasselbach equation</option>
+            <option value="2_043">pH indicators</option>
+            <option value="2_044">Acid-base Titrations</option>
+            <option value="2_045">Solubility Equilibra</option>
+            <option value="2_046">Redox Reactions</option>
+            <option value="2_047">Electrochemical Cells</option>
+            <option value="2_048">Electrochemical Potentials (+Nernst Equation)</option>
+            <option value="2_049">Activity Series of Metals</option>
+            <option value="2_050">Redox Titrations</option>
+            <option value="2_051">Electrolysis</option>
+            <option value="2_052">Faraday's Law of Electrolysis</option>
+            <option value="2_053">Spectrophotometry and the Beer-Lambert Law</option>
+            <option value="2_054">Radioactive Decay</option>
+            <option value="2_055">Basic Organic Compounds</option>
+            <option value="2_056">Combustion of organic compounds</option>
+            <option value="2_057">Crystal Hydrates</option>
+            <option value="2_058">Properties of Common Compounds</option>
+          </select>
+          <label for="chemistryLevel">Choose difficulty:</label>
+          <select name="chemistryLevel" id="chemistryLevel" multiple>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <a href="../Practice Questions/test.html?subject=chemistry&unit=2_001&level=111" id="chemistryLink">Practice chemistry</a>
+        </div>
+      </div>
+      <div class="card biology">
+        <img src="/images/theory/biology.avif" alt="Biology" />
+        <div class="content">
+          <h2>Biology</h2>
+          <select name="biologySelect" id="biologySelect">
+            <option value="3_001">Biomolecules (macro and micro)</option>
+            <option value="3_002">Cell structure and organelles</option>
+            <option value="3_003">Cell membranes</option>
+            <option value="3_004">Passive Transport</option>
+            <option value="3_005">Active transport</option>
+            <option value="3_006">Prokaryotic vs. eukaryotic cells</option>
+            <option value="3_007">Plant vs Animal cells</option>
+            <option value="3_008">Cell Cycle</option>
+            <option value="3_009">Mitosis and Meiosis</option>
+            <option value="3_010">Ploidy and Gametogenesis</option>
+            <option value="3_011">Cellular Respiration</option>
+            <option value="3_012">Microbes and Their Characteristics</option>
+            <option value="3_013">Useful and harmful microbes</option>
+            <option value="3_014">Sterilization and aseptic techniques</option>
+            <option value="3_015">Vaccines and antibiotics</option>
+            <option value="3_016">Structure of DNA and RNA</option>
+            <option value="3_017">Types of RNA and their functions</option>
+            <option value="3_018">DNA Replication</option>
+            <option value="3_019">Protein Synthesis</option>
+            <option value="3_020">Gene Regulation</option>
+            <option value="3_021">The Genetic Code</option>
+            <option value="3_022">Enzyme Activity</option>
+            <option value="3_023">Simple Biotechnology Applications</option>
+            <option value="3_024">Animal Tissues</option>
+            <option value="3_025">Digestive system and nutrition</option>
+            <option value="3_026">Respiratory System</option>
+            <option value="3_027">Circulatory system</option>
+            <option value="3_028">Blood and Its Components</option>
+            <option value="3_029">Lymphatic System</option>
+            <option value="3_030">Excretory System</option>
+            <option value="3_031">Nervous System</option>
+            <option value="3_032">Structure and function of neuron</option>
+            <option value="3_033">Sensory organs</option>
+            <option value="3_034">Integumentary System</option>
+            <option value="3_035">Endocrine System</option>
+            <option value="3_036">Skeletal System</option>
+            <option value="3_037">Muscular System</option>
+            <option value="3_038">Male Reproductive System</option>
+            <option value="3_039">Female Reproductive System</option>
+            <option value="3_040">Reproductive Hormones</option>
+            <option value="3_041">Pregnancy and Sex-Determination</option>
+            <option value="3_042">Puberty and Hormonal Changes</option>
+            <option value="3_043">Homeostasis</option>
+            <option value="3_044">Drugs and effects in human body</option>
+            <option value="3_045">Immune system</option>
+            <option value="3_046">Symmetry and Body Plans</option>
+            <option value="3_047">Feeding and Nutrition In Animals</option>
+            <option value="3_048">Respiratory and Circulatory Systems in Animals</option>
+            <option value="3_049">Intro to Osmoregulation</option>
+            <option value="3_050">Animal adaptations for Osmoregulation</option>
+            <option value="3_051">Locomotion in Animals</option>
+            <option value="3_052">Reproduction and Development</option>
+            <option value="3_053">Life cycles and metamorphosis</option>
+            <option value="3_054">Animal Adaptations and Behaviour</option>
+            <option value="3_055">Plant Anatomy</option>
+            <option value="3_056">Plant Growth and Development</option>
+            <option value="3_057">Plant Nutrition</option>
+            <option value="3_058">Photosynthesis</option>
+            <option value="3_059">Transport in Plants</option>
+            <option value="3_060">Phytohormones and tropism</option>
+            <option value="3_061">Plant Adaptationts</option>
+            <option value="3_062">Plant Reproduction</option>
+            <option value="3_063">DNA as the Genetic Material</option>
+            <option value="3_064">Alleles and Inheritance Patterns</option>
+            <option value="3_065">Sex - linked and Autosomal Inheritance</option>
+            <option value="3_066">Mutations</option>
+            <option value="3_067">Genetic Disorders</option>
+            <option value="3_068">Mendelian Genetics and Punnett Squares</option>
+            <option value="3_069">Pedigree Analysis</option>
+            <option value="3_070">Population Genetics</option>
+            <option value="3_071">Selective Breeding and Genetic Variation</option>
+            <option value="3_072">Introduction to Ecology</option>
+            <option value="3_073">Ecosystems and biomes</option>
+            <option value="3_074">Ecological succession</option>
+            <option value="3_075">Ecological pyramids</option>
+            <option value="3_076">Food chains and food webs</option>
+            <option value="3_077">Carbon Cycle</option>
+            <option value="3_078">Nitrogen Cycle</option>
+            <option value="3_079">Water Cycle</option>
+            <option value="3_080">Ozone Cycle</option>
+            <option value="3_081">Population Dynamics</option>
+            <option value="3_082">Symbiosis</option>
+            <option value="3_083">Human impact on the environment</option>
+            <option value="3_084">Acid Rain</option>
+            <option value="3_085">Global Warming</option>
+            <option value="3_086">Conservational Biology</option>
+            <option value="3_087">Natural selection</option>
+            <option value="3_088">Patterns of selection</option>
+            <option value="3_089">Selection Pressure</option>
+            <option value="3_090">Evolution</option>
+            <option value="3_091">Evolutionary patterns above species level</option>
+            <option value="3_092">Cladistics</option>
+            <option value="3_093">Intro to classification</option>
+            <option value="3_094">Biological diversity (kingdoms)</option>
+            <option value="3_095">Biodiversity of microbes</option>
+            <option value="3_096">Animal Classification</option>
+            <option value="3_097">Plant Classification</option>
+          </select>
+          <label for="biologyLevel">Choose difficulty:</label>
+          <select name="biologyLevel" id="biologyLevel" multiple>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <a href="../Practice Questions/test.html?subject=biology&unit=3_001&level=111" id="biologyLink">Practice biology</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="back-button-right">
+    <a href="../Start Learning/startlearning.html">← Back to Start Preparing</a>
+  </div>
+
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 A Guide to the IJSO. All rights reserved.</p>
   </footer>
-    <script src="/glowingspots.js"></script>
+  <script src="/glowingspots.js"></script>
+
+
+  <script>
+    let physicsSelect = document.getElementById('physicsSelect');
+    let chemistrySelect = document.getElementById('chemistrySelect');
+    let biologySelect = document.getElementById('biologySelect');
+
+    let physicsLevel = document.getElementById('physicsLevel');
+    let chemistryLevel = document.getElementById('chemistryLevel');
+    let biologyLevel = document.getElementById('biologyLevel');
+
+    let physicsLink = document.getElementById('physicsLink');
+    let chemistryLink = document.getElementById('chemistryLink');
+    let biologyLink = document.getElementById('biologyLink');
+
+    physicsSelect.addEventListener('change', ()=>{
+      updatePhysicsLink();
+    })
+    chemistrySelect.addEventListener('change', ()=>{
+      updateChemistryLink();
+    })
+    biologySelect.addEventListener('change', ()=>{
+      updateBiologyLink();
+    })
+    physicsLevel.addEventListener('change', ()=>{
+      updatePhysicsLink();
+    })
+    chemistryLevel.addEventListener('change', ()=>{
+      updateChemistryLink();
+    })
+    biologyLevel.addEventListener('change', ()=>{
+      updateBiologyLink();
+    })
+
+    function updatePhysicsLink(){
+      let physicsUnit = physicsSelect.value;
+      let level = [1, 1, 1];
+      Array.from(physicsLevel.options).forEach(element => {
+        if(!element.selected){
+          if(element.value == "easy") level[0] = 0;
+          if(element.value == "medium") level[1] = 0;
+          if(element.value == "hard") level[2] = 0;
+        }
+      });
+      physicsLink.href = "../Practice Questions/test.html?subject=physics&unit=" + physicsUnit + "&level=" + level.join('');
+    }
+  </script>
+
 </body>
 </html>

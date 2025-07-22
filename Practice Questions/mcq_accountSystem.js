@@ -14,10 +14,12 @@ onAuthStateChanged(auth, (user) => {
       // https://firebase.google.com/docs/reference/js/auth.user
       uid = user.uid;
       console.log(uid)
-      //window.location.href = "settings.html"
-      // ...
+      
+
+      /* On completed test */
+
       window.addEventListener('testCompleted', (e)=>{
-        const { score, testTitle, time, subject} = e.detail;
+        /*const { score, testTitle, time, subject} = e.detail;
         console.log('transfered data: ')
         console.log(score);
         console.log(testTitle)
@@ -34,10 +36,6 @@ onAuthStateChanged(auth, (user) => {
             console.log(errorCode)
             console.log(errorMessage)
             // ..
-        })
-
-        /*setDoc(doc(db, "userData", uid, "testHistory", ), {
-            tests: 1
         })*/
       }, {once: true})
     } else {

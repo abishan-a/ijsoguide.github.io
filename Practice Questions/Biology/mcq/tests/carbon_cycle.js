@@ -23,7 +23,7 @@ export let problems = [
         ],
         correct: "B",
         hint: "This gas is a key component in processes like photosynthesis and respiration.",
-        detailed: "Carbon dioxide \\(\ce{CO2}\\) is the primary gaseous form of carbon present in the atmosphere and plays a crucial role in the planet's climate and biological processes."
+        detailed: "Carbon dioxide \(\ce{CO2}\) is the primary gaseous form of carbon present in the atmosphere and plays a crucial role in the planet's climate and biological processes."
     },
     {
         question: "Carbon is essential for life primarily because it:",
@@ -89,7 +89,7 @@ export let problems = [
         question: "Which of the following describes a way oceans absorb and release carbon?",
         options: [
             "Oceans only release carbon through volcanic activity on the seafloor.",
-            "Oceans absorb \\(\ce{CO2}\\) from the atmosphere and release \\(\ce{CO2}\\) back to the atmosphere, and marine organisms use carbon for shells.",
+            "Oceans absorb \(\ce{CO2}\) from the atmosphere and release \(\ce{CO2}\) back to the atmosphere, and marine organisms use carbon for shells.",
             "Oceans primarily absorb carbon through the formation of fossil fuels within deep sea trenches.",
             "Oceans convert atmospheric carbon directly into limestone through chemical precipitation only."
         ],

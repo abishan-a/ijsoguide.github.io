@@ -59,7 +59,7 @@ body {
 
 .top-bar h2 {
   font-size: 1.8rem;
-  margin: 0;
+  margin: auto;
 }
 
 .back-btn {
@@ -77,6 +77,7 @@ body {
   margin: 0 auto 1rem;
   padding: 0 1rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
   align-items: center;
@@ -145,14 +146,14 @@ body {
   max-width: 800px;
   margin: auto;
   background: #1f1359;
-  padding: 30px;
+  padding: 1rem 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 form label {
   display: block;
-  margin: 8px 0;
+  margin: 1rem 0;
 }
 
 input[type="radio"] {
@@ -176,6 +177,10 @@ input[type="radio"] {
   cursor: pointer;
 }
 
+#dynamicButtons{
+  margin-top: 2rem;
+}
+
 .feedback, .hint {
   margin-top: 0.5rem;
   font-weight: bold;
@@ -185,6 +190,16 @@ input[type="radio"] {
   display: none;
 }
 
+#authors{
+  display: flex;
+  width: 100%;
+  text-align: right;
+  justify-content: right;
+  align-items: right;
+  margin: 1rem 0 0 0;
+  font-size: 0.8rem;
+}
+
 .footer {
   background: #1f1359;
   color: #f0f0f0;
@@ -192,4 +207,18 @@ input[type="radio"] {
   padding: 20px;
   font-size: 0.9em;
   margin-top: 3rem;
+}
+
+
+@media(width < 768px){
+  .top-bar h2 {
+    font-size: 1.5rem;
+  }
+  .back-btn {
+    font-size: 0.8rem;
+}
+
+.landing-content h1 {
+  font-size: 2rem;
+}
 }

@@ -7,7 +7,7 @@
     "problems": [
         {
             "level": "easy",
-            "question":"Which of the following best describes Newton’s 1st Law?",
+            "question":"Which of the following best describes Newton’s 1st Law? testing \\(\\ce{2H2 + 2NO \\rightarrow N2 + 2H2O}\\)",
             "options":[
                 "\\( F = ma \\)", 
                 "An object remains in motion/rest unless acted on",
