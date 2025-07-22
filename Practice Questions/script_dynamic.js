@@ -34,7 +34,7 @@ function loadStylesheet(href) {
 if(subjectName == "physics"){
   loadStylesheet("./Physics/mcq/style.css")
 } else if (subjectName == "chemistry"){
-  loadStylesheet("./Chemistry/style.css")
+  loadStylesheet("./Chemistry/mcq/style.css")
 } else if (subjectName == "biology"){
   loadStylesheet("./Biology/mcq/style.css")
 }
@@ -87,8 +87,6 @@ if (referrer) {
 
 /* Main function */
 function main(data){
-
-  console.log(data);
 
   let title = data.title;
   let authors = data.authors;
