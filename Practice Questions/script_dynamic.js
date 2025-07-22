@@ -99,8 +99,12 @@ function main(data){
   
   let problems = [];
   data.problems.forEach(element => {
-      if (difficulty[element.level]) problems.push(element);
-  });
+      if (difficulty[element.level]){
+        problems.push(element);
+      }
+  })
+
+  console.log(problems)
 
   const status = {};
   let countCompleted = 0;
@@ -127,7 +131,7 @@ function main(data){
   document.getElementById('result').classList.add('non-active');
 
   checkSolutionButton.addEventListener('click', 
-    ()=>checkMCQ(currentProblemID, problems[currentProblemID].correct)
+    ()=>checkMCQ(currentProblemID)
   );
   hintButton.addEventListener('click',
     ()=>showHint(currentProblemID)
@@ -156,7 +160,10 @@ function main(data){
     nextProblem(0);
   }
 
-  function checkMCQ(id, correctAnswer) {
+  function checkMCQ(id) {
+
+    let correctAnswer = problems[id].correct;
+
     const radios = document.querySelectorAll(`input[name="q${id}"]`);
     const toggleBtn = document.getElementById(`toggle-${id}`);
 
@@ -202,7 +209,8 @@ function main(data){
       status[id] = "wrong";
     }
 
-    MathJax.typeset(); // re-render LaTeX
+    //MathJax.typeset(); // re-render LaTeX
+    renderMathInElement(document.getElementById('dynamicProblem'));
   }
 
 
@@ -211,7 +219,8 @@ function main(data){
     dynamicHint.innerHTML = problems[id].hint;
     hintButton.classList.add('non-active');
     if (!status[id]) status[id] = "hint";
-    MathJax.typeset(); // render hint LaTeX
+    //MathJax.typeset(); // render hint LaTeX
+    renderMathInElement(document.getElementById('dynamicProblem'));
   }
 
   function nextProblem(id){
@@ -266,7 +275,7 @@ function main(data){
       dynamicExplanation.innerHTML = problem.detailed;
     }
     f().then(()=>{
-      MathJax.typeset(); // render question, options, and explanation LaTeX
+      renderMathInElement(document.getElementById('dynamicProblem'));
     })
     
 
