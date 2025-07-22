@@ -109,46 +109,45 @@
       "hint": "Refer to sodium’s atomic mass.",
       "detailed": "The molar mass of sodium is approximately 23 g/mol, so one mole of \\(\\ce{Na}\\) weighs 23 grams."
     },
-    [
-      {
-        "level": "medium",
-        "question": "A sealed jar contains a solid sample labeled 'Substance X'. You’re told it’s either \\(\\ce{Mg}\\), \\(\\ce{Al}\\), or \\(\\ce{Na}\\), but not which one. The sample weighs exactly 54 grams and is said to contain exactly 2 moles of atoms. Based on this, what is the most likely identity of Substance X?",
-        "options": [
-          "\\(\\ce{Na}\\)",
-          "\\(\\ce{Mg}\\)",
-          "\\(\\ce{Al}\\)",
-          "Cannot be determined"
-        ],
-        "correct": "C",
-        "hint": "Molar mass = mass / moles. Compare with actual molar masses of \\(\\ce{Na}\\), \\(\\ce{Mg}\\), \\(\\ce{Al}\\).",
-        "detailed": "Molar mass = 54 g / 2 mol = 27 g/mol. \\(\\ce{Na}\\) = 23, \\(\\ce{Mg}\\) = 24, \\(\\ce{Al}\\) = 27 → so it must be \\(\\ce{Al}\\)."
-      },
-      {
-        "level": "medium",
-        "question": "A student adds exactly 180 g of glucose (\\(\\ce{C6H12O6}\\)) to a flask for a fermentation experiment. If the goal is to produce ethanol (\\(\\ce{C2H5OH}\\)) and carbon dioxide in a 1:1 molar ratio, how many moles of \\(\\ce{CO2}\\) will be produced, assuming 100% efficiency?",
-        "options": [
-          "0.5 mol",
-          "1 mol",
-          "2 mol",
-          "1 mol for each 90 g used, so 2 mol total"
-        ],
-        "correct": "D",
-        "hint": "1 mol of glucose (180 g) yields 2 mol of \\(\\ce{CO2}\\).",
-        "detailed": "\\(\\ce{C6H12O6 → 2 C2H5OH + 2 CO2}\\). Molar mass of glucose = 180 g/mol. So 180 g = 1 mol glucose → 2 mol \\(\\ce{CO2}\\) produced."
-      },
-      {
-        "level": "medium",
-        "question": "A powdered substance is made of a compound \\(\\ce{X2Y3}\\). A 160 g sample contains exactly 2.5 moles of \\(\\ce{Y}\\) atoms. Based on this, what is the molar mass of the compound \\(\\ce{X2Y3}\\)?",
-        "options": [
-          "96 g/mol",
-          "192 g/mol",
-          "64 g/mol",
-          "128 g/mol"
-        ],
-        "correct": "B",
-        "hint": "Work backward: how many moles of the compound correspond to 2.5 mol of Y atoms?",
-        "detailed": "Each mole of \\(\\ce{X2Y3}\\) has 3 mol of Y. So, 2.5 mol Y = 2.5 / 3 = 0.833... mol of compound. Molar mass = \\(\\frac{160 \\: \\text{g}}{0.833 \\: \\text{mol}} \\approx 192 \\: \\text{g/mol}\\)."
-      }
-    ]
+    {
+      "level": "medium",
+      "question": "A sealed jar contains a solid sample labeled 'Substance X'. You’re told it’s either \\(\\ce{Mg}\\), \\(\\ce{Al}\\), or \\(\\ce{Na}\\), but not which one. The sample weighs exactly 54 grams and is said to contain exactly 2 moles of atoms. Based on this, what is the most likely identity of Substance X?",
+      "options": [
+        "\\(\\ce{Na}\\)",
+        "\\(\\ce{Mg}\\)",
+        "\\(\\ce{Al}\\)",
+        "Cannot be determined"
+      ],
+      "correct": "C",
+      "hint": "Molar mass = mass / moles. Compare with actual molar masses of \\(\\ce{Na}\\), \\(\\ce{Mg}\\), \\(\\ce{Al}\\).",
+      "detailed": "Molar mass = 54 g / 2 mol = 27 g/mol. \\(\\ce{Na}\\) = 23, \\(\\ce{Mg}\\) = 24, \\(\\ce{Al}\\) = 27 → so it must be \\(\\ce{Al}\\)."
+    },
+    {
+      "level": "medium",
+      "question": "A student adds exactly 180 g of glucose (\\(\\ce{C6H12O6}\\)) to a flask for a fermentation experiment. If the goal is to produce ethanol (\\(\\ce{C2H5OH}\\)) and carbon dioxide in a 1:1 molar ratio, how many moles of \\(\\ce{CO2}\\) will be produced, assuming 100% efficiency?",
+      "options": [
+        "0.5 mol",
+        "1 mol",
+        "2 mol",
+        "1 mol for each 90 g used, so 2 mol total"
+      ],
+      "correct": "D",
+      "hint": "1 mol of glucose (180 g) yields 2 mol of \\(\\ce{CO2}\\).",
+      "detailed": "\\(\\ce{C6H12O6 → 2 C2H5OH + 2 CO2}\\). Molar mass of glucose = 180 g/mol. So 180 g = 1 mol glucose → 2 mol \\(\\ce{CO2}\\) produced."
+    },
+    {
+      "level": "medium",
+      "question": "A powdered substance is made of a compound \\(\\ce{X2Y3}\\). A 160 g sample contains exactly 2.5 moles of \\(\\ce{Y}\\) atoms. Based on this, what is the molar mass of the compound \\(\\ce{X2Y3}\\)?",
+      "options": [
+        "96 g/mol",
+        "192 g/mol",
+        "64 g/mol",
+        "128 g/mol"
+      ],
+      "correct": "B",
+      "hint": "Work backward: how many moles of the compound correspond to 2.5 mol of Y atoms?",
+      "detailed": "Each mole of \\(\\ce{X2Y3}\\) has 3 mol of Y. So, 2.5 mol Y = 2.5 / 3 = 0.833... mol of compound. Molar mass = \\(\\frac{160 \\: \\text{g}}{0.833 \\: \\text{mol}} \\approx 192 \\: \\text{g/mol}\\)."
+    }
+    
   ]
 }
