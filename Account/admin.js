@@ -40,7 +40,7 @@ onAuthStateChanged(auth, (user) => {
                             let country = userData.country;
                             if(country) countryStats[country] = (countryStats[country] || 0) + 1;
 
-                            let userOverview = [userData.name, userData.surname, userData.country, userData.birthYear];
+                            let userOverview = [userData.name, userData.surname, userData.country, userData.birthYear, doc.id];
                             overview.push(userOverview);
                         });
                     }).then(()=>{
@@ -62,21 +62,23 @@ onAuthStateChanged(auth, (user) => {
                             tr.appendChild(td2);
                             document.getElementById('countryStatistics').appendChild(tr);
                         }
-                        console.log(overview);
                         overview.forEach(user => {
                             let tr_overview = document.createElement('tr');
                             let td1_overview = document.createElement('td');
                             let td2_overview = document.createElement('td');
                             let td3_overview = document.createElement('td');
                             let td4_overview = document.createElement('td');
+                            let td5_overview = document.createElement('td');
                             td1_overview.innerHTML = user[0];
                             td2_overview.innerHTML = user[1];
                             td3_overview.innerHTML = user[2];
                             td4_overview.innerHTML = user[3];
+                            td5_overview.innerHTML = user[4];
                             tr_overview.appendChild(td1_overview);
                             tr_overview.appendChild(td2_overview);
                             tr_overview.appendChild(td3_overview);
                             tr_overview.appendChild(td4_overview);
+                            tr_overview.appendChild(td5_overview);
                             document.getElementById('overview').appendChild(tr_overview);
                         })
                     })
