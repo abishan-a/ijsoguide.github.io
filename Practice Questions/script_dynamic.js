@@ -15,13 +15,14 @@ function quit(){
 }
 
 /* Get parameters */
-const unitName = getQueryParam("unit");
+const unitID = getQueryParam("unit");
 const subjectName = getQueryParam("subject");
+let title;
 let lev = getQueryParam("level");
 let levels;
 if(!lev || lev == "000") lev = "111";
 levels = lev.split('');
-if (unitName == null || subjectName == null) quit();
+if (unitID == null || subjectName == null) quit();
 
 
 /* Loading stylesheet */
@@ -54,24 +55,18 @@ if (referrer) {
 
 
  /* Loading problems */
-(async (unitName) => {
+(async (unitID) => {
   try {
     let filePath;
     let module;
     let loadedData;
 
     if(subjectName == "physics"){
-      filePath = `./Physics/mcq/tests/${unitName}.json`;
-      /*module = await fetch (`./Physics/mcq/tests/${unitName}.json`);
-      let dttmp = await module.json();
-      console.log(dttmp);*/
-      //main(dttmp);
+      filePath = `./Physics/mcq/tests/${unitID}.json`;
     } else if (subjectName == "chemistry"){
-      filePath = `./Chemistry/mcq/tests/${unitName}.json`;
-      /*module = await import (`./Chemistry/mcq/tests/${unitName}.js`);
-      main(module);*/
+      filePath = `./Chemistry/mcq/tests/${unitID}.json`;
     } else if (subjectName == "biology"){
-      filePath = `./Biology/mcq/tests/${unitName}.json`;
+      filePath = `./Biology/mcq/tests/${unitID}.json`;
     } else quit();
 
     module = await fetch(filePath)
@@ -81,14 +76,14 @@ if (referrer) {
   } catch (err) {
     console.error("Failed to load unit:", err);
   }
-})(unitName)
+})(unitID)
 
 
 
 /* Main function */
 function main(data){
 
-  let title = data.title;
+  title = data.title;
   let authors = data.authors;
 
   let difficulty = {
@@ -103,8 +98,6 @@ function main(data){
         problems.push(element);
       }
   })
-
-  console.log(problems)
 
   const status = {};
   let countCompleted = 0;
@@ -143,7 +136,7 @@ function main(data){
   let bar = document.getElementById('dynamicToggleBar');
   for (let i = 0; i < totalProblems; i++){
     let toggleBarButton = document.createElement('button');
-    toggleBarButton.id = "toggle-" + (i);
+    toggleBarButton.id = "toggle-" + (i + 1);
     toggleBarButton.classList.add('toggle-button');
     let spanElement = document.createElement('span')
     spanElement.innerHTML = (i + 1);
@@ -165,7 +158,7 @@ function main(data){
     let correctAnswer = problems[id].correct;
 
     const radios = document.querySelectorAll(`input[name="q${id}"]`);
-    const toggleBtn = document.getElementById(`toggle-${id}`);
+    const toggleBtn = document.getElementById(`toggle-${id + 1}`);
 
     let selected = null;
     radios.forEach(r => { if (r.checked) selected = r.value; });
@@ -201,6 +194,20 @@ function main(data){
         status[id] = "correct";
       }
 
+      /*console.log(unitID);
+      console.log(title);
+      console.log('sending')*/
+      let event = new CustomEvent("problemSolved", {
+        detail: {
+          time: Date.now(),
+          test_id: unitID,
+          subject: subjectName,
+          test_title: title,
+          problem_id: unitID + "_" + (id + 1),
+        }
+      });
+      window.dispatchEvent(event);
+
     } else {
       dynamicFeedback.classList.remove('non-active')
       dynamicFeedback.textContent = "❌ Wrong. Try again!";
@@ -231,11 +238,15 @@ function main(data){
       }
       id = 0;
     }
+    document.querySelectorAll('.toggle-button').forEach((button)=>{
+      button.setAttribute("activity", "inactive");
+    })
+    document.getElementById('toggle-' + (id + 1)).setAttribute("activity", "active");
 
     async function f(){
       currentProblemID = id;
       let problem = problems[id];
-      dynamicProblemHeader.innerHTML = "Problem " + (id + 1);
+      dynamicProblemHeader.innerHTML = "Problem " + (id + 1) + " - " + problem.level;
       dynamicProblemText.innerHTML = problem.question;
 
       dynamicHint.classList.add('non-active');
@@ -300,16 +311,6 @@ function main(data){
 
     const tryAgainBtn = document.getElementById("try-again-btn");
     tryAgainBtn.style.display = percent === 100 ? "none" : "inline-block";
-
-    const event = new CustomEvent("testCompleted", {
-      detail: {
-        score: percent,
-        testTitle: title,
-        time: Date.now(),
-        subject: subjectName
-      }
-    });
-    window.dispatchEvent(event);
   }
 
   document.getElementById('try-again-btn').addEventListener('click', resetPractice)

@@ -142,6 +142,11 @@ body {
 .toggle-button.green.hint::after { background: #aaa; }
 .toggle-button.green.wrong::after { background: #f44336; }
 
+
+.toggle-button[activity="active"]{
+  border: 2px solid white;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -181,7 +186,7 @@ input[type="radio"] {
   margin-top: 2rem;
 }
 
-.feedback, .hint {
+.feedback, .hintText {
   margin-top: 0.5rem;
   font-weight: bold;
 }

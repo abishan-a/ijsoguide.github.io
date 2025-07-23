@@ -18,18 +18,28 @@ onAuthStateChanged(auth, (user) => {
 
       /* On completed test */
 
-      window.addEventListener('testCompleted', (e)=>{
-        /*const { score, testTitle, time, subject} = e.detail;
-        console.log('transfered data: ')
-        console.log(score);
-        console.log(testTitle)
-        console.log(time)
-        let docTitle = "test_" + time;
-        setDoc(doc(db, "userData", uid, "testHistory", docTitle), {
+      window.addEventListener('problemSolved', (e)=>{
+        let {time, test_id, subject, test_title, problem_id} = e.detail;
+        /*console.log('transfered data: ')
+        console.log(problem_id);
+        console.log(test_id);
+        console.log(test_title);
+        console.log(subject);
+        console.log(time);
+        console.log('---')*/
+        
+        let docTitle = problem_id;
+
+        /*async function checkProblemStatus{
+
+        }
+
+        setDoc(doc(db, "userData", uid, "completedProblems", docTitle), {
             finishTime: time,
-            percent: score,
-            title: testTitle,
-            subject: subject
+            test_id: test_id,
+            subject: subject,
+            test_title: test_title,
+            problem_id: problem_id,
         }).catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
