@@ -1,15 +1,28 @@
+
+
 body {
   font-family: 'Montserrat', sans-serif;
   background: #0b0c2a;
   color: #f0f0f0;
   margin: 0;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 6rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav{
+  z-index: 2;
 }
 
 .landing-page {
   background: url("") center/cover no-repeat;
   height: 100vh;
   width: 100%;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .overlay {
@@ -173,13 +186,15 @@ input[type="radio"] {
   flex-wrap: wrap;
 }
 
-.buttons button {
+.buttons button,
+.result-page .buttons a{
   padding: 0.5rem 1rem;
   background-color: var(--subjectColor);
   color: #333;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #dynamicButtons{
@@ -205,6 +220,10 @@ input[type="radio"] {
   font-size: 0.8rem;
 }
 
+.result-page{
+  margin: 2rem auto auto auto;
+}
+
 .footer {
   background: #1f1359;
   color: #f0f0f0;
@@ -212,6 +231,10 @@ input[type="radio"] {
   padding: 20px;
   font-size: 0.9em;
   margin-top: 3rem;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  box-sizing: border-box;
 }
 
 

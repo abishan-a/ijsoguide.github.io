@@ -16,38 +16,55 @@ onAuthStateChanged(auth, (user) => {
       console.log(uid)
       
 
-      /* On completed test */
+      /* On correctly solved problem */
 
       window.addEventListener('problemSolved', (e)=>{
-        let {time, test_id, subject, test_title, problem_id} = e.detail;
-        /*console.log('transfered data: ')
+        let {time, test_id, subject, test_title, problem_id, level} = e.detail;
+        
+        console.log('transfered data: ')
         console.log(problem_id);
         console.log(test_id);
         console.log(test_title);
         console.log(subject);
         console.log(time);
-        console.log('---')*/
+        console.log(level);
+        console.log('---')
         
         let docTitle = problem_id;
 
-        /*async function checkProblemStatus{
+        getDoc(doc(db, "userData", uid, "completedProblems", docTitle))
+        .then((document)=>{
+          if (document.exists()){
+              console.log('alreadyDone')
+          }
+          else{
+              console.log('not already done')
+              setDoc(doc(db, "userData", uid, "completedProblems", docTitle), {
+                finishTime: time,
+                test_id: test_id,
+                subject: subject,
+                test_title: test_title,
+                problem_id: problem_id,
+                level: level
+              })
+              .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorCode)
+                console.log(errorMessage)
+                // ..
+              });
+          }
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          console.log(errorCode)
+          console.log(errorMessage)
+          // ..
+        });
 
-        }
-
-        setDoc(doc(db, "userData", uid, "completedProblems", docTitle), {
-            finishTime: time,
-            test_id: test_id,
-            subject: subject,
-            test_title: test_title,
-            problem_id: problem_id,
-        }).catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            console.log(errorCode)
-            console.log(errorMessage)
-            // ..
-        })*/
-      }, {once: true})
+      })
     } else {
       // User is signed out
       // ...

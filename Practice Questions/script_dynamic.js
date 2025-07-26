@@ -1,4 +1,4 @@
-console.log(window.location.search)
+
 
 function getQueryParam(param) {
   const queryString = window.location.search.substring(1);
@@ -95,13 +95,14 @@ function main(data){
   let problems = [];
   data.problems.forEach(element => {
       if (difficulty[element.level]){
+        element.checked = false;
         problems.push(element);
       }
   })
 
   const status = {};
-  let countCompleted = 0;
   const totalProblems = problems.length;
+  let allchecked = false;
 
 
   document.getElementById('landingProblemCounter').innerHTML = totalProblems;
@@ -170,19 +171,16 @@ function main(data){
       return;
     }
 
-    countCompleted += 1;
+    problems[id].checked = true;
+    allchecked = allChecked(problems, allchecked);
 
-    if (selected === correctAnswer) {
+    if (selected == correctAnswer) {
       dynamicFeedback.classList.remove('non-active')
       dynamicFeedback.textContent = "✅ Correct!";
       dynamicFeedback.style.color = "green";
       hintButton.classList.add('non-active');
       checkSolutionButton.classList.add('non-active');
       dynamicSkipButton.textContent = "Next";
-      if (id == totalProblems - 1) {
-        dynamicSkipButton.textContent = "Finish";
-        dynamicSkipButton.addEventListener('click', showResults);
-      }
       dynamicExplanation.classList.remove('non-active');
 
       if (status[id] === "wrong") {
@@ -194,9 +192,7 @@ function main(data){
         status[id] = "correct";
       }
 
-      /*console.log(unitID);
-      console.log(title);
-      console.log('sending')*/
+      console.log('event triggering')
       let event = new CustomEvent("problemSolved", {
         detail: {
           time: Date.now(),
@@ -204,6 +200,7 @@ function main(data){
           subject: subjectName,
           test_title: title,
           problem_id: unitID + "_" + (id + 1),
+          level: problems[id].level
         }
       });
       window.dispatchEvent(event);
@@ -214,6 +211,11 @@ function main(data){
       dynamicFeedback.style.color = "red";
       toggleBtn.className = "toggle-button red";
       status[id] = "wrong";
+    }
+
+    if (allChecked(problems, allchecked)) {
+        dynamicSkipButton.textContent = "Finish";
+        dynamicSkipButton.addEventListener('click', showResults);
     }
 
     //MathJax.typeset(); // re-render LaTeX
@@ -231,8 +233,11 @@ function main(data){
   }
 
   function nextProblem(id){
+
+    allchecked = allChecked(problems, allchecked);
+
     if (id >= totalProblems){
-      if (countCompleted == totalProblems){
+      if (allchecked){
         showResults();
         return;
       }
@@ -256,7 +261,7 @@ function main(data){
       checkSolutionButton.classList.remove('non-active');
       hintButton.classList.remove('non-active');
       dynamicSkipButton.classList.remove('non-active');
-      dynamicSkipButton.innerHTML = "Skip"
+      if(allchecked == false) dynamicSkipButton.innerHTML = "Skip"
 
       document.getElementById('labelA').style.display = "block";
       document.getElementById('labelB').style.display = "block";
@@ -288,9 +293,6 @@ function main(data){
     f().then(()=>{
       renderMathInElement(document.getElementById('dynamicProblem'));
     })
-    
-
-    
   }
 
   function goToProblem(id) {
@@ -317,4 +319,14 @@ function main(data){
   function resetPractice() {
     location.reload();
   }
+}
+
+function allChecked (arr, variable){
+  if(variable) return true;
+  for(let e of arr){
+    if (e.checked == false) {
+      return false;
+    }
+  }
+  return true;
 }

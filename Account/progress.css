@@ -102,8 +102,61 @@ body {
   h2 {
     color: #f1c606;
   }
+
+  .section-card ul li{
+    border-bottom: 1px solid white;
+  }
+
+  .section-card ul li:has(.barsDiv.active){
+    padding-bottom: 1.5rem;
+  }
+
+  .section-card ul li p{
+    font-weight: bold;
+    height: 4rem;
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .topicDiv{
+    box-sizing: border-box;
+    height: fit-content;
+    max-height: 0;
+    margin-left: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .topicDiv.topicActive{
+    max-height: 500px;
+    border-bottom: 1px solid white;
+  }
+  .topicDiv:last-child{
+    border-bottom: none;
+  }
+  .topicDiv p{
+    cursor: pointer;
+  }
   
-  .topic-title {
+
+  .barsDiv{
+    box-sizing: border-box;
+    height: fit-content;
+    max-height: 0;
+    margin-left: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .barsDiv.barsActive{
+    max-height: 500px;
+  }
+  
+  .topic-title{
     font-weight: bold;
     color: white;
   }
