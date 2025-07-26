@@ -146,8 +146,7 @@ color: white;
   .archives-section .member-details h4 {
     margin: 0.3rem 0;
     font-size: 1.05rem;
-    font-weight: bold;
-    font-style: italic;
+    color: #ffbcaa
   }
 
   .archives-section .member-details p {
