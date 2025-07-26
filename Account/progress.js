@@ -171,25 +171,13 @@ onAuthStateChanged(auth, (user) => {
             })
 
             li.appendChild(topicDiv);
-            
-
-            buildProgressBar(topicData["title"], "easy", calculateScore(scoreEasy, topicData["easy"]), subject, barsDivID);
-            buildProgressBar(topicData["title"], "medium", calculateScore(scoreEasy, topicData["medium"]), subject, barsDivID);
-            buildProgressBar(topicData["title"], "hard", calculateScore(scoreEasy, topicData["hard"]), subject, barsDivID);
+            if(topicData["easy"] > 0) buildProgressBar(topicData["title"], "easy", calculateScore(scoreEasy, topicData["easy"]), subject, barsDivID);
+            if(topicData["medium"] > 0) buildProgressBar(topicData["title"], "medium", calculateScore(scoreMedium, topicData["medium"]), subject, barsDivID);
+            if(topicData["hard"] > 0) buildProgressBar(topicData["title"], "hard", calculateScore(scoreHard, topicData["hard"]), subject, barsDivID);
           }
         }
       }
 
-      /* Building overall progress bar */
-      /*let totalTests = 0;
-      for (let subjectKey in systemData["problemCount"]){
-        for (let testKey in systemData["problemCount"][subjectKey]){
-          let testCounts = systemData["problemCount"][subjectKey][testKey];
-          totalTests += (testCounts["easy"] + testCounts["medium"] + testCounts["hard"]);
-        }
-      }
-      console.log(totalTests);*/
-      //document.getElementById('overallProgressBar').style.width = testNo/totalTests * 100 + "%";
       document.getElementById('overallProgressText').innerHTML = Math.round(testNo/totalProblems * 100) + "%";
       document.getElementById('overallProgressBar').style.setProperty('--progress', testNo/totalProblems * 100 + "%")
     })

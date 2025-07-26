@@ -35,7 +35,7 @@
                 "title": "Motion graphs"
                 },
                 "1_006": {
-                "easy": 8,
+                "easy": 3,
                 "medium": 0,
                 "hard": 0,
                 "title": "Newton's Laws"
@@ -599,9 +599,9 @@
             },
             "Stoichiometry": {
                 "2_011": {
-                "easy": 5,
-                "medium": 5,
-                "hard": 1,
+                "easy": 8,
+                "medium": 3,
+                "hard": 0,
                 "title": "Mole of a Compound"
                 },
                 "2_012": {

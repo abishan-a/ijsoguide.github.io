@@ -628,6 +628,30 @@
       });
       physicsLink.href = "../Practice Questions/test.html?subject=physics&unit=" + physicsUnit + "&level=" + level.join('');
     }
+    function updateChemistryLink(){
+      let chemistryUnit = chemistrySelect.value;
+      let level = [1, 1, 1];
+      Array.from(chemistryLevel.options).forEach(element => {
+        if(!element.selected){
+          if(element.value == "easy") level[0] = 0;
+          if(element.value == "medium") level[1] = 0;
+          if(element.value == "hard") level[2] = 0;
+        }
+      });
+      chemistryLink.href = "../Practice Questions/test.html?subject=chemistry&unit=" + chemistryUnit + "&level=" + level.join('');
+    }
+    function updatePhysicsLink(){
+      let biologyUnit = biologySelect.value;
+      let level = [1, 1, 1];
+      Array.from(biologyLevel.options).forEach(element => {
+        if(!element.selected){
+          if(element.value == "easy") level[0] = 0;
+          if(element.value == "medium") level[1] = 0;
+          if(element.value == "hard") level[2] = 0;
+        }
+      });
+      biologyLink.href = "../Practice Questions/test.html?subject=biology&unit=" + biologyUnit + "&level=" + level.join('');
+    }
   </script>
 
 </body>
