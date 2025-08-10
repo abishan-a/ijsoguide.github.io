@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Population Genetics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../general.css">
+<script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Population Genetics</h2>
+    <a href="../Genetics.html" class="back-btn">← Back to Genetics</a>
+  </div>
+
+<!-- Main content -->
+<div class="container">
+<h3>Hardy Weinberg Equilibrium</h3>
+<p>In 1908, British Mathematician G.H. Hardy and German Physician W. Weinburg, independently showed that, in a population that is not evolving, allele and genotype frequencies will remain constant from generation to generation. This is now considered as a key concept in population genetics and referred to as <strong>Hardy-Weinburg Equilibrium Principle.</strong></p>
+<p>Let's use a simple example to explain this Equilibrium.</p>
+<p><i>Take flowers of a plant, let's consider the colour of the flower for this example.
+The dominant allele for Red Flower is 'R' and recessive allele 'r' results in White Flowers.
+When we draw a Punnett square for cross between <strong>Rr x Rr</strong> plants
+We obtain a ratio like this between all the phenotypes</i></p>
+
+<p>Let's look at the equations of <strong>Hardy-Weinburg Equilibrium</strong></p>
+
+<img src="image1.png">
+
+<p><i>p+q=1
+p2+2pq+q2=1</i></p>
+<p>So, let's assign R as p and r as q, as you can imagine p x p = p2 so R x R = RR, So p2 is RR and the same goes for q2. Let's substitute R and r to 2pq, 2 x R x r = 2Rr. Let's put in the values of ratios from the phenotypic ratio we found,</p>
+<p><i>p2+2pq+q2=1
+RR+2Rr+rr=1
+0.25+0.5+0.25=1
+if p2is equal to 0.25 then p is equal to 0.25 which is 0.5,
+also if q2is 0.25 then q is also equal to 0.25 which is also 0.5
+This also satisfies p+q=1 since 0.5+0.5=1</i></p>
+
+<p>Now, Let's work with Incomplete Dominance,</p>
+<p>Say a plant has Red, Pink, White flowers with alleles <strong>CRCR, CRCW, CWCW</strong> respectively. We cross breed 500 plants to obtain a phenotypic ratio between all the phenotypes. Let's say there are 700 CR alleles. Let's find the number of CW alleles.</p>
+<p><i>So, p+q=1
+Let's assign CRto p and CWto q
+CR+CW=1
+since7001000alleles is CRthen p is equal to 0.7, and 1-0.7=0.3,
+q=0.3</i></p>
+
+<p>Now let's find how many pink flowers there is in the first generation,</p>
+<p><i>since p=0.7 and q=0.3. Let'substitute them in the 2nd equation
+p2+2pq+q2=1
+0.72+2 x0.7x0.3+0.32=1
+0.49+0.42+0.9=1
+so 0.49x1000=490 plants have red flowers, 
+0.42x1000=420 plants have pink flowers, 
+0.09x1000=90 plants have white flowers.</i></p>
+
+<p>This is how we find the number of plants with the specific genotype using Hardy-Weinburg Equations.</p>
+<p>Now you may ask whether these equilibrium principles can be applied universally. The answer is no. <strong>This equilibrium only applies when certain conditions are met.</strong> Let's discuss them.</p>
+
+<ol>
+    <li><strong>Absence of Mutations:</strong> Mutations result in changes in alleles. Insertion, Deletion, or substitution of nucleotides results in altered alleles. This leads to a modified gene pool. So, Equilibrium is not effective here.</li>
+    <li><strong>Occurrence of Random Mating:</strong> Breeding occurring without any external influence that causes selectiveness. Mating between closely related individuals may alter the allele frequencies.</li>
+    <li><strong>Absence of Natural Selection:</strong> All genotypes of the progeny are expected to survive irrespective of their differences, abilities and the environmental conditions. Variations in survival and reproduction of some genotypes may alter the frequency of alleles.</li>
+    <li><strong>Size of Population is extremely large:</strong> In small populations, particular genotypes may disappear due to death and infertility. Therefore, larger the population, more likely to favour the Hardy-Weinberg equilibrium.</li>
+    <li><strong>Absence of immigration:</strong> Individuals moving in and out of the population may cause the appearance of new genes and disappearance of existing genes. This is called gene flow, and it may alter allele frequencies.</li>
+</ol>
+
+<p><strong>Evolution</strong> can be explained in terms of changes in allele (gene) frequencies over generations. <strong>>Genetic variation within the population is the key to evolution.</strong> Mutation will create new alleles, and migration will include it into the population to increase variation. <strong>Natural selection</strong> will then choose the better adapted individuals based on their phenotype variations, causing the population to evolve. As a result, after the evolution, the population is at a higher adaptive level compared to the level of adaptation they showed before being evolved.</p>
+
+<p><i>This concept can be illustrated with the evolution of the peppered moth in England during the time of industrialisation. The moth had two phenotypic varieties based on their colour: dark and light. Prior to the industrialisation of central England, the light-coloured allele was the most prevalent because the light-coloured moths can hide in lichen-covered barks of the plants to escape predation. But after industrialisation pollutants got released from factories and they killed lichens growing on trees and darkened barks with soot. Now, the dark coloured moths have the advantage because they can camouflage themselves in the darkened barks to escape predators, but the light-coloured ones were contrasting against the dark barks got easily spotted and died. This led to the dark coloured allele becoming predominant, which means evolution led to a change in the frequencies of alleles so, dark coloured moths' population went up and light-coloured moth's population went down.</i></p>
+
+
+
+<br>
+    <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+        Written by <strong>Jathurshan Myuran</strong>
+    </p>
+    </div>
+      
+        <!-- Footer -->
+        <div class="footer">
+          &copy; 2025 A Guide to the IJSO. All rights reserved.
+        </div>
+</body>
+</html>
