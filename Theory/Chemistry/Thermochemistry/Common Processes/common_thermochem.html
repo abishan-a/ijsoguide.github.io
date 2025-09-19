@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thermochemistry of Common Processes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- MathJax for LaTeX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async 
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <link rel="stylesheet" href="../../theoryPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+ <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+<body>
+
+
+  <!-- Page header -->
+  <div class="page-header">
+    <h2>Thermochemistry of Common Processes</h2>
+    <a href="../thermochemistry.html" class="back-btn">← Back to Thermochemistry</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Combustion Processes</h2>
+    <p>Generally, fuels are organic hydrocarbons (\(C_xH_y\)), which upon combustion, produce the very stable compounds \(H_2O\) and \(CO_2\), which leads to a very small (negative, high absolute value) enthalpy, so a very high energy release. We generally define the enthalpy of combustion for a compound, \(\Delta H_c\), as the reaction enthalpy of the combustion reaction, per mole of fuel.</p>
+    <p>If the amount of oxygen present is too low, or the burning process is too quick, sooth (C) and carbon monoxide (CO) may be released. This decreases the energy output, but also poses environmental problems.</p>
+    <p>For more about this process, check out the <a href = "../../Others/Combustion/combustion.html">Combustion of Organic Compounds</a> page.</p>
+    <h2>Cation formation</h2>
+    <p>At a first glance, we might say that the enthalpy of cation formation is just the ionization energy (or the sum for di- or trivalent metals). However, the key is in the definition of the ionization energy. The (primary) ionization energy is the enthalpy ofthe reaction \(M_{(g)}\rightarrow M^{+}_{(g)} + e^-\).</p>
+    <p>We see that the metal is in the gas phase. So, in general, we'll also have to add the sublimation enthalpy to the process (or boiling for mercury which is liquid not solid at room temperature) - basically applying Hess's Law.</p>
+    <h2>Anion formation</h2>
+    <p>As you might have guesses, formation of anions doesn't only include the capture of an electron by the neutral atom. The energy of that process (\(X_{(g)} + e^- \rightarrow X^-_{(g)}\)) is called the electron affinity, \(A_e\).</p>
+    <p>Most non-metals (which form anions) are already gaseous, so we don't need to add any phase change enthalpy. However, the key thing to realize in this case is that non-metals for polyatomic molecules - usually diatomic. So, we have to include the dissociation enthalpy, \(\Delta H_{dis}\), the enthalpy of the process \(X_2 \rightarrow 2X\)</p>
+    <p>Note 1: We usually add \(\frac{1}{2}\Delta H_{dis}\), because we express the energy per atom of X, not per molecule (so \(\frac{1}{2}X_2 + e^- \rightarrow X^-\)). If we want the enthalpy of \(X_2 + 2e^- \rightarrow 2X^-\), we need to multiply the electron affinities by 2.</p>
+    <p>Note 2: Generally, the first electron affinity (for formation of \(X^-\)) is negative - accepting the first electron is exothermic.</p>
+    <h2>The formation of ionic compounds</h2>
+    <p>We saw how individual ions form. However, we don't care about individual ions, since in chemistry ions are always paire with a counter-ion, forming an ionic compound. As you probably guesses, the process going from gaseous ions to a solid ionic compound implies some amoun of energy release.</p>
+    <p>The physical explanation for this energy is the negative electrostatic potential energy due to the ions being arranged in a crystal lattice. Lattice formation is an exothermic process and we call the energy released in the formation of one mole of compound lattice energy. Since lattice energy is the energy released, it is a positive quantity. So, the enthalpy of \(mM^{n+}_{(g)} + nN^{m-}_{(g)} \rightarrow M_mN_{n(s)}\) is actually \(-\Delta H_{latt}\)</p>
+    <h2>The Born-Haber cycle</h2>
+    <p>Combining the last 3 sections, we can find the enthalpy of formation of an ionic compound from its constituent elements - this is called the Born-Haber cycle.</p>
+    <h2>Bonus for those interested in more thermochemistry - theoretically finding lattice energy</h2>
+    <p>The first thing we should mention in this paragraph, is that this topic is beyond the IJSO syllabus and only presented here for those who are looking to learn more thermochemistry.</p>
+    <p>As explained before, the lattice energy is the energy due to electrostatic interactions between the ions. It is obvious that our most important formula for deriving the equation is \(U_e = \frac{kq_1q_2}{r}\) - see <a href = "../../../Physics/Electricity & Magnetism/Potential/potential.html"> Electric poential energy</a></p>
+    <p>We'll choose rocksalt (NaCl) as an example. In the rocksalt lattice, the ions are arranged in a cubic pattern, such that no identical ions are next to each other (so the order is \(Na^+ - Cl^- - Na^+ - Cl^-\) and so on). To calculate the total potential energy, we calculate the potential energy of one ion and then multiply it by the number of ions.</p>
+    <p>Let a be the side length in the cubic rocksalt lattice. Deriving the entire equation is very difficult from a mathematical point of view, but we can figure out a pattern:</p>
+    <p>The potential energy of the interaction between a sodium ion and a chloride ion adjacent to it is \(U_e = -\frac{Ke^2}{a}\). Going to the next ion (a sodium ion), the energy will be \(U_e = \frac{ke^2}{2a} = \frac{1}{2}\frac{ke^2}{a}\). We notice that, geometrically, we can find all the distances to be multiples of a, so all energies can be written as a multiple of \(\frac{ke^2}{a}\).</p>
+    <p>In conclusion, the total energy will be a multiple of \(\frac{ke^2}{a}\). In this example we assumed rocksalt, where both ions are monovalent. To consider a more general case, where the relative charges of the ions are \(Z_1\) and \(Z_2\), the lattice energy becomes \(\text{Something}\cdot\frac{kZ_1Z_2e^2}{a}\). That something depends only on the geometry of the lattice and is called the Madelung constant - denoted by M. For example, the Madelung constant for the cubic lattice of rocksalt which we have just analyzed is \(M\approx 1.75\) So, we get the expression for the lattice energy to be:</p>
+    <p>\[U_{latt} = M\frac{kZ_1Z_2e^2}{a}\]</p>
+    <p>To obtain the lattice energy per mole of compound, we simply have to multiply by Avogadro's constant.</p>
+    <h2>Dissolving ionic compounds</h2>
+    <p>First let's talk about hydration. An aqueous ion is not the same as a free gaseous ion. Ions in solution are surrounded by water molecules (see <a href = "../../Chemical Strucutres/Intermolecular_forces/intermolecular_forces.html">Intermolecular Forces</a>). This process (\(\text{Ion}_{(g)} + nH_2O \rightarrow \text{Ion}_{aq}\)) is exothermic and its enthalpy is called hydration enthalpy (\(\Delta H_{hydr}\)). If the solvent is not water, we use the more general term solvation enthalpy (\(\Delta H_{sol}\)).</p>
+    <p>Apart from the solvation of the component ions, when we dissolve an ionic compound, we have to break the lattice apart. This requires a positive energy input, equal to the lattice energy. Overall, the enthalpy of dissolving an ionic compound is the sum of the lattice energy and the (negative) solvation entahlpies of the component ions.</p>
+    <p>Usually, solvation entahlpies are larger (in absolute value) than the lattice energy and, overall, the dissolving process is exothermic. However, compounds which dissolve endothermically do exist. The most common example is \(NH_4 Cl\)</p>
+    <h2>Neutralization enthalpy</h2>
+    <p>For this part, you need to know what strong acids and bases are. You may find it useful to read the page <a href = "../../Equilibrium/Varying Definitions/varyingdefinitions.html">Varying Definitions of Acids & Bases</a>.</p>
+    <p>Strong acids and bases are generally fully ionized. So, when a neutralization reaction takes place, the counter-ions (the metal ion of the hydroxide and the conjugate base of the acid) are not involved. Let's look for example at the reaction between NaOH and HCl:</p>
+    <p>\(H^+ + Cl^- + Na^+ + Ho^- \rightarrow H_2O + Na^+ + Cl^-\)</p>
+    <p>The overall reaction is just \(H^+ + HO^- \rightarrow H_2O\), regardless of the strong acid and the strong base used, so the enthalpy of the reaction should be the same (per mole of water produced, to avoid confusion in the cases of polyprotic acids/bases). Experimentally, it is indeed found that the enthalpy of neutralization is almost constant, at a value of around \(\Delta H_{neut} = -57.6 \frac{kJ}{mol}\) - neutralization reactions are exothermic processes.</p>
+    <h2>Conclusion</h2>
+    <p>In the end, all thermochemistry problems are a matter of knowing the steps of a process and correctly applying Hess's Law - Hess's Law is your most powerful tool in thermochemistry.</p>
+    <button class="collapsible">Example: The enthalpy of formation of \(NaCl\)</button>
+    <div class="content">
+        <p>We want to find the enthalpy of \(Na_{(s)} + \frac{1}{2}Cl_{2(g)} \rightarrow NaCl_{s}\)</p>
+        <p>The steps of the reaction are:</p> 
+        <ul>
+          <li>Formation of sodium ions \(Na_{(s)} \rightarrow Na_{(g)} \rightarrow Na^+_{(g)}\). The enthalpy is \(\Delta H_{Na} = \Delta H_{sub}(Na) + IE_1(Na)\)</li>
+          <li>Formation of chloride ions \(\frac{1}{2}Cl_{2(g)} \rightarrow Cl_{(g)} \rightarrow Cl^-_{(g)}\). The enthalpy is \(\Delta H_{Cl} = \frac{1}{2}\Delta H_{dis}(Cl_2) + A_{e1}(Cl)\)</li>
+          <li>Formattion of the lattice \(Na^+_{(g)} + Cl^-_{(g)} \rightarrow NaCl_{(s)}\). The enthalpy is \(-\Delta H_{latt}\)</li>
+        </ul>
+        <p>Now, applying Hess's law, we have \(\Delta H_f(NaCl) = \Delta H_{Na} + \Delta H_{Cl} - \Delta H_{latt} = \Delta H_{sub}(Na) + IE_1(Na) + \frac{1}{2}\Delta H_{dis}(Cl_2) + A_{e1}(Cl) - \Delta H_{latt}\)</p>
+        <p>Using values found on the internet, we get \(\Delta H_f(NaCl) = -410.5 \frac{kJ}{mol}\). The value for the formation enthalpy that's commonly found in thermochemical data tables is \(\Delta H_f(NaCl) = -411 \frac{kJ}{mol}\), almost identical to the one we obtained.</p>
+        <p>Note: Lattice energy is usually hard to determine experimentally and, in general, that is the unknow we are trying to find from the above equation, not the formation enthalpy.</p>
+    </div>
+    <br>
+       <p style="text-align: right; font-size: 0.9em; color: #9081dd;">
+    Written by <strong>Alex Jicu</strong>
+</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 A Guide to the IJSO. All rights reserved.
+  </div>
+
+</body>
+</html>
