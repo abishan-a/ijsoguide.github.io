@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "stoichiometry",
+    "title": "Mass Composition MCQ Problems",
+    "test_id": "2_015",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does 'mass composition' usually refer to in chemistry?",
+        "options": [
+          "The color of the compound",
+          "The mass percentages of each element in the compound",
+          "The density of the substance",
+          "The molecular shape"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about breaking down by elements and masses.",
+        "detailed": "Mass composition tells you the percentage by mass of each element in a compound. Example: in \\(\\ce{H2O}\\), you calculate how much of the mass comes from H & O."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "An aqueous solution contains 18 g of water (\\(\\ce{H2O}\\)) and 2 g of salt (\\(\\ce{NaCl}\\)). What is the mass concentration of water in the solution?",
+        "options": [
+          "70%",
+          "80%",
+          "90%",
+          "95%"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Compute total mass, then fraction due to water.",
+        "detailed": "Total mass = 18 + 2 = 20 g. Water mass concentration = \\(18/20 \\times 100% = 90\\%\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the mass concentration of carbon in \\(\\ce{CO2}\\)? (Atomic masses: C = 12, O = 16)",
+        "options": [
+          "27.3%",
+          "44.4%",
+          "72.7%",
+          "55.6%"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Compare mass of C to total molar mass.",
+        "detailed": "Molar mass of \\(\\ce{CO2}\\) = 12 + 2×16 = 44. Mass of C = 12. So fraction = \\(12/44 \\times 100 % ≈27.27\\%\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A compound has formula \\(\\ce{Na2SO4}\\). Which element contributes the greatest mass to this compound?",
+        "options": [
+          "Sulfate (S)",
+          "Oxygen (O)",
+          "Sodium (Na)",
+          "They all contribute the same"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Consider atomic mass × number of atoms for each element.",
+        "detailed": "Atomic mass approx: Na = 23×2 =46; S≈32; O = 16×4 = 64. Oxygen’s total (64) is highest among them."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a 100 g sample of \\(\\ce{CaCO3}\\) contains 40 g of calcium, what percent by mass of calcium is this compound?",
+        "options": [
+          "25%",
+          "35%",
+          "40%",
+          "50%"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "What fraction of the sample’s mass is calcium?",
+        "detailed": "Calcium mass =40 g, total =100 g, so calcium mass percentage = \\(40/100 \\times 100 % = 40\\%\\)."
+      }
+    ]
+  }

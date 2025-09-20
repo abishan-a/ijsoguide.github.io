@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "stoichiometry",
+    "title": "Limiting Reactant MCQ Problems",
+    "test_id": "2_017",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is a limiting reactant in a chemical reaction?",
+        "options": [
+          "The reactant present in greatest mass",
+          "The reactant used up completely first, determining how much product can form",
+          "The reactant that is in excess",
+          "The reactant that doesn’t participate"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about which reactant runs out.",
+        "detailed": "The limiting reactant is the one that gets completely consumed first, so it limits how much product can be produced."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "For the reaction \\(\\ce{2H2 + O2 -> 2H2O}\\), if you have 4 moles of \\(\\ce{H2}\\) and 1 mole of \\(\\ce{O2}\\), which is the limiting reactant?",
+        "options": [
+          "Hydrogen (\\(\\ce{H2}\\))",
+          "Oxygen (\\(\\ce{O2}\\))",
+          "They are both limiting",
+          "None is limiting"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Check stoichiometric ratio: 2 moles \\(\\ce{H2}\\) per 1 mole \\(\\ce{O2}\\).",
+        "detailed": "Equation needs 2 moles of \\(\\ce{H2}\\) for every 1 mole of \\(\\ce{O2}\\). Here, \\(\\ce{H2}\\) is exactly enough to match that ratio, but \\(\\ce{H2}\\) will run out first given amounts, so \\(\\ce{H2}\\) is limiting."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If in a reaction \\(\\ce{A + B -> C}\\), you have 5 grams of A and 10 grams of B, and A produces less product, what does that tell you?",
+        "options": [
+          "B is the limiting reactant",
+          "A is the limiting reactant",
+          "A and B are in perfect ratio",
+          "No reaction happens"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The reactant that makes less product is limiting.",
+        "detailed": "If A yields less product (when both are considered reacting completely), then A is the limiting reactant because it runs out first."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why do chemists convert amounts into moles when finding the limiting reactant?",
+        "options": [
+          "Because mass changes during reaction",
+          "To compare reactants using the coefficients in the equation",
+          "Because volumes are irrelevant",
+          "To avoid using molar mass"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Balanced equations tell mole ratios.",
+        "detailed": "Balanced chemical equations give ratios in moles. Converting reactants to moles allows using these ratios to determine which reactant is limiting."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In a reaction \\(\\ce{3Fe + 2O2 -> Fe3O4}\\), if you have 9 moles of Fe and 4 moles of \\(\\ce{O2}\\), which reactant is in excess?",
+        "options": [
+          "Iron (Fe)",
+          "Oxygen (\\(\\ce{O2}\\))",
+          "Both are limiting",
+          "Neither is excess"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Compare the required ratio vs actual moles.",
+        "detailed": "Stoichiometric ratio needs 3 moles Fe per 2 moles \\(\\ce{O2}\\). For 4 moles O2, need 6 moles Fe, but there are 9, so Fe is in excess; \\(\\ce{O2}\\) is limiting."
+      }
+    ]
+  }

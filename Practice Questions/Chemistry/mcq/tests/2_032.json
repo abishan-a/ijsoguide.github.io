@@ -1,0 +1,120 @@
+{
+    "subject": "chemistry",
+    "unit": "chemical kinetics",
+    "title": "Rate of Reaction MCQ problems",
+    "test_id": "2_032",
+    "problems": [
+        {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "What is the rate of a chemical reaction defined as?",
+            "options": [
+              "Change in volume per unit time",
+              "Change in temperature per unit time",
+              "Change in concentration per unit time",
+              "Change in mass per unit time"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+            "hint": "It's related to how fast reactants turn into products",
+            "detailed": "Reaction rate is defined as the change in concentration of a reactant or product per unit time."
+          },
+          {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "What happens to the rate of a reaction when the temperature is increased?",
+            "options": [
+                "It increases",
+              "It decreases",
+              "It remains constant",
+              "It goes to zero"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+            "hint": "Think about how particle energy changes",
+            "detailed": "Increasing temperature increases the kinetic energy of particles, leading to more frequent and energetic collisions, thus increasing the reaction rate."
+          },
+          {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "Which unit is commonly used for reaction rate?",
+            "options": [
+              "mol/L",
+              "mol/s",
+              "mol/L/s",
+              "L/mol/s"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+            "hint": "It’s a rate, so it involves time and concentration",
+            "detailed": "The rate of reaction is typically expressed in mol/L/s, meaning change in concentration per unit time."
+          },
+          {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "In a reaction, why does increasing the surface area of a solid reactant increase the rate?",
+            "options": [
+              "It increases temperature",
+              "It provides more area for collisions",
+              "It increases concentration",
+              "It decreases the volume"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+            "hint": "More exposure = more collisions",
+            "detailed": "A larger surface area exposes more particles to collisions, increasing the frequency of successful collisions and thus the rate."
+          },
+          {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "Which of the following can be used to measure the rate of a gas-producing reaction?",
+            "options": [
+              "Stopwatch",
+              "Thermometer",
+              "Balance",
+              "Gas syringe"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+            "hint": "Which tool measures gas volume directly?",
+            "detailed": "A gas syringe can be used to measure the volume of gas produced over time, which helps determine the rate of the reaction."
+          },
+        {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "In a reaction, the concentration of a reactant decreases from 0.80 mol/L to 0.60 mol/L in 10 seconds. What is the average rate of reaction?",
+            "options": [
+              "0.008 mol/L/s",
+              "0.02 mol/L/s",
+              "0.04 mol/L/s",
+              "0.20 mol/L/s"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+            "hint": "Rate = change in concentration / time",
+            "detailed": "Rate = (0.80 - 0.60) mol/L ÷ 10 s = 0.20 mol/L ÷ 10 s = 0.02 mol/L/s"
+          },
+          {
+            "author": "Thenura Wickramaratna",
+        "level": "easy",
+            "question": "The concentration of product X increases from 0.00 mol/L to 0.30 mol/L in 10 seconds. What is the average rate of formation of product X?",
+            "options": [
+              "0.015 mol/L/s",
+              "0.020 mol/L/s",
+              "0.030 mol/L/s",
+              "0.045 mol/L/s"
+            ],
+            "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+            "hint": "Rate = change in concentration / time",
+            "detailed": "Rate = (0.30 - 0.00) mol/L ÷ 10 s = 0.30 ÷ 10 = 0.030 mol/L/s"
+          }
+    ]
+  }

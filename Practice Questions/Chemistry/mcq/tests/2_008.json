@@ -1,0 +1,152 @@
+{
+    "subject": "chemistry",
+    "unit": "chemical structures",
+    "title": "Polarity of bonds MCQ problems",
+    "test_id": "2_008",
+    "problems": [
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "Which bond has the most proeminent ionic character out of the given options?",
+        "options": [
+          "\\( Cs-F \\)",
+          "\\( O-F \\)",
+          "\\( Li-At \\)",
+          "\\( Li-F \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "What number is important when looking at how polarized a bond is?",
+        "detailed": "Ionic bonds are basically just very polar bonds. A bond is very polar if: one of the elements is very electronegative (it pulls the electrons strongly towards itself) and one is very electropsotive (it has no problems with electrons being pulled from it). Of course the mosti ionic bond will be made of the most electronegative element - F - and the most electropositive element - Cs. So, the most ionic bond is Cs-F."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "Which of the following series contains only non-polar molecules?",
+        "options": [
+          "\\( CO, Cl_2, H_2 \\)",
+          "\\( O_2, H_Cl, CH_4\\)",
+          "\\( S_8, CO_2, N_2 \\)",
+          "\\( P_4, N_O, I_2 \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Non-polar molecules may have polar bonds in certain conditions.",
+        "detailed": "The first option is wrong because the diatomic CO molecule is polar (polar C-O bond). The second option is wrong because of the polar H-Cl bond. Methane isn't polar, because of its simetric structure, but HCl makes this answer option wrong. The third option is correct, with elemental sulfur and nitrogen being obviously non-polar and the symmetric O=C=O also being non-polar. The last option is wrong because of the polar diatomic NO with a polar N-O bond."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "The polarity of chemical bonds is quantitatevly described by the physical quantity called dipole moment. Which of the following is true about the dipole moment?",
+        "options": [
+          "In ionic bonds, it's a vector pointing from the non-metal to the metal",
+          "It's a vector pointing from the negative pole to the positive pole",
+          "It's a vector pointing from the center of the bond, perpendicular to the bond's plane",
+          "It's a vector pointing from the more electropositive element to the less electropositive element"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "The dipole moment shows in what direction the electron density has 'moved' compared to an ideal non-polar bond.",
+        "detailed": "The dipole moment shows how the electron density moved. Withouth any analysis, electrons move to one of the atoms, so the dipole moment should point along the bond - B is wrong. Electrons are attracted by more electronegative elements, which become negatively charged - the negative pole of the bond - so the dipole moment points towards the more electronegative element, which is the negative pole. This makes options A and C wrong. D is correct, because electropsitivity is the inverse of electronegativity."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "How many of the following bonds is polar: C-H, O-O, Be-Cl, Cl-O, H-Cl? The following electronegativities are given: H - 2.2, Be - 1.5, C - 2.5, O - 3.5, Cl - 3.0.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "What is the criterion for assesing a bond's polarity?",
+        "detailed": "The larger the electronegativity difference between two elements, the more polar the bond formed between them is. The electronegativty differences for the given bonds are: C-H - 0.3, O-O - 0, Be-Cl - 1.5, Cl-O - 0.5, H-Cl - 0.8. Generally, we consider the bond to be polar if this difference is 0.5 or more. So, the Be-Cl, Cl-O and H-Cl bonds are polar - 3 bonds."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "Which of the following compounds is polar?",
+        "options": [
+          "\\( C_8H_{18} \\)",
+          "\\( BF_3 \\)",
+          "\\( PCl_3 \\)",
+          "\\( SF_6 \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about the geometries of the compounds. Which of the compounds is symmetric?",
+        "detailed": "First of all, \\( C_8H_{18} \\) is non-polar because C-H bonds are considered non-polar, due to their small electronegatvity difference. \\( BF_3 \\) has a symmetric trigonal structure (3 bonds and no lone pair), so the net dipole moment is 0. Similarly, \\( SF_6 \\) has a symmetric octahedric structure. We're left with \\( PCl_3 \\) which, because of the lone pair on P, isn't symmetric and the net dipole moment adds up to be a non-zero value."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "Hydrogen peroxide has the following structure: H-O-O-H. However, this structure is bent, with the H-O-O angles being around 100 degrees. Let's consider one H atom fixed, and one spinning (it goes on a circle in 3D). When both H atoms are pointing downward, we say they're cis to each other, and when they're pointing in opposite directions we say they're trans to each other. In which of the cases os the net dipole moment of the hydrogen peroxide molecule larger?",
+        "options": [
+          "When its H atoms are cis, because the dipole moment vectors add up to the largest value possible",
+          "When its H atoms are trans, because the dipole moment vectors are colinear so no component is canceled",
+          "When its H atoms are cis, because are closer and the increase electrostatic repulsions increase the net dipole moment",
+          "When its H atoms are trans, because the symmetry makes each oxygen atom interact the most with its corresponding hydrogen atom"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "It is very useful to draw both the cis and the trans configurations and to draw all the dipole moments that appear.",
+        "detailed": "When the two hydrogen atoms are trans, the dipole moments of the O-H bonds are colinear, but pointing in opposite directions, so they cancel out, making the net dipole moment zero.  When in cis position, the two dipole moments point in (roughly) the same direction and they add up to give a large value. Option C is wrong because of the explanation, electrostatic repulsion is irrelevant in finding polarity, while option D talks about individual interactions which don't matter because, overall, they cancel out."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "The dipole moment of O-H bonds is 1.5D (Debye) and the H-O-H bond angle in water is around 104.5 degrees. What is the net dipole moment of water?",
+        "options": [
+          "1.8D",
+          "2.1D",
+          "2.4D",
+          "3.0D"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "The problem isn't very complicated, dipole moments are just vectors.",
+        "detailed": "The net dipole moment of water is \\( \\vec{\\mu} = \\vec{\\mu_{OH, 1}} + \\vec{\\mu_{OH, 2}}\\). The lengths of the two dipole moments vectors is \\( |\\vec{\\mu_{OH, 1}}| = |\\vec{\\mu_{OH, 2}}| = \\mu_{OH} = 1.5D\\). The value of the sum of these vectors is \\( \\mu = \\sqrt{1.5^2 + 1.5^2 + 2\\cdot 1.5^2\\cdot \\cos (104.5^\\circ)} \\approx 1.8D \\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "In physics, a dipole is a system consisting of two point-like charges +q and -q, at a distance d. The dipole moment is defined as \\( \\mu = q\\cdot d \\). Looking at hydrogen halides, the bond length increases from HF (92pm) to HI (161pm), so we would expect the dipole moment to increase as well. However, the dipole moment decreases quite drastically from HF (1.82D) to HI (0.44F). What is the explanation for this?",
+        "options": [
+          "As the bond length increases, it gets weaker. A high dipole moment would also weaken it, so the decrease in the dipole moment helps with satbilizing the hydride.",
+          "The halogens' nuclei increases and, with more protons to atract electrons, more electrons are attracted towards the nucleus and less electrons are able to go towards the polarization of the bond, leading to a decrease in the charge q and subsequently to a decrease in the dipole moment.",
+          "The hydrogen halides aren't at all similar to the simplified physical case presented, as they consist of multiple electrons and protons, and finding the dipole moment is more complicated and could lead to a function that decrases with d.",
+          "As we go down from fluroine to iodine, electronegativity decreases. As the halogen is less electronegative, it attracts more charge and the charge q decreases. This decrease is sharper than the increase of d, leading to a decrease in the dipole moment."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Think about what actually matters in the determination of the dipole moment.",
+        "detailed": "We'll analyze the options one by one. The first one just presents false facts. The highly polarized H-F bond doesn't destabilize HF which is actually a quite stable compound. And even if that were true, the dipole moment wouldn't decrease to make the molecule more stable, the compounds would just get more unstable and uncommon. The second option is false because q doesn't reffer to the total charge, but to the charge surplus/defficit of the atoms participating in the bond - the polarization of the bonding orbitals. The third options is partly true, as the atoms are not point-like charges, but in a rough approximation they can be considered identical to point-like charges found in place of the nuclei, with charge equal to the total charge of the atom. This works because most inner electrons are way closer to the nucleus than to the valence electrons and don't affect the polarization very much. The last option is true, as the decrease in electronegativity leads to a more uniform electron distribution."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "hard",
+        "question": "You may consider the C-H bonds non-polar. It is known that the dipole moment of \\( CH_3Cl \\) is approximately 1.6D, the dipole moment of the \\( COCl_2 \\) molecule is approximately 0.7D towards the oxygen atom. \\( COCl_2 \\) is a trigonal planar compound, with the C atom at the center of an equilateral triangle and the Cl and O atoms in the vertices. Due to symmetry, carbon dioxide is non-polar. If a carbon dioxide molecule were bent, such that the O-C-O angle became \\( 170^\\circ \\), what would be its dipole moment?",
+        "options": [
+          "0.14D",
+          "0.40D",
+          "1.59D",
+          "4.58D"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Work step by step to find the required dipole moments. Think about what you know and what you need to know.",
+        "detailed": "Since we were told C-H bonds are non-polar, the dipole moment \\( CH_3Cl \\) is equal to that of the C-Cl bond, so the dipole moment of the C-Cl bond is 1.6D. For the \\( COCl_2 \\) molecule, the Cl-C-Cl angle is \\( 120^\\circ \\) and the net dipole moment of the two C-Cl bonds can be found to be 1.6D. Since the net dipole moment is 0.7D, towards O, the dipole moment of the C=O bond is 0.7 + 1.6 = 2.3D. Now, the dipole moment of the bent carbon dioxide molecule can be calculated just by using the cosine theorem \\( \\mu = 2.3\\cdot\\sqrt{2(1+\\cos 170^\\circ} = 0.40D \\)"
+      }
+    ]
+  }

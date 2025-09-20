@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "thermochemistry",
+    "title": "States of Matter MCQ Problems",
+    "test_id": "2_024",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which state of matter has particles closely packed in a fixed, regular arrangement?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Plasma"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Particles vibrate in place without moving freely.",
+        "detailed": "Solids have particles closely packed in a fixed, regular arrangement, with strong intermolecular forces."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which state of matter has a fixed volume but no fixed shape, with particles that can slide past each other?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Plasma"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The shape adjusts to the container’s shape.",
+        "detailed": "Liquids have a fixed volume but no fixed shape because particles are close but not locked in place and can slide."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which state of matter has particles that are far apart, move freely, and fill the container they’re in?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Plasma"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Highly compressible and spreads out to fill the space.",
+        "detailed": "Gases have particles far apart and moving randomly, no fixed volume or shape, and fill any container."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which state of matter consists of ionized particles and conducts electricity, commonly found in stars and neon signs?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Plasma"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Contains positive ions and free electrons.",
+        "detailed": "Plasma consists of ionized particles (positive ions and free electrons), conducts electricity, and responds to magnetic fields."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is true about compressibility of the states of matter?",
+        "options": [
+          "Solids are highly compressible.",
+          "Liquids are highly compressible.",
+          "Gases are highly compressible.",
+          "Plasma is not compressible."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Spaces between particles allow easy compression.",
+        "detailed": "Gases are highly compressible due to large spaces between particles; solids and liquids are much less so."
+      }
+    ]
+  }

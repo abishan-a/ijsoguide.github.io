@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "stoichiometry",
+    "title": "Reaction Yield MCQ Problems",
+    "test_id": "2_018",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is meant by the theoretical yield of a reaction?",
+        "options": [
+          "The actual amount of product obtained",
+          "The maximum possible amount of product formed from given reactants",
+          "The amount of reactant left over",
+          "The amount of product lost during purification"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "What would happen if everything worked perfectly?",
+        "detailed": "The theoretical yield is the maximum amount of product that should form if all reactants react perfectly with no losses."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If an experiment produces 8.5 g of product, but the theoretical yield is 10 g, what is the percent yield?",
+        "options": [
+          "75%",
+          "85%",
+          "90%",
+          "95%"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Percent yield = actual ÷ theoretical × 100.",
+        "detailed": "Percent yield = (8.5 / 10.0) × 100 = 85%."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why is actual yield often lower than theoretical yield?",
+        "options": [
+          "Because reactants spontaneously increase",
+          "Due to experimental losses, side reactions, and incomplete reactions",
+          "Because equations are always wrong",
+          "Because theoretical yield assumes perfect excess of all products"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think practical issues in a lab.",
+        "detailed": "Actual yield is lower because some product may be lost during purification, side reactions use up reactants, or reaction might not go to completion."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A reaction has theoretical yield of 20.0 g but the actual yield obtained is only 15.0 g. What is the percent yield?",
+        "options": [
+          "60%",
+          "70%",
+          "75%",
+          "80%"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "15 ÷ 20 × 100.",
+        "detailed": "Percent yield = (15.0 / 20.0) × 100 = 75%."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does a percent yield greater than 100% usually indicate in a lab setting?",
+        "options": [
+          "Perfect reaction with no losses",
+          "Clean reaction with excess reactant",
+          "Measurement error, impurities or solvent leftover",
+          "In some reactions, high temperatures may boil of some of the substances"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "You can’t get more product than theoretically possible unless there’s error or extra stuff in product.",
+        "detailed": "Percent yield over 100% usually means there was an error: product contains impurities or moisture, measurement inaccuracies, or leftover solvent, causing recorded mass to be larger."
+      }
+    ]
+  }

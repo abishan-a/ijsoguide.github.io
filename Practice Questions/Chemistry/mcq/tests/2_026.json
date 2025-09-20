@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "thermochemistry",
+    "title": "Phase Changes MCQ Problems",
+    "test_id": "2_026",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is 'melting' in phase changes?",
+        "options": [
+          "Gas to solid",
+          "Liquid to gas",
+          "Solid to liquid",
+          "Liquid to solid"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of ice turning into water.",
+        "detailed": "Melting is the process of a substance changing from a solid to a liquid."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these phase changes involves a substance turning directly from solid to gas?",
+        "options": [
+          "Condensation",
+          "Sublimation",
+          "Freezing",
+          "Vaporization"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "No liquid stage in between.",
+        "detailed": "Sublimation is the phase change from solid directly to gas without passing through the liquid state."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "During a phase change under constant pressure, what happens to the temperature of the substance?",
+        "options": [
+          "It increases steadily",
+          "It decreases steadily",
+          "It stays constant",
+          "It first increases then decreases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about phase change diagrams",
+        "detailed": "While a substance changes phase (like melting or boiling) under constant pressure, its temperature remains constant until the entire change is complete."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the correct formula for the heat involved in a phase change?",
+        "options": [
+          "\\(Q = m \\times c \\times \\Delta T\\)",
+          "\\(Q = m \\times L\\)",
+          "\\(Q = m \\times P\\)",
+          "\\(Q = L \\times \\Delta T\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Latent heat formula uses specific latent heat.",
+        "detailed": "The formula for the heat required or released during a phase change is Q = mL, where m is mass and L is specific latent heat."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is 'latent heat of vaporization'?",
+        "options": [
+          "Heat required to convert 1 kg from liquid to gas at boiling point",
+          "Heat released when gas turns into liquid",
+          "Heat required to convert 1 kg from solid to liquid at melting point",
+          "Heat released when liquid turns into solid"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Vapor is gas; think boiling.",
+        "detailed": "Latent heat of vaporization is the heat required to convert 1 kg of a liquid into a gas at its boiling point without changing temperature."
+      }
+    ]
+  }

@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "stoichiometry",
+    "title": "Molecular and Empirical Formula MCQ Problems",
+    "test_id": "2_014",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does the molecular formula of a compound represent?",
+        "options": [
+          "The ratio of atoms in the simplest form",
+          "The actual number of atoms of each element in a molecule",
+          "The shape of the molecule",
+          "The percentage composition of the compound"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It tells the exact number of each type of atom in one molecule.",
+        "detailed": "The molecular formula shows the actual number of atoms of each element in a molecule. For example, glucose has a molecular formula of C6H12O6."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "How is the molecular formula related to the empirical formula?",
+        "options": [
+          "The molecular formula is always smaller than the empirical formula",
+          "The molecular formula is a whole-number multiple of the empirical formula",
+          "They are always identical",
+          "They cannot be related"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The empirical formula shows the simplest whole-number ratio of atoms, while the molecular formula tells you the actual number of each atom present in a molecule.",
+        "detailed": "The molecular formula represents the true composition of a single molecule, giving the exact number of atoms of each element. It is related to the empirical formula by a whole-number multiplier (n). For example, the empirical formula \\(\\ce{CH2O}\\) shows the simplest ratio of C:H:O as 1:2:1. If n = 6, then the molecular formula is \\(\\ce{C6H12O6}\\), meaning each molecule actually has 6 carbons, 12 hydrogens, and 6 oxygens."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a compound has an empirical formula \\(\\ce{CH2}\\) and a molecular mass of 42 g/mol, what is its molecular formula?",
+        "options": [
+          "\\(\\ce{CH2}\\)",
+          "\\(\\ce{C2H4}\\)",
+          "\\(\\ce{C3H6}\\)",
+          "\\(\\ce{C6H12}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Find the molar mass of the empirical formula and compare with the molecular mass.",
+        "detailed": "The molar mass of CH2 = 12 + 2 = 14 g/mol. Divide molecular mass (42) by 14 = 3. So the molecular formula is \\((\\ce{CH2}) \\times 3 = \\ce{C3H6})."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following statements about empirical and molecular formulas is correct?",
+        "options": [
+          "The empirical formula can never be the same as the molecular formula",
+          "The molecular formula only shows the ratio of atoms",
+          "The empirical formula represents the simplest ratio of atoms in a compound",
+          "The molecular formula always has smaller numbers than the empirical formula"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of the 'simplest whole-number ratio' definition.",
+        "detailed": "The empirical formula gives the simplest whole-number ratio of atoms in a compound, while the molecular formula gives the actual number of atoms."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A compound has an empirical formula of \\(\\ce{CH2O}\\) and a molecular formula of \\(\\ce{C6H12O6}\\). What is the multiplying factor (n)?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Compare the subscripts of atoms in the molecular formula to the empirical formula.",
+        "detailed": "The empirical formula is \\(\\ce{CH2O}\\). To get from \\(\\ce{CH2O}\\) to \\(\\ce{C6H12O6}\\), each subscript is multiplied by 6. Thus, the factor n = 6."
+      }
+    ]
+  }

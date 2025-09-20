@@ -1,0 +1,186 @@
+{
+  "subject": "chemistry",
+  "unit": "stoichiometry",
+  "title": "Mole of a Compound MCQ problems",
+  "test_id": "2_011",
+  "problems": [
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "Find the molar mass of \\(\\ce{NH4OH}\\).",
+      "options": [
+        "29 g/mol",
+        "32 g/mol",
+        "35 g/mol",
+        "38 g/mol"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+      "hint": "Think about how molar mass is calculated",
+      "detailed": "Molar mass = Ar(N) + 5 * Ar(H) + Ar(O) = 14 + 5 * 1 + 16 = 35 g/mol"
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "How many atoms are there in 1 mole of any substance?",
+      "options": [
+        "\\(6.02 \\times 10^20\\)",
+        "\\(6.02 \\times 10^21\\)",
+        "\\(6.02 \\times 10^22\\)",
+        "\\(6.02 \\times 10^23\\)"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+      "hint": "Think Avogadro's number.",
+      "detailed": "1 mole of any substance contains Avogadro's number of particles, which is \\(6.02 \\times 10^23\\)."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "What is the molar mass of \\(\\ce{CO2}\\)?",
+      "options": [
+        "44 g/mol",
+        "28 g/mol",
+        "32 g/mol",
+        "16 g/mol"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+      "hint": "Add the atomic masses: C = 12, O = 16.",
+      "detailed": "Molar mass = Ar(C) + 2 * Ar(O) = 12 + 2 * 16 = 44 g/mol."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "What is the number of moles in 18 grams of water (\\(\\ce{H2O}\\))?",
+      "options": [
+        "1 mol",
+        "2 mol",
+        "0.5 mol",
+        "1.5 mol"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+      "hint": "Use: moles = mass / molar mass.",
+      "detailed": "Molar mass of \\(\\ce{H2O}\\) = 2 * 1 + 16 = 18 g/mol. So, moles = 18 / 18 = 1 mol."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "Which unit is used to measure the amount of substance in chemistry?",
+      "options": [
+        "Gram",
+        "Mole",
+        "Kilogram",
+        "Liter"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+      "hint": "It's the SI unit for amount of substance.",
+      "detailed": "The SI unit for the amount of substance is the mole (mol)."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "How many molecules are present in 2 moles of \\(\\ce{H2}\\)?",
+      "options": [
+        "\\(1.204 \\times 10^24\\)",
+        "\\(6.02 \\times 10^23\\)",
+        "\\(3.01 \\times 10^23\\)",
+        "\\(2.204 \\times 10^23\\)"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+      "hint": "Multiply moles by Avogadro's number.",
+      "detailed": "Number of molecules = \\(2 \\times 6.02 \\times 10^23 = 1.204 \\times 10^24\\) molecules."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "What is the molar mass of \\(\\ce{CaCl2}\\)?",
+      "options": [
+        "75.5 g/mol",
+        "95.5 g/mol",
+        "111 g/mol",
+        "40.5 g/mol"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+      "hint": "Ca = 40, Cl = 35.5.",
+      "detailed": "Molar mass = Ar(Ca) + 2 * Ar(Cl) = 40 + 2 * 35.5 = 95.5 g/mol."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+        "level": "easy",
+      "question": "What does one mole of sodium (\\(\\ce{Na}\\)) weigh?",
+      "options": [
+        "11 g",
+        "22 g",
+        "23 g",
+        "46 g"
+      ],
+      "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+      "hint": "Refer to sodium’s atomic mass.",
+      "detailed": "The molar mass of sodium is approximately 23 g/mol, so one mole of \\(\\ce{Na}\\) weighs 23 grams."
+    },
+    [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "A sealed jar contains a solid sample labeled 'Substance X'. You’re told it’s either \\(\\ce{Mg}\\), \\(\\ce{Al}\\), or \\(\\ce{Na}\\), but not which one. The sample weighs exactly 54 grams and is said to contain exactly 2 moles of atoms. Based on this, what is the most likely identity of Substance X?",
+        "options": [
+          "\\(\\ce{Na}\\)",
+          "\\(\\ce{Mg}\\)",
+          "\\(\\ce{Al}\\)",
+          "Cannot be determined"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Molar mass = mass / moles. Compare with actual molar masses of \\(\\ce{Na}\\), \\(\\ce{Mg}\\), \\(\\ce{Al}\\).",
+        "detailed": "Molar mass = 54 g / 2 mol = 27 g/mol. \\(\\ce{Na}\\) = 23, \\(\\ce{Mg}\\) = 24, \\(\\ce{Al}\\) = 27 → so it must be \\(\\ce{Al}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "A student adds exactly 180 g of glucose (\\(\\ce{C6H12O6}\\)) to a flask for a fermentation experiment. If the goal is to produce ethanol (\\(\\ce{C2H5OH}\\)) and carbon dioxide in a 1:1 molar ratio, how many moles of \\(\\ce{CO2}\\) will be produced, assuming 100% efficiency?",
+        "options": [
+          "0.5 mol",
+          "1 mol",
+          "2 mol",
+          "1 mol for each 90 g used, so 2 mol total"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "1 mol of glucose (180 g) yields 2 mol of \\(\\ce{CO2}\\).",
+        "detailed": "\\(\\ce{C6H12O6 → 2 C2H5OH + 2 CO2}\\). Molar mass of glucose = 180 g/mol. So 180 g = 1 mol glucose → 2 mol \\(\\ce{CO2}\\) produced."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "A powdered substance is made of a compound \\(\\ce{X2Y3}\\). A 160 g sample contains exactly 2.5 moles of \\(\\ce{Y}\\) atoms. Based on this, what is the molar mass of the compound \\(\\ce{X2Y3}\\)?",
+        "options": [
+          "96 g/mol",
+          "192 g/mol",
+          "64 g/mol",
+          "128 g/mol"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Work backward: how many moles of the compound correspond to 2.5 mol of Y atoms?",
+        "detailed": "Each mole of \\(\\ce{X2Y3}\\) has 3 mol of Y. So, 2.5 mol Y = 2.5 / 3 = 0.833... mol of compound. Molar mass = \\(\\frac{160 \\: \\text{g}}{0.833 \\: \\text{mol}} \\approx 192 \\: \\text{g/mol}\\)."
+      }
+    ]
+  ]
+}

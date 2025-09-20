@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "stoichiometry",
+    "title": "Purity MCQ Problems",
+    "test_id": "2_013",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does the term 'purity of a substance' usually refer to?",
+        "options": [
+          "The color of the substance",
+          "The percentage of the desired substance in a sample",
+          "The density of the substance",
+          "The volume of the substance"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Purity compares the mass of the pure substance to the total mass.",
+        "detailed": "Purity is defined as the percentage of the desired pure substance in a sample, relative to the total mass of the sample."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is the correct formula for calculating percentage purity?",
+        "options": [
+          "\\( \\frac{\\text{Mass of impure sample}}{\\text{Mass of pure substance}} \\times 100 % \\)",
+          "\\( \\frac{\\text{Mass of pure substance}}{\\text{Mass of impure sample}} \\times 100 % \\)",
+          "\\( \\frac{\\text{Total mass of impurities}}{\\text{Mass of impure sample}} \\times 100 % \\)",
+          "\\( \\frac{\\text{Mass of impure sample}}{\\text{Mass of impurities}} \\times 100 % \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The pure mass is compared against the whole sample mass.",
+        "detailed": "Percentage purity is calculated using the formula: \\(%\\text{ Purity} = \\dfrac{\\text{Mass of pure substance}}{\\text{Mass of impure sample}} \\times 100 % \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A sample of impure sodium chloride weighs 20 g. If it contains 18 g of pure NaCl, what is its percentage purity?",
+        "options": [
+          "80%",
+          "85%",
+          "90%",
+          "95%"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(%\\text{ Purity} = \\dfrac{\\text{Mass of pure substance}}{\\text{Mass of impure sample}} \\times 100 % \\).",
+        "detailed": "Percentage purity = \\((18/20) \\times 100 % = 90\\% \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a reaction requires 10 g of pure substance but you have a 50 g impure sample with 40% purity, how much pure substance does it actually contain?",
+        "options": [
+          "10 g",
+          "15 g",
+          "20 g",
+          "25 g"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Multiply the impure mass by the percentage purity fraction.",
+        "detailed": "Pure substance mass = \\((50 \\times 40/100) = 20 g \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why is it important to know the purity of a substance in chemical reactions?",
+        "options": [
+          "To predict the melting point only",
+          "To calculate the correct amount of reactants needed",
+          "To change the color of the product",
+          "To reduce the density of the solution"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Purity affects stoichiometric calculations.",
+        "detailed": "Knowing purity ensures correct stoichiometric amounts of reactants are used, as impurities can alter the effective mass of the reactive substance."
+      }
+    ]
+  }

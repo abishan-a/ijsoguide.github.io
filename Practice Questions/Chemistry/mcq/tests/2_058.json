@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "Other Topics",
+    "title": "Properties of Common Compounds MCQ Problems",
+    "test_id": "2_058",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which compound is hygroscopic and has a melting point of 800 °C?",
+        "options": [
+          "Water (\\(\\ce{H2O}\\))",
+          "Sodium chloride (\\(\\ce{NaCl}\\))",
+          "Calcium carbonate (\\(\\ce{CaCO3}\\))",
+          "Potassium nitrate (\\(\\ce{KNO3}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It’s common table salt and draws moisture from air.",
+        "detailed": "Sodium chloride (\\(\\ce{NaCl}\\)) is hygroscopic and has a high melting point of 801 °C."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which is described as a universal solvent with a boiling point of 100 °C?",
+        "options": [
+          "Ammonia (\\(\\ce{NH3}\\))",
+          "Water (\\(\\ce{H2O}\\))",
+          "Sulfuric acid (\\(\\ce{H2SO4}\\))",
+          "Carbon dioxide (\\(\\ce{CO2}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It's essential for life and often called universal solvent.",
+        "detailed": "Water (\\(\\ce{H2O}\\)) is a polar molecule, often called the universal solvent, with a boiling point of 100 °C."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which compound is a colorless gas with a pungent smell and a boiling point of –33 °C?",
+        "options": [
+          "Hydrogen peroxide ((\\(\\ce{H2O2}\\)))",
+          "Ammonia (\\(\\ce{NH3}\\))",
+          "Methane (\\(\\ce{CH4}\\))",
+          "Nitrous oxide (\\(\\ce{N2O}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Used in household cleaners and has a strong smell.",
+        "detailed": "Ammonia (\\(\\ce{NH3}\\)) is a colorless, pungent-smelling gas with a boiling point of –33 °C."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which compound decomposes into (\\(\\ce{CO2}\\)) and (\\(\\ce{CaO}\\)) at high temperatures and is used in cement?",
+        "options": [
+          "Sodium carbonate (\\(\\ce{Na2CO3}\\))",
+          "Calcium carbonate (\\(\\ce{CaCO3}\\))",
+          "Sodium bicarbonate (\\(\\ce{NaHCO3}\\))",
+          "Calcium hydroxide (\\(\\ce{Ca(OH)2}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It’s the main component of chalk and limestone.",
+        "detailed": "Calcium carbonate (\\(\\ce{CaCO3}\\)) decomposes into (\\(\\ce{CO2}\\)) and (\\(\\ce{CaO}\\)) at about 825 °C and is used in cement, chalk, and toothpaste."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these is a volatile, colorless liquid that’s flammable and used as both a disinfectant and in alcoholic beverages?",
+        "options": [
+          "Acetic acid (\\(\\ce{CH3COOH}\\))",
+          "Hydrogen peroxide (H₂O₂)",
+          "Ethanol (\\(\\ce{C2H5OH}\\))",
+          "Glucose (\\(\\ce{C6H12O6}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It’s the main alcohol in drinks and hand sanitizers.",
+        "detailed": "Ethanol (\\(\\ce{C2H5OH}\\)) is a volatile, flammable, colorless liquid used in alcoholic drinks and as a disinfectant solvent."
+      }
+    ]
+  }

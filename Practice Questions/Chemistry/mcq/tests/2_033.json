@@ -1,0 +1,165 @@
+{
+    "subject": "chemistry",
+    "unit": "chemical_kinetics",
+    "title": "Rate laws MCQ problems",
+    "test_id": "2_033",
+    "problems": [
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "In the reaction \\(\\ce{2H2 + 2NO \\rightarrow N2 + 2H2O}\\), the partial reaction order of hydrogen is 1 and that of nitrogen monoxide is 2. What is the correct rate law?",
+        "options": [
+          "\\( v = [H_2][NO]^2 \\)",
+          "\\( v = k[H_2]^2[NO] \\)",
+          "\\( v = k[H_2][NO]^2 \\)",
+          "\\( v = k[H_2][NO] \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about what partial reaction orders mean",
+        "detailed": "The partial reaction order is the exponent of the concentration of the respective species. We should raise the hydrogen concentration to the first power and the nitrogen monoxide concentration to the second power. And, in the end, we multiply by the rate constant to get the rate law \\( v = k[H_2][NO]^2 \\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "Tert-butyl bromide reacts with potassium hydroxide, producing tert-butanol. If instead of dilute potassium hydroxide we use concentrated potassium hydroxide, the reaction doesn’t happen faster. What can we say about the kinetics of this reaction?",
+        "options": [
+          "The rate constants is very low",
+          "The rate constant is very high",
+          "The reaction is reversible",
+          "The partial order of potassium hydroxide is zero"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Write down a general rate law",
+        "detailed": "If the rate doesn’t change when the potassium hydroxide concentration changes, that can only mean the potassium hydroxide concentration doesn’t appear in the rate law. However, because it is a reactant, the term \\( [KOH]^n \\) should appear. Because, still, [KOH] doesn’t appear, we can only deduce that the partial reaction order is n = 0"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "What is the rate constant unit for a second order reaction?",
+        "options": [
+          "\\( s^{-1}×mol^2×L^{-2} \\)",
+          "\\( s^{-1}×mol^{-2}×L^2 \\)",
+          "\\( s^{-1}×mol^{-1}×L \\)",
+          "\\( s^{-1}×mol×L^{-1} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Write the rate law and substitute the known units",
+        "detailed": "The rate law is . Denoting the unit of k with {k} , we can write the following equation: \\( mol\\cdot L^{-1} s^{-1} = {k}\\cdot mol^2L^{-2}\\) . From this, we easily get \\( {k} = s^{-1}mol^{-1}L \\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "Consider the reaction 2NO(g) + Cl2(g) = 2NOCl. The rate of formation of NOCl is given by: <br> \\( v = \\frac{\\Delta [NOCl]}{\\Delta t} = k\\cdot [NO]^2[Cl_2] \\) <br>What is the total reaction order?",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Find the partial reaction orders first",
+        "detailed": "The partial reaction orders are the exponents of the concentrations in the rate law. For NO, the partial reaction order is 2, and for chlorine, the partial reaction order is 1. The total reaction order is 2 + 1 = 3"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "Methyl bromide reacts with hydroxides, to produces methanol and the bromide anion, according to the reaction:<br>\\( CH_3Br + HO^- \\rightarrow CH_3OH + Br^- \\)<br>Partial reaction orders are all equal to 1 and the numerical value of the rate constant is \\( k = 1.6\\times 10^{-4} \\)<br>When \\( [CH_3Br] = 0.05M, [HO^-] = 0.01M, [CH_3OH] = 0.1M, [BR^-] = 0.05M\\), the reaction rate is equal to:",
+        "options": [
+          "\\( 8\\times 10^{-8} \\)",
+          "\\( 4\\times 10^{-10} \\)",
+          "\\( 5\\times 10^{-4} \\)",
+          "\\( 2.5\\times 10^{-6} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Think about what species appear in the rate law",
+        "detailed": "The reaction rate only depends on the concentrations of the reactants. Knowing all the partial reaction orders are equal to unity, the rate law is \\( v = k[CH_3Br][HO^-] \\). Substituting values, we get \\( v = 8\\times 10^{-8} \\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "Ethyl iodide decomposes when heated at 600K, according to the chemical reaction \\( CH_3CH_2I \\rightarrow CH_2CH_2 + HI \\). At \\([CH_3CH_2I] = 0.1M, v = 10^{-7}\\), and at \\([CH3CH2I] = 0.05M, v = 2.5\\times 10^{-8{\\). Find the reaction order:",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Write the general rate law",
+        "detailed": "\\(v = k[CH_3CH_2I]^n\\). Using \\(c = [CH_3CH_2I] \\)to make notations simpler, we can write the rate laws \\(v_1 = kc_1^n\\) and \\(v_2 = kc_2^n\\). Dividing the two, \\(\\frac{v_1}{v_2} = (\\frac{c_1}{c_2})^n\\). Taking the log of both sides and using \\(log(a^x) = x log(a)\\), we get \\(log(\\frac{v_1}{v_2}) = n\\cdot log(\\frac{c_1}{c_2})\\), from which \\(n = \\frac{log(v_1/v_2)}{log(c_1/c_2)} = 2\\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "Nitrogen pentoxide decomposes according to \\(N_2O_5\\rightarrow 2NO_2 + \\frac{1}{2} O_2\\). The rate constant’s numerical value is \\(3\\times 10^{-3}\\) and when \\([N_2O_5]=0.025M, v = 7.5\\times 10^{-5}\\). What is the unit of the rate constant?",
+        "options": [
+          "\\( s^{-1}mol\\cdot L^{-1} \\)",
+          "\\( s^{-1} \\)",
+          "\\( s^{-1}mol^{-1}L \\)",
+          "\\( s\\cdot mol^{-1}L \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Find the reaction order",
+        "detailed": "The rate law is \\(v = k[N_2O_5]^n\\), from which \\(n = \\frac{log(v/k)}{log([N2O5])}\\) = 1. For a first order reaction, writing the units in the rate law, it can be shown that the unit of k is \\(s^{-1}\\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "Ethyl bromide reacts with sodium hydroxide, forming ethanol and sodium bromide. The reaction is \\(CH_3CH_2Br + NaOH \\rightarrow CH_3CH_2OH + NaBr\\). Some amounts of ethyl bromide and sodium hydroxide are dissolved in 500mL dimethylformamide (DMF – a solvent) and the reaction rate is measured to be v. If the same amounts were dissolved in 1L of DMF, the rate would be v/4. What is the total reaction order?",
+        "options": [
+          "1",
+          "2",
+          "4"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Write the rate law and see what changes when the volume of DMF changes.",
+        "detailed": "– Let m and n be the partial reaction rates. When the volume of DMF doubles, both concentrations are halved. \\(\\frac{v}{4} = k(\\frac{[CH_3CH_2Br]}{2})^m (\\frac{[NaOH]}{2})^n = \\frac{k[CH_3CH_2Br]^m[NaOH]^n}{2^{m+n}} = \\frac{v}{2^{m+n}}\\). From this, \\(2^{m+n} = 4\\), so \\(m+n=2\\). But \\(m+n\\) is exactly the total reaction order, so the answer is 2."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "medium",
+        "question": "For the reaction \\(H_2 + Br_2 \\rightarrow 2HBr\\), the total reaction order is known to be 1.5. If the mass of bromine present doubles, the reaction rate increases by 41%. What is the partial order with respect to hydrogen?",
+        "options": [
+          "0.5",
+          "1",
+          "1.5"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Find the ratio between the two reaction rates and write the rate law.",
+        "detailed": "If v is the rate in the first case, the rate in the second case is \\(1.41v\\). If n is the partial order with respect to bromine, \\(n = \\frac{log(1.41)}{log(2)} = 0.5\\). The order with respect to hydrogen is \\(1.5 – 0.5 = 1\\)"
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "hard",
+        "question": "\\(NO\\) combines with \\(O_2\\) to give \\(NO_2\\), according to \\(2NO + O_2 \\rightarrow 2NO_2\\). You are given three sets of data (the rate law and the concentrations of the reactants for each set). The three sets of data are:<ul><li>\\(v_1 = 6.31\\times 10^11, [NO]_1=0.1M, [O_2]_1=0.1M\\)</li><li>\\(v_2 = 4.47\\times 10^11, [NO]_2=0.1M, [O_2]_2=0.05M\\)</li><li>\\(v_3 = 2.53\\times 10^10, [NO]_3=0.02M, [O_2]_3=0.1M\\)</li></ul>. Using the data, find the total rate order.",
+        "options": [
+          "1",
+          "1.5",
+          "2",
+          "2.5"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Write the rate laws for all cases and try some algebraic tricks to cancel out terms",
+        "detailed": "Let \\(m\\) be the reaction order with respect to \\(NO\\) and n be the reaction order with respect to \\(O_2\\). We see that in sets 1 and 2, \\([NO]\\) is the same. Writing the rate laws and dividing them, the \\([NO]\\) term cancels out, and we’re left with \\(\\frac{v_1}{v_2} = (\\frac{[O_2]_1}{[O_2]_2})^n\\). Taking the log and solving for n, we get n = 0.5. Similarly, for sets 1 and 3, we get m = 2. The total reaction order is m + n = 2.5"
+      }
+    ]
+  }

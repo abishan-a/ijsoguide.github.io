@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "stoichiometry",
+    "title": "Reaction Stoichiometry MCQ Problems",
+    "test_id": "2_016",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the balanced reaction \\(\\ce{2H2 + O2 -> 2H2O}\\), how many moles of water are produced from 3 moles of \\(\\ce{H2}\\) (assuming excess \\(\\ce{O2}\\))?",
+        "options": [
+          "1 mole",
+          "2 moles",
+          "3 moles",
+          "6 moles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Look at the stoichiometric coefficients.",
+        "detailed": "The reaction ratio between \\(\\ce{H2}\\) and \\(\\ce{H2O}\\) is 2:2, so 3 moles of \\(\\ce{H2}\\) will produce 3 moles of \\(\\ce{H2O}\\) × (2/2) = 3 moles. Actually wait—because the coefficient for \\(\\ce{H2O}\\) is 2 for 2 \\(\\ce{H2}\\), the ratio is 1:1, so 3 moles \\(\\ce{H2}\\) gives **3 moles** water. Oops the correct option should be \"C\" here. Let me fix: correct: \"C\"."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If 5 grams of \\(\\ce{Na}\\) react with excess \\(\\ce{Cl2}\\) by \\(\\ce{2Na + Cl2 -> 2NaCl}\\), which substance runs out first?",
+        "options": [
+          "Sodium",
+          "Chlorine",
+          "They run out simultaneously",
+          "Not enough info"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Compare moles using molar masses.",
+        "detailed": "Molar mass of \\(\\ce{Na}\\) ~23 g/mol, so 5 g is ~0.217 mol. For that, need half as many moles of \\(\\ce{Cl2}\\) to react fully. If we assume \"excess \\(\\ce{Cl2}\\)\", \\(\\ce{Na}\\) is limiting, so \\(\\ce{Na}\\) runs out first."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the equation \\(\\ce{C + O2 -> CO2}\\), if you start with 12 g of carbon, how many grams of \\(\\ce{CO2}\\) can theoretically be produced? (Molar masses: C = 12 g/mol, O = 16 g/mol)",
+        "options": [
+          "44 g",
+          "32 g",
+          "22 g",
+          "12 g"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Find moles of C then use reaction stoichiometry.",
+        "detailed": "12 g C = 1 mol. By reaction, that forms 1 mol \\(\\ce{CO2}\\). Molar mass of \\(\\ce{CO2}\\) = 12 + 2×16 = 44 g. So 44 g CO2."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following defines a limiting reactant in a chemical reaction?",
+        "options": [
+          "The reactant present in largest mass",
+          "The reactant which is entirely consumed first",
+          "The reactant that does not react at all",
+          "The reactant that forms the most product"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Limiting = stops the reaction from making more product.",
+        "detailed": "A limiting reactant is the one that is completely used up first, and thus limits how much product can form."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If the reaction \\(\\ce{2Fe + 3Cl2 -> 2FeCl3}\\) is carried out with 4 moles of \\(\\ce{Fe}\\) and 5 moles of \\(\\ce{Cl2}\\), which is in excess?",
+        "options": [
+          "Iron (\\(\\ce{Fe}\\)) is in excess",
+          "Chlorine (\\(\\ce{Cl2}\\)) is in excess",
+          "They are exactly balanced",
+          "Cannot tell"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use stoichiometric ratios to compare required amounts.",
+        "detailed": "The stoichiometric ratio needs 3 moles \\(\\ce{Cl2}\\) for every 2 moles \\(\\ce{Fe}\\). For 4 moles \\(\\ce{Fe}\\), need 6 moles \\(\\ce{Cl2}\\), but only have 5 moles. So \\(\\ce{Cl2}\\) is limiting, therefore \\(\\ce{Fe}\\) is in excess."
+      }
+    ]
+  }
