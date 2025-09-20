@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Human Impact on the Environment MCQ Problems",
+    "test_id": "3_082",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these human activities contributes directly to habitat loss?",
+        "options": [
+          "Recycling plastics",
+          "Cutting down forests (deforestation)",
+          "Planting trees",
+          "Using renewable energy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about what removes large areas of living space for organisms.",
+        "detailed": "Deforestation removes forests, which are homes for many species, directly leading to loss of habitat."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What problem is caused by releasing untreated sewage into rivers and lakes?",
+        "options": [
+          "Increased dissolved oxygen levels",
+          "Reduced algae growth",
+          "Eutrophication",
+          "More rainfall"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Nutrients in the sewage feed algae growth.",
+        "detailed": "Nutrients like nitrogen and phosphorus in untreated sewage cause excess algae growth; as algae die and decompose, this reduces oxygen in water, harming aquatic life (eutrophication)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What effect does plastic pollution have on marine life?",
+        "options": [
+          "It improves water clarity",
+          "Animals may ingest plastic or become entangled",
+          "Increases oxygen levels in water",
+          "Helps coral reefs grow"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Plastic in the ocean is often dangerous physically or chemically.",
+        "detailed": "Marine animals may mistake plastic for food and eat it, leading to internal injury or starvation; they can also become entangled, which can cause injuries or death."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which gas released from vehicles contributes to acid rain?",
+        "options": [
+          "Carbon monoxide (\\(\\ce{CO}\\))",
+          "Nitrogen oxides (\\(\\ce{NO_x}\\))",
+          "Oxygen (\\(\\ce{O2}\\))",
+          "Argon (\\(\\ce{Ar}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Gas with nitrogen and oxygen, emits in car exhaust, forms acids in atmosphere.",
+        "detailed": "Nitrogen oxides from vehicle exhaust combine with water in the atmosphere to form acids, which fall as acid rain, harming ecosystems."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why is overfishing a concern for ecosystems?",
+        "options": [
+          "It increases fish populations",
+          "It disrupts food chains and depletes species",
+          "It reduces algae growth",
+          "It cleans the ocean"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Removing many fish changes what eats what in the food web.",
+        "detailed": "Overfishing reduces the numbers of certain fish species, which disrupts food chains, can cause the collapse of populations, and affects ecosystem balance."
+      }
+    ]
+  }

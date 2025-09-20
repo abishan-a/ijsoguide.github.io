@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Ozone Cycle MCQ Problems",
+    "test_id": "3_079",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens when high-energy UV breaks apart a molecule of \\(\\ce{O2}\\) in the stratosphere?",
+        "options": [
+          "It forms two ozone molecules",
+          "It forms two atomic oxygen atoms",
+          "It becomes \\(\\ce{O3}\\)",
+          "It forms \\(\\ce{O2}\\) and heat only"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Breaking apart means splitting into individual atoms.",
+        "detailed": "The UV light splits \\(\\ce{O2}\\) into two single oxygen atoms (\\(\\ce{O + O}\\)), which are atomic oxygen."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process leads to the formation of ozone \\(\\ce{O3}\\)?",
+        "options": [
+          "Atomic oxygen reacting with water vapour",
+          "Two ozone molecules combining",
+          "Atomic oxygen reacting with \\(\\ce{O2}\\) in presence of another molecule M",
+          "Ozone absorbing UV light and splitting"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about what atomic oxygen collides with.",
+        "detailed": "An atomic oxygen atom collides with a molecule \\(\\ce{O2}\\), and with help of a third molecule (M) to absorb excess energy, to form ozone: \\(\\ce{O + O2 + M -> O3 + M}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Natural destruction of ozone happens in which way?",
+        "options": [
+          "Ozone reacting with water to produce oxygen",
+          "Absorption of UV by \\(\\ce{O3}\\) forming \\(\\ce{O2}\\) + O",
+          "Ozone combining to form \\(\\ce{O4}\\)",
+          "Atomic oxygen reacting with nitrogen"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Consider how \\(\\ce{O3}\\) responds to UV light.",
+        "detailed": "One natural destruction pathway: \\(\\ce{O3 + UV -> O2 + O}\\); ozone absorbs UV and splits."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which human-made substances contribute most directly to ozone depletion in the stratosphere?",
+        "options": [
+          "Carbon dioxide and methane",
+          "Nitrogen and oxygen",
+          "Chlorofluorocarbons (CFCs) and halons",
+          "Water vapour"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Look for the chemicals that release chlorine or bromine atoms.",
+        "detailed": "CFCs and halons release chlorine or bromine when broken down by UV radiation; these halogen atoms then catalyze ozone destruction."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is one consequence of thinning of the ozone layer?",
+        "options": [
+          "Less UV-B reaching Earth’s surface",
+          "Reduced risk of cataracts",
+          "Increased plant growth globally",
+          "Higher rates of skin cancer"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Ozone blocks UV; less ozone means more UV affects life.",
+        "detailed": "Thinning ozone allows more harmful UV-B to reach the surface, which increases risk of skin cancer and cataracts in humans, and damages ecosystems."
+      }
+    ]
+  }

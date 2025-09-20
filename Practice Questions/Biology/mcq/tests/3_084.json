@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Global Warming MCQ Problems",
+    "test_id": "3_084",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the primary greenhouse gas that contributes most to global warming?",
+        "options": [
+          "Methane (\\(\\ce{CH4}\\))",
+          "Carbon dioxide (\\(\\ce{CO2}\\))",
+          "Nitrous oxide (\\(\\ce{N2O}\\))",
+          "Ozone (\\(\\ce{O3}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It is released by burning fossil fuels and deforestation.",
+        "detailed": "Carbon dioxide (\\(\\ce{CO2}\\)) is the largest contributor among greenhouse gases because it is produced in vast amounts by burning oil, coal, gas, and by deforestation."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which human activity is a major cause of increase in \\(\\ce{CO2}\\) concentration in the atmosphere?",
+        "options": [
+          "Photosynthesis",
+          "Volcanic activity",
+          "Burning fossil fuels",
+          "Respiration"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about cars, factories, power plants.",
+        "detailed": "Burning fossil fuels (coal, oil, natural gas) for industry, transport and electricity releases large amounts of \\(\\ce{CO2}\\) into the atmosphere, increasing greenhouse effect."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "How do higher concentrations of greenhouse gases cause warming of Earth?",
+        "options": [
+          "They directly increase solar radiation reaching Earth.",
+          "They absorb infrared radiation reradiated by Earth’s surface.",
+          "They reflect visible light back into space.",
+          "They block formation of clouds."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Greenhouse effect involves infrared (heat) radiation.",
+        "detailed": "Greenhouse gases absorb infrared radiation emitted by Earth’s surface and re-emit it, trapping heat and thereby raising the planet’s temperature."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which effect is NOT a consequence of global warming?",
+        "options": [
+          "Melting of polar ice caps",
+          "Rising sea levels",
+          "Increased frequency of extreme weather",
+          "Decrease in atmospheric \\(\\ce{CO2}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Consider how human emissions and feedbacks work.",
+        "detailed": "Global warming is driven by increasing \\(\\ce{CO2}\\); atmospheric levels do not decrease as a result — instead, they generally increase."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is a natural feedback that could accelerate global warming?",
+        "options": [
+          "Increased reflection of sunlight from snow (albedo)",
+          "Reduction in methane emissions from wetlands",
+          "Melting permafrost releasing stored greenhouse gases",
+          "Growth of forests absorbing more carbon"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Feedbacks often involve release of gases or reduction of carbon sinks.",
+        "detailed": "Melting permafrost releases stored greenhouse gases such as methane and CO₂, increasing greenhouse effect and thus accelerating warming in a positive feedback loop."
+      }
+    ]
+  }

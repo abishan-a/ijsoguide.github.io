@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Carbon Cycle MCQ Problems",
+    "test_id": "3_076",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process removes \\(\\ce{CO2}\\) from the atmosphere?",
+        "options": [
+          "Respiration",
+          "Photosynthesis",
+          "Burning fossil fuels",
+          "Decomposition"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Plants use \\(\\ce{CO2}\\) to make food.",
+        "detailed": "Photosynthesis by plants takes \\(\\ce{CO2}\\) from the atmosphere and converts it into organic compounds."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which reservoir stores carbon mainly as dissolved \\(\\ce{CO2}\\), bicarbonate, or carbonate in aquatic environments?",
+        "options": [
+          "Atmosphere",
+          "Lithosphere",
+          "Oceans",
+          "Biosphere"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Which environment is water-based and holds carbon in dissolved forms?",
+        "detailed": "The oceans store large amounts of carbon, mainly as dissolved \\(\\ce{CO2}\\), bicarbonate (\\(\\ce{HCO3^-}\\)), or carbonate (\\(\\ce{CO3^{2-}}\\))."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What human activity quickly increases the amount of \\(\\ce{CO2}\\) released into the atmosphere?",
+        "options": [
+          "Photosynthesis",
+          "Weathering of rocks",
+          "Burning fossil fuels",
+          "Formation of sedimentary rocks"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about combustion of coal, oil, or gas.",
+        "detailed": "Burning fossil fuels releases large amounts of previously stored carbon into the atmosphere as \\(\\ce{CO2}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Deforestation affects the carbon cycle by doing what?",
+        "options": [
+          "Increasing photosynthesis",
+          "Reducing \\(\\ce{CO2}\\) absorption by plants",
+          "Increasing \\(\\ce{CO2}\\) absorption by soils",
+          "Turning \\(\\ce{CO2}\\) into fossil fuels"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Trees are major absorbers of \\(\\ce{CO2}\\).",
+        "detailed": "When trees are removed, the amount of \\(\\ce{CO2}\\) absorbed through photosynthesis decreases, so less atmospheric \\(\\ce{CO2}\\) is removed."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process returns carbon to the soil and atmosphere by breaking down dead organisms?",
+        "options": [
+          "Photosynthesis",
+          "Respiration",
+          "Decomposition",
+          "Fossil fuel formation"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "What happens to dead plant or animal matter over time?",
+        "detailed": "Decomposition breaks down dead organisms, returning carbon to the soil and atmosphere through microbial activity."
+      }
+    ]
+  }

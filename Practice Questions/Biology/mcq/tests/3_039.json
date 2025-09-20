@@ -1,0 +1,88 @@
+{
+  "subject": "biology",
+  "unit": "human biology",
+  "title": "Reproductive Hormones MCQ Problems",
+  "test_id": "3_039",
+  "problems": [
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "Which hormone is primarily responsible for triggering ovulation in females?",
+      "options": [
+        "Progesterone",
+        "Estrogen",
+        "Luteinizing hormone (LH)",
+        "Follicle-stimulating hormone (FSH)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "The LH surge causes the release of the egg from the ovary.",
+      "detailed": "Luteinizing hormone (LH) surges mid-cycle and triggers ovulation — the release of an egg from the ovary."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "If progesterone levels are high and FSH levels are low, which phase of the menstrual cycle is most likely occurring?",
+      "options": [
+        "Follicular phase",
+        "Ovulation",
+        "Luteal phase",
+        "Menstruation"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "High progesterone comes from the corpus luteum.",
+      "detailed": "During the luteal phase, progesterone levels rise to maintain the uterine lining, while FSH levels are suppressed to prevent new follicles from developing."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "FSH plays a key role in both males and females. What is its main function in females?",
+      "options": [
+        "Stimulating sperm production",
+        "Triggering ovulation",
+        "Stimulating follicle growth in the ovary",
+        "Maintaining the uterine lining"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Think of the name: follicle-stimulating hormone.",
+      "detailed": "FSH stimulates the growth and development of ovarian follicles, preparing an egg for ovulation."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "Which hormone is released by the hypothalamus to control the release of FSH and LH from the pituitary gland?",
+      "options": [
+        "Testosterone",
+        "GnRH",
+        "LH",
+        "Progesterone"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "It’s the top-level hormone that triggers both FSH and LH.",
+      "detailed": "Gonadotropin-releasing hormone (GnRH) is secreted by the hypothalamus and regulates the release of LH and FSH from the anterior pituitary."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "During which part of the menstrual cycle do estrogen levels gradually rise, leading to the thickening of the uterine lining?",
+      "options": [
+        "Luteal phase",
+        "Menstruation",
+        "Follicular phase",
+        "Ovulation"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "This phase prepares the body for ovulation.",
+      "detailed": "In the follicular phase, estrogen levels steadily rise as follicles grow, causing the uterine lining to thicken in preparation for potential pregnancy."
+    }
+  ]
+}

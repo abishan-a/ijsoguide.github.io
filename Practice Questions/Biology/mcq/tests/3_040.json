@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "human biology",
+    "title": "Pregnancy and Sex-Determination MCQ Problems",
+    "test_id": "3_040",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which structure in early pregnancy produces the hormone human chorionic gonadotropin (hCG)?",
+        "options": [
+          "Amniotic sac",
+          "Placenta",
+          "Chorion",
+          "Mammary gland"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It is part of the embryo that interacts with the mother’s uterus.",
+        "detailed": "The chorion is part of the early embryo, and it secretes the hormone hCG, which helps maintain the corpus luteum and progesterone production."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the function of the placenta during pregnancy?",
+        "options": [
+          "It stores genetic information",
+          "It produces sperm",
+          "It exchanges nutrients, gases, and waste between mother and fetus",
+          "It generates muscle contractions"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of how the baby is fed and cleaned via the mother.",
+        "detailed": "The placenta allows oxygen and nutrients to diffuse from mother's bloodstream to the fetus and removes waste products in the opposite direction, acting as the interface between maternal and fetal circulations."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which hormone helps maintain the uterine lining during the first trimester?",
+        "options": [
+          "Prolactin",
+          "Progesterone",
+          "Oxytocin",
+          "Testosterone"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It is produced by the corpus luteum and later the placenta.",
+        "detailed": "Progesterone is critical in early pregnancy to maintain the uterine lining so the embryo can continue to develop safely."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What process connects the fetus’s circulatory system with the mother’s blood supply without mixing blood?",
+        "options": [
+          "Osmosis",
+          "Diffusion through the umbilical cord",
+          "Exchange via the placenta",
+          "Direct blood flow between mother and fetus"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of an organ that filters and separates, but lets chemicals pass.",
+        "detailed": "The placenta mediates exchange of gases, nutrients, and waste between fetal and maternal blood without having their blood mix directly, maintaining separate circulatory systems."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "At roughly how many weeks is a human pregnancy considered full term?",
+        "options": [
+          "30 weeks",
+          "36 weeks",
+          "40 weeks",
+          "44 weeks"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Common gestational duration used in medical care.",
+        "detailed": "Typical human pregnancy is about 40 weeks from the last menstrual period. Full-term is usually considered around this time (38-42 weeks)."
+      }
+    ]
+  }
