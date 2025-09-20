@@ -77,9 +77,9 @@
                 "title": "Hooke's Law and Elastic Motion"
                 },
                 "1_013": {
-                "easy": 0,
-                "medium": 0,
-                "hard": 0,
+                "easy": 6,
+                "medium": 3,
+                "hard": 1,
                 "title": "Harmonic Motion and Angular Frequency"
                 },
                 "1_014": {
@@ -89,13 +89,13 @@
                 "title": "Nature of Energy and Energy Conservation"
                 },
                 "1_015": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Forms of Energy"
                 },
                 "1_016": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Sources of Energy"
@@ -269,13 +269,13 @@
             },
             "Thermodynamics": {
                 "1_044": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Temperature Scales"
                 },
                 "1_045": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Thermal Equilibrium"
@@ -299,21 +299,21 @@
                 "title": "Thermal Expansion"
                 },
                 "1_049": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Kinetic Model of Matter"
                 },
                 "1_050": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Change in States"
                 },
                 "1_051": {
-                "easy": 0,
-                "medium": 0,
-                "hard": 0,
+                "easy": 6,
+                "medium": 2,
+                "hard": 1,
                 "title": "Specific Heat Capacity"
                 },
                 "1_052": {
@@ -349,19 +349,19 @@
             },
             "Electricity and Magnetism": {
                 "1_057": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Electric Charge and Properties"
                 },
                 "1_058": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Conductors and Insulators"
                 },
                 "1_059": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Charging by Induction and Friction"
@@ -483,13 +483,13 @@
             },
             "Modern Physics": {
                 "1_079": {
-                "easy": 0,
+                "easy": 8,
                 "medium": 0,
                 "hard": 0,
                 "title": "Structure of particles and atoms (neutrons, protons, electrons)"
                 },
                 "1_080": {
-                "easy": 0,
+                "easy": 4,
                 "medium": 0,
                 "hard": 0,
                 "title": "Bohr model of the atom"
@@ -515,19 +515,19 @@
             },
             "Astrophysics": {
                 "1_084": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Structure of the universe (galaxies, stars, planets)"
                 },
                 "1_085": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Solar system"
                 },
                 "1_086": {
-                "easy": 0,
+                "easy": 6,
                 "medium": 0,
                 "hard": 0,
                 "title": "Celestial mechanics"
@@ -579,9 +579,9 @@
                 "title": "Trends in the Periodic Table"
                 },
                 "2_008": {
-                "easy": 0,
-                "medium": 0,
-                "hard": 0,
+                "easy": 4,
+                "medium": 4,
+                "hard": 1,
                 "title": "Polarity of Bonds"
                 },
                 "2_009": {
@@ -605,43 +605,43 @@
                 "title": "Mole of a Compound"
                 },
                 "2_012": {
-                "easy": 0,
-                "medium": 0,
-                "hard": 0,
+                "easy": 6,
+                "medium": 4,
+                "hard": 1,
                 "title": "Concentration"
                 },
                 "2_013": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Purity"
                 },
                 "2_014": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Molecular and Empirical formula"
                 },
                 "2_015": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Mass Composition of a Chemical Compound"
                 },
                 "2_016": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Reaction Stoichiometry"
                 },
                 "2_017": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Limiting reactant"
                 },
                 "2_018": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Reaction Yield"
@@ -681,7 +681,7 @@
             },
             "Thermochemistry": {
                 "2_024": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "States of Matter"
@@ -693,7 +693,7 @@
                 "title": "The Gas Phase"
                 },
                 "2_026": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Phase Changes"
@@ -731,15 +731,15 @@
             },
             "Chemical Kinetics": {
                 "2_032": {
-                "easy": 0,
+                "easy": 7,
                 "medium": 0,
                 "hard": 0,
                 "title": "Rate of Reaction"
                 },
                 "2_033": {
-                "easy": 0,
-                "medium": 0,
-                "hard": 0,
+                "easy": 5,
+                "medium": 4,
+                "hard": 1,
                 "title": "Rate Laws"
                 },
                 "2_034": {
@@ -863,13 +863,13 @@
             },
             "Others": {
                 "2_053": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Spectrophotometry and the Beer-Lambert Law"
                 },
                 "2_054": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Radioactive Decay"
@@ -893,7 +893,7 @@
                 "title": "Crystal Hydrates"
                 },
                 "2_058": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Properties of Common Compounds"
@@ -1135,13 +1135,13 @@
                 "title": "Reproductive System Anatomy"
                 },
                 "3_039": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Reproductive Hormones"
                 },
                 "3_040": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Pregnancy and Sex-Determination"
@@ -1365,7 +1365,7 @@
                 "title": "Food chains and food webs"
                 },
                 "3_076": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Carbon Cycle"
@@ -1383,7 +1383,7 @@
                 "title": "Water Cycle"
                 },
                 "3_079": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Ozone Cycle"
@@ -1401,7 +1401,7 @@
                 "title": "Symbiosis"
                 },
                 "3_082": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Human impact on the environment"
@@ -1413,7 +1413,7 @@
                 "title": "Acid Rain"
                 },
                 "3_084": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Global Warming"
