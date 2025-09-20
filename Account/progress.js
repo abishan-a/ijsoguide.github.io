@@ -33,45 +33,6 @@ onAuthStateChanged(auth, (user) => {
         .catch(()=>{
           console.log('error');
         })
-
-
-
-        /*getDocs(collection(db, "userData", uid, "testHistory"))
-        .then((querySnapshot1)=> {
-            querySnapshot1.forEach((doc) => {
-                let finishTime = new Date(doc.data().finishTime);
-                if (!historyTitles.includes(doc.data().title)){
-                    testNo++;
-                    historyTitles.push(doc.data().title);
-                }
-
-                let li = document.createElement('li');
-                let span = document.createElement('span');
-                span.classList.add('topic-title');
-                span.innerHTML = doc.data().title + ", " + finishTime.toLocaleDateString();
-                li.appendChild(span);
-                let progressContainer = document.createElement('div');
-                progressContainer.classList.add('progress-container');
-                let progressBar = document.createElement('div');
-                progressBar.classList.add('progress-bar');
-                progressBar.style.setProperty('--progress', doc.data().percent + "%");
-                let progressText = document.createElement('span');
-                progressText.classList.add('progress-text');
-                progressText.innerHTML = Math.round(doc.data().percent) + "%";
-                progressContainer.appendChild(progressBar);
-                progressContainer.appendChild(progressText);
-                li.appendChild(progressContainer);
-                if(doc.data().subject == "physics") document.getElementById('testHistoryListPhysics').appendChild(li);
-                else if (doc.data().subject == "chemistry") document.getElementById('testHistoryListChemistry').appendChild(li);
-                else if(doc.data().subject == "biology") document.getElementById('testHistoryListBiology').appendChild(li);
-            });
-            document.getElementById('overallProgressBar').style.width = testNo/totalTests * 100 + "%";
-            document.getElementById('overallProgressText').innerHTML = Math.round(testNo/totalTests * 100) + "%";
-            document.getElementById('overallProgressBar').style.setProperty('--progress', testNo/totalTests * 100 + "%")
-        })
-        .catch(error => {
-            console.log("Error getting document:", error);
-        });*/
         // ...
     } else {
         // User is signed out
@@ -83,11 +44,95 @@ onAuthStateChanged(auth, (user) => {
 
   function loadProgress(systemData){
     let testNo = 0;
+    let totalProblems = 0;
     let stats = [];
-    stats["physics"] = [];
-    stats["chemistry"] = [];
-    stats["biology"] = [];
-    getDocs(collection(db, "userData", uid, "completedProblems"))
+
+    for (let subjectName of ["physics", "chemistry", "biology"]){
+      stats[subjectName] = [];
+      getDocs(collection(db, "userData", uid, "completedTests", "allTests", subjectName))
+      .then((documents)=>{
+        documents.forEach(document => {
+          let documentData = document.data()
+          if (documentData){
+            testNo += 1;
+            let test_id = document.id;
+
+            stats[subjectName][test_id] = {
+              "easy": documentData["easyPercent"],
+              "medium": documentData["mediumPercent"],
+              "hard": documentData["hardPercent"]
+            };
+          }
+        })
+      })
+      .then(()=>{
+        let subjectCode;
+        let subject = subjectName;
+        if (subjectName == "physics") subjectCode = 1
+        else if (subjectName == "chemistry") subjectCode = 2
+        else if (subjectName == "biology") subjectCode = 3
+
+        for (let unitKey in systemData["problemCount"][subjectCode]){
+          let li = document.createElement('li');
+          let unitTitle = document.createElement('p');
+          unitTitle.innerHTML = unitKey;
+          li.appendChild(unitTitle);
+          li.id = unitKey;
+
+          if(subject == "physics") li = document.getElementById('testHistoryListPhysics').appendChild(li);
+          else if (subject == "chemistry") li = document.getElementById('testHistoryListChemistry').appendChild(li);
+          else if(subject == "biology") li = document.getElementById('testHistoryListBiology').appendChild(li);
+
+          for (let topicKey in systemData["problemCount"][subjectCode][unitKey]){
+
+            let topicData = systemData["problemCount"][subjectCode][unitKey][topicKey];
+            totalProblems += topicData["easy"] + topicData["medium"] + topicData["hard"];
+
+            let scoreEasy = 0;
+            let scoreMedium = 0;
+            let scoreHard = 0;
+            if (stats[subject][topicKey]){
+              if(stats[subject][topicKey]["easy"]) scoreEasy = stats[subject][topicKey]["easy"];
+              if(stats[subject][topicKey]["medium"]) scoreMedium = stats[subject][topicKey]["medium"];
+              if(stats[subject][topicKey]["hard"]) scoreHard = stats[subject][topicKey]["hard"];
+            }
+
+
+            let topicDiv = document.createElement('div');
+            let p = document.createElement('p');
+            p.innerHTML = topicData["title"];
+            let barsDiv = document.createElement('div')
+            let barsDivID = topicKey + "_bars"
+            barsDiv.id = topicKey + "_bars"
+            barsDiv.classList.add("barsDiv");
+            topicDiv.appendChild(p);
+            topicDiv.appendChild(barsDiv);
+            topicDiv.classList.add('topicDiv');
+
+            p.addEventListener('click', ()=>{
+              barsDiv.classList.toggle('barsActive');
+            })
+            unitTitle.addEventListener('click', ()=>{
+              topicDiv.classList.toggle('topicActive');
+            })
+
+            li.appendChild(topicDiv);
+            if(topicData["easy"] > 0) buildProgressBar(topicData["title"], "easy", scoreEasy, subject, barsDivID);
+            if(topicData["medium"] > 0) buildProgressBar(topicData["title"], "medium", scoreMedium, subject, barsDivID);
+            if(topicData["hard"] > 0) buildProgressBar(topicData["title"], "hard", scoreHard, subject, barsDivID);
+          }
+        }
+        if(subjectName == "biology"){
+          //All done
+          document.getElementById('overallProgressText').innerHTML = Math.round(testNo/totalProblems * 100) + "%";
+          document.getElementById('overallProgressBar').style.setProperty('--progress', testNo/totalProblems * 100 + "%")
+        }
+      })
+    }
+      
+
+    // Old algorithm
+    /*getDocs(collection(db, "userData", uid, "completedProblems"))
     .then((documents)=>{
       documents.forEach(document => {
         let documentData = document.data()
@@ -110,16 +155,14 @@ onAuthStateChanged(auth, (user) => {
           if (subject == "physics") subjectCode = 1;
           else if (subject = "chemistry") subjectCode = 2;
           else if (subject = "biology") subjectCode = 3;
-
-          //stats[subject][test_id][(level + "Total")] = systemData["problemCount"][subjectCode][test_id][level];
         }
         
       })
-      // Stats object built
+
       console.log(stats)
       console.log(systemData);
 
-      /* Building progress bars" */
+
 
       let totalProblems = 0;
       for (let subjectCode in systemData["problemCount"]){
@@ -181,6 +224,7 @@ onAuthStateChanged(auth, (user) => {
       document.getElementById('overallProgressText').innerHTML = Math.round(testNo/totalProblems * 100) + "%";
       document.getElementById('overallProgressBar').style.setProperty('--progress', testNo/totalProblems * 100 + "%")
     })
+      */
   }
 
   function buildProgressBar(title, level, score, subject, parent_id){
@@ -200,10 +244,6 @@ onAuthStateChanged(auth, (user) => {
     progressContainer.appendChild(progressBar);
     progressContainer.appendChild(progressText);
     div.appendChild(progressContainer);
-
-    /*if(subject == "physics") document.getElementById('testHistoryListPhysics').appendChild(li);
-    else if (subject == "chemistry") document.getElementById('testHistoryListChemistry').appendChild(li);
-    else if(subject == "biology") document.getElementById('testHistoryListBiology').appendChild(li);*/
 
     document.getElementById(parent_id).appendChild(div);
   }

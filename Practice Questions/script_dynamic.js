@@ -185,7 +185,7 @@ function main(data){
 
       if (status[id] === "wrong") {
         toggleBtn.className = "toggle-button green wrong";
-      } else if (status[id] === "hint") {
+      } else if (status[id]=== "hint") {
         toggleBtn.className = "toggle-button green hint";
       } else {
         toggleBtn.className = "toggle-button green";
@@ -253,6 +253,15 @@ function main(data){
       let problem = problems[id];
       dynamicProblemHeader.innerHTML = "Problem " + (id + 1) + " - " + problem.level;
       dynamicProblemText.innerHTML = problem.question;
+      
+      console.log(status);
+
+      document.getElementById("dynamicProblemImages").innerHTML = ""
+      for (let imageIndex in problem.questionImages){
+        let image = document.createElement('img')
+        image.src = `./${subjectName}/mcq/images/${problem.questionImages[imageIndex]}`
+        document.getElementById("dynamicProblemImages").appendChild(image)
+      }
 
       dynamicHint.classList.add('non-active');
       dynamicFeedback.classList.add('non-active');
@@ -288,7 +297,13 @@ function main(data){
       if(!problem.options[2]) document.getElementById('labelC').style.display = "none";
       if(!problem.options[3]) document.getElementById('labelD').style.display = "none";
 
-      dynamicExplanation.innerHTML = problem.detailed;
+      dynamicExplanationText.innerHTML = problem.detailed;
+      document.getElementById("dynamicExplanationImages").innerHTML = ""
+      for (let imageIndex in problem.solutionImages){
+        let image = document.createElement('img')
+        image.src = `./${subjectName}/mcq/images/${problem.solutionImages[imageIndex]}`
+        document.getElementById("dynamicExplanationImages").appendChild(image)
+      }
     }
     f().then(()=>{
       renderMathInElement(document.getElementById('dynamicProblem'));
@@ -304,12 +319,44 @@ function main(data){
     document.getElementById("result").classList.remove('non-active');
 
     let correctCount = 0;
+    let fullCorrectCount = {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+    }
+    let fullCount = {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+    }
     for (let i = 0; i < totalProblems; i++) {
-      if (status[i] === "correct") correctCount++;
+      fullCount[problems[i].level]++;
+      if (status[i] === "correct") {
+        correctCount++;
+        fullCorrectCount[problems[i].level]++;
+      }
     }
 
-    const percent = Math.round((correctCount / totalProblems) * 100);
-    document.getElementById("score-display").textContent = `You got ${percent}% correct.`;
+    let percent = Math.round((correctCount / totalProblems) * 100);
+    let percentEasy = 0;
+    if(fullCount["easy"] != 0) percentEasy = Math.round((fullCorrectCount["easy"] / fullCount["easy"]) * 100);
+    let percentMedium = 0;
+    if(fullCount["medium"] != 0) percentMedium = Math.round((fullCorrectCount["medium"] / fullCount["medium"]) * 100);
+    let percentHard = 0;
+    if(fullCount["hard"] != 0) percentHard = Math.round((fullCorrectCount["hard"] / fullCount["hard"]) * 100);
+    document.getElementById("score-display").innerHTML = `You got ${percent}% correct. <br> Easy questions: ${percentEasy}% <br> Medium questions: ${percentMedium}% <br> Hard questions: ${percentHard}%`;
+
+    let eventFinished = new CustomEvent("testFinished", {
+        detail: {
+          time: Date.now(),
+          test_id: unitID,
+          subject: subjectName,
+          test_title: title,
+          full_count: fullCount,
+          full_correct_count: fullCorrectCount
+        }
+      });
+      window.dispatchEvent(eventFinished);
 
     const tryAgainBtn = document.getElementById("try-again-btn");
     tryAgainBtn.style.display = percent === 100 ? "none" : "inline-block";

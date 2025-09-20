@@ -51,6 +51,7 @@
         <div class="problem" id="dynamicProblem">
           <h3 id="dynamicProblemHeader"></h3>
           <p id="dynamicProblemText"></p>
+          <div id="dynamicProblemImages"></div>
           <form id="dynamicProblemForm">
             <label id="labelA"><input type="radio" value="A" id="inputA"><span id="optionSpanA"></span></label>
             <label id="labelB"><input type="radio" value="B" id="inputB"><span id="optionSpanB"></span></label>
@@ -64,7 +65,10 @@
           </div>
           <p class="hintText" id="dynamicHint"></p>
           <p class="feedback" id="dynamicFeedback"></p>
-          <p class="detailed-answer" id="dynamicExplanation"></p>
+          <div class="detailed-answer" id="dynamicExplanation">
+            <p id="dynamicExplanationText"></p>
+            <div id="dynamicExplanationImages"></div>
+          </div>
           <p id="authors">Authors</p>
         </div>
       </div>
@@ -76,7 +80,7 @@
         <p id="score-display"></p>
         <div class="buttons">
           <a href="" id="backLink">← Go back</a>
-          <a id="stats" href="../Account/settings.html">Go to statistics</a>
+          <a id="stats" href="../Account/progress.html">Go to statistics</a>
           <a id="try-again-btn">Try Again</a>
         </div>
       </div>
@@ -86,6 +90,10 @@
   <footer class="footer">
     &copy; 2025 A Guide to the IJSO. All rights reserved.
   </footer>
+
+  <script>
+    window.location.href = "/mainlaunch.html"
+  </script>
 
 </body>
 </html>

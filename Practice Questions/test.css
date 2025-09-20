@@ -169,6 +169,11 @@ nav{
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+#dynamicProblemImages img, #dynamicExplanationImages img{
+  max-height: 150px;
+  margin: 3px;
+}
+
 form label {
   display: block;
   margin: 1rem 0;
