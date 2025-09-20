@@ -1,0 +1,136 @@
+{
+    "subject": "physics",
+    "unit": "modern physics",
+    "title": "Structure of Atoms MCQ Problems ",
+    "test_id": "1_079",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Who discovered the electron?",
+        "options": [
+          "J.J. Thomson",
+          "Ernest Rutherford",
+          "Niels Bohr",
+          "James Chadwick"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Think of the cathode ray experiment.",
+        "detailed": "J.J. Thomson discovered the electron in 1897 through his cathode ray experiments, establishing the first evidence of subatomic particles."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Which model of the atom described electrons embedded in a positive sphere like 'plums in a pudding'?",
+        "options": [
+          "Rutherford Model",
+          "Bohr Model",
+          "Thomson Model",
+          "Quantum Mechanical Model"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Named after a popular British dessert.",
+        "detailed": "J.J. Thomson proposed the 'plum pudding model' in which electrons were embedded in a sphere of positive charge."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "What did Rutherford’s gold foil experiment demonstrate?",
+        "options": [
+          "Electrons have quantized orbits",
+          "Atoms are indivisible",
+          "The existence of the nucleus",
+          "The wave nature of electrons"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about alpha particles scattering at large angles.",
+        "detailed": "Rutherford’s gold foil experiment showed that a small, dense, positively charged nucleus exists at the center of the atom, as some alpha particles were deflected strongly."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Who proposed that electrons revolve in discrete orbits with quantized energies?",
+        "options": [
+          "Rutherford",
+          "Bohr",
+          "Dalton",
+          "Thomson"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "His model explained hydrogen's line spectrum.",
+        "detailed": "Niels Bohr proposed that electrons revolve around the nucleus in fixed orbits with quantized energy levels, successfully explaining hydrogen’s emission spectrum."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Who discovered the neutron?",
+        "options": [
+          "Rutherford",
+          "Bohr",
+          "Thomson",
+          "Chadwick"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "It was discovered in 1932.",
+        "detailed": "James Chadwick discovered the neutron in 1932 through experiments involving beryllium bombarded with alpha particles."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Which particle has a negative charge?",
+        "options": [
+          "Proton",
+          "Neutron",
+          "Electron",
+          "Nucleus"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It orbits around the nucleus.",
+        "detailed": "Electrons are negatively charged particles revolving around the nucleus, while protons are positively charged and neutrons are neutral."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "According to Rutherford’s model, where is most of the mass of an atom concentrated?",
+        "options": [
+          "In the electrons",
+          "In the nucleus",
+          "Spread uniformly",
+          "In energy shells"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about why most alpha particles passed straight through the gold foil.",
+        "detailed": "Rutherford concluded that almost all the mass of an atom is concentrated in the tiny, dense nucleus at the center."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Which model of the atom is based on wave mechanics?",
+        "options": [
+          "Bohr’s Model",
+          "Rutherford’s Model",
+          "Thomson’s Model",
+          "Quantum Mechanical Model"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "It uses Schrödinger’s equations.",
+        "detailed": "The quantum mechanical model of the atom, developed using Schrödinger’s wave equation, treats electrons as wave-like entities and predicts probability distributions called orbitals."
+      }
+    ]
+  }

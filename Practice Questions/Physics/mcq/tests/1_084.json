@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "astrophysics",
+    "title": "Structure of the Universe MCQ problems",
+    "test_id": "1_084",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the largest structure in the known universe?",
+        "options": [
+          "Galaxy",
+          "Planetary system",
+          "Galaxy supercluster",
+          "Solar system"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It's a massive group of galaxy clusters.",
+        "detailed": "Galaxy superclusters are among the largest structures in the universe, consisting of many galaxy clusters bound together by gravity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is the correct order from smallest to largest?",
+        "options": [
+          "Star → Galaxy → Planet → Universe",
+          "Planet → Star → Galaxy → Universe",
+          "Planet → Galaxy → Star → Universe",
+          "Galaxy → Planet → Star → Universe"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Start from the object we live on.",
+        "detailed": "The correct order of size is: Planet → Star → Galaxy → Universe."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is a galaxy?",
+        "options": [
+          "A star orbiting a planet",
+          "A large collection of stars, gas, and dust",
+          "A group of planets",
+          "The name of a star system"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It contains billions of stars.",
+        "detailed": "A galaxy is a massive system composed of stars, gas, dust, and dark matter, all bound together by gravity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which galaxy do we live in?",
+        "options": [
+          "Andromeda Galaxy",
+          "Whirlpool Galaxy",
+          "Sombrero Galaxy",
+          "Milky Way Galaxy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "It has a name related to a dairy product.",
+        "detailed": "Earth is located in the Milky Way Galaxy, a barred spiral galaxy that contains our solar system."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What force holds galaxies, stars, and planets together in the universe?",
+        "options": [
+          "Electromagnetic force",
+          "Strong nuclear force",
+          "Gravitational force",
+          "Frictional force"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It’s the weakest but acts over long distances.",
+        "detailed": "Gravity is the force responsible for the structure and formation of galaxies, stars, and planetary systems throughout the universe."
+      }
+    ]
+  }

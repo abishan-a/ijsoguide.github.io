@@ -1,0 +1,168 @@
+{
+  "subject": "physics",
+  "unit": "Mechanics",
+  "title": "Harmonic Motion MCQ problems",
+  "test_id": "1_013",
+  "problems": [
+    {
+      "author": "Alex Jicu",
+      "level": "easy",
+      "question": "What is the SI unit of angular frequency?",
+      "options": [
+        "\\( \\frac{s}{rad} \\)",
+        "\\( \\frac{deg}{s} \\)",
+        "\\( s^{-1} \\)",
+        "\\( s \\)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "In which formulas does angular frequency appear?",
+      "detailed": "Angular frequency (\\(\\omega\\)) appears in the harmonic motion equation \\(x(t) = Acos(\\omega t)\\), and is used as a factor to transform t into an adimensional measure. That means the product \\(\\omega t\\) is adimensional so the unit of \\(\\omega\\) is \\(s^{-1}\\). You can get to this result by using other formulas such as \\(\\omega=2\\pi f\\) or \\(\\omega = \\sqrt{\\frac{k}{m}}\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "easy",
+      "question": "A 10kg weight is hanged from a fixed point using a massless inextensible 10 meter long rope. If the acceleration due to gravity in the region where the experiments is done is equal to \\(10 \\frac{m}{s^2}\\), find the period of small osicllations for this system.",
+      "options": [
+        "0.79s",
+        "1.99s",
+        "2.51s",
+        "6.28s"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "The system is a simple gravitational pendulum.",
+      "detailed": "The period of small oscillations for the gravitational pendlum described is \\(T = 2\\pi \\sqrt{\\frac{l}{g}}, independent of the mass. Substituting numerical values, we get \\(T = 6.28s\\)\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "easy",
+      "question": "Consider the following system: a 5kg box is tied to a vertical wall via an ellastic rope with \\(k = 1 \\frac{kN}{m}\\), while at rest on a horizontal smooth surface. The box is pulled away from the vertical wall by a force \\(F=100N\\) and is then set free. It starts osicllating aroun an equilibrium position. What is the amplitude of the oscillation?",
+      "options": [
+        "5cm",
+        "10cm",
+        "15cm",
+        "20cm"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Don't complicate the problem - only focus on calculating what is asked.",
+      "detailed": "The amplitude of the osciallation is the maximum elongation of the rope. After the box is set free, it starts moving towards the vertical wall, therefore the elongation decreases. That means, the elongation is maximu right before the box is set free, so \\(A = \\frac{F}{k} = 10cm\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "easy",
+      "question": "Which of the following systems does not have a harmonic motion?",
+      "options": [
+        "A block hanged from the ceiling with a massless inelastic rope, which was slighlty pulled down rellative to its equilibrium position",
+        "A wooden cylinder floating in water which was pushed down a little bit (but not completely submerged)",
+        "A sphere on a smooth inclined plane, tied to the top of the plane with an ellastic rope",
+        "A small asteroid moving straight towards a star (with negligible radius), only under the influence of its gravitational field, assuming the asteroid goes through the star and doesn't collide with it"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Think about the expression of the restoring force",
+      "detailed": "A. The additional force acting on the block after it's pulled down a distance \\(\\Delta x\\) is an ellastic force \\(F \\propto \\Delta x\\), so the motion is harmonic <br>B. In this case, the restoring force is a buyoant force, proportional to the additional submerged volume. Because the object is a cyllinder, \\(V = S\\Delta x \\propto \\Delta x\\), so \\(F \\propto \\Delta x\\), so the motion is harmonic. <br>C. The restoring force is now the parallel component of the additional elastic force, \\(F = k\\Delta x sin \\theta \\propto \\Delta x\\), so harmonic motion <br>D. In this last case, the restoring force is a gravitational force, \\(F \\propto \\frac{1}{x^2}\\), so the motion is not harmonic"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "easy",
+      "question": "Consider a harmonic osciallator with oscillation period \\(T = 5.40s\\). What is the numerical value of the angular frequency of the oscillations in the SI unit?",
+      "options": [
+        "0.185",
+        "1.16",
+        "0.582",
+        "0.859"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "The angular frequency is the speed with which the phase increases. The phase increaes by \\(2\\pi\\) every period T",
+      "detailed": "\\(\\omega = \\frac{\\2pi}{T} = 1.16 s^{-1}\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "easy",
+      "question": "A body of mass \\(m = 2.0kg\\) is harmonically osciallting because of an ellastic rope of \\(k = 100\\frac{N}{m}\\). Knowing the maximum elongation, \\(\\Delta x_{max}=10cm\\), find the energy of the oscillator.",
+      "options": [
+        "0.5J",
+        "1.0J",
+        "5.0kJ",
+        "10kJ"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "What physical quantities do you need to know to calculate the energy?",
+      "detailed": "The energy of a harmonic oscillator is \\(E = \\frac{1}{2}kA^2\\), where \\(A\\) is the amplitude. But the amplitude is deffined as the maximum elongation \\(A = \\Delta x_{max} = 10cm = 0.1m\\). Substituting into the formula, we get \\(E = 0.5J\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "medium",
+      "question": "The period of a gravitational pendulum on Earth (\\(g_0 = 9.8 m s^{-2}\\) is \\(T_0 = 2.0s\\). What will be the period of an identical pendulum on the Moon (\\(g = 1.6 ms^{-2}\\)",
+      "options": [
+        "0.33s",
+        "0.81s",
+        "4.9s",
+        "12s"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "The only change is the acceleration due to gravity. Find a way to formulate that mathematically.",
+      "detailed": "\\(T = 2\\pi \\sqrt{\\frac{l}{g}}\\) and \\(T_0 = 2\\pi \\sqrt{\\frac{l}{g_0}}\\). Dividing the two equations, on the right side everything except the g values cancel out. We get \\(\\frac{T}{T_0} = \\sqrt{\\frac{g_0}{g}}\\), so \\(T = T_0 \\sqrt{\\frac{g_0}{g}}\\). Numerically, we get \\(T = 4.9s\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "medium",
+      "question": "A 1.5kg object is subjected to a force given by \\(F = kx\\), where \\(k = 200 \\frac{N}{m}\\) and x is the coordinate on a linear axis Ox. At x = 0 it reaches its maximum speed \\(v_{max} = 2.0\\frac{m}{s}\\). What is the maximum distance the object gets from the origin of the axis?",
+      "options": [
+        "17cm",
+        "12cm",
+        "24cm",
+        "34cm"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "In your mind, try to rephrase the question with terminology related to oscillators.",
+      "detailed": "The force \\(F = kx\\) is an elastic type force, so the object has a harmonic motion. The coordinate x is called the elongation. We are asked for the maximum coordinate, so the maximum elongation, which is the amplitude of the oscillations. The energy of the oscillator can be written both as \\(E = \\frac{1}{2}mv_{max}^2\\) - the kinetic energy at point O when the potential energy is null - and \\(E = \\frac{1}{2}kA^2\\) - the potential energy at maximum elongation when the kinetic energy is null. Equating the two formulas for the energy and solving for \\(A\\) we get \\(A = 17cm\\)"
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "medium",
+      "question": "A gravitational pendulum's period is equal to \\(T_0 = 1.4s\\) (\\(g = 10 \\frac{m}{s^2}\\)). The pendulum is put in an elevator moving with constant acceleration and its period is now measured to be \\(T = 1.3s\\). What is the acceleration of the the elevator?",
+      "options": [
+        "\\(1.6 \\frac{m}{s^2}\\) upwards",
+        "\\(1.6 \\frac{m}{s^2}\\) downwards",
+        "\\(0.8 \\frac{m}{s^2}\\) upwards",
+        "\\(0.8 \\frac{m}{s^2}\\) downwards"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "In the elevator, the pendulum experiences a different acceleration due to gravity. Why is that and how do you put that into the equations?",
+      "detailed": "Let's supose the elevator moves downards. The mass hanged on the pendulum will experience an intertial force of magnitude \\(F=ma\\), directed upwards, equivalent to a suplimentary acceleration due to gravity of magnitude \\(-a\\). Overall, the acceleration due to gravity causing the osciallations will be \\(g-a\\). Writing the equations for the periods \\(T_0\\) and \\(T\\) and dividing them, we get \\(\\frac{T_0}{T}=\\sqrt{\\frac{g-a}{g}}\\). Solving for the acceleration, \\(a = g((1-(\\frac{T_0}{T})^2) = -1.6\\frac{m}{s^2}\\). The minus sign shows the acceleration's orientation is opposite to that we assumed in the beginning, so the acceleration is \\(a = 1.6\\frac{m}{s^2}\\), directed upwards."
+    },
+    {
+      "author": "Alex Jicu",
+      "level": "hard",
+      "question": "Let be a coordinate system xOy. A small Earth massed planet with \\(m = 6\\times 10^{24}kg\\) is found at point O. On the Ox axis, two Sun massed stars with \\(M = 2\\times 10^{30}kg\\) are fixed at points of coordinates (-L; 0) and (L; 0), where \\(L = 1.5\\times 10^{11}m\\). The planet is displaced from its equilibrium position by a small displacement \\(\\Delta y\\) on the Oy axis. How much time does it take from the planet to return to its equilibrium position? It is known that \\(G = 6.67\\times 10^{-11}m^3kg^{-1}s^{-2}\\).",
+      "options": [
+        "64.6 days",
+        "129.3 days",
+        "182.8 days",
+        "258.5 days"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Use approximations like the small angle approximation (\\(x \\approx sin(X) \\aprox tan(X)\\)) to show that the restoring force is an ellastic type force.",
+      "detailed": "Two forces act on the planet, both equal in magnitude to \\(F_g = \\frac{GMm}{L^2 + \\Delta y^2} \\approx \\frac{GMm}{L^2}\\). However, we should only take the vertical components of these forces into account, as the horizontal compinents cancel out due to symmetry. Let \\(\\alpha\\) be the angle between the Mm lines and the Ox axis, such that \\(F_{gy} = F_g sin(\\alpha) \\approx F_g tan(\\alpha) = \\frac{GMm}{L^3}\\Delta y = k \\Delta y\\), where \\(k \\equiv \\frac{GMm}{L^3}\\). The restoring force is \\(F = 2F_{gy} = 2k\\Delta y\\). Now that we've shown that the motion is harmonic (because the restoring force is ellastic), we can calculate the period \\(T = 2\\pi\\sqrt{\\frac{m}{k}} = 2\\pi\\sqrt{\\frac{L^3}{2GM}} =\\) 258.5 days. But the time required for the planet to return to its equilibrium position is a quarter of the entire period, so \\(\\Delta t = \\frac{T}{4} =\\) 64.6 days."
+    }
+  ]
+}

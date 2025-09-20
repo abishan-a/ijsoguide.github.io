@@ -1,0 +1,104 @@
+{
+  "subject": "physics",
+  "unit": "astrophysics",
+  "title": "Celestial Mechanics MCQ Problems",
+  "test_id": "1_086",
+  "problems": [
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "What force keeps planets in orbit around the Sun?",
+      "options": [
+        "Electromagnetic force",
+        "Strong nuclear force",
+        "Gravitational force",
+        "Centrifugal force"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Think about Newton’s law of universal gravitation.",
+      "detailed": "Gravitational force is responsible for keeping planets in orbit by attracting them toward the Sun."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "What type of path do planets follow around the Sun?",
+      "options": [
+        "Circular",
+        "Elliptical",
+        "Parabolic",
+        "Linear"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Kepler's First Law explains this.",
+      "detailed": "According to Kepler’s First Law, planets move in elliptical orbits with the Sun at one focus."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "What is at one focus of a planet's elliptical orbit?",
+      "options": [
+        "The Moon",
+        "A black hole",
+        "The planet itself",
+        "The Sun"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Kepler’s laws define this focal point.",
+      "detailed": "In an elliptical orbit, the Sun is located at one of the two foci."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "According to Kepler's Second Law, a planet sweeps out equal areas in equal:",
+      "options": [
+        "Distances",
+        "Times",
+        "Masses",
+        "Energies"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "It’s about how the planet’s speed changes across its orbit.",
+      "detailed": "Kepler’s Second Law states that planets sweep out equal areas in equal times, meaning they move faster when closer to the Sun."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "Which law explains the relationship between the orbital period and distance from the Sun?",
+      "options": [
+        "Newton’s First Law",
+        "Ohm’s Law",
+        "Kepler’s Third Law",
+        "Faraday’s Law"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "This law involves the square of the period and the cube of the radius.",
+      "detailed": "Kepler’s Third Law states that the square of a planet’s orbital period is proportional to the cube of its average distance from the Sun."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "If a planet is closer to the Sun, how does its orbital speed compare to one farther away?",
+      "options": [
+        "It is slower",
+        "It is the same",
+        "It is faster",
+        "It stops moving"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Think about the area swept per unit time.",
+      "detailed": "Planets closer to the Sun move faster in their orbit due to stronger gravitational force and Kepler’s Second Law."
+    }
+  ]
+}

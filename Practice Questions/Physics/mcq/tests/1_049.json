@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Kinetic Model of Matter MCQ Problems",
+    "test_id": "1_049",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "According to the kinetic model, what causes gas pressure in a container?",
+        "options": [
+          "Chemical reactions inside the gas",
+          "Collisions of particles with container walls",
+          "Heating the container walls",
+          "Attractive forces between particles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Pressure comes from particle impacts.",
+        "detailed": "Gas pressure arises from particles colliding with the walls of the container; more frequent or stronger collisions increase pressure."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In which state of matter do particles have fixed positions but vibrate in place?",
+        "options": [
+          "Liquid",
+          "Gas",
+          "Solid",
+          "Plasma"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of a rigid block of ice.",
+        "detailed": "In a solid, particles are closely packed in a fixed, regular arrangement and vibrate about their fixed positions."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens to the average kinetic energy of gas particles when temperature increases?",
+        "options": [
+          "It stays the same",
+          "It decreases",
+          "It increases",
+          "It becomes zero"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Temperature is a measure of kinetic energy.",
+        "detailed": "As temperature increases, the average kinetic energy of gas particles also increases, leading to faster and more energetic motion."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which assumption applies to ideal gases according to the kinetic model?",
+        "options": [
+          "Particles stick together",
+          "Particles do not move",
+          "Intermolecular forces are negligible",
+          "Particles change into other particles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Ideal gas means no attraction or repulsion.",
+        "detailed": "In the kinetic model for ideal gases, intermolecular forces are negligible; particles move independently except during elastic collisions."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is Brownian motion evidence of?",
+        "options": [
+          "Particle decay",
+          "Random motion of particles",
+          "Unbalanced electrical forces",
+          "Rotation of particles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It’s seen under a microscope with dust or pollen.",
+        "detailed": "Brownian motion, observed as the random movement of particles like pollen in a fluid, provides evidence for the constant, random motion of tiny particles."
+      }
+    ]
+  }

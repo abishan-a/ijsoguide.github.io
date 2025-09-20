@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "astrophysics",
+    "title": "Solar System MCQ problems",
+    "test_id": "1_085",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the primary source of energy for the solar system?",
+        "options": [
+          "The Moon",
+          "The Earth’s core",
+          "The Sun",
+          "Jupiter"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It's the star at the center of the system.",
+        "detailed": "The Sun is the central star and the main source of heat and light energy for all planets and objects in the solar system."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which planet is known for its prominent ring system?",
+        "options": [
+          "Mars",
+          "Saturn",
+          "Earth",
+          "Venus"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It’s the sixth planet from the Sun and famous for rings.",
+        "detailed": "Saturn is well known for its bright and extensive ring system, which is made of ice and rock particles."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which two types of planets are found in our solar system?",
+        "options": [
+          "Rocky and windy",
+          "Gas and water",
+          "Terrestrial and gas giants",
+          "Solid and plasma"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of the difference between Earth and Jupiter.",
+        "detailed": "Planets are classified as terrestrial (rocky) planets like Earth and Mars, or gas giants like Jupiter and Saturn."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these is considered a dwarf planet in our solar system?",
+        "options": [
+          "Neptune",
+          "Pluto",
+          "Venus",
+          "Europa"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It used to be the 9th planet.",
+        "detailed": "Pluto was reclassified as a dwarf planet by the IAU due to its inability to clear its orbit."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which planet has the highest surface temperature due to a runaway greenhouse effect?",
+        "options": [
+          "Earth",
+          "Mercury",
+          "Mars",
+          "Venus"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "It’s the second planet but hotter than Mercury.",
+        "detailed": "Venus has an extremely thick atmosphere rich in CO₂, causing intense heat trapping and surface temperatures hotter than Mercury."
+      }
+    ]
+  }

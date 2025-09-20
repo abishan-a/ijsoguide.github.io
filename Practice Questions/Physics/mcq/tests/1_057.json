@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Electric Charge MCQ Problems",
+    "test_id": "1_057",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following describes the interaction between like electric charges?",
+        "options": [
+          "They attract each other",
+          "They repel each other",
+          "They have no force between them",
+          "They neutralize immediately"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think similar poles of magnets.",
+        "detailed": "Like charges (both positive or both negative) repel one another."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the SI unit of electric charge?",
+        "options": [
+          "Ampere (A)",
+          "Volt (V)",
+          "Coulomb (C)",
+          "Ohm (Ω)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It’s the unit for transferred charge.",
+        "detailed": "The SI unit of electric charge is the coulomb (C), representing the charge transferred by a current of one ampere in one second."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the charge of an electron (approximately)?",
+        "options": [
+          "+ \\(1.6 \\times 10^{-19}\\) C",
+          "- \\(1.6 \\times 10^{-19}\\) C",
+          "- \\(1.6 \\times 10^{-16}\\) C",
+          "+ \\(1.6 \\times 10^{-16}\\) C"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It's negative and very small.",
+        "detailed": "An electron carries a charge of approximately - \\(1.6 \\times 10^{-19}\\) coulombs."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which statement best describes conservation of charge?",
+        "options": [
+          "Charge can be created but not destroyed",
+          "Charge can be destroyed but not created",
+          "Charge can be created and destroyed",
+          "Charge cannot be created or destroyed"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Total charge stays constant.",
+        "detailed": "Charge is conserved—it cannot be created or destroyed, only transferred from one object to another."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is meant by charge quantization?",
+        "options": [
+          "Charge exists in a smooth continuum",
+          "Charge exists in discrete packets",
+          "Charge can change arbitrarily",
+          "Charge diminishes over time"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think indivisible units of charge.",
+        "detailed": "Charge is quantized, meaning it exists in discrete packets, the smallest being the charge of a proton or electron."
+      }
+    ]
+  }

@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Sources of Energy MCQ Problems",
+    "test_id": "1_016",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is a renewable energy source that converts sunlight into electricity?",
+        "options": [
+          "Fossil fuels",
+          "Nuclear energy",
+          "Solar energy",
+          "Biomass energy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of panels on rooftops.",
+        "detailed": "Solar energy converts sunlight into electricity using solar panels. It’s renewable, abundant, and has low maintenance."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Wind energy is considered renewable. Which one of these is a disadvantage listed on the page?",
+        "options": [
+          "Weather-dependent",
+          "Requires burning fuel",
+          "Causes nuclear waste",
+          "Location limited"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Wind doesn’t always blow.",
+        "detailed": "One disadvantage of wind energy is that it's weather-dependent: electricity production varies when there is no wind."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Hydropower generates electricity using what natural element?",
+        "options": [
+          "Wind",
+          "Earth’s heat",
+          "Flowing/falling water",
+          "Sunlight"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of dams or waterfalls.",
+        "detailed": "Hydropower uses flowing or falling water, often via dams or tidal movements, to generate electricity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which energy source is non-renewable and involves nuclear fission?",
+        "options": [
+          "Biomass energy",
+          "Solar energy",
+          "Nuclear energy",
+          "Geothermal energy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It uses uranium-235.",
+        "detailed": "Nuclear energy is non-renewable and produced through nuclear fission of fuels like uranium-235."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which renewable energy source uses Earth's internal heat?",
+        "options": [
+          "Biomass energy",
+          "Geothermal energy",
+          "Hydropower",
+          "Wind energy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It comes from beneath the surface.",
+        "detailed": "Geothermal energy harnesses Earth’s internal heat to generate power. It is a constant and low-emission renewable source."
+      }
+    ]
+  }

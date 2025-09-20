@@ -1,0 +1,120 @@
+{
+    "subject": "physics",
+    "unit": "units",
+    "title": "Units MCQ problems",
+    "test_id": "1_001",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is a derived unit?",
+        "options": [
+          "Kilogram",
+          "Second",
+          "Newton",
+          "Ampere"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It's the SI unit of force.",
+        "detailed": "A Newton is a derived unit defined as \\( \\text{kg} \\cdot \\text{m/s}^2 \\), while kilogram, second, and ampere are fundamental SI units."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which quantity has the SI unit of \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^2 \\)?",
+        "options": [
+          "Force",
+          "Energy",
+          "Power",
+          "Pressure"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It's measured in joules.",
+        "detailed": "Energy has the unit of joules, which is equivalent to \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^2 \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the SI base unit of electric current?",
+        "options": [
+          "Volt",
+          "Coulomb",
+          "Ampere",
+          "Ohm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It's one of the seven fundamental SI units.",
+        "detailed": "The ampere (A) is the SI base unit for electric current."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Given the equation \\( F = ma \\), what is the SI unit of force?",
+        "options": [
+          "kg·m/s²",
+          "kg/s²",
+          "N/s",
+          "kg·m²/s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Multiply the unit of mass with that of acceleration.",
+        "detailed": "Force is mass (kg) times acceleration (m/s²), giving \\( \\text{kg} \\cdot \\text{m/s}^2 \\), which is a Newton (N)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the equation for pressure \\( P = F/A \\), what is the unit of pressure?",
+        "options": [
+          "kg·m/s²",
+          "kg/m²·s",
+          "kg/m·s²",
+          "kg/m·s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Force divided by area.",
+        "detailed": "Force is \\( \\text{kg} \\cdot \\text{m/s}^2 \\), area is \\( \text{m}^2 \\), so pressure is \\( \text{kg/m·s}^2 \\), known as a pascal (Pa)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Given the equation \\( T = 2\\pi \\sqrt{L/g} \\), what is the unit of \\( g \\)?",
+        "options": [
+          "m/s",
+          "m/s²",
+          "s²/m",
+          "m·s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Make the RHS dimensionless under the square root.",
+        "detailed": "For the square root to be unitless, \\( L/g \\) must be in \\( \text{s}^2 \\), so \\( g \\) must be in \\( \text{m/s}^2 \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "An equation for power is given as \\( P = k \\cdot A^3 \\cdot T \\), where \\( P \\) has units of watts, \\( A \\) is area in \\( \text{m}^2 \\), and \\( T \\) is time in seconds. What is the unit of \\( k \\)?",
+        "options": [
+          "kg·s⁻⁵·m⁻⁶",
+          "kg·m²/s³",
+          "kg·s⁻³·m⁻⁶",
+          "kg·m⁴/s⁵"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Balance the units: [P] = [k][A³][T]",
+        "detailed": "Power (P) = \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^3 \\), A³ = \\( \\text{m}^6 \\), T = s. Solving for \\( k \\), \\( k = P/(A^3 T) = \\text{kg} \\cdot \\text{s}^{-3} \\cdot \text{m}^{-6} \\)."
+      }
+    ]
+  }

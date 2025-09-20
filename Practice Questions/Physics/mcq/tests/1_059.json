@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Charging by Friction and Induction MCQ Problems",
+    "test_id": "1_059",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens to an object that loses electrons when rubbed with another material?",
+        "options": [
+          "It becomes negatively charged",
+          "It becomes positively charged",
+          "It remains neutral",
+          "It turns into a conductor"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Loss of electrons means fewer negative charges.",
+        "detailed": "When an object loses electrons by friction, it becomes positively charged because it has a deficit of negative charges."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which material pairing is most likely involved in charging by friction?",
+        "options": [
+          "Two conductors",
+          "A conductor and a magnet",
+          "Two insulators",
+          "An insulator and a magnet"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Friction works best when charges stay localized.",
+        "detailed": "Charging by friction typically involves two insulating materials, where electrons transferred remain localized on the surfaces."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "During charging by induction, what must happen for an object to become permanently charged?",
+        "options": [
+          "It must be physically rubbed",
+          "It must be heated",
+          "It must be grounded while near a charged object",
+          "It must be magnetized"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It uses a path for charge movement without contact.",
+        "detailed": "In induction, the conductor must be grounded while a charged object is nearby (without touching), allowing charges to flow and leave the conductor permanently charged."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In charging by induction, which type of material is required to allow charge redistribution?",
+        "options": [
+          "Insulators",
+          "Conductors",
+          "Semiconductors",
+          "Magnets"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It needs mobile charges.",
+        "detailed": "Induction requires conductors, because they have free electrons that can move and redistribute in response to an external charged object."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a negatively charged object is brought near a neutral conducting sphere and it is then grounded, what charge does the sphere end up with?",
+        "options": [
+          "Neutral",
+          "Negatively charged",
+          "Positively charged",
+          "Magnetized"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Induced charge is opposite in sign to the nearby charge.",
+        "detailed": "The sphere ends up positively charged because electrons flow out to ground, leaving the conductor with net positive charge once the external charge is removed."
+      }
+    ]
+  }

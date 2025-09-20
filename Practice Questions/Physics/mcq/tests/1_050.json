@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Changes of State MCQ Problems",
+    "test_id": "1_050",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process describes a solid turning directly into a gas, bypassing the liquid phase?",
+        "options": [
+          "Freezing",
+          "Condensation",
+          "Sublimation",
+          "Deposition"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of dry ice turning into vapor.",
+        "detailed": "Sublimation is when a solid changes directly into a gas without becoming a liquid, such as dry ice (solid CO₂) sublimating at room temperature."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the term for the process where a gas loses energy and becomes a liquid?",
+        "options": [
+          "Evaporation",
+          "Ionization",
+          "Condensation",
+          "Recombination"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of water droplets forming on a cold glass.",
+        "detailed": "Condensation is when gas cools and loses energy, turning into a liquid—like water vapor forming droplets on the outside of a cold glass."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "When water freezes at 0°C, which of the following best describes the process?",
+        "options": [
+          "Sublimation",
+          "Melting",
+          "Evaporation",
+          "Freezing"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Liquid to solid.",
+        "detailed": "Freezing is the process of a liquid turning into a solid when it loses heat; for water, this occurs at 0°C."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process is endothermic and involves bubbles forming inside a liquid?",
+        "options": [
+          "Freezing",
+          "Boiling",
+          "Condensation",
+          "Deposition"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think of water boiling at 100°C.",
+        "detailed": "Boiling (a type of evaporation) is endothermic; it requires energy input and involves bubbles forming within the liquid, like water boiling at 100°C."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What change of state is occurring when gas turns directly into a solid?",
+        "options": [
+          "Melting",
+          "Sublimation",
+          "Deposition",
+          "Ionization"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think of frost forming on a cold surface.",
+        "detailed": "Deposition is when a gas transforms directly into a solid, releasing energy, as seen when frost forms from water vapor on cold surfaces."
+      }
+    ]
+  }

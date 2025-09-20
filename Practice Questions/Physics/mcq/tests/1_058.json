@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Conductors and Insulators MCQ Problems",
+    "test_id": "1_058",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following materials is a good conductor of electricity?",
+        "options": [
+          "Rubber",
+          "Glass",
+          "Copper",
+          "Plastic"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Common material used in electrical wiring.",
+        "detailed": "Copper is a good conductor because its electrons are loosely bound and can move easily when an electric field is applied."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What property differentiates conductors from insulators?",
+        "options": [
+          "Color of the material",
+          "Mobility of electric charges",
+          "Size of the atoms",
+          "Mass density"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about how freely electrons can move.",
+        "detailed": "Conductors allow free movement of electric charges due to loosely bound electrons, while insulators restrict charge movement because their electrons are tightly bound."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these is typically used as an insulator?",
+        "options": [
+          "Aluminum",
+          "Graphite",
+          "Glass",
+          "Silver"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Often found covering wires or used in window panes.",
+        "detailed": "Glass is an insulator because its electrons are tightly bound and do not move freely, preventing the flow of electric current."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why are conductors widely used in electrical wiring?",
+        "options": [
+          "They reflect light well",
+          "They provide resistance to current",
+          "They allow electricity to pass through easily",
+          "They are very heavy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Need wires that let electricity flow freely.",
+        "detailed": "Conductors are used in wiring because they allow electric current to pass through easily due to high charge mobility."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is NOT a characteristic of insulators?",
+        "options": [
+          "Electrons are tightly bound",
+          "Charge mobility is low",
+          "They prevent electric shocks",
+          "They allow free movement of electrons"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Insulators don’t let electrons roam freely.",
+        "detailed": "Insulators have low charge mobility due to tightly bound electrons, and they do not allow free movement of electrons—making option D incorrect."
+      }
+    ]
+  }

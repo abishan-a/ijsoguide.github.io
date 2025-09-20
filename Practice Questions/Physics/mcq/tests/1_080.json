@@ -1,0 +1,72 @@
+{
+    "subject": "physics",
+    "unit": "modern physics",
+    "title": "Bohr Model MCQ Problems",
+    "test_id": "1_080",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "What does the Bohr model say about electrons in certain circular orbits around the nucleus?",
+        "options": [
+          "They emit radiation continuously while orbiting",
+          "They move in fixed orbits without radiating energy",
+          "They spiral into the nucleus",
+          "They can occupy any orbit of any radius"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Bohr introduced the idea of stationary states.",
+        "detailed": "According to the Bohr model, electrons revolve around the nucleus in fixed circular orbits (stationary states) and do not radiate energy while in those orbits."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "According to Bohr’s postulates, when does an electron emit a photon?",
+        "options": [
+          "When it stays in the same orbit",
+          "Only when it spirals into the nucleus",
+          "When it jumps from a higher energy orbit to a lower one",
+          "When its orbit radius increases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Photon emission happens during electron transitions.",
+        "detailed": "When an electron moves from a higher energy level (n₂) to a lower one (n₁), a photon is emitted with energy equal to the difference between these orbits: \\(h\\nu = E_{n_2} - E_{n_1}\\)."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "What is quantized in Bohr’s model related to electrons orbiting the nucleus?",
+        "options": [
+          "Electric charge of the electron",
+          "Angular momentum of the electron",
+          "Mass of the nucleus",
+          "Speed of light in orbit"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "One of Bohr’s postulates quantizes some property of the electron motion.",
+        "detailed": "Bohr’s model postulates that the angular momentum of an electron is quantized: \\(L = n\\hbar = n\\left(\\frac{h}{2\\pi}\\right)\\), where n is a positive integer."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "What is a limitation of the Bohr model?",
+        "options": [
+          "It correctly predicts spectra for multi-electron atoms",
+          "It explains the uncertainty in electron position",
+          "It only works accurately for hydrogen or hydrogen-like (one electron) atoms",
+          "It describes electrons orbiting in elliptical orbits"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It fails for atoms more complex than hydrogen.",
+        "detailed": "The Bohr model only works accurately for hydrogen and hydrogen-like atoms with one electron. It fails to explain spectra of multi-electron atoms and doesn’t incorporate the wave nature of electrons or quantum mechanics fully."
+      }
+    ]
+  }

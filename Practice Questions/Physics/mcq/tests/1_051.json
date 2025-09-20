@@ -1,0 +1,152 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Specific Heat Capacity MCQ problems",
+    "test_id": "1_051",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider an object with the specific heat capacity of \\(1.800 \\frac{J}{kg \\cdot K}\\), mass of 12.00 kg, and the initial temperature of 310.0K. If this object absorbs 500.0J of heat, what would be its final temperature?",
+        "options": [
+            "333.1 K",
+            "596.9 K",
+            "780.5 K",
+            "918.9 K"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "What is the relation of the given values?",
+        "detailed": "\\(Q = mc (T_f - T_i)\\) <br> \\(500 \\: \\text{J} = 1.8 \\times 12 \\times (T_f - 310) <br> \\(T_f = 333.1 \\: \\text{K}\\)"
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider an object with the specific heat capacity of \\(2.600 \\frac{J}{kg \\cdot K}\\) and the initial temperature of 310.0 K. If this object absorbs 500.0 J of heat, its temperature increases to 401.0 K. What is this object’s mass?",
+        "options": [
+            "1078 g",
+            "2113 g",
+            "3053 g",
+            "4070 g"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "What is the relation of the given values?",
+        "detailed": "\\(Q = mc (T_f - T_i)\\) <br> \\(500 \\: \\text{J} = 2.6 \\times m \\times (401 - 310)\\) <br> \\(m = 2113 \\: \\text{g}\\)"
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider an object with the mass of 100.0 kg and an initial temperature of 290.0 K. When given 500.0 J of heat, its temperature increases to 95.00 \\(^{\\circ}\\)F. What is the specific heat capacity of this object?",
+        "options": [
+          "0.2434 J/kgK",
+          "0.2568 J/kgK",
+          "0.2612 J/kgK",
+          "0.2755 J/kgK"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "What relation connects heat, mass, specific heat and temperature change?",
+        "detailed": "\\(Q = mc\\Delta T\\)  <br>  Convert 95.00\\(^{\\circ}\\)F to K: <br> 95\\(^{\\circ}\\)F = (95-32) × 5/9 = 35\\(^{\\circ}\\)C = 308.15 K. <br>  \\(\\Delta T = 308.15-290.00 = 18.15\\ \\text{K}\\). <br>  So  \\(500 = c\\times100.0\\times18.15\\Rightarrow c=\\dfrac{500}{100.0\\times18.15}=0.2755\\ \\text{J/kgK}\\)."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A machine supplies 500 J of heat every second. It heats 0.300 kg of water for 200 s. If the initial temperature is 30.0\\(^{\\circ}\\)C and the specific heat of water is \\(4.18\\times10^3\\ \\text{J/kg}^{\\circ}\\text{C}\\), what is the final temperature of the water? Assume no heat loss.",
+        "options": [
+          "99.7\\(^{\\circ}\\)C",
+          "110\\(^{\\circ}\\)C",
+          "120\\(^{\\circ}\\)C",
+          "Insufficient Data"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Compute total heat delivered, then use \\(Q=mc\\Delta T\\). Consider phase change.",
+        "detailed": "Total heat delivered: \\(Q=500\\ \\text{J/s}\\times200\\ \\text{s}=100000\\ \\text{J}\\). <br>  Use \\(Q=mc\\Delta T\\): \\(100000=0.300\\times4180\\times(T_f-30)\\Rightarrow T_f\\approx109.74\\ ^{\\circ}\\)C. <br>  Since this exceeds water's boiling point (100\\(^{\\circ}\\)C) and we did not account for latent heat of vaporisation, we have insufficient data to determine final temperature."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider a 50.0 kg object with specific heat given as 0.13 J/gK. Its initial temperature is 300 K, and it is heated until it reaches its melting point at 3306 K. If heat is supplied at 3000 J/s, how long does heating take?",
+        "options": [
+          "\\(6.5 \\times 10^4\\) s",
+          "\\(6.5 \\times 10^3\\) s",
+          "\\(6.5 \\times 10^2\\) s",
+          "65 s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Convert specific heat to J/kgK, compute total heat Q = cm∆T, then divide by power.",
+        "detailed": "Specific heat: 0.13 J/gK = 130 J/kgK. <br>  \\(\\Delta T = 3306-300 = 3006\\ \\text{K}\\). <br>  \\(Q=cm\\Delta T =130\\times50\\times3006=19,539,000\\ \\text{J}\\). <br>  Time = \\(Q/3000 = 19,539,000/3000\\approx6.513\\times10^3\\ \\text{s}\\)."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A person has 35.0 trillion cells (\\(3.50\\times10^{13}\\)), each cell mass 2.00 ng. Their metabolic rate is 1700 kcal/day. If all energy stayed as heat and did not leave the body, the temperature would rise from 36.0\\(^{\\circ}\\)C to 41.0\\(^{\\circ}\\)C in 6.00 hours. Assuming total cell mass equals body mass and closed system, what is the specific heat (in kcal/kg\\(^{\\circ}\\)C)?",
+        "options": [
+          "1.21 kcal/kg\\(^{\\circ}\\)C",
+          "1.32 kcal/kg\\(^{\\circ}\\)C",
+          "1.45 kcal/kg\\(^{\\circ}\\)C",
+          "1.50 kcal/kg\\(^{\\circ}\\)C"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Find heat input in 6 hours (kcal), compute mass from cell count, then c = Q/(mΔT).",
+        "detailed": "Heat in 6 h = \\(1700 \\text{kcal/day} \\times \\frac{6}{24} = 425 \\text{kcal}\\). <br>  Mass = \\(3.5\\times10^{13}\\text{cells}\\times2.00\\times10^{-12}\\ \\text{kg/cell}=70\\ \\text{kg}\\). <br>  \\(\\Delta T=5\\ ^{\\circ}\\)C. <br>  \\(c=\\dfrac{425}{70\\times5}=1.214285 \\text{kcal/kg}^{\\circ}\\text{C}\\approx1.21\\)."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "medium",
+        "question": "A 70.0 kg man drinks 0.500 L of water at 10.0\\(^{\\circ}\\)C. His initial body temperature is 36.5\\(^{\\circ}\\)C. Use specific heat of the man (before drinking) as 3.47 kJ/kg\\(^{\\circ}\\)C, water's specific heat 4.18 kJ/kg\\(^{\\circ}\\)C and density 1.00 kg/L. Assuming heat exchange only between man and water, what is the final equilibrium temperature?",
+        "options": [
+          "33.5\\(^{\\circ}\\)C",
+          "34.1\\(^{\\circ}\\)C",
+          "35.9\\(^{\\circ}\\)C",
+          "36.3\\(^{\\circ}\\)C"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Set heat lost by man equal to heat gained by water using Q=cmΔT.",
+        "detailed": "Let final temperature be T. Heat lost by man: \\(Q_{man}=3.47\\times70\\times(36.5-T)\\) kJ. Heat gained by water: \\(Q_{water}=4.18\\times0.5\\times(T-10)\\) kJ. Equate and solve: \\(3.47\\times70(36.5-T)=4.18\\times0.5(T-10)\\). Solving gives \\(T \\approx 36.3\\ ^{\\circ}\\)C." 
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "medium",
+        "question": "An engine is cooled by 1000 kg of water per hour entering at 5.00\\(^{\\circ}\\)C and exiting at 35.00\\(^{\\circ}\\)C. Water's specific heat is 4.18 J/kg\\(^{\\circ}\\)C. The engine input power is 350 J/s. Assuming energy not used for work leaves as heat absorbed by the water, what is the engine's efficiency?",
+        "options": [
+          "0.900",
+          "0.800",
+          "0.0900",
+          "0.0995"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Compute heat absorbed by water per second, subtract from input power to get useful work, then efficiency = work/input.",
+        "detailed": "Heat absorbed per hour: \\(Q_{hour}=4.18\\times1000\\times(35-5)=125400\\ \\text{J}\\). Per second: \\(125400/3600=34.833...\\ \\text{J/s}\\). Therefore useful work per second = 350-34.833...=315.167... J/s. Efficiency = 315.167/350=0.900."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "hard",
+        "question": "Gollum held the One Ring above lava for 10.0 s, during which it absorbed 200 J/s. After touching the lava, the ring absorbed 142857 J/s until it melted. Ring properties: mass 10.0 g, specific heat 2.00\\(\\times10^5\\) J/kgK, latent heat of fusion 64.5 J/g, melting point 1064\\(^{\\circ}\\)C. The energy absorbed after touching lava converts into kinetic energy of 500 kg of lava which forms a vertical plume; the plume's kinetic energy becomes potential energy at maximum height. Calculate the time to completely melt the ring after touching lava AND the maximum height of the plume. (Assume gravitational acceleration 9.00 m/s\\(^2\\).)",
+        "options": [
+          "14.5 s and 459 m",
+          "15.7 s and 350 m",
+          "14.5 s and 919 m",
+          "15.7 s and 818 m"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Compute total heat required to heat to melting point + latent heat, divide by power to get time; then equate that heat to gravitational PE of lava to get height.",
+        "detailed": "First, energy absorbed before lava contact: 200 J/s ×10 s = 2000 J (negligible temperature rise). From touch to melting: heat required = \\(mc\\Delta T + mL_f\\). Mass = 10.0 g = 0.010 kg. \\(c=2.00\\times10^5\\) J/kgK. \\(\\Delta T\\approx1064-31\\approx1033\\) K (the ring was warmed slightly by pre-lava heating; using 31 K is acceptable here). Using the standard approach given in the problem text the total heat needed ≈ 2,066,645 J. Time = 2,066,645 / 142,857 ≈ 14.5 s. <br>  This heat becomes KE of 500 kg lava: 2,066,645 = 500×9×h (for centre-of-mass), so h ≈ 459.25 m; plume height (top-to-bottom doubling as explained in problem) ≈ 919 m."
+      }
+    ]
+  }

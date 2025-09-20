@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Forms of Energy MCQ Problems",
+    "test_id": "1_015",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which formula represents kinetic energy?",
+        "options": [
+          "E = mgh",
+          "E = \\(\\frac{1}{2} mv^2)\\)",
+          "E = \\(mc^2\\)",
+          "E = \\(T^2 - U^2\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Motion energy is proportional to mass and speed squared.",
+        "detailed": "The kinetic energy of a moving object is given by \\(E_k = \\frac{1}{2} mv^2\\), where m is mass and v is velocity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which type of energy is stored in an object due to its position in a gravitational field?",
+        "options": [
+          "Thermal energy",
+          "Chemical energy",
+          "Gravitational potential energy",
+          "Nuclear energy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about an object held above the ground.",
+        "detailed": "Gravitational potential energy is the energy stored due to an object's position in a gravitational field, such as a ball held above the ground."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is mechanical energy?",
+        "options": [
+          "Kinetic energy only",
+          "Thermal energy only",
+          "Sum of kinetic and potential energy",
+          "Energy stored in nuclei"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It combines motion and positional energy.",
+        "detailed": "Mechanical energy is the sum of kinetic and potential energies: \\( E_m = E_k + E_p \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which form of energy involves heat due to particle motion and collisions?",
+        "options": [
+          "Chemical energy",
+          "Thermal energy",
+          "Electromagnetic energy",
+          "Nuclear energy"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Often called heat energy.",
+        "detailed": "Thermal energy, also known as heat energy, comes from the motion and collisions of particles in matter."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is sonic energy?",
+        "options": [
+          "Energy carried by electrons",
+          "Energy in sound waves",
+          "Energy between atoms",
+          "Energy in light waves"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think of what you hear.",
+        "detailed": "Sonic energy is the energy carried by sound waves, which depends on the amplitude and frequency of the vibrations."
+      }
+    ]
+  }

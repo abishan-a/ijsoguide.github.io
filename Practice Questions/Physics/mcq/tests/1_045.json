@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Thermal Equilibrium MCQ Problems",
+    "test_id": "1_045",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the defining condition of thermal equilibrium between two objects?",
+        "options": [
+          "They are in thermal contact and exchange heat",
+          "They have the same mass",
+          "They have the same temperature",
+          "They are made of the same material"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "No net heat flows between them.",
+        "detailed": "Thermal equilibrium is reached when objects in thermal contact no longer exchange heat, meaning they have the same temperature."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens to heat flow when two objects in thermal contact reach equilibrium?",
+        "options": [
+          "Heat flows only from hotter to cooler",
+          "Heat flows only from cooler to hotter",
+          "Heat flow stops completely",
+          "Heat flow reverses direction"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think balance of heat exchange.",
+        "detailed": "When thermal equilibrium is reached, there is no net heat flow between the objects—they exchange energy equally, resulting in a balanced state."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a hot spoon is placed in cold water, what occurs until equilibrium is reached?",
+        "options": [
+          "The spoon heats up more",
+          "The spoon and water reach the same temperature",
+          "The water becomes colder and the spoon stays the same",
+          "The spoon cools and water stays the same"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "They come to a common temperature.",
+        "detailed": "Heat flows from the hot spoon into the cold water until both reach the same temperature—this state is known as thermal equilibrium."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why is thermal equilibrium considered a natural state for systems?",
+        "options": [
+          "It maximizes energy imbalance",
+          "It minimizes energy imbalance",
+          "It changes temperature constantly",
+          "It stops energy from spreading"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Natural processes tend to reduce differences.",
+        "detailed": "Systems naturally progress toward minimizing energy imbalances. Thermal equilibrium represents such a balanced state where no net heat flows."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is NOT a characteristic of objects in thermal equilibrium?",
+        "options": [
+          "Same temperature",
+          "No net heat transfer",
+          "Constant energy imbalance",
+          "Thermal contact exists"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Equilibrium means balance.",
+        "detailed": "In thermal equilibrium, objects in thermal contact share the same temperature and no net heat transfer occurs; thus, constant energy imbalance is NOT a characteristic."
+      }
+    ]
+  }
