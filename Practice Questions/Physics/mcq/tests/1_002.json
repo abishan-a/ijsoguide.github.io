@@ -87,7 +87,7 @@
       {
         "author": "Doyoon Kim",
         "level": "easy",
-        "question": "The pressure (p), volume (v), and absolute temperature (T) of 1 mol ideal gas is related in the following equation; \\[p^x v^x T^y = k\\]. k's dimension is \\[ML^2 T^{-2} \\theta^{-1}\\). What is the value of x - y?",
+        "question": "The pressure (p), volume (v), and absolute temperature (T) of 1 mol ideal gas is related in the following equation; \\[p^x v^x T^y = k\\]. k's dimension is \\[ML^2 T^{-2} \\theta^{-1}\\]. What is the value of x - y?",
         "options": [
             "-2",
             "-1",
