@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "Other Topics",
+    "title": "Radioactive Decay MCQ Problems",
+    "test_id": "2_054",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which type of radiation has no mass or charge and is highly penetrating?",
+        "options": [
+          "Alpha radiation (\\(\\ce{\\alpha}\\))",
+          "Beta-minus radiation (\\(\\beta^-\\))",
+          "Gamma radiation (\\(\\gamma\\))",
+          "Beta-plus radiation (\\(\\beta^+\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Electromagnetic waves are involved.",
+        "detailed": "Gamma radiation (\\(\\ce{\\gamma}\\)) is an electromagnetic wave with no mass or charge and is highly penetrating."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In alpha decay, how are the atomic number and mass number of the nucleus changed?",
+        "options": [
+          "Atomic number decreases by 2, mass number decreases by 4",
+          "Atomic number increases by 2, mass number increases by 4",
+          "Atomic number decreases by 1, mass number unchanged",
+          "Atomic number unchanged, mass number decreases by 2"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Alpha particle is \\(\\ce{^4_2He}\\).",
+        "detailed": "Alpha decay emits an alpha particle (\\(\\ce{^4_2He}\\)), so atomic number decreases by 2 and mass number decreases by 4."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the relationship between half-life \\(T_{1/2}\\) and the decay constant \\(\\lambda\\)?",
+        "options": [
+          "\\(T_{1/2} = \\lambda \\times 0.693\\)",
+          "\\(T_{1/2} = \\dfrac{\\ln(2)}{\\lambda}\\)",
+          "\\(T_{1/2} = \\lambda^2\\)",
+          "\\(T_{1/2} = 2\\lambda\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Half-life is how long until half decays.",
+        "detailed": "The half-life \\(T_{1/2}\\) is related by \\(T_{1/2} = \\frac{\\ln(2)}{\\lambda} ≈ \\frac{0.693}{\\lambda}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which decay process converts a neutron into a proton and emits a beta-minus particle?",
+        "options": [
+          "Alpha decay",
+          "Beta-minus decay",
+          "Beta-plus decay",
+          "Electron capture"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Neutron → proton + electron.",
+        "detailed": "In beta-minus decay, a neutron in the nucleus becomes a proton, emitting a beta-minus particle (electron) and an antineutrino."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens to the activity \\(A\\) of a radioactive sample over time according to the decay law?",
+        "options": [
+          "It increases exponentially",
+          "It remains constant",
+          "It decreases exponentially",
+          "It decreases linearly"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Follows the same pattern as number of nuclei decaying.",
+        "detailed": "The activity \\(A\\) decreases exponentially over time following \\(A = A_0 e^{-\\lambda t}\\), matching the decay of number of nuclei."
+      }
+    ]
+  }
