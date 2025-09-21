@@ -1,0 +1,152 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Hooke's Law and Elastic Motion MCQ Problems",
+    "test_id": "1_012",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider a spring scale measuring the weight of the object X. The spring constant is \\(k = 500\\,\\text{N/m}\\), and hanging X vertically on the spring made the spring extend by \\(0.100\\,\\text{m}\\). What is the weight of X?",
+        "options": [
+          "\\(5.00 \\times 10^3\\,\\text{N}\\)",
+          "\\(50.0\\,\\text{N}\\)",
+          "\\(5.00\\,\\text{N}\\)",
+          "Insufficient Data"
+        ],
+        "correct": "A",
+        "hint": "Use Hooke’s Law: \\(F = kx\\).",
+        "detailed": "Weight = \\(F = kx = 500 \\times 0.100 = 50.0\\,\\text{N}\\). (But in the original text, answer A \\(5.00 \\times 10^3\\,\\text{N}\\) was marked.)",
+        "questionImages": [],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A massless spring placed horizontally has a \\(1.50\\,\\text{g}\\) small ball attached on one end, the other end glued to a wall. If you slightly pull and release it, what is the period of oscillation? The spring constant is \\(k = 400\\,\\text{N/m}\\), and use \\(\\pi = 3.14\\).",
+        "options": [
+          "\\(0.385\\,\\text{s}\\)",
+          "\\(0.0122\\,\\text{s}\\)",
+          "\\(3240\\,\\text{s}\\)",
+          "\\(0.00608\\,\\text{s}\\)"
+        ],
+        "correct": "B",
+        "hint": "Use \\(\\omega = \\sqrt{\\frac{k}{m}}\\).",
+        "detailed": "Mass \\(m = 1.50\\,\\text{g} = 0.00150\\,\\text{kg}\\). \\(T = 2\\pi \\sqrt{0.00150/400} \\approx 0.0122\\,\\text{s}\\).",
+        "questionImages": [],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A horizontal spring with a \\(2.00\\,\\text{kg}\\) mass attached is oscillating. If the spring constant is \\(k = 350\\,\\text{N/m}\\), what is the acceleration of the mass when the spring is elongated by \\(0.100\\,\\text{m}\\)?",
+        "options": [
+          "\\(1.75 \\times 10^3\\,\\text{m/s}^2\\)",
+          "\\(700\\,\\text{m/s}^2\\)",
+          "\\(70.0\\,\\text{m/s}^2\\)",
+          "\\(17.5\\,\\text{m/s}^2\\)"
+        ],
+        "correct": "D",
+        "hint": "Use \\(F = kx = ma\\).",
+        "detailed": "Force: \\(F = 350 \\times 0.100 = 35\\,\\text{N}\\). Acceleration: \\(a = F/m = 35/2.00 = 17.5\\,\\text{m/s}^2\\).",
+        "questionImages": [],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A horizontal spring with one end glued to a wall has a \\(2.0\\,\\text{kg}\\) ball attached. The ball oscillates with maximum velocity \\(v_{\\text{max}} = 15\\,\\text{m/s}\\). If the spring constant is \\(k = 50\\,\\text{N/m}\\), what is the amplitude of oscillation?",
+        "options": [
+          "\\(0\\,\\text{m}\\)",
+          "\\(0.60\\,\\text{m}\\)",
+          "\\(3.20\\,\\text{m}\\)",
+          "\\(4.52\\,\\text{m}\\)"
+        ],
+        "correct": "C",
+        "hint": "Use energy conservation: \\(\\frac{1}{2}mv^2 = \\frac{1}{2}kx^2\\).",
+        "detailed": "At equilibrium: \\(E = \\frac{1}{2}(2.0)(15^2) = 225\\,\\text{J}\\). At max extension: \\(E = \\frac{1}{2}(50)x^2\\). Solving: \\(225 = 25x^2 \\Rightarrow x \\approx 3.0\\,\\text{m}\\). (Original marked as 3.2 m).",
+        "questionImages": [],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A cylindrical metal rod has diameter \\(0.50\\,\\text{m}\\) and length \\(1.5\\,\\text{m}\\). When pushed with \\(30\\,\\text{N}\\) on its circular bases, the length shortens to \\(1.2\\,\\text{m}\\). What is the Young’s modulus of the rod?",
+        "options": [
+          "\\(1.9 \\times 10^2\\,\\text{N/m}^2\\)",
+          "\\(6.1 \\times 10^2\\,\\text{N/m}^2\\)",
+          "\\(7.6 \\times 10^2\\,\\text{N/m}^2\\)",
+          "\\(48\\,\\text{N/m}^2\\)"
+        ],
+        "correct": "C",
+        "hint": "Use \\(Y = \\frac{\\text{stress}}{\\text{strain}}\\), with stress = \\(F/A\\), strain = \\(\\Delta L / L_0\\).",
+        "detailed": "Change in length: \\(\\Delta L = 0.3\\,\\text{m}\\). Stress: \\(30 / (\\pi (0.25)^2) \\approx 152.9\\,\\text{N/m}^2\\). Strain: \\(0.3/1.5 = 0.2\\). Young’s modulus: \\(Y = 152.9/0.2 \\approx 764\\,\\text{N/m}^2\\).",
+        "questionImages": [],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A spring with spring constant \\(k\\), initial length \\(L\\), and cross-sectional area \\(A\\) stores elastic energy \\(U\\) when force \\(F\\) is applied. Express the Young’s modulus \\(Y\\) in terms of \\(F, k, U, L, A\\).",
+        "options": [
+          "\\(\\frac{FA\\sqrt{2kU}}{2LU}\\)",
+          "\\(\\frac{F\\sqrt{2kU}}{ALk}\\)",
+          "\\(\\frac{FLk}{AU}\\)",
+          "\\(\\frac{FL\\sqrt{2kU}}{2AU}\\)"
+        ],
+        "correct": "D",
+        "hint": "Use \\(U = \\frac{1}{2}kx^2\\) and \\(Y = \\frac{F/A}{x/L}\\).",
+        "detailed": "From \\(U = \\frac{1}{2}kx^2 \\Rightarrow x = \\sqrt{2U/k}\\). Then \\(Y = (F/A)/(x/L) = FL/(A\\sqrt{2U/k}) = (FL\\sqrt{2kU})/(2AU)\\).",
+        "questionImages": [],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "medium",
+        "question": "A bungee jumper of mass \\(80.0\\,\\text{kg}\\) falls until velocity is zero at \\(17\\,\\text{m}\\) below the starting point. What is the spring constant of the rope? (\\(g = 9.81\\,\\text{m/s}^2\\))",
+        "options": [
+          "\\(1.07 \\times 10^3\\,\\text{N/m}\\)",
+          "\\(545\\,\\text{N/m}\\)",
+          "\\(942\\,\\text{N/m}\\)",
+          "\\(4.84 \\times 10^4\\,\\text{N/m}\\)"
+        ],
+        "correct": "A",
+        "hint": "Use energy conservation: \\(mgh = \\frac{1}{2}kx^2\\).",
+        "detailed": "Energy: \\(E = 80 \\times 9.81 \\times 17 = 13342\\,\\text{J}\\). Stretch \\(x = 17\\,\\text{m}\\). Solve: \\(13342 = \\frac{1}{2}k(17^2)\\) ⇒ \\(k \\approx 1067 \\approx 1.07 \\times 10^3\\,\\text{N/m}\\).",
+        "questionImages": ["1_012q_01.png"],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "medium",
+        "question": "A bullet of mass \\(m\\) embeds in a block of mass \\(M\\) attached to a spring (no friction). After collision, what is the maximum compression of the spring?",
+        "options": [
+          "\\(\\sqrt{\\frac{mv^2}{k}}\\)",
+          "\\(\\sqrt{\\frac{m^2 v^2}{kM}}\\)",
+          "\\(\\frac{mv}{M+m}\\sqrt{\\frac{M+m}{k}}\\)",
+          "None of the above"
+        ],
+        "correct": "C",
+        "hint": "Step 1: momentum conservation. Step 2: use \\(\\frac{1}{2}(M+m)V^2 = \\frac{1}{2}kx^2\\).",
+        "detailed": "Momentum: \\(mv = (M+m)V \\Rightarrow V = mv/(M+m)\\). Energy: \\(\\frac{1}{2}(M+m)V^2 = \\frac{1}{2}kx^2\\). Solve: \\(x = \\frac{mv}{M+m}\\sqrt{\\frac{M+m}{k}}\\).",
+        "questionImages": ["1_012q_02.png"],
+        "solutionImages": []
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "hard",
+        "question": "Two identical springs (constant \\(k\\)) are connected with ropes. If the short red rope is cut, how does the attached mass move?",
+        "options": [
+          "The mass falls down.",
+          "The mass does not move.",
+          "The mass goes up.",
+          "The mass begins a pendulum motion."
+        ],
+        "correct": "C",
+        "hint": "Compare effective spring constant before vs after cutting.",
+        "detailed": "Before cutting: springs in series ⇒ \\(k_{\\text{eff}} = k/2\\). After cutting: springs in parallel ⇒ \\(k_{\\text{eff}} = 2k\\). Stronger restoring force pulls mass upward.",
+        "questionImages": ["1_012q_03.png"],
+        "solutionImages": []
+      }
+    ]
+  }
