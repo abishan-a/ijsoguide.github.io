@@ -1,0 +1,120 @@
+{
+  "subject": "chemistry",
+  "unit": "chemicalstructures",
+  "title": "Electron Configurations MCQ problems",
+  "test_id": "2_002",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "Which of the following is not dirrectly related to electron configurations?",
+      "options": [
+        "The Heisenberg Uncertainty Principle",
+        "The Pauli Exclusion Principle",
+        "The Aufbau Principle",
+        "Hund's rule"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "A",
+      "hint": "First, try to remember what the three rules used for writing electronic configurations are. What is the name of each of them?",
+      "detailed": "The Pauli Exclusion Principle states that no two electrons can share the same set of quantum numbers - no more than two electrons may be found in an orbital.<br>The Aufbau Principle, also known as the diagonal rule, is the rule that helps us decide what subshel to fill first.<br>Once we're in a subshell, while filling it, Hund's rule helps us decide in what order to fill the orbitals.<br>The Heisenberg Uncertainty Principle is a principle from quantum mechanics related to the momentum and position of a quantum object; although orbitals and electrons are quantum objects, the Heisenberg Uncertainty Principle is not dirrectly related to determining electron structures.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "What chemical element has the \\(1s^22s^22p^63s^23p^1\\) electron configuration?",
+      "options": [
+        "Chlorine (Z = 17)",
+        "Sodium (Z = 11)",
+        "Iron (Z = 26)",
+        "Aluminum (Z = 13)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "Think about the number of electrons",
+      "detailed": "Counting the number of electrons, we see that there are 13, which corresponds to Aluminum",
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "What is the correct electronic configuration for bromine (Z = 35)?",
+      "options": [
+        "\\(1s^22s^22p^63s^23p^64s^23d^{10}4p^2\\)",
+        "\\(1s^22s^22p^63s^23p^64s^23d^94p^6\\)",
+        "\\(1s^22s^22p^63s^23p^64s^24p^5\\)",
+        "\\(1s^22s^22p^63s^23p^64s^23d^{10}4p^5\\)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "Use the Aufbau principle",
+      "detailed": "The only option that correctly follows Aufbau principle (the diagonal rule) - filling 4s orbitals, then 3d and then 4p - and that has 35 electrons is option D.",
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "A monovalent anion has the electronic configuration \\(1s^22s^22p^63s^23p^6\\). What chemical element does it correspond to?",
+      "options": [
+        "Sulfur (Z = 16)",
+        "Potassium (Z = 19)",
+        "Argon (Z = 18)",
+        "Chlorine (Z = 17)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "Knowing the number of electrons and the charge, what must be the number of protons?",
+      "detailed": "Counting the number of electrons, we can see that there are 18, since the atom is a monovalent anion, its charge is -1, so the number of protons must be the number of electrons minus one. Therefore, there are 17 protons, which corresponds to chlorine.",
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "What is the correct electronic configuration for the Ca2+ cation? (Atomic number of calcium: 20)",
+      "options": [
+        "\\(1s^22s^22p^6es^23p^64s^2\\)",
+        "\\(1s^22s^22p^63s^23p^64s^23d^2\\)",
+        "\\(1s^22s^22p^63s^23p^6\\)",
+        "\\(1s^22s^22p^63s^23p^64s^1\\)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "C",
+      "hint": "What should change in the electronic distribution when the atom is charged?",
+      "detailed": "The distribution for neutral calcium atoms is \\(1s^22s^22p^63s^23p^64s^2\\). But, because it has a +2 charge, 2 of its electrons should be removed, and you should remove the 2 outermost electrons. Those happen to be the two electrons of the 4s subshell, so the final configuration must be \\(1s^22s^22p^63s^23p^6\\).",
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "Lead is an element from the p-block of the periodic table, meaning a p subshell is currently being filled. Indeed, it's the 6p subshell of lead that's being filled, and has 4 electrons (\\(6p^4\\)). Which figure correctly shows how the electrons are distributed in the 6p orbital of lead?",
+      "options": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4"
+      ],
+      "questionImages": [
+        "2_002q01.png",
+        "2_002q02.png",
+        "2_002q03.png",
+        "2_002q04.png"
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "Aufbau's principle tells us how electrons are distributed among subshells. Since we're analyzing only one subshell, it isn't important to us in this problem. However, you need to check which of the given distributions respects Hund's rule and the Pauli exclusion principle.",
+      "detailed": "Hund's rule states that, unless all orbitals in a subshell have at least one electron, no orbital may contain two electrons. In other words, before pairing an electron with another electron, we must fill all the available orbitals.<br>Pauli's principle states that two electrons with the same spin (arrow pointing in the same direction) cannot occupy the same orbitals.<br>Looking at the given options, figure 2 is the only correct one, since figure 1 is in violation of Hund's rule, figure 3 is in violation of Pauli's principle and figure 4 is in violation of both.",
+      "author": "Alex Jicu"
+    }
+  ]
+}
