@@ -75,7 +75,7 @@ onAuthStateChanged(auth, (user) => {
         for (let unitKey in systemData["problemCount"][subjectCode]){
           let li = document.createElement('li');
           let unitTitle = document.createElement('p');
-          unitTitle.innerHTML = unitKey;
+          unitTitle.innerHTML = unitKey + "<i class=\"fa-solid fa-chevron-down\"></i>";
           li.appendChild(unitTitle);
           li.id = unitKey;
 
@@ -100,7 +100,7 @@ onAuthStateChanged(auth, (user) => {
 
             let topicDiv = document.createElement('div');
             let p = document.createElement('p');
-            p.innerHTML = topicData["title"];
+            p.innerHTML = topicData["title"] + "<i class=\"fa-solid fa-chevron-down\"></i>";
             let barsDiv = document.createElement('div')
             let barsDivID = topicKey + "_bars"
             barsDiv.id = topicKey + "_bars"

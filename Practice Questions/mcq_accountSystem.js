@@ -115,13 +115,13 @@ onAuthStateChanged(auth, (user) => {
               }
               if (mediumResult > document.data().mediumPercent){
                 updateDoc(doc(db, "userData", uid, "completedTests", "allTests", subject, docTitle), {
-                  mediumPercent: hardResult,
+                  mediumPercent: mediumResult,
                   mediumTime: time
                 })
               }
               if (hardResult > document.data().hardPercent){
                 updateDoc(doc(db, "userData", uid, "completedTests", "allTests", subject, docTitle), {
-                  hardercent: hardResult,
+                  hardPercent: hardResult,
                   hardTime: time
                 })
               }

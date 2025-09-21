@@ -84,7 +84,6 @@ if (referrer) {
 function main(data){
 
   title = data.title;
-  let authors = data.authors;
 
   let difficulty = {
     easy: levels[0] == 1,
@@ -108,7 +107,6 @@ function main(data){
   document.getElementById('landingProblemCounter').innerHTML = totalProblems;
   document.getElementById('dynamicMainContentTitle').innerHTML = title;
   document.getElementById('pageTitle').innerHTML = title;
-  document.getElementById('authors').innerHTML = "Authors: " + authors;
 
   let currentProblemID = -1;
 
@@ -251,15 +249,15 @@ function main(data){
     async function f(){
       currentProblemID = id;
       let problem = problems[id];
+      let author = problem.author;
       dynamicProblemHeader.innerHTML = "Problem " + (id + 1) + " - " + problem.level;
       dynamicProblemText.innerHTML = problem.question;
-      
-      console.log(status);
+      document.getElementById('authors').innerHTML = "Author: " + author;
 
       document.getElementById("dynamicProblemImages").innerHTML = ""
       for (let imageIndex in problem.questionImages){
         let image = document.createElement('img')
-        image.src = `./${subjectName}/mcq/images/${problem.questionImages[imageIndex]}`
+        image.src = `./${capitalize(subjectName)}/mcq/images/${problem.questionImages[imageIndex]}`
         document.getElementById("dynamicProblemImages").appendChild(image)
       }
 
@@ -301,7 +299,7 @@ function main(data){
       document.getElementById("dynamicExplanationImages").innerHTML = ""
       for (let imageIndex in problem.solutionImages){
         let image = document.createElement('img')
-        image.src = `./${subjectName}/mcq/images/${problem.solutionImages[imageIndex]}`
+        image.src = `./${capitalize(subjectName)}/mcq/images/${problem.solutionImages[imageIndex]}`
         document.getElementById("dynamicExplanationImages").appendChild(image)
       }
     }
@@ -376,4 +374,9 @@ function allChecked (arr, variable){
     }
   }
   return true;
+}
+
+function capitalize (word){
+  let capitalized = word.charAt(0).toUpperCase() + word.slice(1)
+  return capitalized;
 }
