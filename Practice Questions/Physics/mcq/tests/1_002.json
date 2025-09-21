@@ -34,12 +34,12 @@
         "solutionImages": [],
         "correct": "D",
         "hint": "What are the units of v, r, a?",
-        "detailed": "v has the SI unit of \\(ms^{-1}. r and a have the SI unit of m. If we substitute them into the equation, k is \\(m^3 s^{-2}."
+        "detailed": "v has the SI unit of \\(ms^{-1}\\). r and a have the SI unit of m. If we substitute them into the equation, k is \\(m^3 s^{-2}\\)."
       },
       {
         "author": "Doyoon Kim",
         "level": "easy",
-        "question": "The energy of a single photon(E) is said to be proportional to the frequency of the light(f). We can express this as E=kf. What is the dimension of k?",
+        "question": "The energy of a single photon(E) is said to be proportional to the frequency of the light(f). We can express this as \\(E=kf\\). What is the dimension of k?",
         "options": [
             "\\(M L^2 T^{-1}\\)",
             "\\(ML^3 T\\)",
@@ -98,7 +98,7 @@
         "solutionImages": [],
         "correct": "D",
         "hint": "The dimension of the left-hand side must equal that of the right-hand side.",
-        "detailed": "\\(p: [ML^{-1} T^{-2}], v:[L^3], T: [\\theta], therefore LHS: [M^x L^{2x} T^{-2x} \\theta^y]. <br> This needs to have the same dimension as that of k. <br> x = 1, 2x = 2, -2x = -2, y = -1. So, x - y = 2."
+        "detailed": "\\(p: [ML^{-1} T^{-2}], v:[L^3], T: [\\theta], therefore LHS: [M^x L^{2x} T^{-2x} \\theta^y). <br> This needs to have the same dimension as that of k. <br> x = 1, 2x = 2, -2x = -2, y = -1. So, x - y = 2."
       }
     ]
   }
