@@ -1,0 +1,117 @@
+{
+  "subject": "physics",
+  "unit": "thermodynamics",
+  "title": "Thermal Expansion MCQ problems",
+  "test_id": "1_048",
+  "authors": "Alex Jicu",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "It is a very well-known science fun fact that the Eiffel Tower's height varies throughout the year. Its normal height at \\(0^\\circ C\\) is 330 meters. The highest temperature ever recorded in Paris is \\(42.6^\\circ C\\) (July 25, 2019) and the lowest one is \\(-23.9^\\circ C\\) (December 10, 1879, 8 years before the Eiffel Tower was built, but let's ignore that). If the linear thermal expansion coefficient of iron (consider the Eiffel Tower is pure iron) is \\(\\alpha = 1.2\\cdot 10^{-5) K^{-1}, find by how much the Eiffel Tower's height would change between these temperatures:\\)",
+      "options": [
+        "7.41cm",
+        "9.46cm",
+        "16.87cm",
+        "26.33cm"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "What's the amount by which the temperature changes - in other words, what's the amplitude of the temperature range?",
+      "detailed": "The amplitude of the temperature range which we are studying is \\(\\Delta T = 42.6 - (-23.9) = 66.5^\\circ C = 66.5K\\). So, the variation of the height is \\(\\Delta H = H_0\\alpha\\Delta T = 0.2633m = 26.33cm\\).",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "The surface thermal expansion coefficient of iron is known to be \\(\\beta = 2.4\\times 10^{-5} K^{-1}\\). What is the volume thermal expansion coefficient (\\(\\gamma\\)) for iron?",
+      "options": [
+        "1.2\\times 10^{-5} K^{-1}",
+        "3.6\\times 10^{-5} K^{-1}",
+        "4.8\\times 10^{-5} K^{-1}",
+        "7.2\\times 10^{-5} K^{-1}"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "Both the surface and then volume thermal expansion coefficients, can be expressed in terms of the linear expansion coefficient (\\(\\alpha\\)).",
+      "detailed": "Using usual notations, we have \\(\\beta \\aprox 2\\alpha\\) and \\(\\gamma \\approx 3\\alpha\\). From these, we deduce \\(\\gamma = \\frac{3}{2}\\beta = 3.6\\times 10^{-5} K^{-1}\\)",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Zirconium tungstate (\\(ZrW_2O_8\\)) is an unusual substance, which has a negative volume 'expansion' coefficient, \\(\\gamma = -9\\times 10^{-6} K^{-1}\\). If a zirconium tungstate sphere has volume \\(V_0 = 1cm^3\\) at \\(0^\\circ C\\), by how much does its volume change when heated to \\(500^\\circ?\\)?",
+      "options": [
+        "\\(-13.5 mm^3\\)",
+        "\\(-4.5 mm^3\\)",
+        "\\(4.5 mm^3\\)",
+        "\\(13.5 mm^3\\)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "Use the usual formula, but keep in mind that \\(\\gamma\\) is negative - the sphere shrinks!",
+      "detailed": "\\(\\Delta V = V_0\\gamma\\Delta T = 1000mm^3\\times\\(-9)\\times 10^{-6}\\times 500 = -4.5mm^3 \\)",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "In general, which of the following is true about objects being heated (suppose the objects are solid and all the heating happens below their melting point)?",
+      "options": [
+        "Their volume first decreases, for a short range of temperatures, until the object is uniformly heated, and then starts increasing",
+        "Their volume increases up to a certain temperature, where it peaks and remains constant",
+        "Their density remains constant, because heating also affects mass",
+        "Their density decrases as the heating continues"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "Remember the term is 'thermal expansion' and think which option actually makes physical sense.",
+      "detailed": "The volume does decrease in the beginning for water, but this is an anomaly and is not usual. Also, it doesn't happen due to not uniform heating. The volume peaking at a certain value doesn't physically make sense, because the thing that made the volume increase up to that point, will keep making it increase. The density can't remain constant. The volume increases, but the mass has to stay the same - mass can't be created from nothing, or just disappear. So, the density will decrease, as objects are heated.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "What is the cause of thermal expansion?",
+      "options": [
+        "Increasing thermal motion of the particles making up an object makes the particles, on average, take up more space",
+        "Small microfractures appearing in the object as heating goes on",
+        "Melting/sublimation/evaporation of small amounts of substance - gases and liquids take up more space so volume increases",
+        "The size of the atoms increases with heating, overall increasing the total volume"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "A",
+      "hint": "Based on your current knowledge of physics, think which answer makes physical sense and is a full satisfying explanation",
+      "detailed": "The real cause of thermal dilation is the increase of thermal (Brownian) motion. Microfractures wouldn't create a smooth volume increasing pattern, but a chaotic volume change, which would also involve decreases in volume. Extremely small quantities of substance do melt/sublimate/evaporate, but these processes happen at the surface, so the gas/liquid usually just leaves the system, but, again, the amounts are very small, negligible even on very small scales. The explanation about the atoms, doesn't actually provide a reason, it just says 'big things expans because smaller things also expand'. It still gives no reason as to why the atoms would expand (and they in fact do not expand)",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Let us analyze a mercury thermometer. At a normal human temperature (\\(36^\\circ C\\)), the mercury in the thermometer occupies a volume of \\(10^{-8}m^3\\). If the thermometer is used to measure of a pacient with fever and it shows \\(40^\\circ C\\), by how much did the volume of mercury increase? For mecury we have \\(\\gamma_{Hg} = 1.8\\times 10^{-5} K^{-1}\\)",
+      "options": [
+        "\\(6.5\\times 10^{-13} m^3\\)",
+        "\\(7.2\\times 10^{-13} m^3\\)",
+        "\\(6.5\\times 10^{-12} m^3\\)",
+        "\\(7.2\\times 10^{-12} m^3\\)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "Your mind might have gone to mercury being a liquid. However, since we talk about volume dilation and we don't actually care about the dimensions of the thermometer, you can just use the usual method you would use if mercury were a solid.",
+      "detailed": "\\(\\Delta V = V_0\\gamma \\Delta T = 10^{-8}\\times 1.8\\times 10^{-5}\\times (40-36) = 7.2\\times 10^{-13} m^3\\)",
+      "author": "Alex Jicu"
+    }
+  ]
+}
