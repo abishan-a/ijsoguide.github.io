@@ -14,6 +14,8 @@
           "The cell will swell but will not burst due to osmosis",
           "The cell will bust due to osmosis"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "B",
         "hint": "A hypertonic solution means that the solution has more solute than the plant cell, meaning that water will naturally flow from the cell out into the solution to create balance.",
         "detailed": "The correct option is B. Due to osmosis, water will passively flow from areas of high to low concentration."
@@ -28,12 +30,13 @@
           "F, T, F, T",
           "F, F, F, F"
         ],
-     
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "A",
         "hint": "Plants are immobile.",
         "detailed": "The correct answer is option A. Plant cells are generally larger than animal cells. Plant cells Do NOT have cilia and flagella because they are immoble, and do not need to move. Plant cells DO NOt have centrosomes, animal cells do. Finally, it is true that only plant cells have plasmodesmata."
       }
     ]
   }
-  
+
       
