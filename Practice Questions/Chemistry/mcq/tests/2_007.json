@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "chemical structures",
+    "title": "Periodic Table Trends MCQ Problems",
+    "test_id": "2_007",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens to atomic radius as you move across a period (left → right)?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It first increases then decreases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about increasing nuclear charge pulling electrons in.",
+        "detailed": "As you go across a period, protons increase, pulling electrons closer so atomic radius decreases."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What trend does ionization energy follow across a period?",
+        "options": [
+          "Decreases left to right",
+          "Increases left to right",
+          "Stays constant",
+          "Fluctuates wildly with no pattern"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "More protons → stronger hold on electrons.",
+        "detailed": "Ionization energy increases from left to right because atoms hold electrons more tightly due to increased positive charge in the nucleus."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "How does electronegativity generally change going down a group?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It first decreases then increases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "More shells → electrons further away from nucleus.",
+        "detailed": "As you move down a group, electronegativity decreases because valence electrons are further from the nucleus and more shielded."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which trend is true when moving down a group in the periodic table?",
+        "options": [
+          "Atomic radius decreases",
+          "Ionization energy increases",
+          "Atomic radius increases",
+          "Electronegativity increases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "More electron shells = larger size.",
+        "detailed": "Going down a group adds electron shells, which increases the atomic radius."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which factor contributes to higher ionization energy across a period?",
+        "options": [
+          "Increased shielding",
+          "More valence electrons far from nucleus",
+          "Increased nuclear charge",
+          "More inner shells"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "More protons add stronger pull in the nucleus.",
+        "detailed": "Increased nuclear charge as you move across a period makes it harder to remove electrons, raising ionization energy."
+      }
+    ]
+  }

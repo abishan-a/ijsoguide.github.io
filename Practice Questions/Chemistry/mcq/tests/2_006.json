@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "chemical structures",
+    "title": "Periodic Table MCQ Problems",
+    "test_id": "2_006",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does the atomic number of an element represent?",
+        "options": [
+          "Number of neutrons",
+          "Number of protons",
+          "Mass of the element",
+          "Number of electrons in full outer shell"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Atomic number = identity of the element’s nucleus.",
+        "detailed": "The atomic number is the number of protons in the nucleus of an atom and determines which element it is."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Elements in the same group (vertical column) of the periodic table share what characteristic?",
+        "options": [
+          "Same number of electron shells",
+          "Same mass number",
+          "Same number of valence electrons",
+          "Same atomic radius"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Group → similar outer shell electrons.",
+        "detailed": "Elements in the same group have the same number of valence (outermost) electrons, which gives them similar chemical properties."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the name for the horizontal rows in the periodic table?",
+        "options": [
+          "Groups",
+          "Blocks",
+          "Periods",
+          "Families"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think horizontal vs vertical.",
+        "detailed": "The horizontal rows in the periodic table are called periods; they correspond to the number of electron shells in the atoms of those elements."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is a noble gas?",
+        "options": [
+          "Oxygen (O)",
+          "Chlorine (Cl)",
+          "Argon (Ar)",
+          "Sodium (Na)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Group 18 unreactive gases.",
+        "detailed": "Argon is one of the noble gases, found in Group 18 of the periodic table, and is known for being chemically inert."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which type of element is typically shiny, malleable, and a good conductor of electricity?",
+        "options": [
+          "Nonmetals",
+          "Metals",
+          "Noble gases",
+          "Halogens"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think of things like copper, iron.",
+        "detailed": "Metals are shiny, malleable, and good conductors of heat and electricity—these are general properties of metallic elements."
+      }
+    ]
+  }
