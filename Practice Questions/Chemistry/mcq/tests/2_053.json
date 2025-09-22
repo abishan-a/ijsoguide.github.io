@@ -1,0 +1,106 @@
+{
+    "subject": "chemistry",
+    "unit": "Other Topics",
+    "title": "Spectrophotometry MCQ Problems",
+    "test_id": "2_053",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the main purpose of spectrophotometry?",
+        "options": [
+          "To separate mixtures into components",
+          "To measure how much light a substance absorbs",
+          "To determine boiling points of liquids",
+          "To observe the structure of crystals"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about light absorption and intensity measurement.",
+        "detailed": "Spectrophotometry is a technique used to measure how much light a substance absorbs by passing light through a sample and measuring its intensity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which law forms the basis of spectrophotometry?",
+        "options": [
+          "Boyle’s Law",
+          "Beer–Lambert Law",
+          "Charles’s Law",
+          "Dalton’s Law"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It links absorbance with concentration and path length.",
+        "detailed": "The Beer–Lambert Law relates absorbance to the concentration of the absorbing species and the path length of the light through the sample."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In spectrophotometry, what is the common range of wavelengths measured?",
+        "options": [
+          "Infrared region (700–2000 nm)",
+          "Visible and UV region (200–800 nm)",
+          "Microwave region (1–10 cm)",
+          "Radio waves (1–100 m)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It usually involves ultraviolet and visible light.",
+        "detailed": "Spectrophotometry typically measures in the ultraviolet and visible regions of the spectrum, from about 200 to 800 nm."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does a spectrophotometer measure to calculate absorbance?",
+        "options": [
+          "Boiling point and melting point",
+          "Initial and final concentrations",
+          "Intensity of light before and after passing through the sample",
+          "The weight of the solute and solvent"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It compares incoming and outgoing light.",
+        "detailed": "A spectrophotometer measures the intensity of light before and after it passes through the sample, then calculates absorbance based on this difference."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why is spectrophotometry important in chemistry?",
+        "options": [
+          "It is used to measure temperature changes",
+          "It determines the concentration of solutions accurately",
+          "It is used to weigh chemical compounds",
+          "It is used to study crystal lattice structures"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about quantitative analysis of solutions.",
+        "detailed": "Spectrophotometry is important because it allows chemists to determine the concentration of solutions accurately by measuring how much light they absorb."
+      },
+      {
+        "author": "Alex Jicu",
+        "level": "easy",
+        "question": "\\(\\beta\\)-carotene is an important pigment found in many plants such as carrots. It gives carrots their distinct orange color. Approximately, at what wavelength does (\\beta\\)-carotene absorb the most light? You can use the visible light spectrum given (source: https://www.livingoptics.com/technology/).",
+        "options": [
+          "475nm",
+          "550nm",
+          "660nm",
+          "700nm"
+        ],
+        "questionImages": [
+          "2_053q01.png"
+        ],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "At what wavelength does \\(\\beta\\)-carotene ABSORB the most light?",
+        "detailed": "Since the color of \\(\\beta\\)-carotene is orange, it means it reflects most of the orange light coming to it and absorbs the color that's opposite to orange. That corresponds to a cold color, around blue. Looking at the answer options and the visible spectrum given, the most suitable answer is 475nm."
+      }
+    ]
+  }
