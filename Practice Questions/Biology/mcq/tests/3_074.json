@@ -14,6 +14,8 @@
           "Flow of usable energy through trophic levels",
           "Water content of organisms"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Energy → flow and loss at each level",
         "detailed": "A pyramid of energy shows how much usable energy is passed from one trophic level to the next, with most energy lost."
@@ -28,6 +30,8 @@
           "Pyramid of energy",
           "All types can invert"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Think about energy loss rules",
         "detailed": "Only the pyramid of energy is always upright, because energy decreases with each trophic transfer."
@@ -42,6 +46,8 @@
           "Pyramid of Biomass in aquatic ecosystems",
           "None — producers always largest"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Aquatic ecosystems with tiny producers that reproduce fast",
         "detailed": "In many aquatic ecosystems, producers like phytoplankton have lower standing biomass than consumers, making biomass pyramids inverted."
@@ -56,6 +62,8 @@
           "Count of individuals at each trophic level",
           "Rate of respiration"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Numbers = count of organisms",
         "detailed": "A pyramid of numbers shows how many individual organisms there are in each trophic level of a food chain."
@@ -70,6 +78,8 @@
           "Energy loss and fewer organisms at higher trophic levels",
           "Producers move up"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Energy is lost at each level, and fewer organisms survive at top levels",
         "detailed": "Because energy transfer is inefficient, only a small fraction of energy passes to higher trophic levels, so there are fewer individuals and less biomass at the top."
