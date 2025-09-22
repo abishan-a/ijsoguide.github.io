@@ -903,7 +903,7 @@
         "3": {
             "Cellular and Micro Biology": {
                 "3_001": {
-                "easy": 0,
+                "easy": 7,
                 "medium": 0,
                 "hard": 0,
                 "title": "Biomolecules (macro and micro)"
@@ -933,7 +933,7 @@
                 "title": "Active transport"
                 },
                 "3_006": {
-                "easy": 0,
+                "easy": 3,
                 "medium": 0,
                 "hard": 0,
                 "title": "Prokaryotic vs. eukaryotic cells"
@@ -1013,8 +1013,8 @@
                 "title": "DNA Replication"
                 },
                 "3_019": {
-                "easy": 0,
-                "medium": 0,
+                "easy": 5,
+                "medium": 3,
                 "hard": 0,
                 "title": "Protein Synthesis"
                 },
@@ -1031,7 +1031,7 @@
                 "title": "The Genetic Code"
                 },
                 "3_022": {
-                "easy": 0,
+                "easy": 6,
                 "medium": 0,
                 "hard": 0,
                 "title": "Enzyme Activity"
