@@ -14,6 +14,8 @@
           "Condensation",
           "Precipitation"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Think about clouds forming.",
         "detailed": "Condensation is the process where water vapor cools and changes into liquid droplets, forming clouds."
@@ -28,6 +30,8 @@
           "Precipitation",
           "Collection"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "What comes down from the sky?",
         "detailed": "Precipitation is the stage where water falls from the atmosphere to Earth’s surface as rain, snow, sleet, or hail."
@@ -42,6 +46,8 @@
           "Infiltration",
           "Precipitation"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "B",
         "hint": "It’s about plants and water.",
         "detailed": "Transpiration is the release of water vapor from plants into the atmosphere."
@@ -56,6 +62,8 @@
           "Precipitation",
           "Transpiration"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "B",
         "hint": "Think about heat and surfaces drying up.",
         "detailed": "Evaporation is the process by which water changes from liquid to vapor, usually due to heat from the sun."
@@ -70,6 +78,8 @@
           "Collection in lakes, rivers, or oceans",
           "Transpiration"
         ],
+        "questionImages": [],
+        "solutionImages": [],
         "correct": "C",
         "hint": "Think low ground bodies of water.",
         "detailed": "Collection refers to water gathering in bodies like lakes, rivers, or oceans after precipitation."
