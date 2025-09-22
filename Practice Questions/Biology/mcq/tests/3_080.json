@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Population Dynamics MCQ Problems",
+    "test_id": "3_080",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is population density?",
+        "options": [
+          "Total number of births per year",
+          "Number of individuals per unit area or volume",
+          "The carrying capacity of an ecosystem",
+          "Rate of population growth"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think how many organisms in a certain space.",
+        "detailed": "Population density is defined as the number of individuals per unit area or volume."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which formula correctly expresses the change in population size (ΔN)?",
+        "options": [
+          "ΔN = (Births + Immigration) − (Deaths + Emigration)",
+          "ΔN = Births − Deaths",
+          "ΔN = Births + Deaths − Emigration",
+          "ΔN = Immigration − Emigration"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "All four terms are used in the population change formula.",
+        "detailed": "The population change formula is ΔN = (Births + Immigration) − (Deaths + Emigration)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does the intrinsic rate of natural increase (r) equal to?",
+        "options": [
+          "b + d",
+          "b − d",
+          "Birth rate + Death rate + Carrying capacity",
+          "Death rate − Birth rate"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Intrinsic rate = birth minus death per individual under ideal conditions.",
+        "detailed": "The intrinsic rate of natural increase is given by r = b − d, where b is birth rate and d is death rate."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What shape is the exponential growth curve when plotted over time?",
+        "options": [
+          "S-shaped",
+          "Linear",
+          "J-shaped",
+          "Parabolic"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Unlimited resources → rapid growth.",
+        "detailed": "Exponential growth plots as a J-shaped curve when resources are unlimited and population grows without constraints."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What term describes the maximum population size an environment can support?",
+        "options": [
+          "Intrinsic rate",
+          "Density-independent factor",
+          "Carrying capacity",
+          "Population density"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Often represented by K.",
+        "detailed": "Carrying capacity (K) is the maximum population size an environment can sustainably support."
+      }
+    ]
+  }

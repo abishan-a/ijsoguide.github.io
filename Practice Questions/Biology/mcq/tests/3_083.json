@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Acid Rain MCQ Problems",
+    "test_id": "3_083",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the approximate normal pH of rainwater (without extra pollution)?",
+        "options": [
+          "pH 7.0",
+          "pH 5.6",
+          "pH 4.0",
+          "pH 9.0"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Slightly acidic even without strong pollutants.",
+        "detailed": "Normal rain has a pH around 5.6 before strong acid emissions alter it."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which two gases are primary contributors to acid rain through industrial emissions?",
+        "options": [
+          "Carbon dioxide and methane",
+          "\\(\\ce{SO2}\\) (sulfur dioxide) and \\(\\ce{NO_x}\\) (nitrogen oxides)",
+          "Ozone and hydrogen",
+          "Helium and argon"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think of burning fossil fuels and vehicle exhaust.",
+        "detailed": "Acid rain is mainly caused by emissions of sulfur dioxide and nitrogen oxides."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which acid forms when SO₃ reacts with water in the atmosphere?",
+        "options": [
+          "Hydrochloric acid (HCl)",
+          "Sulfuric acid (\\(\\ce{H2SO4}\\))",
+          "Nitric acid (\\(\\ce{HNO3}\\))",
+          "Acetic acid (\\(\\ce{CH3COOH}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "\\(ce{SO3 + H2O →}\\)?",
+        "detailed": "\\(\\ce{SO3}\\) (sulfur trioxide) reacts with water to form sulfuric acid, \\(\\ce{H2SO4}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which effect is NOT a consequence of acid rain?",
+        "options": [
+          "Harms aquatic life by lowering pH of water bodies",
+          "Corrodes metals and limestone buildings",
+          "Improves plant growth by increasing soil nutrients inexorably",
+          "Makes some drinking water sources more acidic"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Acid rain usually *removes* nutrients or makes them harder for plants to absorb.",
+        "detailed": "Acid rain damage includes harming aquatic life, corroding costructions, damaging soil nutrients. It does *not* generally improve plant growth."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What natural buffer helps neutralize acids in soils or lakes affected by acid rain?",
+        "options": [
+          "Quartz sand",
+          "Limestone (\\(\\ce{CaCO3}\\))",
+          "Iron oxide",
+          "Sulfur dioxide"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think of something alkaline and common in many regions.",
+        "detailed": "Limestone (calcium carbonate) acts as a natural buffer: it neutralizes acids by reacting with \\(\\ce{H^+}\\) ions."
+      }
+    ]
+  }

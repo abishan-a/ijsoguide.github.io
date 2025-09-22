@@ -1,0 +1,78 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Water Cycle MCQ Problems",
+    "test_id": "3_078",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process in the water cycle involves water vapor cooling and forming droplets?",
+        "options": [
+          "Evaporation",
+          "Transpiration",
+          "Condensation",
+          "Precipitation"
+        ],
+        "correct": "C",
+        "hint": "Think about clouds forming.",
+        "detailed": "Condensation is the process where water vapor cools and changes into liquid droplets, forming clouds."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which stage of the water cycle is when water falls from clouds as rain, snow, sleet, or hail?",
+        "options": [
+          "Evaporation",
+          "Condensation",
+          "Precipitation",
+          "Collection"
+        ],
+        "correct": "C",
+        "hint": "What comes down from the sky?",
+        "detailed": "Precipitation is the stage where water falls from the atmosphere to Earth’s surface as rain, snow, sleet, or hail."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What term describes when plants release water vapor into the air?",
+        "options": [
+          "Sublimation",
+          "Transpiration",
+          "Infiltration",
+          "Precipitation"
+        ],
+        "correct": "B",
+        "hint": "It’s about plants and water.",
+        "detailed": "Transpiration is the release of water vapor from plants into the atmosphere."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which process causes water from surfaces like oceans, lakes, or soil to change into vapor?",
+        "options": [
+          "Condensation",
+          "Evaporation",
+          "Precipitation",
+          "Transpiration"
+        ],
+        "correct": "B",
+        "hint": "Think about heat and surfaces drying up.",
+        "detailed": "Evaporation is the process by which water changes from liquid to vapor, usually due to heat from the sun."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Where does water gather after precipitation before possibly evaporating again?",
+        "options": [
+          "Clouds",
+          "Atmosphere",
+          "Collection in lakes, rivers, or oceans",
+          "Transpiration"
+        ],
+        "correct": "C",
+        "hint": "Think low ground bodies of water.",
+        "detailed": "Collection refers to water gathering in bodies like lakes, rivers, or oceans after precipitation."
+      }
+    ]
+  }

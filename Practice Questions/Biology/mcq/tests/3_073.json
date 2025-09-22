@@ -1,0 +1,78 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Ecological Succession MCQ Problems",
+    "test_id": "3_073",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is primary succession?",
+        "options": [
+          "Succession where new species replace old ones on existing soil",
+          "Succession beginning on bare rock where no soil exists",
+          "Succession caused by human activity",
+          "Succession that only happens underwater"
+        ],
+        "correct": "B",
+        "hint": "Think about starting from scratch, no soil.",
+        "detailed": "Primary succession occurs on surfaces where no soil exists, such as bare rock, lava flows, or surfaces left by retreating glaciers."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is secondary succession?",
+        "options": [
+          "Reestablishment of a community after a disturbance where soil remains",
+          "Succession on rock with no previous life",
+          "Succession underwater",
+          "Succession inside caves"
+        ],
+        "correct": "A",
+        "hint": "Disturbance but soil is still present.",
+        "detailed": "Secondary succession happens after disturbance (fire, flood, human activity) when soil remains and organisms re-colonize the area."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these is an example of a pioneer species in primary succession?",
+        "options": [
+          "Trees",
+          "Grasses",
+          "Lichens and mosses",
+          "Shrubs"
+        ],
+        "correct": "C",
+        "hint": "First organisms to live on bare rock.",
+        "detailed": "Lichens and mosses are pioneer species—they’re among the first to colonize bare rock and help form soil."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In succession, what generally occurs as the stages progress?",
+        "options": [
+          "Decrease in species diversity",
+          "Less soil formation",
+          "More stable community and greater biodiversity",
+          "Reduced complexity"
+        ],
+        "correct": "C",
+        "hint": "Things go from simple to more complex.",
+        "detailed": "As succession progresses, ecosystems become more stable, have more species and greater structural complexity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What usually marks the climax community in a given region?",
+        "options": [
+          "Very early colonizers present",
+          "Area is bare rock",
+          "A stable, mature ecosystem most suited to the climate",
+          "Sudden disturbance"
+        ],
+        "correct": "C",
+        "hint": "Think about what the “end” stage is when things settle.",
+        "detailed": "A climax community is a mature, stable ecosystem that is well adapted to the local climate and has little change unless disturbed."
+      }
+    ]
+  }

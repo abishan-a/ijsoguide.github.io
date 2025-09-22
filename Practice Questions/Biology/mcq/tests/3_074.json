@@ -1,0 +1,78 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Ecological Pyramids MCQ Problems",
+    "test_id": "3_074",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What does a pyramid of energy show in an ecosystem?",
+        "options": [
+          "Number of organisms at each trophic level",
+          "Dry biomass present at each trophic level",
+          "Flow of usable energy through trophic levels",
+          "Water content of organisms"
+        ],
+        "correct": "C",
+        "hint": "Energy → flow and loss at each level",
+        "detailed": "A pyramid of energy shows how much usable energy is passed from one trophic level to the next, with most energy lost."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which pyramid type is always upright (never inverted)?",
+        "options": [
+          "Pyramid of numbers",
+          "Pyramid of biomass",
+          "Pyramid of energy",
+          "All types can invert"
+        ],
+        "correct": "C",
+        "hint": "Think about energy loss rules",
+        "detailed": "Only the pyramid of energy is always upright, because energy decreases with each trophic transfer."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In which pyramid could producers have less biomass than the level above?",
+        "options": [
+          "Pyramid of Energy",
+          "Pyramid of Numbers",
+          "Pyramid of Biomass in aquatic ecosystems",
+          "None — producers always largest"
+        ],
+        "correct": "C",
+        "hint": "Aquatic ecosystems with tiny producers that reproduce fast",
+        "detailed": "In many aquatic ecosystems, producers like phytoplankton have lower standing biomass than consumers, making biomass pyramids inverted."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is represented in a pyramid of numbers?",
+        "options": [
+          "Dry mass of organisms",
+          "Energy per trophic level",
+          "Count of individuals at each trophic level",
+          "Rate of respiration"
+        ],
+        "correct": "C",
+        "hint": "Numbers = count of organisms",
+        "detailed": "A pyramid of numbers shows how many individual organisms there are in each trophic level of a food chain."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Why do ecological pyramids usually narrow towards the top?",
+        "options": [
+          "More sunlight at higher levels",
+          "Less space available",
+          "Energy loss and fewer organisms at higher trophic levels",
+          "Producers move up"
+        ],
+        "correct": "C",
+        "hint": "Energy is lost at each level, and fewer organisms survive at top levels",
+        "detailed": "Because energy transfer is inefficient, only a small fraction of energy passes to higher trophic levels, so there are fewer individuals and less biomass at the top."
+      }
+    ]
+  }

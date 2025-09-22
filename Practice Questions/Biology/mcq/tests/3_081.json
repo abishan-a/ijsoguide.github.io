@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "ecology",
+    "title": "Symbiosis MCQ Problems",
+    "test_id": "3_081",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which term describes a close biological relationship between two different species?",
+        "options": [
+          "Competition",
+          "Symbiosis",
+          "Predation",
+          "Parasitism"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The page is all about this type of relationship.",
+        "detailed": "Symbiosis is defined as a close and long-term biological interaction between two different species."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In mutualism, how do the organisms involved benefit?",
+        "options": [
+          "Both benefit",
+          "One benefits, one is harmed",
+          "One benefits, the other is unaffected",
+          "Both are harmed"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Think about the bee and flower example.",
+        "detailed": "Mutualism is a type of symbiosis where both organisms benefit from the relationship."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which type of symbiosis describes one organism benefiting while the other is harmed?",
+        "options": [
+          "Commensalism",
+          "Parasitism",
+          "Mutualism",
+          "Neutralism"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about a tapeworm inside a human intestine.",
+        "detailed": "Parasitism is when one species benefits (the parasite) while the other (the host) is harmed."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the symbiotic relationship where one organism benefits and the other is neither harmed nor helped?",
+        "options": [
+          "Parasitism",
+          "Commensalism",
+          "Mutualism",
+          "Predation"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think of barnacles living on whales.",
+        "detailed": "Commensalism is when one species benefits while the other is unaffected."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is an example of mutualism?",
+        "options": [
+          "Tapeworm and human",
+          "Barnacle and whale",
+          "Bee and flower",
+          "Fungus and tree killed by disease"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about pollination where both species benefit.",
+        "detailed": "Bees collect nectar from flowers while helping pollinate them — a classic example of mutualism."
+      }
+    ]
+  }
