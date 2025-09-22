@@ -537,7 +537,7 @@
         "2": {
             "Chemical Strcutures": {
                 "2_001": {
-                "easy": 0,
+                "easy": 4,
                 "medium": 0,
                 "hard": 0,
                 "title": "Atomic Structure"
@@ -567,13 +567,13 @@
                 "title": "Lewis Dot Structures"
                 },
                 "2_006": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "The Periodic Table"
                 },
                 "2_007": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Trends in the Periodic Table"
