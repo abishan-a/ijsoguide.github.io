@@ -25,16 +25,16 @@
         "level": "easy",
       "question": "How many atoms are there in 1 mole of any substance?",
       "options": [
-        "\\(6.02 \\times 10^20\\)",
-        "\\(6.02 \\times 10^21\\)",
-        "\\(6.02 \\times 10^22\\)",
-        "\\(6.02 \\times 10^23\\)"
+        "\\(6.02 \\times 10^{20}\\)",
+        "\\(6.02 \\times 10^{21}\\)",
+        "\\(6.02 \\times 10^{22}\\)",
+        "\\(6.02 \\times 10^{23}\\)"
       ],
       "questionImages": [],
         "solutionImages": [],
         "correct": "D",
       "hint": "Think Avogadro's number.",
-      "detailed": "1 mole of any substance contains Avogadro's number of particles, which is \\(6.02 \\times 10^23\\)."
+      "detailed": "1 mole of any substance contains Avogadro's number of particles, which is \\(6.02 \\times 10^{23}\\)."
     },
     {
       "author": "Thenura Wickramaratna",
@@ -89,16 +89,16 @@
         "level": "easy",
       "question": "How many molecules are present in 2 moles of \\(\\ce{H2}\\)?",
       "options": [
-        "\\(1.204 \\times 10^24\\)",
-        "\\(6.02 \\times 10^23\\)",
-        "\\(3.01 \\times 10^23\\)",
-        "\\(2.204 \\times 10^23\\)"
+        "\\(1.204 \\times 10^{24}\\)",
+        "\\(6.02 \\times 10^{23}\\)",
+        "\\(3.01 \\times 10^{23}\\)",
+        "\\(2.204 \\times 10^{23}\\)"
       ],
       "questionImages": [],
         "solutionImages": [],
         "correct": "A",
       "hint": "Multiply moles by Avogadro's number.",
-      "detailed": "Number of molecules = \\(2 \\times 6.02 \\times 10^23 = 1.204 \\times 10^24\\) molecules."
+      "detailed": "Number of molecules = \\(2 \\times 6.02 \\times 10^{23} = 1.204 \\times 10^{24}\\) molecules."
     },
     {
       "author": "Thenura Wickramaratna",
@@ -183,4 +183,5 @@
       }
     ]
   ]
+
 }
