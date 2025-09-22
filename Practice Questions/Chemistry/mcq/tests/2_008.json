@@ -26,9 +26,9 @@
         "question": "Which of the following series contains only non-polar molecules?",
         "options": [
           "\\( CO, Cl_2, H_2 \\)",
-          "\\( O_2, H_Cl, CH_4\\)",
+          "\\( O_2, HCl, CH_4\\)",
           "\\( S_8, CO_2, N_2 \\)",
-          "\\( P_4, N_O, I_2 \\)"
+          "\\( P_4, NO, I_2 \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
@@ -119,7 +119,7 @@
       {
         "author": "Alex Jicu",
         "level": "medium",
-        "question": "In physics, a dipole is a system consisting of two point-like charges +q and -q, at a distance d. The dipole moment is defined as \\( \\mu = q\\cdot d \\). Looking at hydrogen halides, the bond length increases from HF (92pm) to HI (161pm), so we would expect the dipole moment to increase as well. However, the dipole moment decreases quite drastically from HF (1.82D) to HI (0.44F). What is the explanation for this?",
+        "question": "In physics, a dipole is a system consisting of two point-like charges +q and -q, at a distance d. The dipole moment is defined as \\( \\mu = q\\cdot d \\). Looking at hydrogen halides, the bond length increases from HF (92pm) to HI (161pm), so we would expect the dipole moment to increase as well. However, the dipole moment decreases quite drastically from HF (1.82D) to HI (0.44D). What is the explanation for this?",
         "options": [
           "As the bond length increases, it gets weaker. A high dipole moment would also weaken it, so the decrease in the dipole moment helps with satbilizing the hydride.",
           "The halogens' nuclei increases and, with more protons to atract electrons, more electrons are attracted towards the nucleus and less electrons are able to go towards the polarization of the bond, leading to a decrease in the charge q and subsequently to a decrease in the dipole moment.",
