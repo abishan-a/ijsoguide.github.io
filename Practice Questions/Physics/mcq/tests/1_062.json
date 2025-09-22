@@ -1,0 +1,99 @@
+{
+  "subject": "physics",
+  "unit": "electricity",
+  "title": "Electric Potential and Potential Energy MCQ problems",
+  "test_id": "1_062",
+  "authors": "Alex Jicu",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "Which of the following is true about electric potential?",
+      "options": [
+        "It's a vector quantity",
+        "It is equal to the electric force per unit charge",
+        "It can be used to easily calculated the work done by an electric field",
+        "It is measured in ampers"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "C",
+      "hint": "Electric potential is dirrectly linked to energy and work",
+      "detailed": "Since electric potential is defined the electric potential energy per unit charge:<br>It is a scalar, since giving it a direction doesn't have any meaning<br>It is not equal to the electric force per unit charge<br>It is measured in Joules per Coulomb, also known as Volts, not Ampers",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Two point charges, with charges \\(q_1 = 10^{-3}C\\) and \\(q_2 = 10^{-2}C\\) are found in vacuum, at a distance \\(r = 10cm\\). Knowing Coulomb's constant, \\(K = 9\\times 10^9 \\frac{N\\cdot m^2}{C^2}\\), what is the electrostatic potential energy of the system described?",
+      "options": [
+        "900 kJ",
+        "1800 kJ",
+        "9000 kJ",
+        "18000 kJ"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "A",
+      "hint": "The potential energy of the system is the interaction energy between the particles, which you can calculate using the known formula.",
+      "detailed": "We can just apply the formula \\(U = k\\frac{q_1q_2}{r} = 900 kJ\\). Some might think that this energy is the energy of just one of the particles and you need to multiply it by two. However, the energy \\(U = k\\frac{q_1q_2}{r}\\) is the energy associated with the electrostatic interaction between the two particles and it is therefore the electrostatic potential energy of the entire system.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "If, in a plane, we have a number of n particles at known positions, with known electric charges and we want to find the electrostatic potential at a point in that plane, how do we go about solving this problem?",
+      "options": [
+        "We calculate the electric potential vector due to each charge and then do basic vector addition",
+        "We calculate the electric potential due to each charge and then add them up, scalarly",
+        "We need to perform a more complex electric field lines analysis, beyond IJSO curriculum",
+        "We can't calculate it, electric potential is defined for the interaction with one point charge"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "A theorem in electrostatics tells us that the effect in a point due to multiple charges is identical to the superposition (sum) of the effect due to each individual charge.",
+      "detailed": "Electric potential is a scalar quantity. To calculate the electric potential at one point, we simply have to sum up the potential due to each of the charges. One explanation for this is electric potential being defined as energy per charge. Since energy is an additive quantity (you add up energies to get the total energy), electric potential is also an additive quantity.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "In a hydrogen atom, the electron orbits at a distance \\(a = 5\\times 10^{-11}m\\) from the proton. Knowing the elementary charge \\(e = 1.6\\times 10^{-19} C\\) and Coulomb's constant \\(K = 9\\times 10^9 \\frac{N\\cdot m^2}{C^2}\\), find the potential electrostatic energy of a hydrogen atom.",
+      "options": [
+        "\\(4.61\\times 10^{-18}J\\)",
+        "\\(-4.61\\times 10^{-18}J\\)",
+        "\\(9.22\\times 10^{-8}J\\)",
+        "\\(-9.22\\times 10^{-8}J\\)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "The charge of a proton is +e and the charge of an electron is -e. Pay attention to the signs!",
+      "detailed": "\\(U = k\\frac{q_{\\text{proton}}q_{\\text{electron}}}{a}\\) = k\\frac{-e^2}{a}=-k\\frac{e^2}{a} = -4.61\\times 10^{-18}J",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Consider a small metal ball charged to \\(Q = 1kC\\). At what distance from the ball is the electric potential equal to \\(V = 1kV\\)? Use Coulomb's constant \\(K = 9\\times 10^9 \\frac{N\\cdot m^2}{C^2}\\).",
+      "options": [
+        "\\(9.5\\times 10^{5}m\\)",
+        "\\(9\\times 10^{9}m\\)",
+        "\\(9\\times 10^{12}m\\)",
+        "\\(9.5\\times 10^{15}m\\)"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "You just need to apply the formula for electrostatic potential due to a point charge.",
+      "detailed": "\\(V = k\\frac{Q}{r} \\implies r = \\frac{kQ}{V} = 9\\times 10^9 m\\)",
+      "author": "Alex Jicu"
+    }
+  ]
+}
