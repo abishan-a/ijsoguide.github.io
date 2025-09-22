@@ -71,7 +71,7 @@
               {
                 "author": "Thenura Wickramaratna",
         "level": "easy",
-                "question": "What is the molar concentration of a solution that contains 0.25 mol of KNO₃ in 1.0 L of solution?",
+                "question": "What is the molar concentration of a solution that contains 0.25 mol of \\(\\ce{KNO3\\) in 1.0 L of solution?",
                 "options": [
                   "0.25 M",
                   "0.50 M",
@@ -114,23 +114,23 @@
         "solutionImages": [],
         "correct": "C",
                 "hint": "Assume 100 g of solution for easier math. Use density to find volume.",
-                "detailed": "Assume 100 g of solution → 15 g NaCl, 85 g water.\\n\\nMoles of NaCl: \\[ n = \\frac{15.0}{58.5} \\approx 0.2564 \\text{ mol} \\]\\n\\nTotal volume: \\[ V = \\frac{100\\,\\text{g}}{1.10\\,\\text{g/cm}^3} = 90.91\\,\\text{mL} = 0.09091\\,\\text{L} \\]\\n\\nMolarity: \\[ M = \\frac{0.2564}{0.09091} \\approx 2.82\\,\\text{mol/L} \\]\\n\\n\\textbf{Answer: C}"
+                "detailed": "Assume 100 g of solution → 15 g NaCl, 85 g water. Moles of NaCl: \\[ n = \\frac{15.0}{58.5} \\approx 0.2564 \\text{ mol} \\] Total volume: \\[ V = \\frac{100\\,\\text{g}}{1.10\\,\\text{g/cm}^3} = 90.91\\,\\text{mL} = 0.09091\\,\\text{L} \\] Molarity: \\[ M = \\frac{0.2564}{0.09091} \\approx 2.82\\,\\text{mol/L} \\] "
               },
               {
                 "author": "Thenura Wickramaratna",
         "level": "medium",
-                "question": "100 mL of 0.5 M H₂SO₄ is mixed with 200 mL of 0.75 M NaOH. What is the concentration of excess species in the final solution?",
+                "question": "100 mL of 0.5 M \\(\\ce{H2SO4\\) is mixed with 200 mL of 0.75 M NaOH. What is the concentration of excess species in the final solution?",
                 "options": [
-                  "[H⁺] = 0.083 M",
-                  "[OH⁻] = 0.083 M",
-                  "Na₂SO₄ = 0.167 M",
+                  "[H⁺] = 0.0167 M",
+                  "[OH⁻] = 0.0167 M",
+                  "[\\(\\ce{Na2SO4\\)] = 0.167 M",
                   "No excess remains"
                 ],
                 "questionImages": [],
         "solutionImages": [],
-        "correct": "A",
+        "correct": "B",
                 "hint": "Balance the reaction: \\( \\text{H}_2\\text{SO}_4 + 2\\text{NaOH} \\rightarrow \\text{Na}_2\\text{SO}_4 + 2\\text{H}_2\\text{O} \\)",
-                "detailed": "Moles H₂SO₄: \\( 0.1 \\times 0.5 = 0.05 \\text{ mol} \\)\\nMoles NaOH: \\( 0.2 \\times 0.75 = 0.15 \\text{ mol} \\)\\n\\nEach H₂SO₄ needs 2 NaOH → Required: \\( 0.05 \\times 2 = 0.10 \\text{ mol NaOH} \\)\\n\\nExcess NaOH = \\( 0.15 - 0.10 = 0.05 \\text{ mol} \\)\\n\\nVolume = 300 mL = 0.3 L\\n\\n\\[ [\\text{OH}^-] = \\frac{0.05}{0.3} = 0.167\\,\\text{M} \\]\\n\\nBut the question asks for \\textbf{excess species}—wait! NaOH was in excess, but it was \\textit{just} neutralizing H⁺\\n→ We need \\textbf{free H⁺} if any.\\n\\nActually, total OH⁻ = 0.15 mol, total H⁺ = 0.1 mol × 2 = 0.1 mol → Excess H⁺ = \\( 0.1 - 0.15 = -0.05 \\text{ mol} \\Rightarrow \\text{OH⁻ in excess} \\)\\n\\[ [\\text{OH}^-] = \\frac{0.05}{0.3} = 0.167 M \\Rightarrow \\textbf{Answer: B} \\]"
+                "detailed": "Moles \\(\\ce{H2SO4\\): \\( 0.1 \\times 0.5 = 0.05 \\text{ mol} \\) Moles NaOH: \\( 0.2 \\times 0.75 = 0.15 \\text{ mol} \\) Each \\(\\ce{H2SO4\\) needs 2 NaOH → Required: \\( 0.05 \\times 2 = 0.10 \\text{ mol NaOH} \\) Excess NaOH = \\( 0.15 - 0.10 = 0.05 \\text{ mol} \\) Volume = 300 mL = 0.3 L [ [\\text{OH}^-] = \\frac{0.05}{0.3} = 0.167\\,\\text{M} \\] "
               },
               {
                 "author": "Thenura Wickramaratna",
@@ -153,16 +153,16 @@
         "level": "medium",
                 "question": "A 5.00 g sample of impure KOH (molar mass = 56.1 g/mol) is dissolved in water and titrated with 0.200 M HCl. If 50.0 mL of the acid was required to neutralize the base completely, what is the percentage purity of KOH in the sample?",
                 "options": [
+                  "11.2%",
                   "56.1%",
                   "71.2%",
-                  "89.8%",
-                  "100%"
+                  "89.8%"
                 ],
                 "questionImages": [],
         "solutionImages": [],
-        "correct": "B",
+        "correct": "A",
                 "hint": "Use neutralization: \\( \\text{mol HCl} = \\text{mol KOH} \\), then find actual mass of KOH.",
-                "detailed": "Mol HCl = \\(0.200 \\times 0.050 = 0.0100\\) mol. Since KOH reacts 1:1, mol KOH = 0.0100 mol. Mass of pure KOH = \\(0.0100 \\times 56.1 = 0.561\\) g. % purity = \\( \\frac{0.561}{5.00} \\times 100 \\approx 11.2\\)% — but that’s not in the options! Correction: 0.0100 mol KOH × 56.1 = 0.561 g (mass is way too small). Error found — should match B only if volume is different. Let me redo the calculation with correct values:"
+                "detailed": "Mol HCl = \\(0.200 \\times 0.050 = 0.0100\\) mol. Since KOH reacts 1:1, mol KOH = 0.0100 mol. Mass of pure KOH = \\(0.0100 \\times 56.1 = 0.561\\) g. % purity = \\( \\frac{0.561}{5.00} \\times 100 \\approx 11.2\\)% "
               },
               {
                 "author": "Thenura Wickramaratna",
@@ -178,7 +178,7 @@
         "solutionImages": [],
         "correct": "B",
                 "hint": "5% of HA dissociates: \\( \\text{HA} \\rightleftharpoons \\text{H}^+ + \\text{A}^- \\)",
-                "detailed": "5% of 0.20 M = \\( 0.05 \\times 0.20 = 0.01 \\,\\text{mol/L} \\)\\n\\[ \\text{[A}^-] = 0.01 \\, \\text{M} \\]\\n\\n\\textbf{Answer: B}"
+                "detailed": "5% of 0.20 M = \\( 0.05 \\times 0.20 = 0.01 \\,\\text{mol/L} \\)\\n\\[ \\text{[A}^-] = 0.01 \\, \\text{M} \\]"
               }
         ]
 }
