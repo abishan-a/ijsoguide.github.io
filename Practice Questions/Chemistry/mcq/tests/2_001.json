@@ -1,0 +1,80 @@
+{
+  "subject": "chemistry",
+  "unit": "chemicalstructures",
+  "title": "Atomic Structure MCQ problems",
+  "test_id": "2_001",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "Which of the following is not found in the nucleus?",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Electrons",
+        "Nucleons"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "C",
+      "hint": "The nucleus of an atom contains almost all of its mass and it is positively charged.",
+      "detailed": "In the nucleus of an atom we find protons and neutrons, collectively called nucleons, while the electrons are found on the outside, orbiting around the nucleus.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Given the atomic number (Z) and the mass number (A) af an atom, what can we calculate from the following list?<ul><li>i. The number of protons<li>ii. The number of neutrons<li>iii. The number of electrons</ul>",
+      "options": [
+        "Only i",
+        "i and iii",
+        "i and ii",
+        "All i, ii and iii"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "The atomic number is defined as the number of protons, while the mass number is defined as the number of nucleons.",
+      "detailed": "The number of protons is simply equal to the atomic number (so we have protons = Z). The mass number is the number of nucleons, so A = protons + neutrons, from which neutrons = A - protons = A - Z. Since we're talking about an atom, which is a neutrally charged particle, we have electrons = protons = Z.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Which subatomic particle has a very low mass and no electric charge?",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Electrons",
+        "Neither"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "Almost all of the mass in an atom is concentrated in the nucleus.",
+      "detailed": "The subatomic particle with a mass much lower than that of the others (around 1837 times smaller) is the electron. However, electrons are negatively charged, so they don't correspond to the provided description. Protons and neutrons have a high mass (on a subatomic scale), so they don't correspond to the description either. This means no subatomic particle corresponds to the description provided.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Which statement about the structure of atoms is false?",
+      "options": [
+        "A high fraction of most atoms' masses comes from uncharged particles",
+        "Most of an atom's mass and volume is due to its nucleus",
+        "A set of atomic number (Z) and mass number (A) values uniquely describes an atom (composition-wise)",
+        "Even though atoms are electrically neutral, they contain charged subatomic particles"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "You can use:<ul><li>Protons - m = 1u, q = +e<li>Neutrons - m = 1u, q = 0<li>Electrons - m = 1/1837u, q = -e</ul>",
+      "detailed": "Let's analyze each statement:<ul><li>Since the mass number is close to twice the atomic number for most elements, the number of neutrons is (more or less) equal to the number of protons. Since mass comes from protons and neutrons, a high fraction of the mass will be due to uncharged particles (neutrons)<li>Most of the mass is concentrated in the nucleus, because nucleons are much heavier than electrons; however, the nucleus is a quite small part of the nucleus and most of the atom's volumes comes from the electron cloud<li>We can show that no. of protons = no. of electrons = Z and no. of neutrons = A-Z, so, from a composition point of view, the atom is uniquely described by a  (Z; A) pair<li>Atoms do contain electrically charged protons and electrons. But, because the charge of protons is +e and that of electrons -e and because the number of protons is equal to the number of electrons, atoms are overall electrically neutral.</ul>",
+      "author": "Alex Jicu"
+    }
+  ]
+}
