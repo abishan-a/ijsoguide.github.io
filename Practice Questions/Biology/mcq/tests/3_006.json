@@ -1,0 +1,57 @@
+{
+    "subject": "biology",
+    "unit": "Cellular and Microbiology",
+    "title": "Prokaryotic vs. eukaryotic cells",
+    "test_id": "3_006",
+    "problems": [
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Connect the correct domain to a prokaryote or eukaryote: <br> 1 - animalia <br> 2 - fungi <br> 3 - protista <br> 4 - archaea <br> 5 - bacteria",
+        "options": [
+          "1 - eukaryote; 2 - prokaryote; 3 - prokaryote; 4 - prokaryote; 5 - eukaryote",
+          "1 - eukaryote; 2 - eukaryote; 3 - eukaryote; 4 - prokaryote; 5 - eukaryote",
+          "1 - eukaryote; 2 - prokaryote; 3 - prokaryote; 4 - eukaryote; 5 - eukaryote",
+          "1 - eukaryote; 2 - eukaryote; 3 - eukaryote; 4 - prokaryote; 5 - prokaryote"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Animalia, fungi, and protista are all eukaryotic.",
+        "detailed": "The correct answer is D. Refer to the lesson as this is taken directly from there."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which list correctly identifies what BOTH prokaryotes and eukaryotes have in common?",
+        "options": [
+          "Endoplasmic reticulum, mitochondria, and chloroplast",
+          "Cell membrane, cytoplasm, and mitochondria",
+          "Nucleus, chromosomes, and cytoplasm",
+          "Chromosomes, cell membrane, and cytoplasm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Prokaryotes have NO membrane bound organelles (e.g. mitochondria, chloroplasts).",
+        "detailed": "The correct option is D. Refer to the lesson as this is directly taken from there."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Identify the following statements as true or false: <br> Prokaryote organisms are ALWAYS unicellular <br> Eukaryotic organisms are ALWAYS multicellular <br> In prokaryotic cells, DNA material is located in the nucleoid <br> In eukaryotic cells, a cell wall is ALWAYS present", 
+        "options": [
+          "T, F, T, F",
+          "T, T, T, T",
+          "F, T, F, T",
+          "F, F, F, T"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Remember that amoebas are eukaryotic BUT unicellular organisms!",
+        "detailed": "The correct answer is option A. While prokaryote organisms are ALWAYS unicellular, eukaryotic organisms may be multicellular AND/OR unicellular. In prokaryotic cells, DNA material is indeed located in the nucleoid. In eukaryotic cells, a cell wall is ONLy present in plant cells and that of exoskeletons."
+      }
+    ]
+  }
+     

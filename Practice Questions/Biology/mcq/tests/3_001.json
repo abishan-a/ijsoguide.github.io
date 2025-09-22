@@ -1,0 +1,122 @@
+{
+    "subject": "biology",
+    "unit": "Cellular and Microbiology",
+    "title": "Biomolecules (macro and micro)",
+    "test_id": "3_001",
+    "problems": [
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Connect the correct monomer to the polymer that it forms: <br> 1 - amino acids <br> 2 - monosaccharides <br> 3 - fatty acids and glycerol <br> 4 - nucleotides",
+        "options": [
+          "1 - carbohydrates; 2 - DNA and RNA; 3 - lipids; 4 - proteins",
+          "1 - proteins; 2 - lipids; 3 - carbohydrates; 4 - DNA and RNA",
+          "1 - lipids; 2 - cellulose; 3 - proteins; 4 - DNA and RNA",
+          "1 - proteins; 2 - carbohydrates; 3 - lipids; 4 - DNA and RNA"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Lipids are made of fatty acids and glycerol",
+        "detailed": "The correct answer is D. Refer to the lesson as this is taken directly from there."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Hydrochloric acid in the stomach breaks down carbohydrates using water via _________________ into monomers. However, during protein synthesis, amino acids are joined together via ________________ ___________ to form proteins and release water.",
+        "options": [
+          "Dehydration synthesis; hydrolysis",
+          "Catabolism; anabolism",
+          "Hydrolysis; dehydration synthesis",
+          "Water loading; water unloading"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "The correct terms are NOT water loading and water unloading.",
+        "detailed": "The correct option is C. Hydrolysis is the process of using water to break down polymers into monomers. Dehydration synthesis is the process of removing a water molecule and joining two monomers together."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Choose the CORRECT answer with regards to carbohydrates:",
+        "options": [
+          "Starch and cellulose are used for structural support while chitin and glycogen are used for energy storage",
+          "Starch and cellulose are found in animals",
+          "Starch can be found in the form of amylopectin and amylose",
+          "Chitin is also found in petals, and contributes to their vibrant colors"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Cellulose is found in the cell walls of plant cells.",
+        "detailed": "The correct answer is option C. All other options are incorrect, cellulose and chitin are used for structural support while starch and glycogen are found in storage. Option B is incorrect, starch and cellulose are found in plants while chitin and glycogen are found in animal cells. Option D is incorrect, chitin is found in the exoskeleton, not in plant petals."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Choose the INCORRECT answer with regards to lipids:",
+        "options": [
+          "Consists of non-polar C-H bonds",
+          "Hydrophobic",
+          "One part is carboxyl group and the rest is hydrocarbon chain",
+          "Amino acids are a subtype of lipids"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Remember that amino acids make up proteins.",
+        "detailed": "The correct answer is D. Amino acids are a type of molecule, making up proteins. They are not related to lipids."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Correctly list the types of lipids:",
+        "options": [
+          "Glycogen, fatty acids, monosaccharides",
+          "Fats, phospholipids, steroids",
+          "Polysaccharides, monolipids, steroids",
+          "Monolipids, dilipids, polylipids"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Monosaccharides are monomers of carbohydrates.",
+        "detailed": "The correct answer is B. Fats, phospholipids, and steroids are the three main types of lipids."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Select the CORRECT option:",
+        "options": [
+          "The chain of polypeptides without their respective R-groups is called glycosidic linkage",
+          "The primary structure of proteins is characterized by the presence of 2 types of folding, alpha   helix and beta pleated sheet",
+          "Collagen, hemoglobin, and transthyretin all have a quaternary structure.",
+          "Disulfide bridges are a type of ionic bond"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "A glycosidic linkage is found between carbohydrates.",
+        "detailed": "The correct answer is option C. Hemoglobin, for example, has 4 subunits arranged in a cluster, characteristic of quaternary structures. The chain of polypeptides without R-groups is called the polypeptide backbone. Option B is incorrect, alpha helixes and beta pleated sheets are found in secondary structures. Option D is incorrect, disulfide bridges are covalent bonds (specifically between sulfides)."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which of the following statements best distinguishes deoxyriboses from riboses?",
+        "options": [
+          "The presence of two ribose groups in a deoxyribose",
+          "The presence of an -OH group in a ribose and an -H atom in a deoxyribose",
+          "The presence of an extra phosphate group in the deoxyribose",
+          "Riboses are not as stable as deoxyriboses and may cause cancer"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Riboses DO NOT cause cancer.",
+        "detailed": "Option B best distinguishes deoxyriboses from riboses as mentioned in the lesson. The presence of an -OH group is a ribose differentiates it from the -H atom found in a deoxyribose. The other options have nothing to do with this difference."
+      }
+    ]
+  }
+
+  

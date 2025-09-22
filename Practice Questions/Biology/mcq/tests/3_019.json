@@ -1,0 +1,150 @@
+{
+  "subject": "biology",
+  "unit": "Molecular",
+  "title": "Protein Synthesis MCQ Questions",
+  "test_id": "3_019",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "What is RNA?",
+      "options": [
+        "A start codon",
+        "A stop codon",
+        "Deoxyribonucleic acid",
+        "Ribonucleic acid"
+      ],
+      "correct": "D",
+      "hint": "RNA is an abbreviation - what does is stand for?",
+      "detailed": "RNA can't be a codon, as R and N aren't nitrogenous bases. RNA stands for ribonucleic acid, while deoxyribonucleic acid is DNA.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Where does the biochemical process which eventually leads to a protein being synthesized start?",
+      "options": [
+        "In a ribosome",
+        "In the cytoplasm",
+        "In the nucleus",
+        "In the endoplasmatic reticulum"
+      ],
+      "correct": "C",
+      "hint": "Think about what the steps of protein synthesis are.",
+      "detailed": "Protein synthesis starts with transcription, reading and copying of the nuclear DNA which, obviously, happens in the nucleus.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Just by looking at the gene encoding a protein, what can we dirrectly deduce about the protein?",
+      "options": [
+        "Its primary structure",
+        "Its secondary structure",
+        "Its tertiary structure",
+        "Its quaternary structure"
+      ],
+      "correct": "A",
+      "hint": "The gene encodes the aminoacid sequence of the protein.",
+      "detailed": "Examining the gene, we can simulate the protein synthesis process and figure out which amino acids will be used - the primary structure. To figure out how the protein folds (secondary, tertiary and possibly quaternary structures), we need more advanced tools such as the AI-powered AlphaFold, which won its developers the 2024 Nobel Prize in chemistry.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Proteins are biopolymers - long chains of moleculer units called monomers. In the case of proteins, the monomers are called amino acids. What is the bond between amino acids called?",
+      "options": [
+        "Ionic bond",
+        "Coordinative bond",
+        "Peptide bond",
+        "Hydrogen bond"
+      ],
+      "correct": "C",
+      "hint": "What is another name we use for proteins?",
+      "detailed": "Amino acid are organic compounds with a carboxylic acid group -COOH and and amino group -NH2. When these two groups interact, they form a special bond, which can be represented as -CONH-, known as a peptide bond, hence the name 'polypeptide' which is also used for proteins.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "The start codon is:",
+      "options": [
+        "UAA",
+        "AUG",
+        "UAG",
+        "UGA"
+      ],
+      "correct": "B",
+      "hint": "The three incorrect answer options are the three stop codons and they all have something in common.",
+      "detailed": "The start codon, which signals for the start of the translation process is AUG, which also encodes for the amino acid methionine.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "medium",
+      "question": "Which of the following is true?",
+      "options": [
+        "Ribosomes are basically just many folded proteins",
+        "The UAC codon which encodes for tyrosine in humans, most likely also signals the addition of tyrosine in the peppered moth (Biston Betularia)",
+        "tRNA are codons, free to bind to their complementary counter-parts in mRNA",
+        "Introns are useless bits of RNA, remnants of old characteristics of the species which have now disappeared due to evolution"
+      ],
+      "correct": "B",
+      "hint": "Instead of judging the answer options, try to remember yourself what ribosomes are, how the genetic code works and what tRNA and introns are, like no answer option was provided.",
+      "detailed": "The first option is incorrect, because ribosomes also contain ribosomal RNA; the second option is true, and, in most cases, the codon to amino acid correspondence is the same in all species - strong indicator of a common ancestor; the third option is incorrect because tRNA is not just a codon, but the codon carries an amino acid; the last option is incorrect because introns aren't just remnants, they are useful when the mRNA molecule is slpiced because different splicing patterns lead to different proteins, even from the same gene.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "medium",
+      "question": "If an RNA strand is synthesized by the transcription of a gene, which of the following is it identical to?",
+      "options": [
+        "The template strand",
+        "The coding strand",
+        "The template or coding strand, they are different terms describing the same thing",
+        "Neither the template strand, nor the coding strand"
+      ],
+      "correct": "D",
+      "hint": "RNA polymerase builds an RNA strand based on interactions between RNA nitrogenous bases and nitrogenous bases from the template strand",
+      "detailed": "The RNA strand is complementary to the template (non-coding) strand. The coding strand is also complementary to the template strand. At first, we might think they are identical. However, the coding strand is a DNA strand, containing thymine, while the RNA strand contains uracil. So, all thymine in the coding strand is replaced with uracil. That means the synthesized RNA strand is identical to neither the coding, nor the template strand.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "medium",
+      "question": "Which of the following statements is true about protein synthesis?",
+      "options": [
+        "After mRNA is obtained from transcription, a 5' cap and a 3' poly-A tail are added to convert it into tRNA that is exported to the ribosomes",
+        "The most important units of genetic code are codons, sections of DNA containing 3 nitrogenous bases, which encode for one amino acid",
+        "Ribosomal RNA (rRNA) isn't dirrectly involved in the translation process; it's just a structural element of ribosomes",
+        "The first section of a gene is called a promoter; it's the place where RNA-polymerase binds to starts the transcription process"
+      ],
+      "correct": "C",
+      "hint": "Make sure to pay attention to the details in the options. The mistakes in the wrong options are hidden in small details that might not appear to be the main point.",
+      "detailed": "tRNA is represented by the anti-codons bound to aminoacids, used in the creation of the polypeptide chain, they are not obtained after transcription; the resulting RNA is called pre-mRNA which is then processed to form mRNA which is exported. Codons are sections of 3 nitrogenous bases encoding for an amino acid, but they are RNA sections, not DNA. rRNA is just part of the ribosomes, it isn't involved dirrectly in translation. The promoter is found before the gene, not the first section of the gene; the RNA-polymerase gets attached to the promoter and, after it, starts transcripting the gene.",
+      "questionImages": [],
+      "solutionImages": [],
+      "author": "Alex Jicu"
+    }
+  ]
+}

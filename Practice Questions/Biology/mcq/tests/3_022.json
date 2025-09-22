@@ -1,0 +1,116 @@
+{
+  "subject": "biology",
+  "unit": "Molecular",
+  "title": "Enzyme activity MCQ problems",
+  "test_id": "3_022",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "From a chemical point of view, what is the role of enzymes in biochemical reactions?",
+      "options": [
+        "Reactions",
+        "Products",
+        "By-products",
+        "Catalysts"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "Over time, enzyme concentrations don't vary significantly",
+      "detailed": "Enzymes are substances involved in the mechanism of the reaction, lowering the activation energy required for the process to take place, therefore speeding it up (usually, in the absence of an enzyme, reactions are so slow that they don't significantly take place). This is the definition of a catalyst.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "From a chemical point of view, in general, what are enzymes?",
+      "options": [
+        "Lipids",
+        "Phospholipids",
+        "Proteins",
+        "Glucids"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "C",
+      "hint": "Enzymes are large molecules which fold into a structure which gives them their specificity for different reactions.",
+      "detailed": "In general, enzymes are proteins. Proteins are folded into a complex three-dimensional shape, which enables them to be involved in very specific reactions and only in a very specific way.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "In the case of enzymes, we often talk about an 'optimal temperature'. What happens after we heat the enzyme above that temperature?",
+      "options": [
+        "The activity of the enzyme will increase, as the kinetic energy increases",
+        "The activity of the enzyme will decrease, because the enzyme starts denaturing (for example misfolding)",
+        "The activity seems to decrease, because the reactants start breaking down in high temperatures",
+        "The activity will remain constant, because, even though it should increase, it is limited by the small amount of enzyme present"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "B",
+      "hint": "The optimal temperature is a 'turning point' - the activity doesn't keep increasing. Think why it doesn't.",
+      "detailed": "Because enzymes are proteins, they behave like any other protein and, at high temperatures, start to misfold. This disables their specificity for their respective reactions and the activity decreases.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Lipases are enzymes which hydrolize lipids. Overall, a lipid molecule reacts with a water molecule, to produce fatty-acids and glycerol. What is the substrate in this reaction?",
+      "options": [
+        "The lipid molecule",
+        "The lipase molecule",
+        "The fatty acids molecules",
+        "The glycerol molecule"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "A",
+      "hint": "The enzyme has high specificity for its substrate which it needs to attach to.",
+      "detailed": "The substrate is the main biomolecule to which the enzyme (the lipase) attaches. In this case, the lipid. The fatty acids are the main products, while glycerol can be considered a by-product - in any way, both are products, not substrates.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "How does the substrate concentration impact the reaction rate?",
+      "options": [
+        "As the substrate is the reactant, the reaction rate will increase indefinitely with the substrate concentration",
+        "Because enzymes are present in small quantities, the enzyme is almost always the limiting reagent and the reaction rate is limited by the free enzyme, so reaction rate is independent of substrate concentration",
+        "With more substrate present, more molecules of enzyme will be bounded to the substrate, making them unavailable; reaction rate decreases with substrate concentration",
+        "The reaction rate increases with substrate concentration, up to a point where the enzyme is saturated - efectively all enzyme molecules are bound to a substrate, and reaction rate can't get any higher"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "The reaction rate is correlated too how many enzyme molecules are bound to the substrate - more enzyme molecules bound to the substrate means more substrate being transformed.",
+      "detailed": "With more substrate molecules present, the likelyhood of an enzyme-substrate bond forming increases. This leads to a growth of the number of substrate molecules being transformed (per unit time), with the reaction rate increasing. However, the enzyme is only present in a limited amount, so a limited number of transformations can take place (per unit time). This means that, above a limit concentration of the substrate, the enzyme is saturated and the reaction rate cannot increase further.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "What is a cofactor?",
+      "options": [
+        "A product formed after an enzyme-catalyzed reaction, which is not the main substances of interest",
+        "The main biomolecule to which the enzyme attaches",
+        "The part (functional groups) of the enzyme which attaches to the main biomolecule",
+        "A substance which is necessary for the enzyme to properly function"
+      ],
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "correct": "D",
+      "hint": "The terms corresponding to the answer options (in alphabetical order) are: active site, by-product, cofactor and substrate",
+      "detailed": "The first option describes a by-product - a product of the reaction which isn't the main molecule which the process produces.<br>The second option is the substrate - the biomolecule for which the enzyme has high specificity and the one it binds to.<br>The third option talks about the active site of the enzyme - the part of the enzyme which binds to the substrate and enables the reaction to take place.<br>The last option is the one correctly defining a cofactor - it is a substance which is crucial to the enzyme's catalytic activity, but it is different from the enzyme and usually also attaches to the active site, enabling an efficient pathway for the reaction.",
+      "author": "Alex Jicu"
+    }
+  ]
+}
