@@ -71,7 +71,7 @@
       {
         "author": "Alex Jicu",
         "level": "easy",
-        "question": "Methyl bromide reacts with hydroxides, to produces methanol and the bromide anion, according to the reaction:<br>\\( CH_3Br + HO^- \\rightarrow CH_3OH + Br^- \\)<br>Partial reaction orders are all equal to 1 and the numerical value of the rate constant is \\( k = 1.6\\times 10^{-4} \\)<br>When \\( [CH_3Br] = 0.05M, [HO^-] = 0.01M, [CH_3OH] = 0.1M, [BR^-] = 0.05M\\), the reaction rate is equal to:",
+        "question": "Methyl bromide reacts with hydroxides, to produces methanol and the bromide anion, according to the reaction:<br>\\( CH_3Br + HO^- \\rightarrow CH_3OH + Br^- \\)<br>Partial reaction orders are all equal to 1 and the numerical value of the rate constant is \\( k = 1.6\\times 10^{-4} \\)<br>When \\( [CH_3Br] = 0.05M, [HO^-] = 0.01M, [CH_3OH] = 0.1M, [Br^-] = 0.05M\\), the reaction rate is equal to:",
         "options": [
           "\\( 8\\times 10^{-8} \\)",
           "\\( 4\\times 10^{-10} \\)",
@@ -87,7 +87,7 @@
       {
         "author": "Alex Jicu",
         "level": "medium",
-        "question": "Ethyl iodide decomposes when heated at 600K, according to the chemical reaction \\( CH_3CH_2I \\rightarrow CH_2CH_2 + HI \\). At \\([CH_3CH_2I] = 0.1M, v = 10^{-7}\\), and at \\([CH3CH2I] = 0.05M, v = 2.5\\times 10^{-8{\\). Find the reaction order:",
+        "question": "Ethyl iodide decomposes when heated at 600K, according to the chemical reaction \\( CH_3CH_2I \\rightarrow CH_2CH_2 + HI \\). At \\([CH_3CH_2I] = 0.1M, v = 10^{-7}\\), and at \\([CH3CH2I] = 0.05M, v = 2.5\\times 10^{-8}\\). Find the reaction order:",
         "options": [
           "1",
           "2",
