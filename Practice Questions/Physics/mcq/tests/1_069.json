@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electricity & magnetism",
+    "title": "Joule’s Law MCQ Problems",
+    "test_id": "1_069",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which is the correct form of Joule’s Law for heat generated in a resistor?",
+        "options": [
+          "\\(Q = I^2 R t\\)",
+          "\\(Q = IR / t\\)",
+          "\\(Q = V I / t\\)",
+          "\\(Q = R^2 I t\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Heat ∝ square of current × resistance × time.",
+        "detailed": "Joule’s Law states \\(Q = I^2 R t\\), where \\(Q\\) is heat energy, \\(I\\) is current through resistor, \\(R\\) is resistance, and \\(t\\) is time."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A resistor of \\(5\\,\\Omega\\) carries current \\(2\\,\\text{A}\\) for \\(10\\,\\text{s}\\). How much heat is produced?",
+        "options": [
+          "50 J",
+          "100 J",
+          "200 J",
+          "500 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(Q = I^2 R t\\).",
+        "detailed": "Here, \\(I=2\\,\\text{A}, R=5\\,\\Omega, t=10\\,\\text{s}\\). So \\(Q = (2)^2 \\times 5 \\times 10 = 200\\,\\text{J}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If the current is doubled in a resistor (same R & t), what happens to the heat generated according to Joule’s Law?",
+        "options": [
+          "It stays the same",
+          "It doubles",
+          "It quadruples",
+          "It halves"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Heat ∝ \\(I^2\\).",
+        "detailed": "If current \\(I\\) becomes \\(2I\\), then \\(Q = (2I)^2 R t = 4 I^2 R t\\) → heat is quadrupled."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which factor does *not* increase the heat produced in a conductor, according to Joule’s Law, assuming others stay constant?",
+        "options": [
+          "Increasing current \\(I\\)",
+          "Increasing resistance \\(R\\)",
+          "Increasing time \\(t\\)",
+          "Decreasing resistance \\(R\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Heat is directly proportional to \\(R\\).",
+        "detailed": "According to \\(Q = I^2 R t\\), increasing current, resistance, or time increases heat. Decreasing resistance decreases heat."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a resistor dissipates \\(400\\,\\text{J}\\) of heat in \\(20\\,\\text{s}\\) with a current of \\(4\\,\\text{A}\\), what is the resistance?",
+        "options": [
+          "1.25 \\(\\Omega\\)",
+          "2.50 \\(\\Omega\\)",
+          "5.00 \\(\\Omega\\)",
+          "10.00 \\(\\Omega\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Rearrange \\(Q = I^2 R t\\) for \\(R\\).",
+        "detailed": "Given \\(Q=400\\,\\text{J}, I=4\\,\\text{A}, t=20\\,\\text{s}\\). Solve \\(R = Q / (I^2 t) = 400 / (16 × 20) = 400 / 320 = 1.25\\,\\Omega\\)"
+      }
+    ]
+  }

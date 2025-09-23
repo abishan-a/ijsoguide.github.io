@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Electric Power MCQ Problems",
+    "test_id": "1_068",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the formula for electric power when given voltage \\(V\\) and current \\(I\\)?",
+        "options": [
+          "\\(P = V + I\\)",
+          "\\(P = V \\times I\\)",
+          "\\(P = V / I\\)",
+          "\\(P = I^2 / V\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Power = how much energy per second, using voltage and current.",
+        "detailed": "Electric power \\(P\\) is given by \\(P = V \\times I\\), where \\(V\\) is voltage in volts and \\(I\\) is current in amperes."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a device has a resistance of \\(4\\,\\Omega\\) and current of \\(2\\,\\text{A}\\), what is its power dissipation?",
+        "options": [
+          "2 W",
+          "4 W",
+          "8 W",
+          "16 W"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Use formula \\(P = I^2R\\).",
+        "detailed": "Power \\(P = I^2R = (2\\,\\text{A})^2 \\times 4\\,\\Omega = 4 \\times 4 = 16\\,\\text{W}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A lamp draws \\(0.5\\,\\text{A}\\) when connected to a battery of \\(12\\,\\text{V}\\). What power does the lamp consume?",
+        "options": [
+          "6 W",
+          "12 W",
+          "24 W",
+          "48 W"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use \\(P = V I\\).",
+        "detailed": "Since \\(V = 12\\,\\text{V}, I = 0.5\\,\\text{A}\\), \\(P = 12 \\times 0.5 = 6\\,\\text{W}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which unit is used to measure electric power?",
+        "options": [
+          "Volt (V)",
+          "Ampere (A)",
+          "Watt (W)",
+          "Ohm (\\(\\Omega\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Look for the unit that corresponds to energy per second.",
+        "detailed": "Electric power is measured in watts (W), which is equivalent to joules per second (J/s)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a resistor of \\(10\\,\\Omega\\) has a voltage of \\(20\\,\\text{V}\\) across it, what is the power removed (dissipated) by it?",
+        "options": [
+          "40 W",
+          "80 W",
+          "100 W",
+          "120 W"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Either use \\(P = V^2 / R\\) or first find current with \\(I = V/R\\).",
+        "detailed": "First, \\(I = V/R = 20 / 10 = 2\\,\\text{A}\\). Then \\(P = V I = 20 \\times 2 = 40\\,\\text{W}\\). Alternatively, \\(P = V^2 / R = (20)^2 / 10 = 400/10 = 40\\,\\text{W}\\)."
+      }
+    ]
+  }

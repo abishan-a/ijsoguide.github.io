@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Ohm’s Law MCQ Problems",
+    "test_id": "1_063",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a resistor has a voltage of 12 V across it and a current of 3 A flows through it, what is its resistance?",
+        "options": [
+          "2 \\(\\Omega\\)",
+          "3 \\(\\Omega\\)",
+          "4 \\(\\Omega\\)",
+          "36 \\(\\Omega\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(R = V/I\\).",
+        "detailed": "Resistance \\(R = V/I = 12\\,\\text{V} / 3\\,\\text{A} = 4\\,\\Omega\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What current flows through a 5 \\(\\Omega\\) resistor when a 20 V battery is connected across it?",
+        "options": [
+          "2 A",
+          "4 A",
+          "0.25 A",
+          "100 A"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use \\(I = V/R\\).",
+        "detailed": "Current \\(I = 20\\,\\text{V} / 5\\,\\Omega = 4\\,A\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A resistor allows a current of 0.2 A when 9 V is applied. What is its resistance?",
+        "options": [
+          "1.8 \\(\\Omega\\)",
+          "18 \\(\\Omega\\)",
+          "27 \\(\\Omega\\)",
+          "45 \\(\\Omega\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Again, \\(R = V/I\\).",
+        "detailed": "Resistance \\(R = 9\\,\\text{V} / 0.2\\,\\text{A} = 45\\,\\Omega\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a device draws 0.5 A of current at 10 V, what power is used (assuming ohmic behavior)?",
+        "options": [
+          "2 W",
+          "5 W",
+          "50 W",
+          "20 W"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Power \\(P = VI\\).",
+        "detailed": "Power \\(P = V \\times I = 10\\,\\text{V} \\times 0.5\\,\\text{A} = 5\\,W\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which equation correctly represents Ohm’s Law?",
+        "options": [
+          "\\(V = IR\\)",
+          "\\(V = I/R\\)",
+          "\\(I = V + R\\)",
+          "\\(R = V + I\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Voltage equals current times resistance.",
+        "detailed": "Ohm’s Law: \\(V = I \\times R\\). So option A is correct."
+      }
+    ]
+  }

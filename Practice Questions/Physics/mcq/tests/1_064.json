@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Resistivity MCQ Problems",
+    "test_id": "1_064",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the SI unit of resistivity?",
+        "options": [
+          "Ohm (\\(\\Omega\\))",
+          "Ohm-metre (\\(\\Omega\\)·m)",
+          "Siemens (S)",
+          "Volt per metre (V/m)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Resistivity = Resistance × Area / Length.",
+        "detailed": "Resistivity is given in ohm-metre (\\(\\Omega\\)·m) because \\(\\rho = R \\frac{A}{L}\\). Units: \\(\\Omega \\times (m^2/m) = \\Omega\\,m\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following does resistivity *not* depend on?",
+        "options": [
+          "Material of the conductor",
+          "Temperature",
+          "Length of the conductor",
+          "Cross-sectional area"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Resistivity is an intrinsic property.",
+        "detailed": "Resistivity depends on material and temperature. It does NOT depend on the conductor's length or cross-section—those factors affect resistance, not resistivity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If the resistance of a wire is \\(R\\), its length is \\(L\\), its cross-sectional area is \\(A\\), what is its resistivity \\(\\rho\\)?",
+        "options": [
+          "\\(\\rho = R \\frac{L}{A}\\)",
+          "\\(\\rho = R \\frac{A}{L}\\)",
+          "\\(\\rho = \\frac{A}{RL}\\)",
+          "\\(\\rho = \\frac{L}{RA}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "ρ relates R, A and L in formula.",
+        "detailed": "The correct formula is \\(R = \\rho \\frac{L}{A}\\), so rearranged for \\(\\rho\\): \\(\\rho = R \\frac{A}{L}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "As temperature of a metal conductor increases, what happens to its resistivity (assuming no phase change)?",
+        "options": [
+          "It stays constant",
+          "It decreases",
+          "It increases",
+          "It becomes zero"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "More heat → more vibration → more collisions of electrons.",
+        "detailed": "When a metal is heated, lattice vibrations increase so electrons collide more often; that increases its resistivity."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which material would have a low resistivity?",
+        "options": [
+          "Rubber",
+          "Glass",
+          "Copper",
+          "Air"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Good conductors have low resistivity.",
+        "detailed": "Copper is a metal with a lot of free electrons so it conducts well; hence copper has a low resistivity compared to insulators like rubber, glass or air."
+      }
+    ]
+  }
