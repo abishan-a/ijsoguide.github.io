@@ -1,6 +1,6 @@
 {
   "subject": "physics",
-  "unit": "electricity",
+  "unit": "electromagnetism",
   "title": "Electric Potential and Potential Energy MCQ problems",
   "test_id": "1_062",
   "authors": "Alex Jicu",
@@ -96,4 +96,5 @@
       "author": "Alex Jicu"
     }
   ]
+
 }
