@@ -1063,7 +1063,7 @@
                 "title": "Respiratory System"
                 },
                 "3_027": {
-                "easy": 0,
+                "easy": 8,
                 "medium": 0,
                 "hard": 0,
                 "title": "Circulatory system"
@@ -1427,7 +1427,7 @@
             },
             "Evo Devo": {
                 "3_086": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Natural selection"
@@ -1445,7 +1445,7 @@
                 "title": "Selection Pressure"
                 },
                 "3_089": {
-                "easy": 0,
+                "easy": 6,
                 "medium": 0,
                 "hard": 0,
                 "title": "Evolution"
