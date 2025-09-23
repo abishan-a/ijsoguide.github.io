@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "equilibrium",
+    "title": "Indicators MCQ Problems",
+    "test_id": "2_043",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "An indicator is usually a weak acid or base whose colour changes because its undissociated and dissociated forms have different colours. Which statement describes this behaviour correctly?",
+        "options": [
+          "Only its undissociated form exists in solution",
+          "Both forms have the same colour",
+          "Colour changes due to equilibrium between its forms",
+          "Colour changes only because pH changes colour of water"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about dissociation equilibrium of the indicator.",
+        "detailed": "An indicator (weak acid/base) dissociates: \\(\\ce{HIn <=> H^+ + In^-}\\). The undissociated and dissociated forms have different colours, so colour depends on which form predominates."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If an indicator has \\(\\ce{pK_a}\\) = 5, in which approximate pH range will its transition (colour change) occur?",
+        "options": [
+          "pH 3 to 5",
+          "pH 4 to 6",
+          "pH 5 to 7",
+          "pH 6 to 8"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Transition range = \\(pK_a \\pm 1\\).",
+        "detailed": "Transition range = \\(5 \\pm 1\\) → pH 4 to 6. So around that range the indicator changes colour."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which colour (form) of the indicator predominates in acidic solution if the undissociated form \\(\\ce{HIn}\\) has colour A and the dissociated form \\(\\ce{In^-}\\) has colour B?",
+        "options": [
+          "Colour B predominates",
+          "Colour A predominates",
+          "Colours A and B are equal",
+          "No colour (colourless)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Acidic means high \\([H^+]\\).",
+        "detailed": "High \\([H^+]\\) shifts the equilibrium \\(\\ce{HIn <=> H^+ + In^-}\\) to the left → more undissociated \\(\\ce{HIn}\\) which has colour A. So colour A predominates."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What factor is needed for selecting an indicator for a titration to detect the equivalence point accurately?",
+        "options": [
+          "Indicator whose transition range is completely above pH 10",
+          "Indicator whose transition range matches equivalence point pH",
+          "Indicator that never changes colour",
+          "Indicator that has no dissociation"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Colour change needs to occur close to equivalence point.",
+        "detailed": "For titration, the equivalence point’s pH should lie within (or near) the transition range of the indicator so the colour change happens around the correct moment."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In a basic solution, which form of the indicator predominates if the indicator behaves as a weak acid \\(\\ce{HIn}\\)?",
+        "options": [
+          "Undissociated form \\(\\ce{HIn}\\)",
+          "Dissociated form \\(\\ce{In^-}\\)",
+          "Neither – the indicator fades",
+          "Both colours equally mix"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "In basic solution, \\([OH^-]\\) is high so \\([H^+]\\) is low.",
+        "detailed": "The equilibrium of the indicator is \\(\\ce{HIn <=> H+ + In^-}\\). In basic solution, \\([H^+]\\) is reduced because \\(\\ce{OH^-}\\) neutralizes it, so the equilibrium shifts to the right, producing more \\(\\ce{In^-}\\). Therefore, the dissociated form predominates and its color is observed."
+      }
+    ]
+  }

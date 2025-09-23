@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "equilibrium",
+    "title": "Varying Definitions of Acids & Bases MCQ Problems",
+    "test_id": "2_040",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "According to the Arrhenius concept, what does an acid do when dissolved in water?",
+        "options": [
+          "Increases the concentration of hydroxide ions",
+          "Increases the concentration of hydronium ions",
+          "Decreases the concentration of hydronium ions",
+          "Decreases the concentration of hydroxide ions"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Arrhenius acids can release a \\(\\ce{H^+}\\) which readily binds to \\(\\ce{H2O}\\)",
+        "detailed": "An Arrhenius acid is a substance that, when dissolved in water, increases the concentration of hydronium ions (\\(\\ce{H3O^+}\\))."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is a strong acid according to the Arrhenius concept?",
+        "options": [
+          "Ammonia (\\(\\ce{NH3}\\))",
+          "Hydrochloric acid (\\(\\ce{HCl}\\))",
+          "Acetic acid (\\(\\ce{CH3COOH}\\))",
+          "Water (\\(\\ce{H2O}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Strong acids completely ionize in water.",
+        "detailed": "Hydrochloric acid (\\(\\ce{HCl}\\)) is a strong acid because it completely ionizes in water to produce \\(\\ce{H3O^+}\\) and \\(\\ce{Cl^-}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the Brønsted–Lowry theory, what is an acid?",
+        "options": [
+          "A substance that donates a proton",
+          "A substance that accepts a proton",
+          "A substance that donates an electron pair",
+          "A substance that accepts an electron pair"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Brønsted-Lowry acids have a weakly bonded hydrogen atom",
+        "detailed": "According to the Brønsted–Lowry theory, an acid is a substance that donates a proton (\\(\\ce{H^+}\\)) in a proton-transfer reaction."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the following is an example of an amphiprotic species?",
+        "options": [
+          "Water (\\(\\ce{H2O}\\))",
+          "Hydrochloric acid (\\(\\ce{HCl}\\))",
+          "Sodium hydroxide (\\(\\ce{NaOH}\\))",
+          "Ammonia (\\(\\ce{NH3}\\))"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Amphiprotic species can act as both acids and bases.",
+        "detailed": "Water (\\(\\ce{H2O}\\)) is an amphiprotic species because it can donate a proton to form \\(\\ce{OH^-}\\) or accept a proton to form \\(\\ce{H3O^+}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the Lewis theory, what is a Lewis acid?",
+        "options": [
+          "A substance that donates a proton",
+          "A substance that accepts an electron pair",
+          "A substance that donates an electron pair",
+          "A substance that accepts a proton"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Lewis acids are electron deficient species.",
+        "detailed": "In the Lewis theory, a Lewis acid is a substance that can accept an electron pair to form a covalent bond."
+      }
+    ]
+  }
