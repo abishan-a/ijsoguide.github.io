@@ -1,0 +1,88 @@
+{
+    "subject": "biology",
+    "unit": "evolutionary development",
+    "title": "Natural Selection MCQ Problems",
+    "test_id": "3_086",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Natural selection requires which of the following in a population?",
+        "options": [
+          "All individuals are identical",
+          "Variation among individuals in traits",
+          "No competition for resources",
+          "Perfect adaptation from the start"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about what allows selection to act.",
+        "detailed": "Variation among individuals is essential so that some traits can give advantages or disadvantages under environmental pressures."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is meant by 'heritable traits' in the context of natural selection?",
+        "options": [
+          "Traits acquired during lifetime",
+          "Traits that can be passed on to offspring",
+          "Traits that appear only under stress",
+          "Traits that always stay the same"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Heredity = passed from parents to offspring.",
+        "detailed": "Heritable traits are features determined by genetic material that can be passed from parents to their offspring and hence can be acted on by natural selection."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of these is an example of natural selection in action?",
+        "options": [
+          "People choosing tall dogs to breed (artificial selection)",
+          "Mutations caused by radiation",
+          "Bacteria surviving antibiotics because some are resistant",
+          "Trees growing taller just by stretching toward the sun"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Survival + reproduction advantage under environmental challenge.",
+        "detailed": "When some bacteria have resistance genes, they survive an antibiotic treatment better and reproduce more, increasing the frequency of resistance in the population."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens over generations if a trait gives even a slight survival/reproductive advantage?",
+        "options": [
+          "It disappears immediately",
+          "It becomes more common in the population",
+          "It makes all individuals identical",
+          "It stops existing after one generation"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Selection + reproduction over time = change in trait frequency.",
+        "detailed": "Traits that confer even slight advantage tend to become more frequent over successive generations, because individuals with them reproduce more successfully."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which factor does *not* directly contribute to natural selection?",
+        "options": [
+          "Desirable trait being heritable",
+          "Competition or struggle for existence",
+          "Variation in traits among individuals",
+          "Intentional improvement of traits by organisms"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Natural selection is *not* about conscious choice or intent.",
+        "detailed": "Natural selection is not driven by organisms deciding to improve traits; it's a process influenced by variation, heritability, and differential survival/reproduction."
+      }
+    ]
+  }

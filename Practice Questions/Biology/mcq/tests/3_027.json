@@ -1,0 +1,136 @@
+{
+    "subject": "biology",
+    "unit": "Human Biology",
+    "title": "Circulatory System",
+    "test_id": "3_027",
+    "problems": [
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which chamber of the heart pumps oxygenated blood to the body?",
+        "options": [
+          "Right atrium",
+          "Left atrium",
+          "Right ventricle",
+          "Left ventricle"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Remember that ventricles pump blood to the body and atria receive blood. Also, the left ventricle is the thickest chamber of the heart.",
+        "detailed": "Options A & B don’t count because they receive deoxygenated blood from the body. On the other hand, the ventricles pump oxygenated blood. Also, the left ventricle pumps blood to the body while the right ventricle pumps to the lungs. That is why the left ventricle is more muscular."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Choose the INCORRECT answer:",
+        "options": [
+          "Veins have the lowest blood pressure",
+          "Capilaries have the slowest velocity because they have the smallest cross-sectional area",
+          "Arteries are thicker and more elastic than veins",
+          "Veins have valves to prevent backflow"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Do capillaries really have the smallest cross-sectional area?",
+        "detailed": "Option A is correct, veins have very low blood pressure compared to arteries, for example. Option C is correct because arteries have to be able to resist the strength of blood just being pumped by the heart. Option D is correct, because of their low blood pressure, valves ensure that backflow doesn’t occur. Option B is incorrect, because capillaries actually have the largest cross-sectional area, not the smallest. We add up all the capillaries in the body and their cross-sectional areas to come to this conclusion. Capillaries do have the slowest velocity because they have the LARGEST cross-sectional area - which falls in line with the continuity equation. Even if you didn’t know that piece of information, knowing that the other options are undoubtedly correct, that must be the incorrect answer. Sometimes reasoning is all you need!"
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Choose the CORRECT answer: Which of the following arteries is the largest in the human body?",
+        "options": [
+          "Pulmonary artery",
+          "Aorta",
+          "Carotid artery",
+          "Coronary artery"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Try to think about which artery has to take the most pressure or the one that is leaving the heart the closet.",
+        "detailed": "The aorta is the largest artery in the human body because it has to take the most pressure from the heart. Blood has the most velocity when it has just left the heart - through the aorta."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Why does oxygen diffuse from the blood into the body tissues? Choose the BEST answer:",
+        "options": [
+          "Tissues actively pump it in",
+          "It moves from low to high concentration",
+          "Tissues have a lower concentration of oxygen than the blood",
+          "Cells release signals to attract red blood cells"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Diffusion is NOT an active process, it is passive. Try to think about how diffusion works in terms of gradients – high to low concentration.",
+        "detailed": "The aorta is the largest artery in the human body because it has to take the most pressure from the heart. Blood has the most velocity when it has just left the heart - through the aorta."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "What is the main reason blood flows in one direction through the heart?",
+        "options": [
+          "Gravity pulls it downward",
+          "The heart pumps only once per cycle",
+          "The valves prevent backflow",
+          "The veins have stronger muscles than arteries"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "This is the same reason veins can keep blood flowing!",
+        "detailed": "The only main reason blood flows in one direction through the heart is because of valves preventing backflow. Examples include the semilunar valves and pulmonary valves."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "What is the correct path through the circulatory system which describes the passage of blood originating in the left arm?",
+        "options": [
+          "Vena cava → right atrium → left atrium → lungs → right ventricle → left ventricle → aorta",
+          "Left ventricle → lungs → right atrium → left atrium → right ventricle → left atrium → aorta",
+          "Vena cava → right atrium → right ventricle → lungs → left atrium → left ventricle → aorta",
+          "Vena cava → right ventricle → right atrium → lungs → left ventricle → left atrium → aorta"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Remember that atria receive blood and ventricles pump blood back out. That should help with the order. Remember that the left ventricle is the most muscular compartment, and there is an important reason for that.",
+        "detailed": "The vena cava brings deoxygenated blood back to the heart and the right atrium receives it. The right atrium pumps that blood unto the right ventricle which pumps it to the lungs. After returning from the lungs, it is received by the left atrium which pumps to the left ventricle. The left ventricle pumps blood back out the the body through the aorta. All of that corresponds to option C."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which of the following statements best distinguishes open and closed circulatory systems?",
+        "options": [
+          "Open systems use vessels to completely contain blood, while closed systems release blood into body cavities.",
+          "In closed systems, blood is pumped by the heart and stays within vessels, whereas in open systems, blood bathes organs directly in body cavities.",
+          "Open systems use oxygen-carrying pigments, while closed systems do not.",
+          "Closed systems are only found in vertebrates, while open systems are only found in invertebrates."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "BOTH open and closed circulatory systems make use of oxygen-carrying pigments.",
+        "detailed": "Option A is factually incorrect. Option B is right on, blood is contained in vessels and open systems bathe organs in a mixture of interstitial fluid and blood called hemolymph. BOTH make use of oxygen-carrying pigments making C incorrect. As mentioned during the lesson, annelids (which are invertebrates) also have closed circulatory systems — making D incorrect."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which of the following correctly identifies the atrioventricular and semilunar valves of the human heart?",
+        "options": [
+          "Atrioventricular: Aortic and Pulmonary; Semilunar: Tricuspid and Mitral",
+          "Atriocentricular: Tricuspid and Mitral; Semilunar: Aortic and Pulmonary",
+          "OAtrioventricular: Right and Left coronary valves; Semilunar: Septal and Bicuspid",
+          "Atrioventricular: Pulmonary and Tricuspid; Semilunar: Aortic and Mitral"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The atrioventricular valves are BETWEEN the atria and ventricles. The semilunar valves are AFTER the ventricles.",
+        "detailed": "Directly from the lesson: The atrioventricular valves are those between atria and ventricles, namely the tricuspid and mitral valves, whilst the semilunar valves are after ventricles, namely the pulmonary and aortic valves."
+      }
+    ]
+  }

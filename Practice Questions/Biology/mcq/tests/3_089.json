@@ -1,0 +1,104 @@
+{
+  "subject": "biology",
+  "unit": "evolutionary development",
+  "title": "Evolution MCQ Problems",
+  "test_id": "3_089",
+  "problems": [
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "What is evolution?",
+      "options": [
+        "Change in an organism during its lifetime",
+        "Change in allele frequencies in a population over time",
+        "The process of growing taller",
+        "Adapting behavior on purpose"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Think genetics and populations, not individuals.",
+      "detailed": "Evolution is the change in allele (genetic variant) frequencies in a population over generations."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "Which scientist proposed natural selection as the mechanism of evolution?",
+      "options": [
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Albert Einstein"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Famous voyage on the HMS Beagle.",
+      "detailed": "Charles Darwin proposed natural selection as a primary mechanism by which evolution occurs."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "What role do mutations play in evolution?",
+      "options": [
+        "They always harm organisms",
+        "They reduce genetic variation",
+        "They provide new genetic variation",
+        "They keep all individuals the same"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Think of new traits arising.",
+      "detailed": "Mutations produce new alleles, increasing genetic variation, which is essential for evolution to act upon."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "Which phrase describes 'survival of the fittest' in evolutionary terms?",
+      "options": [
+        "The strongest animal always lives",
+        "Organisms with characteristics best suited to the environment survive and reproduce more",
+        "Only large organisms survive",
+        "Animals decide which trait is best"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "It’s not about strength alone or decision-making.",
+      "detailed": "Fitness in evolution refers to how well an organism’s traits allow it to survive and reproduce in its environment."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "Which factor does *not* drive evolution directly?",
+      "options": [
+        "Natural selection",
+        "Genetic drift",
+        "Migration (gene flow)",
+        "An individual deciding to evolve during its life"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Evolutionary forces are impersonal and generational.",
+      "detailed": "Evolution does not occur because an individual decides to change; it happens through population-level processes like selection, drift, mutation, and gene flow."
+    },
+    {
+      "author": "Thenura Wickramaratna",
+      "level": "easy",
+      "question": "How does Darwinism differ from Lamarckism?",
+      "options": [
+        "Darwinism emphasizes natural selection, while Lamarckism emphasizes inheritance of acquired traits",
+        "Darwinism denies evolution, Lamarckism supports it",
+        "Darwinism is about physics, Lamarckism about biology",
+        "They both claim individuals can evolve during their lifetime"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Think: natural selection vs. acquired traits.",
+      "detailed": "Darwinism explains evolution as natural selection acting on variations, while Lamarckism suggested that traits acquired during an organism’s life (like a giraffe stretching its neck) are inherited. Modern biology supports Darwin’s mechanism."
+    }
+  ]
+}
