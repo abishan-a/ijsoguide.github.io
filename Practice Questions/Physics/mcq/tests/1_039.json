@@ -1,0 +1,72 @@
+{
+    "subject": "physics",
+    "unit": "light",
+    "title": "Lenses & Mirrors MCQ Problems",
+    "test_id": "1_039",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A convex lens always produces which kind of image when the object is placed *between* its focal point (F) and the lens?",
+        "options": [
+          "Real, inverted, reduced",
+          "Real, inverted, enlarged",
+          "Virtual, upright, enlarged",
+          "Virtual, inverted, reduced"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Object inside focal point → lens cannot form a real image.",
+        "detailed": "When an object is between F and a convex (converging) lens, the rays diverge and the observer sees a virtual, upright, and enlarged image."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "For a concave mirror, if an object is placed *at* the centre of curvature (C), what is the nature of the image?",
+        "options": [
+          "Image at C, same size, inverted",
+          "Image at F, smaller, inverted",
+          "Image behind mirror, virtual, enlarged",
+          "No image formed"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Using mirror rules: object at C gives image at C.",
+        "detailed": "In a concave mirror, when the object is at the centre of curvature (C), the image is also at C, is the same size as the object, and inverted and real."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What happens to focal length (f) if the radius of curvature (R) of a spherical mirror is doubled?",
+        "options": [
+          "f remains the same",
+          "f doubles",
+          "f halves",
+          "f becomes negative"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Relation between focal length and radius of curvature for a spherical mirror: \\(f = \\frac{R}{2}\\).",
+        "detailed": "For a spherical mirror, \\(f = \\frac{R}{2}\\). So if radius of curvature R is doubled, focal length f also doubles."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A plane mirror creates which type of image?",
+        "options": [
+          "Real, inverted, same size",
+          "Virtual, upright, same size",
+          "Virtual, inverted, smaller than object",
+          "Real, upright, enlarged"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Plane mirror doesn’t converge rays, just reflects symmetrically.",
+        "detailed": "A plane mirror always produces a virtual, upright image that is the same size as the object, with image distance equal to object distance behind the mirror."
+      }
+    ]
+  }

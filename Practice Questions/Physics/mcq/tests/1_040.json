@@ -1,0 +1,72 @@
+{
+    "subject": "physics",
+    "unit": "light",
+    "title": "Light & Optics Formulas MCQ Problems",
+    "test_id": "1_040",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "If a lens has an object distance \\(d_o = 30\\,\\text{cm}\\) and image distance \\(d_i = 60\\,\\text{cm}\\), what is its focal length \\(f\\)?",
+        "options": [
+          "20 cm",
+          "40 cm",
+          "45 cm",
+          "60 cm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use the lens equation: \\(\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}\\).",
+        "detailed": "We have \\(\\frac{1}{f} = \\frac{1}{30} + \\frac{1}{60} = \\frac{2 + 1}{60} = \\frac{3}{60} = \\frac{1}{20}\\). So \\(f = 20\\,\\text{cm}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A concave mirror forms a real, inverted image when the object is placed beyond the focal point. Which sign convention indicates a real image distance for mirrors?",
+        "options": [
+          "Positive \\(d_i\\)",
+          "Negative \\(d_i\\)",
+          "Zero \\(d_i\\)",
+          "Imaginary \\(d_i\\) value"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Real image distances are taken as positive (in many conventions).",
+        "detailed": "Using the mirror equation, real images have image distance \\(d_i\\) positive when the image forms on the same side as the reflected light (following standard sign conventions)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which formula relates the radius of curvature \\(R\\) of a spherical mirror to its focal length \\(f\\)?",
+        "options": [
+          "\\(f = R\\)",
+          "\\(f = 2R\\)",
+          "\\(f = \\frac{R}{2}\\)",
+          "\\(f = \\frac{1}{2R}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Focal length is half radius of curvature.",
+        "detailed": "For spherical mirrors (and lenses under some conventions), \\(f = \\frac{R}{2}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "For thin lenses, what is the relationship among object distance \\(d_o\\), image distance \\(d_i\\), and focal length \\(f\\)?",
+        "options": [
+          "\\(\\frac{1}{f} = \\frac{1}{d_o} - \\frac{1}{d_i}\\)",
+          "\\(f = d_o + d_i\\)",
+          "\\(\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}\\)",
+          "\\(d_i = f (d_o - f)\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Lens equation (thin lens).",
+        "detailed": "Thin lens formula is \\(\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}\\)."
+      }
+    ]
+  }
