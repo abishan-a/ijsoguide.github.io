@@ -55,6 +55,89 @@
       {
         "author": "Thenura Wickramaratna",
         "level": "easy",
+        "question": "Given the equation \\( \\text{F = ma} \\), what is the SI unit of force?",
+        "options": [
+          "\\(\\text{kg} \\cdot \\text{m/s}^2\\)",
+          "\\(\\text{kg/s}^2\\)",
+          "\\(\\text{N/s}\\)",
+          "\\(\\text{kg} \\cdot \\text{m}^2/\\text{s}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Multiply the unit of mass with that of acceleration.",
+        "detailed": "Force is mass (kg) times acceleration (\\(\\text{m/s}^2\\)), giving \\( \\text{kg} \\cdot \\text{m/s}^2 \\), which is a Newton (N)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the equation for pressure \\( \\text{P} = \\text{F/A} \\), what is the unit of pressure?",
+        "options": [
+          "\\(\\text{kg} \\cdot \\text{m/s}^2\\)",
+          "\\(\\text{kg/m}^2 \\cdot \\text{s}\\)",
+          "\\(\\text{kg/m} \\cdot \\text{s}^2\\)",
+          "\\(\\text{kg/m} \\cdot \\text{s}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Force divided by area.",
+        "detailed": "Force is \\( \\text{kg} \\cdot \\text{m/s}^2 \\), area is \\( \\text{m}^2 \\), so pressure is \\( \\text{kg/m} \\cdot \\text{s}^2 \\), known as a pascal (Pa)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Given the equation \\( \\text{T} = 2\\pi \\sqrt{\\text{L/g}} \\), what is the unit of \\( \\text{g} \\)?",
+        "options": [
+          "\\(\\text{m/s}\\)",
+          "\\(\\text{m/s}^2\\)",
+          "\\(\\text{s}^2/\\text{m}\\)",
+          "\\(\\text{m} \\cdot \\text{s}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Make the RHS dimensionless under the square root.",
+        "detailed": "For the square root to be unitless, \\( \\text{L/g} \\) must be in \\( \\text{s}^2 \\), so \\( \\text{g} \\) must be in \\( \\text{m/s}^2 \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "An equation for power is given as \\( \\text{P} = \\text{k} \\cdot \\text{A}^3 \\cdot \\text{T} \\), where \\( \\text{P} \\) has units of watts, \\( \\text{A} \\) is area in \\( \\text{m}^2 \\), and \\( \\text{T} \\) is time in seconds. What is the unit of \\( \\text{k} \\)?",
+        "options": [
+          "\\(\\text{kg} \\cdot \\text{s}^{-5} \\cdot \\text{m}^{-6}\\)",
+          "\\(\\text{kg} \\cdot \\text{m}^2/\\text{s}^3\\)",
+          "\\(\\text{kg} \\cdot \\text{s}^{-3} \\cdot \\text{m}^{-6}\\)",
+          "\\(\\text{kg} \\cdot \\text{m}^4/\\text{s}^5\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Balance the units: \\([\\text{P}] = [\\text{k}][\\text{A}^3][\\text{T}]\\)",
+        "detailed": "Power (P) = \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^3 \\), \\(\\text{A}^3 =  \\text{m}^6 \\), T = s. Solving for \\( \\text{k} \\), \\( \\text{k} = \\text{P}/(\\text{A}^3 \\text{T}) = \\text{kg} \\cdot \\text{s}^{-3} \\cdot \\text{m}^{-6} \\)."
+      }
+    ]
+  }        "detailed": "Energy has the unit of joules, which is equivalent to \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^2 \\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the SI base unit of electric current?",
+        "options": [
+          "Volt",
+          "Coulomb",
+          "Ampere",
+          "Ohm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It's one of the seven fundamental SI units.",
+        "detailed": "The ampere (A) is the SI base unit for electric current."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
         "question": "Given the equation \\( F = ma \\), what is the SI unit of force?",
         "options": [
           "kg·m/s²",
