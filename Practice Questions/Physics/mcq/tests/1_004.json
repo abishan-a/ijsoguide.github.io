@@ -1,8 +1,8 @@
 {
     "subject": "physics",
-    "unit": "kinematics",
-    "title": "Kinematics Practice MCQ Problems",
-    "test_id": "1_015",
+    "unit": "mechanics",
+    "title": "Kinematics MCQ Problems",
+    "test_id": "1_004",
     "problems": [
       {
         "author": "Thenura Wickramaratna",
@@ -16,7 +16,7 @@
         ],
         "questionImages": [],
         "solutionImages": [],
-        "correct": "C",
+        "correct": "B",
         "hint": "Use \\(s = ut + \\tfrac{1}{2}at^2\\) with \\(u=0\\).",
         "detailed": "With \\(u=0\\), \\(a=2\\,\\text{m/s}^2\\), and \\(t=5\\,s\\): \\(s = 0 + \\tfrac{1}{2}(2)(5^2) = 25\\,\\text{m}\\)."
       },
@@ -35,6 +35,137 @@
         "correct": "C",
         "hint": "Use \\(s = \\tfrac{1}{2}gt^2\\).",
         "detailed": "With \\(t=3\\,s\\): \\(s = \\tfrac{1}{2}(10)(3^2) = 45\\,\\text{m}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A scooter is moving at \\(10\\,\\text{m/s}\\). The rider applies brakes, and the scooter slows down at \\(2\\,\\text{m/s}^2\\). How long will it take to stop?",
+        "options": [
+          "2.5 s",
+          "5 s",
+          "10 s",
+          "20 s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use \\(t = \\tfrac{u}{a}\\).",
+        "detailed": "With \\(u=10\\,\\text{m/s}\\) and deceleration \\(a=2\\,\\text{m/s}^2\\): \\(t = 10/2 = 5\\,s\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A train accelerates from \\(20\\,\\text{m/s}\\) to \\(40\\,\\text{m/s}\\) in 10 seconds. What is its acceleration?",
+        "options": [
+          "1 \\(\\text{m/s}^2\\)",
+          "2 \\(\\text{m/s}^2\\)",
+          "3 \\(\\text{m/s}^2\\)",
+          "4 \\(\\text{m/s}^2\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use \\(a = (v-u)/t\\).",
+        "detailed": "With \\(u=20\\,\\text{m/s}, v=40\\,\\text{m/s}, t=10\\,s\\): \\(a = \\frac{40-20}{10} = 2\\,\\text{m/s}^2\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A boy runs with a speed of \\(3\\,\\text{m/s}\\) for 20 seconds. How far does he run?",
+        "options": [
+          "40 m",
+          "50 m",
+          "60 m",
+          "70 m"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Distance = speed × time.",
+        "detailed": "With \\(v=3\\,\\text{m/s}, t=20\\,s\\): \\(s = vt = 3\\times20 = 60\\,\\text{m}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A car accelerates uniformly from rest and covers 100 m in 5 seconds. Find its acceleration.",
+        "options": [
+          "4 \\(\\text{m/s}^2\\)",
+          "6 \\(\\text{m/s}^2\\)",
+          "8 \\(\\text{m/s}^2\\)",
+          "10 \\(\\text{m/s}^2\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(s = \\tfrac{1}{2}at^2\\).",
+        "detailed": "With \\(s=100, t=5, u=0\\): \\(100 = \\frac{1}{2} a \\times 25\\). So \\(a=8\\,\\text{m/s}^2\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "A ball is thrown straight up with speed \\(20\\,\\text{m/s}\\). Find the total time before it comes back to the ground. (Take \\(g=10\\,\\text{m/s}^2\\))",
+        "options": [
+          "2 s",
+          "4 s",
+          "6 s",
+          "8 s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Time up = \\(\\frac{u}{g}\\), total = double that.",
+        "detailed": "Time to reach max height: \\(t = \\frac{u}{g} = \\frac{20}{10} = 2\\,s\\). Total time = \\(2 \\times2 = 4\\,s\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "A train moving at \\(30\\,\\text{m/s}\\) applies brakes and comes to rest in 15 seconds. What is the distance it travels while stopping?",
+        "options": [
+          "150 m",
+          "225 m",
+          "300 m",
+          "450 m"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use average velocity × time.",
+        "detailed": "Deceleration = \\(a=\\frac{0-30}{15}= -2\\,\\text{m/s}^2\\). Distance = average velocity \\(\\times\\) time = \\(\\frac{30+0}{2} \\times 15 = 225\\,\\text{m}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "A bus moving at \\(10\\,\\text{m/s}\\) accelerates at \\(2\\,\\text{m/s}^2\\) for 6 seconds, and then moves at constant speed for 4 seconds. Find the total distance covered in 10 seconds.",
+        "options": [
+          "124 m",
+          "148 m",
+          "162 m",
+          "184 m"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Split motion into accelerated part + constant part.",
+        "detailed": "First 6s: \\(s_1 = ut + \\tfrac{1}{2}at^2 = 10(6) + 0.5(2)(36) = 60+36=96\\,m\\). <br> Final speed = 22 m/s. <br> Next 4s: \\(s_2 = vt = 22(4)=88\\,m\\). <br> Total = 96+88=184 m."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "hard",
+        "question": "A stone is dropped from a height of 80 m. At the same time, another stone is thrown upward from the ground with speed \\(20\\,\\text{m/s}\\). After how many seconds do they meet? (Take \\(g=10\\,\\text{m/s}^2\\)).",
+        "options": [
+          "2 s",
+          "3 s",
+          "4 s",
+          "5 s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Set distances from ground equal at meeting point.",
+        "detailed": "For falling stone: \\(y_1 = 80 - 5t^2\\). <br> For rising stone: \\(y_2 = 20t - 5t^2\\). <br> At meeting: \\(y_1 = y_2\\). <br> So: \\(80 - 5t^2 = 20t - 5t^2\\). <br> Cancels to \\(80=20t\\). <br> Thus \\(t=4\\,s\\)."
+      }
+    ]
+  }        "detailed": "With \\(t=3\\,s\\): \\(s = \\tfrac{1}{2}(10)(3^2) = 45\\,\\text{m}\\)."
       },
       {
         "author": "Thenura Wickramaratna",
