@@ -167,9 +167,9 @@
                 "title": "Buoyancy & archimedes' principle"
                 },
                 "1_028": {
-                "easy": 0,
-                "medium": 0,
-                "hard": 0,
+                "easy": 5,
+                "medium": 1,
+                "hard": 1,
                 "title": "Bernoulli's principle"
                 }
             },
