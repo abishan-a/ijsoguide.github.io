@@ -1,0 +1,120 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Bernoulli Principle MCQ Problems",
+    "test_id": "1_028",
+    "problems": [
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In the given pipe, an ideal fluid is flowing. The cross-sectional area in the two points are \\(A_1 = 5.00\\,\\text{m}^2, A_2 = 1.00\\,\\text{m}^2\\). If \\(v_2 = 6.00\\,\\text{m/s}\\), what is the value of \\(v_1\\)?",
+        "options": [
+          "30.0 m/s",
+          "6.00 m/s",
+          "1.20 m/s",
+          "Insufficient data"
+        ],
+        "questionImages": ["1_028q_01.png"],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Since it’s an ideal fluid, the volume flow rate remains constant through the pipe",
+        "detailed": "The continuity equation holds. <br> \\(5\\,\\text{m}^2 \\times v_1 = 1\\,\\text{m}^2 \\times 6\\,\\text{m/s}\\). <br> Therefore \\(v_1 = 1.20\\,\\text{m/s}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "The pipe’s left part has the cross-sectional area \\(A_1 = 1.00\\,\\text{m}^2\\), and the right part has the cross-sectional area \\(A_2 = 7.00\\,\\text{m}^2\\). The fluid flows at the velocity of \\(v_2 = 1.23\\,\\text{m/s}\\) in the right part. If we choose a specific fluid parcel in the left part, how far \\(x\\) does it move in 23.0 seconds? Assume the pipe is long enough on each part.",
+        "options": [
+          "99.0 m",
+          "198 m",
+          "297 m",
+          "396 m"
+        ],
+        "questionImages": ["1_028q_02.png"],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "All we need to find is the velocity of the fluid in the left part, \\(v_1\\).",
+        "detailed": "Continuity Eq: \\(A_1 v_1 = A_2 v_2\\). <br> \\(v_1 = (7\\,\\text{m}^2 \\times 1.23\\,\\text{m/s})/(1\\,\\text{m}^2) = 8.61\\,\\text{m/s}\\). <br> Therefore \\(x = v_1 t = 8.61\\,\\text{m/s} \\times 23.0\\,\\text{s} = 198\\,\\text{m}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "In a pipe where \\(h = 1.00\\,\\text{m}, \\rho = 1.00\\,\\text{kg/m}^3, P_1 = 350.\\,\\text{Pa}, P_2 = 120.\\,\\text{Pa}, g = 9.81\\,\\text{m/s}^2\\), when \\(v_1 = 5.00\\,\\text{m/s}\\), calculate \\(v_2\\).",
+        "options": [
+          "12.5 m/s",
+          "21.6 m/s",
+          "34.3 m/s",
+          "51.2 m/s"
+        ],
+        "questionImages": ["1_028q_03.png"],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Set the Bernoulli equation.",
+        "detailed": "Bernoulli: \\(P_1 + \\tfrac{1}{2}\\rho v_1^2 = P_2 + \\rho g h + \\tfrac{1}{2}\\rho v_2^2\\). <br> \\(v_2 = \\sqrt{\\tfrac{2}{\\rho}(P_1 + \\tfrac{1}{2}\\rho v_1^2 - P_2 - \\rho g h)} = 21.6\\,\\text{m/s}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "A pipe connected to groundwater \\(h = 40.0\\,\\text{m}\\) below is pumping out water to the surface. At the beginning of the pipe water has speed zero, and at the surface water has pressure \\(P = 1013\\,\\text{hPa}\\). If the pressure of the groundwater is \\(P_1 = 500.\\,\\text{kPa}\\), what is the speed of water coming out from the pipe \\(v\\)? (\\(\\rho = 1.00\\,\\text{kg/m}^3, g = 9.81\\,\\text{m/s}^2\\)).",
+        "options": [
+          "593 m/s",
+          "693 m/s",
+          "793 m/s",
+          "893 m/s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Set the Bernoulli equation for this scenario.",
+        "detailed": "Bernoulli: \\(P_1 + \\tfrac{1}{2}\\rho v_1^2 = P_2 + \\rho g h + \\tfrac{1}{2}\\rho v_2^2\\). With \\(v_1 = 0\\): \\(v = \\sqrt{\\tfrac{2}{\\rho}(P_1 - P_2 - \\rho g h)} = 893\\,\\text{m/s}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which of the given laws of fluid dynamics is NOT a direct consequence of Bernoulli’s principle?",
+        "options": [
+          "\\(P = P_0 + \\rho g h\\)",
+          "\\(A_1 v_1 = A_2 v_2\\)",
+          "\\(v = \\sqrt{2 g h}\\)",
+          "\\(d g h + \\tfrac{1}{2}\\rho v_1^2 = \\tfrac{1}{2}\\rho v_2^2\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think how you would apply Bernoulli’s principle to each case.",
+        "detailed": "The continuity equation \\(A_1 v_1 = A_2 v_2\\) comes from incompressibility of fluids, not Bernoulli’s principle. Therefore B is the answer."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "medium",
+        "question": "There’s a hole in a fluid tank, through which the fluid spews horizontally. The hole is very small compared to \\(h\\) and \\(H\\). Calculate \\(D\\). \\(h = 30.0\\,\\text{m}, H = 60.0\\,\\text{m}, g = 9.80\\,\\text{m/s}^2\\).",
+        "options": [
+          "28.3 m",
+          "56.6 m",
+          "84.9 m",
+          "113 m"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "With Bernoulli’s equation, calculate the initial velocity of the fluid spewing out of the tank.",
+        "detailed": "Bernoulli: \\(v_1 = \\sqrt{2 g h}\\). Time to fall: \\(t = \\sqrt{2H/g}\\). Therefore \\(D = v_1 t = 2\\sqrt{hH} = 84.9\\,\\text{m}\\)."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "hard",
+        "question": "River Anduin feeds the Falls of Rauros, which is consisted of two falls. One of them got a hydro generator, which makes the speed of water after the fall the same before and after the fall. The generator is 50.0% efficient, and 25.0% of its output is used to pump some of the water after the fall back up. The speed of water before the pump is 50.0 m/s, and after the pump is 40.0 m/s. This means the fall is fed by Anduin and the pump. The amount of water after the fall that is not pumped up flows away to the Sea, and is equal to the amount of water from Anduin. If the efficiency of the pump is 40.0%, what is the ratio of water provided by Anduin and the pump ((water from Anduin)/(water from pump))? Note: Rauros is 150 m high. \\(\\rho_{water} = 1.00\\,\\text{kg/m}^3, \\rho_{air} = 0.100\\,\\text{kg/m}^3, P_{atm} = 950\\,\\text{Pa}, g = 10.0\\,\\text{m/s}^2\\).",
+        "options": [
+          "6.58",
+          "7.69",
+          "8.80",
+          "9.91"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Using Bernoulli’s principle, how can we calculate the amount of energy produced/required by the generator/pump?",
+        "detailed": "The pump and generator change kinetic energy of water: \\(\\frac{1}{2}\\rho V(v_f^2 - v_t^2) = P\\). <br> Pressure by atmosphere above: \\(950 - 0.1(10)(150) = 800\\,\\text{Pa}\\). <br> For generator: \\(|P|/V = 1650\\,\\text{J/m}^3\\). <br> For pump: \\(|P|/V = 900\\,\\text{J/m}^3\\). <br> Energy made: \\(825(V_a+V_p)\\). <br> Energy used by pump: \\(82.5(V_a+V_p)\\). Also \\(900V_p\\). <br> Equating: \\(V_a/V_p = 9.91\\)."
+      }
+    ]
+  }
