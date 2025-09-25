@@ -17,8 +17,8 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "C",
-        "hint": "Use \\(R = V/I\\).",
-        "detailed": "Resistance \\(R = V/I = 12\\,\\text{V} / 3\\,\\text{A} = 4\\,\\Omega\\)."
+        "hint": "Use \\(R = \\frac{V}{I}\\).",
+        "detailed": "Resistance \\(R = \\frac{V}{I} = \\frac{12\\,\\text{V}}{3\\,\\text{A}} = 4\\,\\Omega\\)."
       },
       {
         "author": "Thenura Wickramaratna",
@@ -33,8 +33,8 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "B",
-        "hint": "Use \\(I = V/R\\).",
-        "detailed": "Current \\(I = 20\\,\\text{V} / 5\\,\\Omega = 4\\,A\\)."
+        "hint": "Use \\(I = \\frac{V}{R}\\).",
+        "detailed": "Current \\(I = \\frac{20\\,\\text{V}}{5\\,\\Omega} = 4\\,A\\)."
       },
       {
         "author": "Thenura Wickramaratna",
@@ -49,8 +49,8 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "D",
-        "hint": "Again, \\(R = V/I\\).",
-        "detailed": "Resistance \\(R = 9\\,\\text{V} / 0.2\\,\\text{A} = 45\\,\\Omega\\)."
+        "hint": "Again, \\(R = \\frac{V}{I}\\).",
+        "detailed": "Resistance \\(R = \\frac{9\\,\\text{V}}{0.2\\,\\text{A}} = 45\\,\\Omega\\)."
       },
       {
         "author": "Thenura Wickramaratna",
@@ -81,7 +81,7 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "A",
-        "hint": "Voltage equals current times resistance.",
+        "hint": "Think about the Ohm's Law formula",
         "detailed": "Ohm’s Law: \\(V = I \\times R\\). So option A is correct."
       }
     ]
