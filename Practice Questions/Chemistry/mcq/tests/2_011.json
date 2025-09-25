@@ -41,14 +41,14 @@
         "level": "easy",
       "question": "What is the molar mass of \\(\\ce{CO2}\\)?",
       "options": [
-        "44 g/mol",
+        "16 g/mol",
         "28 g/mol",
         "32 g/mol",
-        "16 g/mol"
+        "44 g/mol"
       ],
       "questionImages": [],
         "solutionImages": [],
-        "correct": "A",
+        "correct": "D",
       "hint": "Add the atomic masses: C = 12, O = 16.",
       "detailed": "Molar mass = Ar(C) + 2 * Ar(O) = 12 + 2 * 16 = 44 g/mol."
     },
@@ -57,14 +57,14 @@
         "level": "easy",
       "question": "What is the number of moles in 18 grams of water (\\(\\ce{H2O}\\))?",
       "options": [
-        "1 mol",
-        "2 mol",
         "0.5 mol",
-        "1.5 mol"
+        "1.0 mol",
+        "1.5 mol",
+        "2.0 mol"
       ],
       "questionImages": [],
         "solutionImages": [],
-        "correct": "A",
+        "correct": "B",
       "hint": "Use: moles = mass / molar mass.",
       "detailed": "Molar mass of \\(\\ce{H2O}\\) = 2 * 1 + 16 = 18 g/mol. So, moles = 18 / 18 = 1 mol."
     },
@@ -89,14 +89,14 @@
         "level": "easy",
       "question": "How many molecules are present in 2 moles of \\(\\ce{H2}\\)?",
       "options": [
-        "\\(1.204 \\times 10^{24}\\)",
-        "\\(6.02 \\times 10^{23}\\)",
+        "\\(2.204 \\times 10^{23}\\)",
         "\\(3.01 \\times 10^{23}\\)",
-        "\\(2.204 \\times 10^{23}\\)"
+        "\\(6.02 \\times 10^{23}\\)",
+        "\\(1.204 \\times 10^{24}\\)"
       ],
       "questionImages": [],
         "solutionImages": [],
-        "correct": "A",
+        "correct": "D",
       "hint": "Multiply moles by Avogadro's number.",
       "detailed": "Number of molecules = \\(2 \\times 6.02 \\times 10^{23} = 1.204 \\times 10^{24}\\) molecules."
     },
@@ -105,16 +105,16 @@
         "level": "easy",
       "question": "What is the molar mass of \\(\\ce{CaCl2}\\)?",
       "options": [
+        "40.5 g/mol",
         "75.5 g/mol",
         "95.5 g/mol",
-        "111 g/mol",
-        "40.5 g/mol"
+        "111 g/mol"
       ],
       "questionImages": [],
         "solutionImages": [],
-        "correct": "B",
+        "correct": "D",
       "hint": "Ca = 40, Cl = 35.5.",
-      "detailed": "Molar mass = Ar(Ca) + 2 * Ar(Cl) = 40 + 2 * 35.5 = 95.5 g/mol."
+      "detailed": "Molar mass = Ar(Ca) + 2 * Ar(Cl) = 40 + 2 * 35.5 = 111 g/mol."
     },
     {
       "author": "Thenura Wickramaratna",
