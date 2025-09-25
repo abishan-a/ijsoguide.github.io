@@ -81,6 +81,57 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "A",
+        "hint": "Think about the temperature scale conversions",
+        "detailed": "Water freezes at 0 °C and boils at 100 °C, which is equivalent to 373.15 K (because 100 + 273.15 = 373.15)."
+      }
+    ]
+  }        "detailed": "The correct conversion from Celsius to Kelvin is K = °C + 273.15."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "Which temperature scale does not use the degree symbol (°)?",
+        "options": [
+          "Celsius",
+          "Fahrenheit",
+          "Kelvin",
+          "Rankine"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It’s the SI unit for temperature.",
+        "detailed": "The Kelvin scale is the SI unit of temperature and does not use the degree symbol—just “K”."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is absolute zero on the Kelvin scale?",
+        "options": [
+          "0 K",
+          "−273.15 K",
+          "−459.67 K",
+          "273.15 K"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "It’s the theoretical lowest possible temperature.",
+        "detailed": "Absolute zero is defined as 0 K, equivalent to −273.15 °C or −459.67 °F."
+      },
+      {
+        "author": "Thenura Wickramaratna",
+        "level": "easy",
+        "question": "What is the freezing point of water in Celsius and boiling point in Kelvin, respectively?",
+        "options": [
+          "0 °C and 373.15 K",
+          "32 °C and 273.15 K",
+          "100 °C and 373.15 K",
+          "0 °C and 100 K"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
         "hint": "Water boils at 100 °C which equals 373.15 K.",
         "detailed": "Water freezes at 0 °C and boils at 100 °C, which is equivalent to 373.15 K (because 100 + 273.15 = 373.15)."
       }
