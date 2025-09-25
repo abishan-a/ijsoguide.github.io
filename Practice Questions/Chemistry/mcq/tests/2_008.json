@@ -9,10 +9,10 @@
         "level": "easy",
         "question": "Which bond has the most proeminent ionic character out of the given options?",
         "options": [
-          "\\( Cs-F \\)",
-          "\\( O-F \\)",
-          "\\( Li-At \\)",
-          "\\( Li-F \\)"
+          "\\( \\text{Cs}-\\text{F} \\)",
+          "\\( \\text{O}-\\text{F} \\)",
+          "\\( \\text{Li}-\\text{At} \\)",
+          "\\( \\text{Li}-\\text{F} \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
@@ -25,10 +25,10 @@
         "level": "easy",
         "question": "Which of the following series contains only non-polar molecules?",
         "options": [
-          "\\( CO, Cl_2, H_2 \\)",
-          "\\( O_2, HCl, CH_4\\)",
-          "\\( S_8, CO_2, N_2 \\)",
-          "\\( P_4, NO, I_2 \\)"
+          "\\( \\ce{CO}, \\ce{Cl2}, \\ce{H2} \\)",
+          "\\( \\ce{O2}, \\ce{HCl}, \\ce{CH4}\\)",
+          "\\( \\ce{S8}, \\ce{CO2}, \\ce{N2} \\)",
+          "\\( \\ce{P4}, \\ce{NO}, \\ce{I2} \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
@@ -73,16 +73,16 @@
         "level": "medium",
         "question": "Which of the following compounds is polar?",
         "options": [
-          "\\( C_8H_{18} \\)",
-          "\\( BF_3 \\)",
-          "\\( PCl_3 \\)",
-          "\\( SF_6 \\)"
+          "\\( \\ce{C8H18} \\)",
+          "\\( \\ce{BF3} \\)",
+          "\\( \\ce{PCl3} \\)",
+          "\\( \\ce{SF6} \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
         "correct": "C",
         "hint": "Think about the geometries of the compounds. Which of the compounds is symmetric?",
-        "detailed": "First of all, \\( C_8H_{18} \\) is non-polar because C-H bonds are considered non-polar, due to their small electronegatvity difference. \\( BF_3 \\) has a symmetric trigonal structure (3 bonds and no lone pair), so the net dipole moment is 0. Similarly, \\( SF_6 \\) has a symmetric octahedric structure. We're left with \\( PCl_3 \\) which, because of the lone pair on P, isn't symmetric and the net dipole moment adds up to be a non-zero value."
+        "detailed": "First of all, \\( \\ce{C8H18} \\) is non-polar because C-H bonds are considered non-polar, due to their small electronegatvity difference. \\( \\ce{BF3} \\) has a symmetric trigonal structure (3 bonds and no lone pair), so the net dipole moment is 0. Similarly, \\( \\ce{SF6} \\) has a symmetric octahedric structure. We're left with \\( \\ce{PCl3} \\) which, because of the lone pair on P, isn't symmetric and the net dipole moment adds up to be a non-zero value."
       },
       {
         "author": "Alex Jicu",
@@ -114,7 +114,7 @@
         "solutionImages": [],
         "correct": "A",
         "hint": "The problem isn't very complicated, dipole moments are just vectors.",
-        "detailed": "The net dipole moment of water is \\( \\vec{\\mu} = \\vec{\\mu_{OH, 1}} + \\vec{\\mu_{OH, 2}}\\). The lengths of the two dipole moments vectors is \\( |\\vec{\\mu_{OH, 1}}| = |\\vec{\\mu_{OH, 2}}| = \\mu_{OH} = 1.5D\\). The value of the sum of these vectors is \\( \\mu = \\sqrt{1.5^2 + 1.5^2 + 2\\cdot 1.5^2\\cdot \\cos (104.5^\\circ)} \\approx 1.8D \\)"
+        "detailed": "The net dipole moment of water is \\( \\vec{\\mu} = \\vec{\\mu_{OH, 1}} + \\vec{\\mu_{OH, 2}}\\). The lengths of the two dipole moments vectors is \\( |\\vec{\\mu_{OH, 1}}| = |\\vec{\\mu_{OH, 2}}| = \\mu_{OH} = 1.5 \\; \\text{D}\\). The value of the sum of these vectors is \\( \\mu = \\sqrt{1.5^2 + 1.5^2 + 2\\cdot 1.5^2\\cdot \\cos (104.5^\\circ)} \\approx 1.8 \\; \\text{D} \\)"
       },
       {
         "author": "Alex Jicu",
@@ -135,7 +135,7 @@
       {
         "author": "Alex Jicu",
         "level": "hard",
-        "question": "You may consider the C-H bonds non-polar. It is known that the dipole moment of \\( CH_3Cl \\) is approximately 1.6D, the dipole moment of the \\( COCl_2 \\) molecule is approximately 0.7D towards the oxygen atom. \\( COCl_2 \\) is a trigonal planar compound, with the C atom at the center of an equilateral triangle and the Cl and O atoms in the vertices. Due to symmetry, carbon dioxide is non-polar. If a carbon dioxide molecule were bent, such that the O-C-O angle became \\( 170^\\circ \\), what would be its dipole moment?",
+        "question": "You may consider the C-H bonds non-polar. It is known that the dipole moment of \\( \\ce{CH3Cl} \\) is approximately 1.6 D, the dipole moment of the \\( \\ce{COCl2} \\) molecule is approximately 0.7D towards the oxygen atom. \\( \\ce{COCl2} \\) is a trigonal planar compound, with the C atom at the center of an equilateral triangle and the Cl and O atoms in the vertices. Due to symmetry, carbon dioxide is non-polar. If a carbon dioxide molecule were bent, such that the O-C-O angle became \\( 170^\\circ \\), what would be its dipole moment?",
         "options": [
           "0.14D",
           "0.40D",
@@ -146,7 +146,7 @@
         "solutionImages": [],
         "correct": "B",
         "hint": "Work step by step to find the required dipole moments. Think about what you know and what you need to know.",
-        "detailed": "Since we were told C-H bonds are non-polar, the dipole moment \\( CH_3Cl \\) is equal to that of the C-Cl bond, so the dipole moment of the C-Cl bond is 1.6D. For the \\( COCl_2 \\) molecule, the Cl-C-Cl angle is \\( 120^\\circ \\) and the net dipole moment of the two C-Cl bonds can be found to be 1.6D. Since the net dipole moment is 0.7D, towards O, the dipole moment of the C=O bond is 0.7 + 1.6 = 2.3D. Now, the dipole moment of the bent carbon dioxide molecule can be calculated just by using the cosine theorem \\( \\mu = 2.3\\cdot\\sqrt{2(1+\\cos 170^\\circ} = 0.40D \\)"
+        "detailed": "Since we were told C-H bonds are non-polar, the dipole moment \\( \\ce{CH3Cl} \\) is equal to that of the C-Cl bond, so the dipole moment of the C-Cl bond is 1.6D. For the \\( \\ce{COCl2} \\) molecule, the Cl-C-Cl angle is \\( 120^\\circ \\) and the net dipole moment of the two C-Cl bonds can be found to be 1.6D. Since the net dipole moment is 0.7D, towards O, the dipole moment of the C=O bond is 0.7 + 1.6 = 2.3D. Now, the dipole moment of the bent carbon dioxide molecule can be calculated just by using the cosine theorem \\( \\mu = 2.3\\cdot\\sqrt{2(1+\\cos 170^\\circ)} = 0.40D \\)"
       }
     ]
   }
