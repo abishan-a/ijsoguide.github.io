@@ -24,7 +24,7 @@
     },
     {
       "level": "easy",
-      "question": "What chemical element has the \\(1s^22s^22p^63s^23p^1\\) electron configuration?",
+      "question": "What chemical element has the \\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^1\\) electron configuration?",
       "options": [
         "Chlorine (Z = 17)",
         "Sodium (Z = 11)",
@@ -44,10 +44,10 @@
       "level": "easy",
       "question": "What is the correct electronic configuration for bromine (Z = 35)?",
       "options": [
-        "\\(1s^22s^22p^63s^23p^64s^23d^{10}4p^2\\)",
-        "\\(1s^22s^22p^63s^23p^64s^23d^94p^6\\)",
-        "\\(1s^22s^22p^63s^23p^64s^24p^5\\)",
-        "\\(1s^22s^22p^63s^23p^64s^23d^{10}4p^5\\)"
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2 \\; 3 \\text{d}^{10} \\; 4 \\text{p}^2\\)",
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2 \\; 3 \\text{d}^9 \\; 4 \\text{p}^6\\)",
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2 \\; 4 \\text{p}^5\\)",
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2 \\; 3 \\text{d}^{10} \\; 4 \\text{p}^5\\)"
       ],
       "questionImages": [
       ],
@@ -60,7 +60,7 @@
     },
     {
       "level": "easy",
-      "question": "A monovalent anion has the electronic configuration \\(1s^22s^22p^63s^23p^6\\). What chemical element does it correspond to?",
+      "question": "A monovalent anion has the electronic configuration \\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6\\). What chemical element does it correspond to?",
       "options": [
         "Sulfur (Z = 16)",
         "Potassium (Z = 19)",
@@ -78,12 +78,12 @@
     },
     {
       "level": "easy",
-      "question": "What is the correct electronic configuration for the Ca2+ cation? (Atomic number of calcium: 20)",
+      "question": "What is the correct electronic configuration for the \\(\\ce{Ca}^{2+}\\) cation? (Atomic number of calcium: 20)",
       "options": [
-        "\\(1s^22s^22p^63s^23p^64s^2\\)",
-        "\\(1s^22s^22p^63s^23p^64s^23d^2\\)",
-        "\\(1s^22s^22p^63s^23p^6\\)",
-        "\\(1s^22s^22p^63s^23p^64s^1\\)"
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2\\)",
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2 \\; 3 \\text{d}^2\\)",
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6\\)",
+        "\\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^1\\)"
       ],
       "questionImages": [
       ],
@@ -91,12 +91,12 @@
       ],
       "correct": "C",
       "hint": "What should change in the electronic distribution when the atom is charged?",
-      "detailed": "The distribution for neutral calcium atoms is \\(1s^22s^22p^63s^23p^64s^2\\). But, because it has a +2 charge, 2 of its electrons should be removed, and you should remove the 2 outermost electrons. Those happen to be the two electrons of the 4s subshell, so the final configuration must be \\(1s^22s^22p^63s^23p^6\\).",
+      "detailed": "The distribution for neutral calcium atoms is \\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6 \\; 4 \\text{s}^2\\). But, because it has a +2 charge, 2 of its electrons should be removed, and you should remove the 2 outermost electrons. Those happen to be the two electrons of the 4s subshell, so the final configuration must be \\(1 \\text{s}^2 \\; 2 \\text{s}^2 \\; 2 \\text{p}^6 \\; 3 \\text{s}^2 \\; 3 \\text{p}^6\\).",
       "author": "Jailson Godeiro"
     },
     {
       "level": "easy",
-      "question": "Lead is an element from the p-block of the periodic table, meaning a p subshell is currently being filled. Indeed, it's the 6p subshell of lead that's being filled, and has 4 electrons (\\(6p^4\\)). Which figure correctly shows how the electrons are distributed in the 6p orbital of lead?",
+      "question": "Lead is an element from the p-block of the periodic table, meaning a p subshell is currently being filled. Indeed, it's the 6p subshell of lead that's being filled, and has 4 electrons (\\(6 \\text{p}^4\\)). Which figure correctly shows how the electrons are distributed in the 6p orbital of lead?",
       "options": [
         "Figure 1",
         "Figure 2",
