@@ -74,7 +74,7 @@
       ],
       "correct": "B",
       "hint": "The charge of a proton is +e and the charge of an electron is -e. Pay attention to the signs!",
-      "detailed": "\\(U = k\\frac{q_{\\text{proton}}q_{\\text{electron}}}{a}\\) = k\\frac{-e^2}{a}=-k\\frac{e^2}{a} = -4.61\\times 10^{-18}J",
+      "detailed": "\\(U = k\\frac{q_{\\text{proton}} \\; q_{\\text{electron}}}{a} = k\\frac{-e^2}{a}=-k\\frac{e^2}{a} = -4.61\\times 10^{-18}J\\)",
       "author": "Alex Jicu"
     },
     {
@@ -96,5 +96,4 @@
       "author": "Alex Jicu"
     }
   ]
-
 }
