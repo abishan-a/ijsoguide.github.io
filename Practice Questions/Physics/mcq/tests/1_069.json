@@ -17,7 +17,7 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "A",
-        "hint": "Heat ∝ square of current × resistance × time.",
+        "hint": "Joule's law formula",
         "detailed": "Joule’s Law states \\(Q = I^2 R t\\), where \\(Q\\) is heat energy, \\(I\\) is current through resistor, \\(R\\) is resistance, and \\(t\\) is time."
       },
       {
@@ -65,7 +65,7 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "D",
-        "hint": "Heat is directly proportional to \\(R\\).",
+        "hint": "Heat is directly proportional to I, R and t.",
         "detailed": "According to \\(Q = I^2 R t\\), increasing current, resistance, or time increases heat. Decreasing resistance decreases heat."
       },
       {
