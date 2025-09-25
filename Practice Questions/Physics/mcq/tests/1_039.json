@@ -69,39 +69,4 @@
         "detailed": "A plane mirror always produces a virtual, upright image that is the same size as the object, with image distance equal to object distance behind the mirror."
       }
     ]
-  }        "detailed": "In a concave mirror, when the object is at the centre of curvature (C), the image is also at C, is the same size as the object, and inverted and real."
-      },
-      {
-        "author": "Thenura Wickramaratna",
-        "level": "easy",
-        "question": "What happens to focal length (f) if the radius of curvature (R) of a spherical mirror is doubled?",
-        "options": [
-          "f remains the same",
-          "f doubles",
-          "f halves",
-          "f becomes negative"
-        ],
-        "questionImages": [],
-        "solutionImages": [],
-        "correct": "B",
-        "hint": "Relation between focal length and radius of curvature for a spherical mirror: \\(f = \\frac{R}{2}\\).",
-        "detailed": "For a spherical mirror, \\(f = \\frac{R}{2}\\). So if radius of curvature R is doubled, focal length f also doubles."
-      },
-      {
-        "author": "Thenura Wickramaratna",
-        "level": "easy",
-        "question": "A plane mirror creates which type of image?",
-        "options": [
-          "Real, inverted, same size",
-          "Virtual, upright, same size",
-          "Virtual, inverted, smaller than object",
-          "Real, upright, enlarged"
-        ],
-        "questionImages": [],
-        "solutionImages": [],
-        "correct": "B",
-        "hint": "Plane mirror doesn’t converge rays, just reflects symmetrically.",
-        "detailed": "A plane mirror always produces a virtual, upright image that is the same size as the object, with image distance equal to object distance behind the mirror."
-      }
-    ]
   }
