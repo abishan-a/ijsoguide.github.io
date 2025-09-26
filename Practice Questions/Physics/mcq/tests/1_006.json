@@ -1,0 +1,88 @@
+{
+  "subject": "physics",
+  "unit": "mechanics",
+  "title": "Newton's Laws MCQ Problems",
+  "test_id": "1_006",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "A small cleaning robot accelerates at 2.5 \\(\\text{m/s}^2\\) when a motor provides a forward force of 25 N. What is the mass of the robot?",
+      "options": [
+        "5 kg",
+        "10 kg",
+        "12.5 kg",
+        "15 kg"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Use Newton’s second law.",
+      "detailed": "We know \\(F = ma\\). Rearranging: \\(m = \\frac{F}{a} = \\frac{25}{2.5} = 10\\,\\text{kg}\\).",
+      "author": "Filip Kilibarda"
+    },
+    {
+      "level": "easy",
+      "question": "While practicing in the pool, a swimmer pushes water directly backwards with a force of 40 N. According to Newton’s third law, what force does the water exert on the swimmer? Give magnitude and direction.",
+      "options": [
+        "40 N backward",
+        "40 N forward",
+        "20 N forward",
+        "0 N (no reaction)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Newton’s third law: every action has an equal and opposite reaction.",
+      "detailed": "The swimmer pushes water backward with 40 N. The water pushes the swimmer forward with an equal 40 N. Hence the answer is 40 N forward.",
+      "author": "Filip Kilibarda"
+    },
+    {
+      "level": "easy",
+      "question": "An observer is looking at a man at a bus station. The man is accelerating at 1 \\(\\text{m/s}^2\\), but the observer says he (the observer) feels 0 N. Which statement best explains this?",
+      "options": [
+        "The observer is not the one accelerating, so the observer feels no net force (0 N).",
+        "The man has zero mass, so there is no force on either of them.",
+        "If acceleration is small (1 \\(\\text{m/s}^2\\)) the force is negligible and counted as 0 N.",
+        "Newton’s second law only applies to objects in free fall, so it does not apply here."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Forces act on the object that is accelerating, not on someone watching it.",
+      "detailed": "The observer is not accelerating. According to Newton’s second law, \\(F = ma\\). Since \\(a = 0\\) for the observer, \\(F = 0\\).",
+      "author": "Filip Kilibarda"
+    },
+    {
+      "level": "easy",
+      "question": "A 20 N force is applied horizontally to push a 4 kg box on a frictionless surface. What is the acceleration of the box?",
+      "options": [
+        "2.0 \\(\\text{m/s}^2\\)",
+        "4.0 \\(\\text{m/s}^2\\)",
+        "5.0 \\(\\text{m/s}^2\\)",
+        "10.0 \\(\\text{m/s}^2\\)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Apply Newton’s second law: \\(F = ma \\implies a = F/m\\).",
+      "detailed": "Given \\(F = 20\\,\\text{N}\\) and \\(m = 4\\,\\text{kg}\\). Using \\(a = F/m = 20/4 = 5.0\\,\\text{m/s}^2\\).",
+      "author": "Filip Kilibarda"
+    },
+    {
+      "level": "medium",
+      "question": "A 67 kg man stands on a scale inside an elevator that is accelerating upward at 2.0 \\(\\text{m/s}^2\\). What reading (apparent weight, in newtons) will the scale show? (Use \\(g = 9.8\\, \\text{m/s}^2\\))",
+      "options": [
+        "657.6 N",
+        "686.0 N",
+        "790.6 N",
+        "823.4 N"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "The scale shows the normal force, which equals \\(mg + ma\\) if the elevator accelerates upward.",
+      "detailed": "Apparent weight = Normal force = \\(m(g+a) = 67(9.8+2.0) = 67(11.8) = 790.6\\,\\text{N}\\).",
+      "author": "Filip Kilibarda"
+    }
+  ]
+}
