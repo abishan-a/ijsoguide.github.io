@@ -9,10 +9,10 @@
         "level": "easy",
         "question": "In the reaction \\(\\ce{2H2 + 2NO \\rightarrow N2 + 2H2O}\\), the partial reaction order of hydrogen is 1 and that of nitrogen monoxide is 2. What is the correct rate law?",
         "options": [
-          "\\( v = [H_2][NO]^2 \\)",
-          "\\( v = k[H_2]^2[NO] \\)",
-          "\\( v = k[H_2][NO]^2 \\)",
-          "\\( v = k[H_2][NO] \\)"
+          "\\( v = [\\ce{H2}][\\ce{NO}]^2 \\)",
+          "\\( v = k[\\ce{H2}]^2[\\ce{NO}] \\)",
+          "\\( v = k[\\ce{H2}][\\ce{NO}]^2 \\)",
+          "\\( v = k[\\ce{H2}][\\ce{NO}] \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
@@ -34,28 +34,28 @@
         "solutionImages": [],
         "correct": "D",
         "hint": "Write down a general rate law",
-        "detailed": "If the rate doesn’t change when the potassium hydroxide concentration changes, that can only mean the potassium hydroxide concentration doesn’t appear in the rate law. However, because it is a reactant, the term \\( [KOH]^n \\) should appear. Because, still, [KOH] doesn’t appear, we can only deduce that the partial reaction order is n = 0"
+        "detailed": "If the rate doesn’t change when the potassium hydroxide concentration changes, that can only mean the potassium hydroxide concentration doesn’t appear in the rate law. However, because it is a reactant, the term \\( [\\ce{KOH}]^n \\) should appear. Because, still, [KOH] doesn’t appear, we can only deduce that the partial reaction order is n = 0"
       },
       {
         "author": "Alex Jicu",
         "level": "easy",
         "question": "What is the rate constant unit for a second order reaction?",
         "options": [
-          "\\( s^{-1}×mol^2×L^{-2} \\)",
-          "\\( s^{-1}×mol^{-2}×L^2 \\)",
-          "\\( s^{-1}×mol^{-1}×L \\)",
-          "\\( s^{-1}×mol×L^{-1} \\)"
+          "\\( \\text{s}^{-1} \\times \\text{mol}^2 \\times \\text{L}^{-2} \\)",
+          "\\( \\text{s}^{-1} \\times \\text{mol}^{-2} \\times \\text{L}^2 \\)",
+          "\\( \\text{s}^{-1} \\times \\text{mol}^{-1} \\times \\text{L} \\)",
+          "\\( \\text{s}^{-1} \\times \\text{mol} \\times \\text{L}^{-1} \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
         "correct": "C",
         "hint": "Write the rate law and substitute the known units",
-        "detailed": "The rate law is . Denoting the unit of k with {k} , we can write the following equation: \\( mol\\cdot L^{-1} s^{-1} = {k}\\cdot mol^2L^{-2}\\) . From this, we easily get \\( {k} = s^{-1}mol^{-1}L \\)"
+        "detailed": "The rate law is . Denoting the unit of k with {k} , we can write the following equation: \\( \\text{mol} \\cdot \\text{L}^{-1} \\; \\text{s}^{-1} = {k} \\cdot \\text{mol}^2 \\; \\text{L}^{-2}\\) . From this, we easily get \\( \\text{k} = \\text{s}^{-1} \\; \\text{mol}^{-1} \\; \\text{L} \\)"
       },
       {
         "author": "Alex Jicu",
         "level": "easy",
-        "question": "Consider the reaction 2NO(g) + Cl2(g) = 2NOCl. The rate of formation of NOCl is given by: <br> \\( v = \\frac{\\Delta [NOCl]}{\\Delta t} = k\\cdot [NO]^2[Cl_2] \\) <br>What is the total reaction order?",
+        "question": "Consider the reaction \\(\\ce{2NO(g) + Cl2(g) = 2NOCl}\\). The rate of formation of \\(\\ce{NOCl}\\) is given by: <br> \\( v = \\frac{\\Delta [\\ce{NOCl}]}{\\Delta t} = k\\cdot [\\ce{NO}]^2[\\ce{Cl2}] \\) <br>What is the total reaction order?",
         "options": [
           "1",
           "2",
@@ -71,7 +71,7 @@
       {
         "author": "Alex Jicu",
         "level": "easy",
-        "question": "Methyl bromide reacts with hydroxides, to produces methanol and the bromide anion, according to the reaction:<br>\\( CH_3Br + HO^- \\rightarrow CH_3OH + Br^- \\)<br>Partial reaction orders are all equal to 1 and the numerical value of the rate constant is \\( k = 1.6\\times 10^{-4} \\)<br>When \\( [CH_3Br] = 0.05M, [HO^-] = 0.01M, [CH_3OH] = 0.1M, [Br^-] = 0.05M\\), the reaction rate is equal to:",
+        "question": "Methyl bromide reacts with hydroxides, to produces methanol and the bromide anion, according to the reaction:<br>\\( \\ce{CH3Br + HO^- -> CH3OH + Br^-} \\)<br>Partial reaction orders are all equal to 1 and the numerical value of the rate constant is \\( k = 1.6\\times 10^{-4} \\)<br>When \\( [\\ce{CH3Br}] = 0.05 \\text{M}, [\\ce{HO}^-] = 0.01 \\text{M}, [\\ce{CH3OH}] = 0.1 \\text{M}, [\\ce{Br}^-] = 0.05 \\text{M}\\), the reaction rate is equal to:",
         "options": [
           "\\( 8\\times 10^{-8} \\)",
           "\\( 4\\times 10^{-10} \\)",
@@ -82,12 +82,12 @@
         "solutionImages": [],
         "correct": "A",
         "hint": "Think about what species appear in the rate law",
-        "detailed": "The reaction rate only depends on the concentrations of the reactants. Knowing all the partial reaction orders are equal to unity, the rate law is \\( v = k[CH_3Br][HO^-] \\). Substituting values, we get \\( v = 8\\times 10^{-8} \\)"
+        "detailed": "The reaction rate only depends on the concentrations of the reactants. Knowing all the partial reaction orders are equal to unity, the rate law is \\( v = k[\\ce{CH3Br}][\\ce{HO}^-] \\). Substituting values, we get \\( v = 8\\times 10^{-8} \\)"
       },
       {
         "author": "Alex Jicu",
         "level": "medium",
-        "question": "Ethyl iodide decomposes when heated at 600K, according to the chemical reaction \\( CH_3CH_2I \\rightarrow CH_2CH_2 + HI \\). At \\([CH_3CH_2I] = 0.1M, v = 10^{-7}\\), and at \\([CH3CH2I] = 0.05M, v = 2.5\\times 10^{-8}\\). Find the reaction order:",
+        "question": "Ethyl iodide decomposes when heated at 600K, according to the chemical reaction \\( \\ce{CH3CH2I -> CH2CH2 + HI} \\). At \\([\\ce{CH3CH2I}] = 0.1 \\text{M}, v = 10^{-7}\\), and at \\([\\ce{CH3CH2I}] = 0.05M, v = 2.5\\times 10^{-8}\\). Find the reaction order:",
         "options": [
           "1",
           "2",
@@ -98,43 +98,44 @@
         "solutionImages": [],
         "correct": "B",
         "hint": "Write the general rate law",
-        "detailed": "\\(v = k[CH_3CH_2I]^n\\). Using \\(c = [CH_3CH_2I] \\)to make notations simpler, we can write the rate laws \\(v_1 = kc_1^n\\) and \\(v_2 = kc_2^n\\). Dividing the two, \\(\\frac{v_1}{v_2} = (\\frac{c_1}{c_2})^n\\). Taking the log of both sides and using \\(log(a^x) = x log(a)\\), we get \\(log(\\frac{v_1}{v_2}) = n\\cdot log(\\frac{c_1}{c_2})\\), from which \\(n = \\frac{log(v_1/v_2)}{log(c_1/c_2)} = 2\\)"
+        "detailed": "\\(v = k[\\ce{CH3CH2I}]^n\\). Using \\(c = [\\ce{CH3CH2I}] \\)to make notations simpler, we can write the rate laws \\(v_1 = kc_1^n\\) and \\(v_2 = kc_2^n\\). Dividing the two, \\(\\frac{v_1}{v_2} = (\\frac{c_1}{c_2})^n\\). Taking the log of both sides and using \\(log(a^x) = x log(a)\\), we get \\(log(\\frac{v_1}{v_2}) = n\\cdot log(\\frac{c_1}{c_2})\\), from which \\(n = \\frac{log(v_1/v_2)}{log(c_1/c_2)} = 2\\)"
       },
       {
         "author": "Alex Jicu",
         "level": "medium",
-        "question": "Nitrogen pentoxide decomposes according to \\(N_2O_5\\rightarrow 2NO_2 + \\frac{1}{2} O_2\\). The rate constant’s numerical value is \\(3\\times 10^{-3}\\) and when \\([N_2O_5]=0.025M, v = 7.5\\times 10^{-5}\\). What is the unit of the rate constant?",
+        "question": "Nitrogen pentoxide decomposes according to \\(\\ce{N2O5 -> 2NO2 + \\frac{1}{2} O2}\\). The rate constant’s numerical value is \\(3\\times 10^{-3}\\) and when \\([\\ce{N2O5}]=0.025 \\text{M}, v = 7.5\\times 10^{-5}\\). What is the unit of the rate constant?",
         "options": [
-          "\\( s^{-1}mol\\cdot L^{-1} \\)",
-          "\\( s^{-1} \\)",
-          "\\( s^{-1}mol^{-1}L \\)",
-          "\\( s\\cdot mol^{-1}L \\)"
+          "\\( \\text{s}^{-1} \\; \\text{mol}\\cdot \\text{L}^{-1} \\)",
+          "\\( \\text{s}^{-1} \\)",
+          "\\( \\text{s}^{-1} \\; \\text{mol}^{-1} \\text{L} \\)",
+          "\\( \\text{s} \\cdot \\text{mol}^{-1} \\; \\text{L} \\)"
         ],
         "questionImages": [],
         "solutionImages": [],
         "correct": "B",
         "hint": "Find the reaction order",
-        "detailed": "The rate law is \\(v = k[N_2O_5]^n\\), from which \\(n = \\frac{log(v/k)}{log([N2O5])}\\) = 1. For a first order reaction, writing the units in the rate law, it can be shown that the unit of k is \\(s^{-1}\\)"
+        "detailed": "The rate law is \\(v = k[\\ce{N2O5}]^n\\), from which \\(n = \\frac{log(v/k)}{log([\\ce{N2O5}])}\\) = 1. For a first order reaction, writing the units in the rate law, it can be shown that the unit of k is \\(\\text{s}^{-1}\\)"
       },
       {
         "author": "Alex Jicu",
         "level": "medium",
-        "question": "Ethyl bromide reacts with sodium hydroxide, forming ethanol and sodium bromide. The reaction is \\(CH_3CH_2Br + NaOH \\rightarrow CH_3CH_2OH + NaBr\\). Some amounts of ethyl bromide and sodium hydroxide are dissolved in 500mL dimethylformamide (DMF – a solvent) and the reaction rate is measured to be v. If the same amounts were dissolved in 1L of DMF, the rate would be v/4. What is the total reaction order?",
+        "question": "Ethyl bromide reacts with sodium hydroxide, forming ethanol and sodium bromide. The reaction is \\(\\ce{CH3CH2Br + NaOH -> CH3CH2OH + NaBr}\\). Some amounts of ethyl bromide and sodium hydroxide are dissolved in 500mL dimethylformamide (DMF – a solvent) and the reaction rate is measured to be v. If the same amounts were dissolved in 1L of DMF, the rate would be v/4. What is the total reaction order?",
         "options": [
           "1",
           "2",
-          "4"
+          "4",
+          "6"
         ],
         "questionImages": [],
         "solutionImages": [],
         "correct": "C",
         "hint": "Write the rate law and see what changes when the volume of DMF changes.",
-        "detailed": "– Let m and n be the partial reaction rates. When the volume of DMF doubles, both concentrations are halved. \\(\\frac{v}{4} = k(\\frac{[CH_3CH_2Br]}{2})^m (\\frac{[NaOH]}{2})^n = \\frac{k[CH_3CH_2Br]^m[NaOH]^n}{2^{m+n}} = \\frac{v}{2^{m+n}}\\). From this, \\(2^{m+n} = 4\\), so \\(m+n=2\\). But \\(m+n\\) is exactly the total reaction order, so the answer is 2."
+        "detailed": "– Let m and n be the partial reaction rates. When the volume of DMF doubles, both concentrations are halved. \\(\\frac{v}{4} = k(\\frac{[\\ce{CH3CH2Br}]}{2})^m \\; (\\frac{[\\ce{NaOH}]}{2})^n = \\frac{k[\\ce{CH3CH2Br}]^m \\; [\\ce{NaOH}]^n}{2^{m+n}} = \\frac{v}{2^{m+n}}\\). From this, \\(2^{m+n} = 4\\), so \\(m+n=2\\). But \\(m+n\\) is exactly the total reaction order, so the answer is 2."
       },
       {
         "author": "Alex Jicu",
         "level": "medium",
-        "question": "For the reaction \\(H_2 + Br_2 \\rightarrow 2HBr\\), the total reaction order is known to be 1.5. If the mass of bromine present doubles, the reaction rate increases by 41%. What is the partial order with respect to hydrogen?",
+        "question": "For the reaction \\(\\ce{H2 + Br2 -> 2HBr}\\), the total reaction order is known to be 1.5. If the mass of bromine present doubles, the reaction rate increases by 41%. What is the partial order with respect to hydrogen?",
         "options": [
           "0.5",
           "1",
@@ -150,7 +151,7 @@
       {
         "author": "Alex Jicu",
         "level": "hard",
-        "question": "\\(NO\\) combines with \\(O_2\\) to give \\(NO_2\\), according to \\(2NO + O_2 \\rightarrow 2NO_2\\). You are given three sets of data (the rate law and the concentrations of the reactants for each set). The three sets of data are:<ul><li>\\(v_1 = 6.31\\times 10^11, [NO]_1=0.1M, [O_2]_1=0.1M\\)</li><li>\\(v_2 = 4.47\\times 10^11, [NO]_2=0.1M, [O_2]_2=0.05M\\)</li><li>\\(v_3 = 2.53\\times 10^10, [NO]_3=0.02M, [O_2]_3=0.1M\\)</li></ul>. Using the data, find the total rate order.",
+        "question": "\\(\\ce{NO}\\) combines with \\(\\ce{O2}\\) to give \\(\\ce{NO2}\\), according to \\(\\ce{2NO + O2 -> 2NO2}\\). You are given three sets of data (the rate law and the concentrations of the reactants for each set). The three sets of data are:<ul><li>\\(v_1 = 6.31\\times 10^{11}, [\\ce{NO}]_1=0.1 \\text{M}, [\\ce{O2}]_1=0.1 \\text{M}\\)</li><li>\\(v_2 = 4.47\\times 10^{11}, [\\ce{NO}]_2=0.1 \\text{M}, [\\ce{O2}]_2=0.05 \\text{M}\\)</li><li>\\(v_3 = 2.53\\times 10^{10}, [\\ce{NO}]_3=0.02 \\text{M}, [\\ce{O2}]_3=0.1 \\text{M}\\)</li></ul>. Using the data, find the total rate order.",
         "options": [
           "1",
           "1.5",
