@@ -87,7 +87,7 @@
       {
         "author": "Alex Jicu",
         "level": "easy",
-        "question": "\\(\\beta\\)-carotene is an important pigment found in many plants such as carrots. It gives carrots their distinct orange color. Approximately, at what wavelength does \\(\\beta\\)-carotene absorb the most light? You can use the visible light spectrum given <br>(source: https://www.livingoptics.com/technology/).",
+        "question": "\\(\\beta\\)-carotene is an important pigment found in many plants such as carrots. It gives carrots their distinct orange color. Approximately, at what wavelength does \\(\\beta\\)-carotene absorb the most light? You can use the visible light spectrum given <br>(source: <a href= \"https://www.livingoptics.com/technology/\"> Living Optics </a>).",
         "options": [
           "475nm",
           "550nm",
