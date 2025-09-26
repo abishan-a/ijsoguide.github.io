@@ -81,8 +81,8 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "B",
-        "hint": "In basic solution, \\([OH^-]\\) is high so \\([H^+]\\) is low.",
-        "detailed": "The equilibrium of the indicator is \\(\\ce{HIn <=> H+ + In^-}\\). In basic solution, \\([H^+]\\) is reduced because \\(\\ce{OH^-}\\) neutralizes it, so the equilibrium shifts to the right, producing more \\(\\ce{In^-}\\). Therefore, the dissociated form predominates and its color is observed."
+        "hint": "In basic solution, \\([\\ce{OH}^-]\\) is high so \\([\\ce{H}^+]\\) is low.",
+        "detailed": "The equilibrium of the indicator is \\(\\ce{HIn <=> H+ + In^-}\\). In basic solution, \\([\\ce{H}^+]\\) is reduced because \\(\\ce{OH^-}\\) neutralizes it, so the equilibrium shifts to the right, producing more \\(\\ce{In^-}\\). Therefore, the dissociated form predominates and its color is observed."
       }
     ]
   }
