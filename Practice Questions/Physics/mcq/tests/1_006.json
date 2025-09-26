@@ -6,7 +6,7 @@
   "problems": [
     {
       "level": "easy",
-      "question": "A small cleaning robot accelerates at 2.5 \\(\\text{m/s}^2\\) when a motor provides a forward force of 25 N. What is the mass of the robot?",
+      "question": "A small cleaning robot accelerates at 2.5 \\(\\text{ms}^{-2}\\) when a motor provides a forward force of 25 N. What is the mass of the robot?",
       "options": [
         "5 kg",
         "10 kg",
@@ -38,11 +38,11 @@
     },
     {
       "level": "easy",
-      "question": "An observer is looking at a man at a bus station. The man is accelerating at 1 \\(\\text{m/s}^2\\), but the observer says he (the observer) feels 0 N. Which statement best explains this?",
+      "question": "An observer is looking at a man at a bus station. The man is accelerating at 1 \\(\\text{ms}^{-2}\\), but the observer says he (the observer) feels 0 N. Which statement best explains this?",
       "options": [
         "The observer is not the one accelerating, so the observer feels no net force (0 N).",
         "The man has zero mass, so there is no force on either of them.",
-        "If acceleration is small (1 \\(\\text{m/s}^2\\)) the force is negligible and counted as 0 N.",
+        "If acceleration is small (1 \\(\\text{ms}^{-2}\\)) the force is negligible and counted as 0 N.",
         "Newton’s second law only applies to objects in free fall, so it does not apply here."
       ],
       "questionImages": [],
@@ -56,21 +56,21 @@
       "level": "easy",
       "question": "A 20 N force is applied horizontally to push a 4 kg box on a frictionless surface. What is the acceleration of the box?",
       "options": [
-        "2.0 \\(\\text{m/s}^2\\)",
-        "4.0 \\(\\text{m/s}^2\\)",
-        "5.0 \\(\\text{m/s}^2\\)",
-        "10.0 \\(\\text{m/s}^2\\)"
+        "2.0 \\(\\text{ms}^{-2}\\)",
+        "4.0 \\(\\text{ms}^{-2}\\)",
+        "5.0 \\(\\text{ms}^{-2}\\)",
+        "10.0 \\(\\text{ms}^{-2}\\)"
       ],
       "questionImages": [],
       "solutionImages": [],
       "correct": "C",
-      "hint": "Apply Newton’s second law: \\(F = ma \\implies a = F/m\\).",
-      "detailed": "Given \\(F = 20\\,\\text{N}\\) and \\(m = 4\\,\\text{kg}\\). Using \\(a = F/m = 20/4 = 5.0\\,\\text{m/s}^2\\).",
+      "hint": "Apply Newton’s second law: \\(F = ma \\implies a = \\frac{F}{m}\\).",
+      "detailed": "Given \\(F = 20\\,\\text{N}\\) and \\(m = 4\\,\\text{kg}\\). Using \\(a = \\frac{F}{m} = \\frac{20}{4} = 5.0\\,\\text{ms}^{-2}\\).",
       "author": "Filip Kilibarda"
     },
     {
       "level": "medium",
-      "question": "A 67 kg man stands on a scale inside an elevator that is accelerating upward at 2.0 \\(\\text{m/s}^2\\). What reading (apparent weight, in newtons) will the scale show? (Use \\(g = 9.8\\, \\text{m/s}^2\\))",
+      "question": "A 67 kg man stands on a scale inside an elevator that is accelerating upward at 2.0 \\(\\text{ms}^{-2}\\). What reading (apparent weight, in newtons) will the scale show? (Use \\(g = 9.8\\, \\text{ms}^{-2}\\))",
       "options": [
         "657.6 N",
         "686.0 N",
