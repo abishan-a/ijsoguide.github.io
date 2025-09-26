@@ -39,9 +39,9 @@
       {
         "author": "Thenura Wickramaratna",
         "level": "easy",
-        "question": "Which acid forms when SO₃ reacts with water in the atmosphere?",
+        "question": "Which acid forms when \\(\\ce{SO3}\\) reacts with water in the atmosphere?",
         "options": [
-          "Hydrochloric acid (HCl)",
+          "Hydrochloric acid (\\(\\ce{HCl}\\))",
           "Sulfuric acid (\\(\\ce{H2SO4}\\))",
           "Nitric acid (\\(\\ce{HNO3}\\))",
           "Acetic acid (\\(\\ce{CH3COOH}\\))"
@@ -49,7 +49,7 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "B",
-        "hint": "\\(ce{SO3 + H2O →}\\)?",
+        "hint": "\\(\\ce{SO3 + H2O →}\\)?",
         "detailed": "\\(\\ce{SO3}\\) (sulfur trioxide) reacts with water to form sulfuric acid, \\(\\ce{H2SO4}\\)."
       },
       {
