@@ -69,7 +69,7 @@
       ],
       "correct": "C",
       "hint": "What is another name we use for proteins?",
-      "detailed": "Amino acid are organic compounds with a carboxylic acid group -COOH and and amino group -NH2. When these two groups interact, they form a special bond, which can be represented as -CONH-, known as a peptide bond, hence the name 'polypeptide' which is also used for proteins.",
+      "detailed": "Amino acid are organic compounds with a carboxylic acid group -COOH and and amino group -NH\\(_2\\). When these two groups interact, they form a special bond, which can be represented as -CONH-, known as a peptide bond, hence the name 'polypeptide' which is also used for proteins.",
       "questionImages": [
       ],
       "solutionImages": [
