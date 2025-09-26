@@ -50,7 +50,7 @@
         "solutionImages": [],
         "correct": "C",
         "hint": "Find the molar mass of the empirical formula and compare with the molecular mass.",
-        "detailed": "The molar mass of CH2 = 12 + 2 = 14 g/mol. Divide molecular mass (42) by 14 = 3. So the molecular formula is \\((\\ce{CH2}) \\times 3 = \\ce{C3H6})."
+        "detailed": "The molar mass of \\(\\ce{CH2} = 12 + 2 = 14\\) g/mol. Divide molecular mass (42) by 14 = 3. So the molecular formula is \\((\\ce{CH2}) \\times 3 = \\ce{C3H6}\\)."
       },
       {
         "author": "Thenura Wickramaratna",
