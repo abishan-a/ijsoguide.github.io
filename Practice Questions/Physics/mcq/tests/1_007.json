@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Forces & Friction MCQ Problems",
+    "test_id": "1_007",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "A 10 kg treasure chest sits on a wooden deck. The coefficient of static friction is 0.40 and the coefficient of kinetic friction is 0.38. What is the largest horizontal force you can apply to the chest without making it slide? (Use \\(g=9.8\\,\\text{m/s}^2\\))",
+        "options": [
+          "19.6 N",
+          "29.4 N",
+          "39.2 N",
+          "49.0 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Maximum static friction is \\(f_{s,\\text{max}}=\\mu_s N\\) and \\(N=mg\\) on a horizontal surface.",
+        "detailed": "Normal force: \\(N=mg=10\\times 9.8=98\\,\\text{N}\\). Maximum static friction: \\(f_{s,\\text{max}}=\\mu_s N=0.40\\times 98=39.2\\,\\text{N}\\). So the largest horizontal force without sliding is \\(39.2\\,\\text{N}\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A 20 kg crate is dragged along a floor with a horizontal pull of 60 N. The coefficient of kinetic friction between crate and floor is 0.20. Find (a) the friction force, (b) the net horizontal force, and (c) the acceleration of the crate. Which choice matches all three answers? (Use \\(g=9.8\\,\\text{m/s}^2\\))",
+        "options": [
+          "(a) 19.6 N, (b) 40.4 N, (c) 2.02 \\(\\text{ms}^{-2}\\)",
+          "(a) 39.2 N, (b) 20.8 N, (c) 1.04 \\(\\text{ms}^{-2}\\)",
+          "(a) 49.0 N, (b) 11.0 N, (c) 0.55 \\(\\text{ms}^{-2}\\)",
+          "(a) 29.4 N, (b) 30.6 N, (c) 1.53 \\(\\text{ms}^{-2}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Kinetic friction is \\(f_k=\\mu_k N\\) with \\(N=mg\\); then net force is \\(F_{net}=F_{pull}-f_k\\) and \\(a=\\frac{F_{net}}{m}\\).",
+        "detailed": "Normal: \\(N=mg=20\\times 9.8=196\\,\\text{N}\\). Friction: \\(f_k=\\mu_kN=0.20\\times196=39.2\\,\\text{N}\\). Net: \\(F_{net}=60-39.2=20.8\\,\\text{N}\\). Acceleration: \\(a=\\frac{F_{net}}{m}=\\frac{20.8}{20}=1.04\\,\\text{ms}^{-2}\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A street vendor pulls a 15 kg handcart with a rope that has tension 50 N at 30° above the horizontal. The cart slides and the kinetic friction coefficient is 0.30. Find (a) the normal force on the cart, (b) the kinetic friction force, (c) the horizontal component of the pull, and (d) the cart’s acceleration. Which choice best matches those values? (Use \\(g=9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "(a) 122 N, (b) 36.6 N, (c) 43.3 N, (d) 0.45 \\(\\text{ms}^{-2}\\)",
+          "(a) 147 N, (b) 44.1 N, (c) 50.0 N, (d) 0.75 \\(\\text{ms}^{-2}\\)",
+          "(a) 125 N, (b) 37.5 N, (c) 40.0 N, (d) 0.25 \\(\\text{ms}^{-2}\\)",
+          "(a) 100 N, (b) 30.0 N, (c) 43.3 N, (d) 0.86 \\(\\text{ms}^{-2}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Resolve the tension into components: vertical reduces normal, horizontal drives motion. Use \\(N=mg-T\\sin\\theta\\) and \\(f_k=\\mu_k N\\).",
+        "detailed": "Weight: \\(mg=15\\times9.8=147\\,\\text{N}\\). Vertical tension: \\(T_y=50\\sin30^\\circ=50\\times0.5=25\\,\\text{N}\\) upward. Normal: \\(N=mg-T_y=147-25=122\\,\\text{N}\\). Kinetic friction: \\(f_k=\\mu_kN=0.30\\times122=36.6\\,\\text{N}\\). Horizontal tension: \\(T_x=50\\cos30^\\circ\\approx50\\times0.866=43.3\\,\\text{N}\\). Net horizontal force: \\(F_{net}=T_x-f_k=43.3-36.6=6.7\\,\\text{N}\\). Acceleration: \\(a= \\frac{F_{net}}{m}=\\frac{6.7}{15}\\approx0.45\\,\\text{ms}^{-2}\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A 4 kg block rests on a tabletop and is attached over a frictionless pulley to a 2 kg hanging mass. The surface under the 4 kg block has kinetic friction coefficient 0.15. When released, the hanging mass goes down. What is the acceleration of the system? (Use \\(g=9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "0.98 \\(\\text{ms}^{-2}\\)",
+          "1.47 \\(\\text{ms}^{-2}\\)",
+          "2.29 \\(\\text{ms}^{-2}\\)",
+          "3.27 \\(\\text{ms}^{-2}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Write equations for both masses; friction on the 4 kg is \\(f_k=\\mu_k m_1 g\\). Use \\(a=\\dfrac{m_2 g - f_k}{m_1+m_2}\\).",
+        "detailed": "Let \\(m_1=4\\,\\text{kg}\\) (on table), \\(m_2=2\\,\\text{kg}\\) (hanging). Friction: \\(f_k=\\mu_k m_1 g=0.15\\times4\\times9.8=5.88\\,\\text{N}\\). Using \\(a=\\dfrac{m_2 g - f_k}{m_1+m_2}=\\dfrac{9.8(2)-5.88}{6}=\\dfrac{19.6-5.88}{6}=\\dfrac{13.72}{6}\\approx 2.29\\,\\text{m/s}^2\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A 5 kg toolbox slides at constant speed across a floor where the kinetic friction coefficient is 0.25. What is the kinetic friction force acting on the toolbox? (Use \\(g=9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "9.8 N",
+          "12.25 N",
+          "15.0 N",
+          "19.6 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Kinetic friction: \\(f_k=\\mu_k N\\) and on a horizontal surface \\(N=mg\\).",
+        "detailed": "Normal: \\(N=mg=5\\times9.8=49\\,\\text{N}\\). Kinetic friction: \\(f_k=\\mu_k N=0.25\\times49=12.25\\,\\text{N}\\). Since the toolbox moves at constant speed, the net horizontal force is zero and the friction equals the applied horizontal pull magnitude.",
+        "author": "Filip Kilibarda"
+      }
+    ]
+  }
