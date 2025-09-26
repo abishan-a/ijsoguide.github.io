@@ -82,7 +82,7 @@
         "solutionImages": [],
         "correct": "A",
         "hint": "Compare the required ratio vs actual moles.",
-        "detailed": "Stoichiometric ratio needs 3 moles Fe per 2 moles \\(\\ce{O2}\\). For 4 moles O2, need 6 moles Fe, but there are 9, so Fe is in excess; \\(\\ce{O2}\\) is limiting."
+        "detailed": "Stoichiometric ratio needs 3 moles Fe per 2 moles \\(\\ce{O2}\\). For 4 moles \\(\\ce{O2}\\), need 6 moles Fe, but there are 9, so Fe is in excess; \\(\\ce{O2}\\) is limiting."
       }
     ]
   }
