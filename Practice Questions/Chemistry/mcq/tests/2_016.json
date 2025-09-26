@@ -16,9 +16,9 @@
         ],
         "questionImages": [],
         "solutionImages": [],
-        "correct": "B",
+        "correct": "C",
         "hint": "Look at the stoichiometric coefficients.",
-        "detailed": "The reaction ratio between \\(\\ce{H2}\\) and \\(\\ce{H2O}\\) is 2:2, so 3 moles of \\(\\ce{H2}\\) will produce 3 moles of \\(\\ce{H2O}\\) × (2/2) = 3 moles. Actually wait—because the coefficient for \\(\\ce{H2O}\\) is 2 for 2 \\(\\ce{H2}\\), the ratio is 1:1, so 3 moles \\(\\ce{H2}\\) gives **3 moles** water. Oops the correct option should be \"C\" here. Let me fix: correct: \"C\"."
+        "detailed": "The reaction ratio between \\(\\ce{H2}\\) and \\(\\ce{H2O}\\) is 2:2, so 3 moles of \\(\\ce{H2}\\) will produce 3 moles of \\(\\ce{H2O}\\) × (2/2) = 3 moles. Actually wait—because the coefficient for \\(\\ce{H2O}\\) is 2 for 2 \\(\\ce{H2}\\), the ratio is 1:1, so 3 moles \\(\\ce{H2}\\) gives 3 moles water.."
       },
       {
         "author": "Thenura Wickramaratna",
@@ -41,16 +41,16 @@
         "level": "easy",
         "question": "In the equation \\(\\ce{C + O2 -> CO2}\\), if you start with 12 g of carbon, how many grams of \\(\\ce{CO2}\\) can theoretically be produced? (Molar masses: C = 12 g/mol, O = 16 g/mol)",
         "options": [
-          "44 g",
-          "32 g",
+          "12 g",
           "22 g",
-          "12 g"
+          "32 g",
+          "44 g"
         ],
         "questionImages": [],
         "solutionImages": [],
-        "correct": "A",
+        "correct": "D",
         "hint": "Find moles of C then use reaction stoichiometry.",
-        "detailed": "12 g C = 1 mol. By reaction, that forms 1 mol \\(\\ce{CO2}\\). Molar mass of \\(\\ce{CO2}\\) = 12 + 2×16 = 44 g. So 44 g CO2."
+        "detailed": "12 g C = 1 mol. By reaction, that forms 1 mol \\(\\ce{CO2}\\). Molar mass of \\(\\ce{CO2}\\) = 12 + 2×16 = 44 g. So 44 g \\(\\ce{CO2}\\)."
       },
       {
         "author": "Thenura Wickramaratna",
