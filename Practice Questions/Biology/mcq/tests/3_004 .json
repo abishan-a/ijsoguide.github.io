@@ -1,0 +1,152 @@
+{
+  "subject": "biology",
+  "unit": "Cellular and Microbiology",
+  "title": "Passive Transport",
+  "test_id": "3_004",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė ",
+      "level": "easy",
+      "question": "Passive transport differs from active transport because it:",
+      "options": [
+        "Requires energy input",
+        "Requires ATP hydrolysis",
+        "Requires no input of energy",
+        "Requires a sodium-potassium pump"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Energy input is characteristic of active transport.",
+      "detailed": "The correct option is C. NO input of energy is characteristic of passive transport - it occurs naturally/spontaneously."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Diffusion is caused by:",
+      "options": [
+        "Chemical bonding",
+        "Gravity",
+        "Constant thermal motion of particles",
+        "Pressure differences only"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Think of particles with high vs low kinetic energy.",
+      "detailed": "The correct answer here is option C. Thermal motion of particles causes them to move apart and occupy as much space as possible."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "In diffusion across membranes, substances move:",
+      "options": [
+        "From lower to higher concentration",
+        "Against their concentration gradient",
+        "From higher to lower concentration",
+        "Randomly with no pattern"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Which is easier (takes less energy), moving WITH or AGAINST the concentration gradient?",
+      "detailed": "The correct answer is option C. Particles always want to leave 'crowded' spaces and separate themselves."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Osmosis is best defined as:",
+      "options": [
+        "Movement of solute across a membrane",
+        "Movement of free water across a membrane",
+        "Active transport of ions",
+        "Facilitated diffusion of proteins"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Is the solute or the solvent that moves?",
+      "detailed": "The correct answer is option B. Option A is incorrect because the solute never moves; the solvent moves to adjust the concentration of the solute. Osmosis is an entirely passive process."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "An animal cell placed in a hypertonic solution will:",
+      "options": [
+        "Remain unchanged",
+        "Swell and burst",
+        "Lose water and shrink",
+        "Become turgid"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "What does it mean for the solution to be hypertonic? Remember, tonicity is RELATIVE. The solution is hypertonic RELATIVE to the animal cell. What does that tell you about solutes?",
+      "detailed": "The correct answer is C. Water moves to reduce the concentration of solute. It moves from high to low concentration of solute; therefore, the cell will lose water to the solution it was placed in."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What happens to a plant cell in a hypotonic solution?",
+      "options": [
+        "It bursts",
+        "It becomes turgid",
+        "It becomes flaccid and wilts",
+        "It undergoes plamolysis"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "What is mean for a solution to be hypotonic. Remember, it is hypotonic RELATIVE to the plant cell. Also, remember the difference between plant and animal cells (cell wall).",
+      "detailed": "The correct answer is option B. Because the solution is hypotonic, the cell will 'absorb' water to reduce the concentration of solutes inside the cell. Remember that because of the cell wall (which keeps the cell rigid), the cell cannot burst."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which statement about facilitated diffusion is correct?",
+      "options": [
+        "It requires energy input",
+        "Substances move down their concentration gradient",
+        "It only transports nonpolar molecules",
+        "It is identical to active transport"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Think of concentration gradient.",
+      "detailed": "The correct answer is option B. Facilitated diffusion does not require energy input, it is still considered to be passive. However, it goes along with the preexisting concentration gradient and tries to move from areas of high to low concentration."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Channel proteins differ from carrier proteins because:",
+      "options": [
+        "Channels open corridors; carriers change shape",
+        "Channels require ATP, carriers do not",
+        "Carriers are non-specific, channels are specific",
+        "Carriers move molecules against their gradient"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Carrier proteins are typically MORE specific than channel proteins.",
+      "detailed": "The correct option is A. Channels open corridors - allow passage of molecules of a certain size and charge. Carriers bind a molecule, undergo a conformational change, cross the membrane with the molecule, and release it on the other side."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Ion channels that open in response to an electrical signal, such as in nerve cells, are examples of:",
+      "options": [
+        "Gated channels",
+        "Carrier proteins",
+        "Aquaporins",
+        "Cholesterol molecules"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Some are specifically called ion-gated channels.",
+      "detailed": "The correct option is A. Ion-gated channels open in response to changes in an electrical signal (change in membrane charge)."
+    }
+  ]
+}

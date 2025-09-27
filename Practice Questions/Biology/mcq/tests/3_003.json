@@ -1,0 +1,152 @@
+{
+  "subject": "biology",
+  "unit": "Cellular and Microbiology",
+  "title": "Cell Membranes",
+  "test_id": "3_034",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė ",
+      "level": "easy",
+      "question": "Which of the following are the main components of cell membranes?",
+      "options": [
+        "Lipids and proteins only",
+        "Lipids, proteins, and carbohydrates",
+        "Proteins and nucleic acids",
+        "Phospholipids and RNA"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "RNA molecules are a form of genetic material, not a component of the cell membrane. Think of the phospholipid bilayer. What is it made of?",
+      "detailed": "The correct option is B, because the cell membrane contains lipids, proteins, and carbohydrates. Lipids of the cell membrane are referred to as glycolipids."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "A phospholipid is amphipathic because it has:",
+      "options": [
+        "Two hydrophobic regions",
+        "Both hydrophilic and hydrophobic regions",
+        "Only hydrophilic regions",
+        "Neither hydrophobic nor hydrophilic regions"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Two hydrophobic regions is the same as having the entire thing as hydrophobic.",
+      "detailed": "The correct answer here is option B, having BOTH hydrophilic and hydrophobic regions is known as amphipathic."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "The structural arrangement of molecules in the cell membrane is known as:",
+      "options": [
+        "Fluid Mosaic Model",
+        "Lock-and-key model",
+        "Induced fit model",
+        "Bilayer-static model"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Think of the unrestricted movement of the components of the phospholipid bilayer.",
+      "detailed": "The correct answer is option A, fluid-mosaic model. The phospholipid bilayer has fluidity due to cholesterol."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which interaction mainly holds phospholipids together in the bilayer?",
+      "options": [
+        "Hydrogen bonds",
+        "Disulphide bonds",
+        "Hydrophobic interactions",
+        "Ionic bonds"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Phospholipid tails are hydrophobic. How do they arrange themselves and why?",
+      "detailed": "The correct answer is option C. The phospholipid tails are hydrophobic and aggregate together to 'shield' each other from intracellular and extracellular fluid that is mainly composed of water. Therefore, they are held together by hydrophobic interactions."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which interactions help hold proteins in the membrane?",
+      "options": [
+        "Hydrophobic interactions",
+        "Electrostatic interactions",
+        "Covalent bonds",
+        "Peptide bonds"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Peptide bonds connect amino acids to form proteins.",
+      "detailed": "The correct answer is option A. Hydrophobic interactions hold proteins in the membrane. Most proteins are nonpolar and do not 'mix' with polar substances, aka water."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "In animal membranes, cholesterol:",
+      "options": [
+        "Increases membrane fluidity at high temperatures",
+        "Decreases fluidity at high temperatures but prevents solidification at low temperatures",
+        "Prevents proteins from moving",
+        "Replaces phospholipids in the bilayer"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Cholesterol regulates fluidity, it does not replace anything It can be found IN BETWEEN phospholipids and membrane proteins. Why?",
+      "detailed": "The correct answer is option B. Cholesterol works to maintain a HEALTHY level of fluidity in the membrane. If temperatures are too high, fluidity increases naturally, but cholesterol works to prevent 'over-liquidation.' However, if temperatures are too low, fluidity decreases naturally, but cholesterol works to prevent solidification."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which type of protein is bound only to the surface of the membrane?",
+      "options": [
+        "Peripheral protein",
+        "Integral protein",
+        "Transmembrane protein",
+        "Channel protein"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Think of what these words objectively mean. What does periphery or peripheral mean? Also, channel proteins form a channel connecting the extracellular environment to the intracellular environment. Take aquaporin as an example.",
+      "detailed": "The correct answer is option A. Peripheral proteins are found on the periphery (perimeter) of the cell membrane. Integral membranes have been 'integrated' into the membrane, so they lie deeper than the periphery. Transmembrane proteins span both the periphery and the integral portion of the membrane. Channel proteins 'burrow' from the extracellular to the intracellular environment."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which membrane structure allows water to cross despite being polar?",
+      "options": [
+        "Sodium-potassium pump",
+        "Aquaporins",
+        "Transport vesicles",
+        "Ion channels"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Once again, think objectively. Which of these structures is actually DESIGNED to transport water?",
+      "detailed": "The correct answer is option B. The sodium-potassium pump is built only for the exchange of sodium and potassium. Transport vesicles seal off the environment for specific materials, and ion channels are designed specifically for the transport of ions. Aquaporins, although polar, are designed to quickly transport water, faster than simple diffusion."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "The most important role of the cell membrane is:",
+      "options": [
+        "Energy production",
+        "Protein synthesis",
+        "Selective permeability",
+        "Genetic information storage"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Riboses deal with protein synthesis.",
+      "detailed": "The correct option is C. The cell membrane allows for the selective movement of materials into and out of the cell. The mitochondria focus on energy production, protein synthesis is done by ribosomes, and genetic information is stored by the nucleus."
+    }
+  ]
+}
