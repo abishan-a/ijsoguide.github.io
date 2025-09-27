@@ -1,0 +1,217 @@
+{
+    "subject": "physics",
+    "unit": "centripetal force",
+    "title": "Centripetal Force MCQ Problems",
+    "test_id": "1_009",
+    "authors": "Thenura Wickramaratna",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "A ball of mass 2 kg is tied to a string and rotated in a horizontal circle of radius 1.5 m at a speed of 3 \\(\\text{ms}^{-1}\\). What is the centripetal force on the ball?",
+        "options": [
+          "8 N",
+          "10 N",
+          "12 N",
+          "15 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use the formula: \\( F_c = \\frac{mv^2}{r} \\).",
+        "detailed": "Substitute: \\( F_c = \\frac{2 \\times 3^2}{1.5} = \\frac{18}{1.5} = 12 \\, N \\).",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "A 0.5 kg stone moves in a circle of radius 2 m with a uniform speed of 4 \\(\\text{ms}^{-1}\\). Find the centripetal acceleration.",
+        "options": [
+          "2 \\(\\text{ms}^{-2}\\)",
+          "4 \\(\\text{ms}^{-2}\\)",
+          "6 \\(\\text{ms}^{-2}\\)",
+          "8 \\(\\text{ms}^{-2}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Centripetal acceleration is given by \\( a_c = \\frac{v^2}{r} \\).",
+        "detailed": "Here, \\( a_c = \\frac{4^2}{2} = \\frac{16}{2} = 8 \\, \\text{ms}^{-2}\\).",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "If the radius of a circular path is doubled while keeping speed constant, what happens to the centripetal force?",
+        "options": [
+          "It doubles",
+          "It becomes half",
+          "It becomes one-fourth",
+          "It stays the same"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Centripetal force is inversely proportional to radius: \\( F_c = \\frac{mv^2}{r} \\).",
+        "detailed": "When radius doubles, centripetal force halves since \\( F_c \\propto \\frac{1}{r} \\).",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "A car of mass 1000 kg moves at 20 m/s on a circular track of radius 50 m. Find the centripetal force required.",
+        "options": [
+          "2000 N",
+          "4000 N",
+          "6000 N",
+          "8000 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Use \\( F_c = \\frac{mv^2}{r} \\).",
+        "detailed": "Substitute: \\( F_c = \\frac{1000 \\times 20^2}{50} = \\frac{1000 \\times 400}{50} = 8000 \\, N \\).",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "Which of the following statements about centripetal force is correct?",
+        "options": [
+          "It acts tangentially to the motion",
+          "It is directed outward from the circle",
+          "It is directed toward the center of the circle",
+          "It increases linearly with radius"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about the direction required to keep an object in circular motion.",
+        "detailed": "Centripetal force always points towards the center of the circle to continuously change the object’s direction of motion.",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "medium",
+        "question": "2 balls with masses \\( m \\) and \\( 13m \\) are attached to the ends of a massless stick. Around what point of the stick does the stick have to rotate for both balls to experience the same centripetal force? Express the answer as the distance from the lighter ball to the rotating point. The length of the stick is \\( l \\).",
+        "options": [
+          "\\(\\frac{l}{14}\\)",
+          "\\(\\frac{l}{13}\\)",
+          "\\(\\frac{12 \\; \\text{l}}{13}\\)",
+          "\\(\\frac{13 \\; \\text{l}}{14}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Since the stick is rigid, both balls must rotate with the same angular velocity.",
+        "detailed": "For equal centripetal forces: \\( m\\omega^2 l_1 = 13m\\omega^2 l_2 \\Rightarrow l_1 = 13l_2 \\). Also, \\( l_1 + l_2 = l \\Rightarrow l_2 = l/14 \\Rightarrow l_1 = 13l/14 \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "medium",
+        "question": "An astronaut flies in vertical circles near Earth’s surface with constant speed \\( v \\). The circle’s diameter is \\( d \\), and the astronaut’s mass is \\( m \\). Where is the force on the seat strongest and what is its value?",
+        "options": [
+          "\\(N = m (\\frac{2v^2}{d} + g)\\)",
+          "\\(N = m (\\frac{v^2}{d} + g)\\)",
+          "\\(N = m (\\frac{v^2}{d} + 2g)\\)",
+          "\\(N = 2m (\\frac{v^2}{d} + g)\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": ["1_009s_01.png"],
+        "correct": "A",
+        "hint": "Centripetal force is constant, and the normal force is largest at the bottom of the circle.",
+        "detailed": "At the lowest point: \\( N = F_{cp} + mg = \\frac{mv^2}{r/2} + mg =\\frac{2mv^2}{d} + mg = m\\left(\\frac{2v^2}{d} + g\\right) \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "medium",
+        "question": "A ball of mass \\( m \\) is attached to the end of the second hand of a clock of length \\( l \\). Find the centripetal force acting on the ball.",
+        "options": [
+          "\\( \\frac{ml\\pi^2}{900} \\)",
+          "\\( \\frac{ml\\pi^2}{1800} \\)",
+          "\\( \\frac{ml\\pi^2}{450} \\)",
+          "\\( \\frac{ml\\pi^2}{3600} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "The second hand completes a rotation in 60 s. Use \\( \\omega = \\frac{2\\pi}{60} \\).",
+        "detailed": "\\( \\omega = \\frac{2\\pi}{60} = \\frac{\\pi}{30} \\). \\( F = m\\omega^2 l = m\\left(\\frac{\\pi}{30}\\right)^2 l = \\frac{ml\\pi^2}{900} \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "medium",
+        "question": "One end of a string rotates about a fixed point. A ball of mass \\( m \\) is attached, then another string of length \\( l \\) connects this ball to another ball of mass \\( \\frac{m}{2} \\). Both rotate with constant speed \\( v \\), always aligned with the radius. Find the tension in the first string.",
+        "options": [
+          "\\( \\frac{4mv^2}{l} \\)",
+          "\\( \\frac{mv^2}{2l} \\)",
+          "\\( \\frac{2mv^2}{l} \\)",
+          "\\( \\frac{mv^2}{l} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use equal angular velocity and balance forces to find tensions in each string.",
+        "detailed": "Length = 2l. For the outer ball: \\( F_{cp} = \\frac{\\frac{m}{2} v^2}{2l} = \\frac{mv^2}{4l} \\), so \\( T_2 = F_{cp} = \\frac{mv^2}{4l} \\). Inner ball has \\( \\frac{v_1}{l} = \\frac{v}{2l} => v_1 = \\frac{v}{2} \\),  \\(F_{cp1} = \\frac{m (\\frac{v}{2})^2}{l} = \\frac{mv^2}{4l} \\). Net: \\( T = F_{cp1} + T_2 = \\frac{mv^2}{4l} + \\frac{mv^2}{4l} = \\frac{mv^2}{2l} \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "medium",
+        "question": "A mass \\( m \\) moves in a circle of radius \\( r \\) from rest, with distance traveled given by \\( d = kt^2 \\). Find the centripetal force as a function of time.",
+        "options": [
+          "\\( \\frac{mk^2t^2}{2r} \\)",
+          "\\( \\frac{mk^2t^2}{4r} \\)",
+          "\\( \\frac{2mk^2t^2}{r} \\)",
+          "\\( \\frac{4mk^2t^2}{r} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Compare \\( d = \\tfrac{1}{2}a_t t^2 \\) with \\( d = kt^2 \\) to find tangential acceleration.",
+        "detailed": "From \\( d = kt^2 = \\tfrac{1}{2}a_t t^2 \\Rightarrow a_t = 2k \\). Then \\( v = a_t t = 2kt \\). \\( F = \\frac{mv^2}{r} = \\frac{m(2kt)^2}{r} = \\frac{4mk^2t^2}{r} \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "medium",
+        "question": "A ball of mass \\( m \\) is attached to a string of length \\( l \\) that breaks when tension reaches \\( T \\). What is the ball’s speed just as the string breaks?",
+        "options": [
+          "\\( 2\\sqrt{\\tfrac{Tl}{m}} \\)",
+          "\\( \\sqrt{\\tfrac{2Tl}{m}} \\)",
+          "\\( \\sqrt{\\tfrac{Tl}{m}} \\)",
+          "\\( \\sqrt{\\tfrac{Tl}{2m}} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "At breaking point: \\( T = \\frac{mv^2}{l} \\).",
+        "detailed": "From \\( T = \\frac{mv^2}{l} \\Rightarrow v^2 = \\tfrac{Tl}{m} \\Rightarrow v = \\sqrt{\\tfrac{Tl}{m}} \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "medium",
+        "question": "A ball of mass \\( m \\) is attached to a string of length \\( l \\) and moves in a horizontal circle. The string makes an angle of 30° with the vertical. Find the speed of the ball.",
+        "options": [
+          "\\( \\sqrt{\\tfrac{lg}{\\sqrt{3}}} \\)",
+          "\\( \\sqrt{\\tfrac{2lg}{\\sqrt{3}}} \\)",
+          "\\( \\sqrt{\\tfrac{lg\\sqrt{3}}{2}} \\)",
+          "\\( \\sqrt{\\tfrac{lg}{2\\sqrt{3}}} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Resolve tension into vertical and horizontal components.",
+        "detailed": "Vertical: \\( T_y = mg = T\\cos30^\\circ \\). Horizontal: \\( T_x = T\\sin30^\\circ = \\tfrac{mg}{\\sqrt{3}} \\). Centripetal: \\( T_x = \\tfrac{mv^2}{R} \\). With \\( R = l/2 \\Rightarrow v = \\sqrt{\\tfrac{lg}{2\\sqrt{3}}} \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "hard",
+        "question": "A cylinder of radius \\( r \\) rotates about a horizontal axis. What is the minimum angular velocity \\( \\omega \\) so that particles inside don’t slide, given friction coefficient \\( \\mu = 1 \\)?",
+        "options": [
+          "\\( \\sqrt{\\tfrac{2g}{r}} \\)",
+          "\\( \\sqrt{\\tfrac{g}{r\\sqrt{2}}} \\)",
+          "\\( \\sqrt{\\tfrac{g\\sqrt{2}}{r}} \\)",
+          "\\( \\sqrt{\\tfrac{g}{2r}} \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": ["1_009s_02.png"],
+        "correct": "C",
+        "hint": "Consider forces at angle \\( \\alpha \\), and use \\( \\max(\\sin\\alpha + \\cos\\alpha) = \\sqrt{2} \\).",
+        "detailed": "We analyze a particle at an angle \\( \\alpha \\) inside the rotating cylinder. The centripetal force requirement is always balanced by the normal force and gravity components. <br>Case 1: Upper half <br>\\( m r \\omega^2 = N + m g \\cos \\alpha \\quad \\Rightarrow \\quad N = m (r \\omega^2 - g \\cos \\alpha). \\) <br>The tangential balance requires <br> \\( m g \\sin \\alpha = F_{\\text{fr}} \\leq \\mu N \\quad \\Rightarrow \\quad g \\sin \\alpha \\leq \\mu (r \\omega^2 - g \\cos \\alpha). \\) <br><br>Case 2: Lower half <br>\\( m r \\omega^2 = N - m g \\cos \\alpha \\quad \\Rightarrow \\quad N = m (r \\omega^2 + g \\cos \\alpha). \\) <br><br>The tangential condition gives <br> \\( g \\sin \\alpha \\leq \\mu (r \\omega^2 + g \\cos \\alpha). \\) <br><br>We can exclude the second inequality since we need to find the minimum. With \\( \\mu = 1 \\),  <br> \\( \\omega^2 \\geq \\tfrac{g}{r} (\\sin \\alpha + \\cos \\alpha). \\) <br><br>Since \\( \\sin \\alpha + \\cos \\alpha \\) reaches its maximum at \\( \\alpha = 45^\\circ \\), where it equals \\( \\sqrt{2} \\), the minimum angular velocity is <br> \\( \\omega = \\sqrt{\\tfrac{g \\sqrt{2}}{r}}. \\)",
+        "author": "Nemanja Maslak"
+      }
+    ]
+  }
