@@ -1,0 +1,134 @@
+{
+    "subject": "chemistry",
+    "unit": "equilibrium",
+    "title": "Buffer solutions MCQ Problems",
+    "test_id": "2_042",
+    "problems": [
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "easy",
+            "question": "Which of the following pairs can act as a buffer?",
+            "options": [
+                "\\(\\ce{HCl}\\) and \\(\\ce{NaCl}\\)",
+                "\\(\\ce{KCl}\\) and \\(\\ce{NaCl}\\)",
+                "\\(\\ce{H2CO3}\\) and \\(\\ce{NaHCO3}\\)",
+                "\\(\\ce{NaOH}\\) and \\(\\ce{KOH}\\)"
+            ],
+            "correct": "C",
+            "hint": "A buffer requires a weak acid and its conjugate base, or a weak base and its conjugate acid.",
+            "detailed": "\\(\\ce{HCl}\\) and \\(\\ce{NaCl}\\) are strong acid and salt, not a buffer. \\(\\ce{KCl}\\) and \\(\\ce{NaCl}\\) are neutral salts. \\(\\ce{NaOH}\\) and \\(\\ce{KOH}\\) are strong bases. But \\(\\ce{H2CO3}\\) (weak acid) and \\(\\ce{NaHCO3}\\) (conjugate base) form a conjugate pair that resists pH changes. Hence, option C is correct."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "easy",
+            "question": "What is a buffer solution’s pH close to?",
+            "options": [
+                "1",
+                "the pKa of the strong acid",
+                "14",
+                "the pKa of the weak acid"
+            ],
+            "correct": "D",
+            "hint": "Buffers resist pH changes near the \\( \\text{p}K_a \\) of the weak acid present.",
+            "detailed": "The Henderson–Hasselbalch equation is \\( \\text{pH} = \\text{p}K_a + \\log \\tfrac{[A^-]}{[HA]} \\). A buffer works best when \\( [A^-] \\approx [HA] \\), making \\( \\text{pH} \\approx \\text{p}K_a \\). Thus, option D is correct."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "easy",
+            "question": "Which statement is true?",
+            "options": [
+                "a buffer can be prepared with a strong acid",
+                "a buffer works only if weak bases are added",
+                "if a strong acid is added to a buffer, the pH won’t change at all",
+                "a buffer works best if the concentration of the acid is approximately equal to the concentration of the base"
+            ],
+            "correct": "D",
+            "hint": "Think about how the buffer capacity is maximized.",
+            "detailed": "Buffers cannot be made from strong acids. A buffer is not limited to weak bases, and adding strong acid to a buffer changes pH slightly, not zero. Maximum buffer action occurs when \\( [HA] \\approx [A^-] \\). Thus, D is correct."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "easy",
+            "question": "A buffer solution works best in:",
+            "options": [
+                "pH is approximately equal with the pKa",
+                "pH = 7",
+                "pH = 5",
+                "pH is approximately equal with \\(\\frac{[A-]}{[HA]}\\)"
+            ],
+            "correct": "A",
+            "hint": "Recall the condition for maximum buffer capacity.",
+            "detailed": "From the Henderson–Hasselbalch equation, \\( \\text{pH} = \\text{p}K_a \\) when \\( [HA] = [A^-] \\). This is the point where the buffer is most effective. So option A is correct."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "easy",
+            "question": "If a base is added to an acetic buffer, which component reacts with it?",
+            "options": [
+                "\\(\\ce{H2O}\\)",
+                "\\(\\ce{CH3COOH}\\)",
+                "\\(\\ce{CH3COONa}\\)",
+                "B and C"
+            ],
+            "correct": "B",
+            "hint": "The weak acid in the buffer neutralizes added base.",
+            "detailed": "An acetic buffer consists of \\(\\ce{CH3COOH}\\) and \\(\\ce{CH3COONa}\\). When a base is added, the weak acid \\(\\ce{CH3COOH}\\) reacts with it to form water and acetate ion, maintaining the pH. Thus, the correct answer is B."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "medium",
+            "question": "What is the pH of a buffer solution with 0.1 M HF (\\(K_a=6.8\\times 10^{-4}\\)) and 0.1 M \\(\\ce{NaF}\\)?",
+            "options": [
+                "3.2",
+                "3.6",
+                "3.8",
+                "4.0"
+            ],
+            "correct": "A",
+            "hint": "Use the Henderson–Hasselbalch equation: \\( \\text{pH} = \\text{p}K_a + \\log \\tfrac{[A^-]}{[HA]} \\).",
+            "detailed": "For \\(\\ce{HF}\\): \\( \\text{p}K_a = -\\log(6.8\\times10^{-4}) \\approx 3.17 \\). Since \\( [A^-] = [HA] \\), \\( \\log(1)=0 \\). Thus, \\( \\text{pH} = 3.17 \\). Rounding gives approximately 3.2."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "medium",
+            "question": "A chemist wanted to keep a pH stable during an experiment, so he prepared a buffer solution by mixing 0.2 mol \\(\\text{CH}_3\\text{COOH}\\) (\\(pK_a = 4.76\\)) and 0.25 mol \\(\\text{CH}_3\\text{COONa}\\) in 1 L solution. What is the pH of the buffer?",
+            "options": [
+                "5.06",
+                "5.56",
+                "6.70",
+                "7.03"
+            ],
+            "correct": "A",
+            "hint": "Apply the Henderson–Hasselbalch equation with \\( \\frac{[A^-]}{[HA]} = \\frac{0.25}{0.2} \\).",
+            "detailed": "Using \\( \\text{pH} = \\text{p}K_a + \\log \\frac{[A^-]}{[HA]} \\): \\( \\text{pH} = 4.76 + \\log(\\frac{0.25}{0.2}) = 4.76 + \\log(1.25) = 4.76 + 0.097 = 5.06 \\). Thus, option A is correct."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "medium",
+            "question": "A buffer is made by mixing 0.2 mol \\(\\ce{NH3}\\) and 0.15 mol \\(\\ce{NH4Cl}\\) in 1 L solution. (\\(K_b\\) for \\(\\ce{NH3}\\) = \\(1.8\\times10^{-5}\\)). What is the pH of the buffer?",
+            "options": [
+                "9.10",
+                "9.16",
+                "9.26",
+                "9.39"
+            ],
+            "correct": "D",
+            "hint": "First calculate \\( pK_a = 14 - pK_b \\). Then use the Henderson–Hasselbalch equation.",
+            "detailed": "For \\(\\ce{NH3}\\): \\( pK_b = -\\log(1.8 \\times 10^{-5}) = 4.74 \\). Hence \\( pK_a = 14 - 4.74 = 9.26 \\). Using \\( \\text{pH} = \\text{p}K_a + \\log \\frac{[base]}{[acid]} \\): \\( \\text{pH} = 9.26 + \\log(\\frac{0.20}{0.15}) = 9.26 + \\log(1.33) = 9.26 + 0.125 = 9.385 \\)."
+        },
+        {
+            "author": "Alexia 'Jujen' Butu",
+            "level": "medium",
+            "question": "0.1 M acetic acid (\\(pK_a = 4.76\\)) and 0.1 M sodium acetate are mixed together to make a buffer solution. If 0.01 mol of HCl is added to 1 L of the buffer, the new pH will be closest to:",
+            "options": [
+                "4.56",
+                "4.66",
+                "4.76",
+                "4.86"
+            ],
+            "correct": "B",
+            "hint": "When strong acid is added, it reacts with the conjugate base, reducing its concentration.",
+            "detailed": "Initially, \\( [HA] = [A^-] = 0.1 \\). After adding 0.01 mol HCl: \\( [HA] = 0.11 \\), \\( [A^-] = 0.09 \\). Using Henderson–Hasselbalch: \\( \\text{pH} = 4.76 + \\log(0.09/0.11) = 4.76 + \\log(0.818) = 4.76 - 0.087 = 4.67 \\)."
+        }
+    ]
+}
