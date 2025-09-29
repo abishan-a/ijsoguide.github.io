@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Torque & Equilibrium MCQ Problems",
+    "test_id": "1_010",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Which of the following actions is the best example of torque in daily life?",
+        "options": [
+          "Dropping a ball from a height",
+          "Sliding a box across the floor",
+          "Turning a wrench to tighten a bolt",
+          "Lifting a backpack straight up"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Torque involves rotation around a pivot.",
+        "detailed": "Torque is the turning effect of a force. A wrench rotates around the bolt (pivot), so it directly demonstrates torque. The other options involve linear motion, not rotation.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "What should you do to increase torque?",
+        "options": [
+          "Push closer to the pivot",
+          "Push farther from the pivot",
+          "Apply less force",
+          "Apply force parallel to the lever arm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about why doors are easier to open from the handle than near the hinges.",
+        "detailed": "Torque is given by \\( \\tau = F d \\sin \\theta \\). Increasing the distance \\( d \\) from the pivot increases torque. That’s why pushing a door at the edge (far from the hinge) requires less effort than pushing near the hinge.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "What is the SI unit of torque?",
+        "options": [
+          "Joule (J)",
+          "Newton-meter (N·m)",
+          "Newton (N)",
+          "Watt (W)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Torque = Force × Distance.",
+        "detailed": "Force is measured in newtons (N), distance in meters (m), so torque has units of newton-meters (N·m). Joules (also N·m) measure energy, but torque is not energy, it’s a rotational effect.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "A force of 10 N is applied at a distance of 0.5 m from a pivot. The angle between the force and the lever arm is 90°. What is the torque?",
+        "options": [
+          "0 N·m",
+          "2.5 N·m",
+          "5 N·m",
+          "10 N·m"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Torque = F d sin θ. At 90°, sin θ = 1.",
+        "detailed": "Using \\( \\tau = F d \\sin \\theta \\), \\( \\tau = 10 \\times 0.5 \\times 1 = 5 \\; \\text{N} \\cdot \\text{m} \\).",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "If you push a door with the same force but at an angle of 0° (parallel to the door), what happens to the torque?",
+        "options": [
+          "It becomes maximum",
+          "It stays the same",
+          "It becomes zero",
+          "It doubles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Torque depends on sin θ. At 0°, sin θ = 0.",
+        "detailed": "Using \\( \\tau = F d \\sin \\theta \\): at \\( \\theta = 0° \\), \\( \\sin 0° = 0 \\). Thus, \\( \\tau = 0 \\). A parallel push doesn’t cause rotation; it only pushes the door sideways.",
+        "author": "Nemanja Maslak"
+      }
+    ]
+  }
