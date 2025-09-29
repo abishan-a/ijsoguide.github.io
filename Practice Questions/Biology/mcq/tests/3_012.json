@@ -14,6 +14,8 @@
         "DNA",
         "Plasma membrane"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "A",
       "hint": "Think about membranous organelles.",
       "detailed": "Option A is correct, because the nucleus has a double membrane. DNA is not contained in any prokaryote (bacteria included)."
@@ -28,6 +30,8 @@
         "Chitin",
         "Pectin"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "B",
       "hint": "Chitin is found in the exoskeleton of insects.",
       "detailed": "Peptidoglycan is found in bacterial cell walls."
@@ -42,6 +46,8 @@
         "Binary fission",
         "Fragmentation"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "C",
       "hint": "Budding is used for asexual reproduction in PLANTS.",
       "detailed": "Binary fission is the correct mode of reproduction in bacteria."
@@ -56,6 +62,8 @@
         "Chitin",
         "Cellulose"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "C",
       "hint": "Remember: “Peptidoglycan is found in bacterial cell walls. Are fungi bacteria?",
       "detailed": "The correct answer is option C. Chitin is found in fungal cell walls and gives them their strength."
@@ -70,6 +78,8 @@
         "Envelope",
         "Capsid"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "B",
       "hint": "A capsid is the protein shell of a virus.",
       "detailed": "The correct answer is B. The pellicle is a non-rigid outser layer allowing the protozia to maintain flexibility."
@@ -84,6 +94,8 @@
         "Protozoa",
         "Prions"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "B",
       "hint": "Prions are misfolded proteins thought to contribute to neurodegenerative diseases.",
       "detailed": "Option B is correct, algae perform photosynthesis and thus produce oxygen."
@@ -98,6 +110,8 @@
         "Virus",
         "Protozian cyst"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "B",
       "hint": "Solution to the previous question.",
       "detailed": "Prions are misfolded proteins and agents of disease. No nucleic acids involved."
@@ -112,6 +126,8 @@
         "Prions",
         "Protozoa"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "C",
       "hint": "Which of these is actually a cell or is just a component of a cell?",
       "detailed": "Prions are the correct answer because they are nothing more than misfolded proteins."
@@ -126,6 +142,8 @@
         "Bacteria",
         "Fungi"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "C",
       "hint": "Nitrobacter and nitrosomonas are examples.",
       "detailed": "The correct answer is bacteria (nitrogen fixing bacteria)."
@@ -140,6 +158,8 @@
         "Bacteria",
         "Protozoa"
       ],
+      "questionImages": [],
+      "solutionImages": [],
       "correct": "B",
       "hint": "Silica is a crystal-like, glittery substance (resembling glass).",
       "detailed": "Algae are coated with silica to help with oxygen production."
