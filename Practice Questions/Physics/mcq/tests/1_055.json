@@ -18,7 +18,7 @@
         "solutionImages": [],
         "correct": "B",
         "hint": "Is the energy lost or gained?",
-        "detailed": "The first law of thermodynamics tells us that \\( \\Delta U = Q - W \\). In this case, \\( \\Delta U = (-400J) - 100J = 300J\\) (sign in front of 400J is negative because that heat is lost)."
+        "detailed": "The first law of thermodynamics tells us that \\( \\Delta U = Q - W \\). In this case, \\( \\Delta U = (-400J) - 100J = -500J\\) (sign in front of 400J is negative because that heat is lost)."
       },
       {
         "author": "Pavle Ignjatovic",

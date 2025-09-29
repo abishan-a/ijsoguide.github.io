@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "waves",
+    "title": "Doppler Effect MCQ Problems",
+    "test_id": "1_034",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "If an observer moves toward a stationary sound source, what happens to the perceived frequency?",
+        "options": [
+          "It stays the same",
+          "It decreases",
+          "It increases",
+          "It becomes zero"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Approaching the source compresses the wavefronts.",
+        "detailed": "When the observer moves toward the source, the wavefronts reach the observer more frequently. So the observed frequency **increases**.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "If a source moves away from a stationary observer, what happens to the observed frequency?",
+        "options": [
+          "It increases",
+          "It remains the same",
+          "It decreases",
+          "It doubles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think in terms of stretching the wavefronts.",
+        "detailed": "A receding source makes wavefronts stretch out, so the observer receives waves less frequently. Hence the observed frequency **decreases**.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Which effect describes the change in frequency due to relative motion between source and observer?",
+        "options": [
+          "Refraction",
+          "Interference",
+          "Diffraction",
+          "Doppler effect"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "The effect dealing with motion and frequency shifts is named after a scientist.",
+        "detailed": "The **Doppler effect** is exactly the phenomenon in which frequency (or wavelength) changes due to motion of source, observer, or both.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "If both source and observer are moving toward each other, what is the general trend in observed frequency?",
+        "options": [
+          "Lower than emitted frequency",
+          "Same as emitted frequency",
+          "Higher than emitted frequency",
+          "Zero"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Both motions compress the wavefronts.",
+        "detailed": "When both move toward each other, waves are compressed more strongly, so observed frequency is **higher** than emitted frequency.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Which of the following variables appear in the Doppler effect formula for sound?",
+        "options": [
+          "Speed of wave in medium",
+          "Velocity of observer",
+          "Velocity of source",
+          "All of the above"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Think of how both source motion and observer motion affect frequency plus wave speed matters.",
+        "detailed": "The general Doppler formula includes the wave speed in medium, the velocity of the observer, and the velocity of the source. So all of them matter.",
+        "author": "Cabir Abassov"
+      }
+    ]
+  }

@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "waves",
+    "title": "Sound Waves and Speed of Sound MCQ Problems",
+    "test_id": "1_033",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What type of wave is a sound wave?",
+        "options": [
+          "Transverse wave",
+          "Longitudinal wave",
+          "Surface wave",
+          "Electromagnetic wave"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Consider how particles in the medium move (compression/rarefaction).",
+        "detailed": "Sound waves are mechanical **longitudinal** waves: particles oscillate parallel to direction of propagation in compressions and rarefactions.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Can sound waves travel through vacuum?",
+        "options": [
+          "Yes, always",
+          "Only if there is light",
+          "No, never",
+          "Only for very low frequencies"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Sound is mechanical and requires a medium.",
+        "detailed": "Sound waves require a medium (air, water, solid) to propagate. They **cannot travel through a vacuum** because there are no particles to carry the compressions/rarefactions.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Which formula relates speed \\(v\\), frequency \\(f\\), and wavelength \\( \\lambda \\) for sound waves?",
+        "options": [
+          "\\( v = f + \\lambda \\)",
+          "\\( v = f / \\lambda \\)",
+          "\\( v = f \\lambda \\)",
+          "\\( v = \\lambda / f \\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "This is the general wave equation used for any wave type, including sound.",
+        "detailed": "The correct relation is \\( v = f \\lambda \\): speed equals frequency times wavelength. This holds for sound waves.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "In which medium is the speed of sound highest, under typical conditions?",
+        "options": [
+          "Air",
+          "Water",
+          "Vacuum",
+          "They’re all equal"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Recall the order given: solids > liquids > gases.",
+        "detailed": "Typically, sound travels fastest in solids, then liquids, then gases. Among your options, **water** is a liquid, so it’s faster than air (a gas).",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "What happens to the speed of sound in a gas as temperature increases?",
+        "options": [
+          "It decreases",
+          "It remains constant",
+          "It increases",
+          "Can't tell"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Faster molecular motion means faster propagation.",
+        "detailed": "As temperature increases, molecules move more rapidly and transmit pressure variations more quickly, so the **speed of sound in a gas increases**.",
+        "author": "Cabir Abassov"
+      }
+    ]
+  }

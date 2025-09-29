@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "waves",
+    "title": "Wave Properties MCQ Problems",
+    "test_id": "1_029",
+    "problems": [
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "Which of the following is **not** a property of a wave?",
+        "options": [
+          "Wavelength",
+          "Frequency",
+          "Amplitude",
+          "Mass"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Think: waves carry energy, not mass.",
+        "detailed": "Waves are described by wavelength, frequency, amplitude, and speed. They do **not** carry mass with them. So “Mass” is not a wave property."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "What is wavelength?",
+        "options": [
+          "Number of waves per second",
+          "Distance between two successive crests",
+          "Height of the wave",
+          "Speed of the wave"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "What's the definition of wavelength?",
+        "detailed": "Wavelength is defined as the distance between two corresponding points on successive waves—commonly crest to crest or trough to trough."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "If the frequency of a wave increases, what happens to its wavelength (assuming wave speed is constant)?",
+        "options": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It doubles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use the relation \\( v = f \\lambda \\).",
+        "detailed": "Since wave speed \\( v \\) is constant and \\( v = f \\lambda \\), wavelength \\( \\lambda = \\frac{v}{f} \\). So if frequency \\( f \\) increases, \\( \\lambda \\) must decrease."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "Which type of wave causes the particles of the medium to oscillate perpendicular to the direction of wave travel?",
+        "options": [
+          "Longitudinal wave",
+          "Transverse wave",
+          "Stationary wave",
+          "Surface wave"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Definitions of transverse vs longitudinal",
+        "detailed": "In a transverse wave, the displacement of the medium is perpendicular to the propagation direction (for example, water surface waves)."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "What is amplitude of a wave?",
+        "options": [
+          "Distance between crests",
+          "Time for one cycle",
+          "Maximum displacement from equilibrium",
+          "Speed of wave"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Amplitude measures how big the wave disturbance is.",
+        "detailed": "Amplitude is defined as the maximum displacement of points on the wave from its rest (equilibrium) position. It’s a measure of the wave’s intensity."
+      }
+    ]
+  }

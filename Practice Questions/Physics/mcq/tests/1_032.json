@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "waves",
+    "title": "Superposition and Interference of Waves MCQ Problems",
+    "test_id": "1_032",
+    "problems": [
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "What does superposition of waves mean?",
+        "options": [
+          "Waves cancel out always",
+          "Waves pass through each other and their displacements add",
+          "Waves bounce off each other",
+          "Waves combine and travel as one permanent wave"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Consider how two waves behave when they meet.",
+        "detailed": "Superposition means when two or more waves travel through the same region, their displacements at each point add algebraically, but they continue unaffected after crossing."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "What is constructive interference?",
+        "options": [
+          "When wave crests meet crests and amplitudes amplify",
+          "When crest meets trough and they cancel",
+          "When waves travel in opposite directions",
+          "When one wave disappears"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Think about adding same-sign displacements.",
+        "detailed": "Constructive interference is when two waves are in phase (crest meets crest or trough meets trough), so their amplitudes add to make a larger amplitude."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "What is destructive interference?",
+        "options": [
+          "Waves meeting in phase",
+          "Waves meeting out of phase causing cancellation",
+          "Waves increasing in amplitude always",
+          "Waves being reflected"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Opposite displacements cancel.",
+        "detailed": "Destructive interference occurs when waves are out of phase (crest meets trough) so that their displacements partially or fully cancel each other."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "If two equal amplitude waves meet in perfect phase, what is the resulting amplitude?",
+        "options": [
+          "Same as one wave",
+          "Twice the amplitude",
+          "Half the amplitude",
+          "Zero amplitude"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "When constructive interference is perfect, amplitudes add fully.",
+        "detailed": "If two waves of amplitude \\(A\\) meet in phase, the resultant displacement is \\(A + A = 2A\\), so amplitude doubles."
+      },
+      {
+        "author": "Cabir Abassov",
+        "level": "easy",
+        "question": "Which principle allows us to add wave displacements when they overlap?",
+        "options": [
+          "Reflection principle",
+          "Refraction law",
+          "Superposition principle",
+          "Doppler effect"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "The concept is named after this principle itself.",
+        "detailed": "The superposition principle states that the net displacement from overlapping waves is the sum of their individual displacements."
+      }
+    ]
+  }
