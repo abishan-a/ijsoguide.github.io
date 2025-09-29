@@ -1,0 +1,149 @@
+{
+  "subject": "biology",
+  "unit": "Cellular and Microbiology",
+  "title": "Microbes and Their Characteristics",
+  "test_id": "3_012",
+  "authors": "Kotryna Mieldažytė",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which feature is absent in bacteria?",
+      "options": [
+        "Nucleus",
+        "Ribosomes",
+        "DNA",
+        "Plasma membrane"
+      ],
+      "correct": "A",
+      "hint": "Think about membranous organelles.",
+      "detailed": "Option A is correct, because the nucleus has a double membrane. DNA is not contained in any prokaryote (bacteria included)."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "The main structural molecule in bacterial cell walls is:",
+      "options": [
+        "Cellulose",
+        "Peptidoglycan",
+        "Chitin",
+        "Pectin"
+      ],
+      "correct": "B",
+      "hint": "Chitin is found in the exoskeleton of insects.",
+      "detailed": "Peptidoglycan is found in bacterial cell walls."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which reproductive method is typical of bacteria?",
+      "options": [
+        "Budding",
+        "Sporulation",
+        "Binary fission",
+        "Fragmentation"
+      ],
+      "correct": "C",
+      "hint": "Budding is used for asexual reproduction in PLANTS.",
+      "detailed": "Binary fission is the correct mode of reproduction in bacteria."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What substance gives fungal cell walls their strength?",
+      "options": [
+        "Peptidoglycan",
+        "Silica",
+        "Chitin",
+        "Cellulose"
+      ],
+      "correct": "C",
+      "hint": "Remember: “Peptidoglycan is found in bacterial cell walls. Are fungi bacteria?",
+      "detailed": "The correct answer is option C. Chitin is found in fungal cell walls and gives them their strength."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Protozoa often protect themselves with a flexible:",
+      "options": [
+        "Capsule",
+        "Pellicle",
+        "Envelope",
+        "Capsid"
+      ],
+      "correct": "B",
+      "hint": "A capsid is the protein shell of a virus.",
+      "detailed": "The correct answer is B. The pellicle is a non-rigid outser layer allowing the protozia to maintain flexibility."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which organisms contribute directly to global oxygen production through photosynthesis?",
+      "options": [
+        "Fungi",
+        "Algae ",
+        "Protozoa",
+        "Prions"
+      ],
+      "correct": "B",
+      "hint": "Prions are misfolded proteins thought to contribute to neurodegenerative diseases.",
+      "detailed": "Option B is correct, algae perform photosynthesis and thus produce oxygen."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which infectious agent contains only protein with no nucleic acids?",
+      "options": [
+        "Viroid",
+        "Prion",
+        "Virus",
+        "Protozian cyst"
+      ],
+      "correct": "B",
+      "hint": "Solution to the previous question.",
+      "detailed": "Prions are misfolded proteins and agents of disease. No nucleic acids involved."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which organisms lack any cellular structure entirely?",
+      "options": [
+        "Fungi",
+        "Bacteria",
+        "Prions",
+        "Protozoa"
+      ],
+      "correct": "C",
+      "hint": "Which of these is actually a cell or is just a component of a cell?",
+      "detailed": "Prions are the correct answer because they are nothing more than misfolded proteins."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which microbe type contributes to nitrogen fixation in ecosystems?",
+      "options": [
+        "Protozoa",
+        "Algae",
+        "Bacteria",
+        "Fungi"
+      ],
+      "correct": "C",
+      "hint": "Nitrobacter and nitrosomonas are examples.",
+      "detailed": "The correct answer is bacteria (nitrogen fixing bacteria)."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which group has some members with silica in their walls?",
+      "options": [
+        "Viruses",
+        "Algae",
+        "Bacteria",
+        "Protozoa"
+      ],
+      "correct": "B",
+      "hint": "Silica is a crystal-like, glittery substance (resembling glass).",
+      "detailed": "Algae are coated with silica to help with oxygen production."
+    }
+  ]
+}

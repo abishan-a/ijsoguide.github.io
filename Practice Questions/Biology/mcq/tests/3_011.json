@@ -1,0 +1,148 @@
+{
+  "subject": "biology",
+  "unit": "Cellular and Microbiology",
+  "title": "Cellular Respiration MCQ Problems",
+  "test_id": "3_011",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which has less energy: \\(\\text{NAD}^+\\) or NADH?",
+      "options": [
+        "\\(\\text{NAD}^+\\)",
+        "NADH",
+        "Both equal",
+        "Depends on the stage"
+      ],
+      "correct": "A",
+      "hint": "Think about which molecule has electrons to donate.",
+      "detailed": "\\(\\text{NAD}^+\\) is the oxidized form; it does not carry high-energy electrons. NADH is reduced and carries energy-rich electrons that can drive the electron transport chain. NADH is incorrect — it has more energy, not less. Both is wrong — redox states differ in energy. 'Depends on the stage' is misleading — relative energy is fixed."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "ADP  is converted into ATP by:",
+      "options": [
+        "Hydrolysis",
+        "Phosphorylation",
+        "Reduction",
+        "Oxidation"
+      ],
+      "correct": "B",
+      "hint": "ADP means adenosine diphosphate, ATP - adenosine triphosphate.",
+      "detailed": "Making ATP involves adding a phosphate - phosphorylating - ADP. Hydrolysis is the opposite (breaking ATP down). Reduction involves electron gain, not phosphate transfer. Oxidation involves electron loss, unrelated here."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Where does glycolysis take place?",
+      "options": [
+        "Mitochondrial matrix",
+        "Inner mitochondrial matrix",
+        "Cytoplasm",
+        "Intermembrane space"
+      ],
+      "correct": "C",
+      "hint": "It happens before mitochondria are involved in the respiration cascade.",
+      "detailed": "Glycolysis is cytosolic and does not require organelles. The mitochondrial matrix is for the Krebs cycle and pyruvate oxidation. The inner membrane is where ETC occurs. The intermembrane space is important for the proton gradient, not glycolysis."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Net products of glycolysis (per glucose) are:",
+      "options": [
+        "2 pyruvate, 4 ATP, 4 NADH",
+        "2 pyruvate, 2 ATP, 2 NADH",
+        "2 acetyl-CoA, 2 \\(\\ce{CO2}\\), 2 NADH",
+        "2 ethanol, 2 ATP, 2 \\(\\text{NAD}^+\\)"
+      ],
+      "correct": "D",
+      "hint": "Remember: “investment of 2, payoff of 4” for ATP, ethanol production only happens in anaerobic conditions.",
+      "detailed": "2 pyruvate, 2 ATP, 2 NADH. During glycolysis, one glucose molecule (6C) is split into two pyruvate molecules (3C each). Along the way, 4 ATP are produced but 2 are consumed, giving a net gain of 2 ATP. Additionally, 2 \\(\\text{NAD}^+\\) are reduced to 2 NADH. <br> (A) 2 pyruvate, 4 ATP, 4 NADH → wrong because it reports gross ATP yield and doubles NADH count. <br>(C) 2 acetyl-CoA, 2 \\(\\ce{CO2}\\), 2 NADH → wrong because acetyl-CoA and \\(\\ce{CO2}\\) appear only after pyruvate oxidation in the mitochondria. <br> (D) 2 ethanol, 2 ATP, 2 \\(\\text{NAD}^+\\) → describes fermentation, not glycolysis itself."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Where does pyruvate oxidation occur?",
+      "options": [
+        "Cytoplasm",
+        "Mitochondrial matrix",
+        "Inner membrane",
+        "Chloroplast"
+      ],
+      "correct": "B",
+      "hint": "Think about the enzyme pyruvate dehydrogenase — it sits right where the Krebs cycle begins.",
+      "detailed": "(B) Mitochondrial matrix. Pyruvate is transported in and then converted to acetyl-CoA. <br> (A) Cytoplasm is for glycolysis. <br> (C) The inner membrane is for ETC, not this step. <br> (D) Chloroplast is unrelated to respiration."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Key outputs per turn of the Krebs cycle include:",
+      "options": [
+        "1 ATP, 3 NADH, 1 \\(\\text{FADH}_2\\), 2 \\(\\ce{CO2}\\)",
+        "2 ATP, 1 NADH, 1 \\(\\text{FADH}_2\\), 1 \\(\\ce{CO2}\\)",
+        "1 ATP, 2 NADH, 2 \\(\\ce{CO2}\\)",
+        "3 ATP, 2 NADH, 2 \\(\\text{FADH}_2\\)"
+      ],
+      "correct": "C",
+      "hint": "'Three, one, one, two' is the usual shorthand.",
+      "detailed": "(A) 1 ATP, 3 NADH, 1 \\(\\text{FADH}_2\\), 2 \\(\\ce{CO2}\\) per acetyl-CoA. <br> (B) Wrong counts, much too low. <br> (C) Underestimates NADH yield. <br> (D) Overstates ATP and \\(\\text{FADH}_2\\)."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What is the final electron acceptor of the electron transport chain?",
+      "options": [
+        "\\(\\text{NAD}^+\\)",
+        "FAD",
+        "Oxygen",
+        "\\(\\ce{CO2}\\)"
+      ],
+      "correct": "B",
+      "hint": "The presence of this molecule allows for up to 18 times more ATP production per glucose.",
+      "detailed": "(C) Oxygen. O₂ accepts electrons, forming water. (A) \\(\\text{NAD}^+\\) and (B) FAD are carriers, not final acceptors. (D) \\(\\ce{CO2}\\) is a product of the Krebs cycle, not an electron acceptor."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "In alcoholic fermentation, pyruvate is first converted into?",
+      "options": [
+        "Lactate",
+        "Acetaldehyde",
+        "\\(\\ce{CO2}\\)",
+        "Ethanol"
+      ],
+      "correct": "B",
+      "hint": "There's an intermediate before ethanol is made.",
+      "detailed": "Pyruvate loses \\(\\ce{CO2}\\) to become acetaldehyde, which is then reduced. <br> (A) Lactate is the product of lactic acid fermentation. <br> (C) \\(\\ce{CO2}\\) directly → Incorrect because \\(\\ce{CO2}\\) is indeed released during this step, but it is not the final product of the conversion. Pyruvate loses \\(\\ce{CO2}\\) to form acetaldehyde — the intermediate that then continues to ethanol. <br> (D) Ethanol is final, but not the first conversion."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What is the approximate total ATP yield from aerobic respiration per glucose?",
+      "options": [
+        "10 - 12",
+        "18 - 20",
+        "32 - 38",
+        "50 - 60"
+      ],
+      "correct": "C",
+      "hint": "From glycolysis you get 2 ATP + 2 NADH, from pyruvate oxidation + Krebs you get 2 ATP + 8 NADH + 2 \\(\\text{FADH}_2\\). Now, recall how many ATP each NADH and \\(\\text{FADH}_2\\) can generate in the electron transport chain — then add them all together.",
+      "detailed": "Classical estimate; modern values closer to ~30–32. <br> (A, B) Too low for full respiration. <br> (D) 50–60 is unrealistic."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "In alcoholic fermentation, acetaldehyde is reduced by NADH to form?",
+      "options": [
+        "Lactate",
+        "Ethanol",
+        "Pyruvate",
+        "ATP"
+      ],
+      "correct": "C",
+      "hint": "This is the product in beer and wine.",
+      "detailed": "Acetaldehyde + NADH → ethanol + \\(\\text{NAD}^+\\). <br> (A) Lactate comes from lactic fermentation. <br> (C) Pyruvate is upstream, not product. <br> (D) ATP is not directly formed here"
+    }
+  ]
+}
