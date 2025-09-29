@@ -26,7 +26,7 @@ jobs:
 
         exclude-paths: |
           /404.html
-          /mainlaunch.html
+          /commingsoon.html
           /navigation.html
           /Account/admin.html
           /Practice Questions/test.html

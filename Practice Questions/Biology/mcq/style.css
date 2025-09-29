@@ -1,4 +1,8 @@
-body {
+:root{
+  --subjectColor: #40cb7a;
+}
+
+/* body {
     font-family: 'Montserrat', sans-serif;
     background: #0b0c2a;
     color: #f0f0f0;
@@ -115,7 +119,7 @@ body {
     height: 50%;
     left: 0;
     bottom: 0;
-    background-color: #aaa; /* grey for hint */
+    background-color: #aaa;
     z-index: 1;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -192,4 +196,4 @@ body {
     padding: 20px;
     font-size: 0.9em;
     margin-top: 3rem;
-  }
+  } */

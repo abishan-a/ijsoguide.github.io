@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "First law of thermodynamics MCQ problems",
+    "test_id": "1_055",
+    "problems": [
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "A container holds 2.0 moles of an ideal gas. The gas occupies a volume of \\( 0.5 m^3 \\) at a temperature of 300K. What is the pressure of that gas?",
+        "options": [
+          "-13,549.00Pa",
+          "7,53.90Pa",
+          "9,976.80Pa",
+          "10,287.76Pa"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Plug in the values into the formula.",
+        "detailed": "By using the formula of ideal gas law, we get the pressure of 9.976,80Pa"
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "A gas is kept at a pressure of 25,000Pa and a temperature of 400K. If there are 0.50 moles of the gas, what volume does the gas occupy in \\( m^3 \\)",
+        "options": [
+          "-0.078",
+          "0.067",
+          "0.345",
+          "0.087"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Plug in the values into the formula.",
+        "detailed": "By using the formula of ideal gas law, we get the volume of 0.067 \\( m^3 \\)"
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "A fixed amount of gas initially occupies a volume V at a temperature of 200K and a pressure of 100,000Pa. The gas is heated to400K while the volume V remains constant. What is its new pressure?",
+        "options": [
+          "50.000Pa",
+          "100.000Pa",
+          "150.000Pa",
+          "200.000Pa"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "What can you do if the volume is constant?",
+        "detailed": "Since the volume is constant, we can simplify the equation to \\( \\ P_1 T_2 = P_2 T_1 \\). From that we get new pressure \\( \\ P_2 = 200.000Pa \\)"
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "A gas sample has a temperature of 27 degrees Celsius. What is this temperature in Kelvins (K)?",
+        "options": [
+          "300",
+          "27",
+          "200",
+          "-18"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "What is the formula for converting these units?",
+        "detailed": "The temperature in Kelvins is greater by 273 to the temperature in degrees Celsius. From that we get 300K."
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "Calculate the total internal energy in J of 3.0 moles of an ideal monatomic gas at a temperature of 350K.",
+        "options": [
+          "13,095",
+          "12,970",
+          "14,564",
+          "-13,456"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "What is the formula for calculating internal energy of a gas?",
+        "detailed": "Using \\( U = \\frac{3}{2}nRT \\) we get the energy of 13,095J"
+      }
+    ]
+  }

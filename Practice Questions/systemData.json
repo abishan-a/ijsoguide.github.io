@@ -335,13 +335,13 @@
                 "title": "Heating Curves, Cooling Curves"
                 },
                 "1_055": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "First Law of Thermodynamics"
                 },
                 "1_056": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Ideal Gas Law"

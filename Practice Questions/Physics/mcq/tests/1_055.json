@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "First law of thermodynamics MCQ problems",
+    "test_id": "1_055",
+    "problems": [
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "During an isobaric process, ideal gas loses 400 J of heat and does 100 J of work on its surroundings. What is the total change in internal energy of the gas?",
+        "options": [
+          "500J",
+          "-500J",
+          "300J",
+          "-300J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Is the energy lost or gained?",
+        "detailed": "The first law of thermodynamics tells us that \\( \\Delta U = Q - W \\). In this case, \\( \\Delta U = (-400J) - 100J = 300J\\) (sign in front of 400J is negative because that heat is lost)."
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "How much does the internal energy of an ideal gas change if it is rapidly compressed, and during this process the total work done on it is 150J?",
+        "options": [
+          "-150J",
+          "0",
+          "150J",
+          "-300J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Which kind of process is rapid compression?",
+        "detailed": "During rapid processes, the gas does not have enough time to gain or lose heat from the surroundings, so these processes are adiabatic. Q=0, so the change of internal energy of this gas is 150J."
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "An ideal gas expands isothermally and does 350 J of work on its surroundings. What is the heat gained by the system and the change in its internal energy?",
+        "options": [
+          "Heat gained: 350J; internal energy change: 350J",
+          "Heat gained: 0J; internal energy change: 0",
+          "Heat gained: 0J; internal energy change: 350J",
+          "Heat gained: 350J; internal energy change: 0J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "What do we know about every isothermal process?",
+        "detailed": "In isothermal process the temperature of the gas does not change, so neither does its internal energy (\\( \\Delta U = 0 \\)) Changing \\( \\Delta U = 0 \\) in the formula, we get Q=350J (if the internal energy does not change, the gas has to get the energy to do the work from other source - get the heat from the surroundings)."
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "A gas undertakes a cycle (it starts and ends at the same state). During the entire cycle it did the total net work of 500J. What is the net heat transfer for the entire cycle?",
+        "options": [
+          "-500J",
+          "0",
+          "500J",
+          "-250J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "What is the change of the internal energy in the cycle?",
+        "detailed": "For any complete thermodynamic cycle, the system returns to its initial state. Internal energy is a state function, meaning its change only depends on the initial and final states, so its change here is 0. Now, by applying the First law of TD, we get the net heat supplied is 500J."
+      },
+      {
+        "author": "Pavle Ignjatovic",
+        "level": "easy",
+        "question": "In an adiabatic process, a gas is compressed, and the internal energy of the gas increases by 300J. What is the work done by the system?",
+        "options": [
+          "-300J",
+          "300J",
+          "150J",
+          "0"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Which part of the formula for the law do you get from the fact that the process is adiabatic?",
+        "detailed": "Adiabatic process means no heat transfer - so Q=0. Now, by applying the First law of TD, we get the work done by the gas is -300J."
+      }
+    ]
+  }

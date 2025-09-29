@@ -238,11 +238,11 @@
     <p>Sharpen your skills with challenging Physics, Chemistry, and Biology problems tailored for the IJSO 🧠✨</p>
   </header>
 
-  <!-- Cards Section -->
-  <div class="container">
+
+  <!---<div class="container">
     <h2>Explore all topics</h2>
     <div class="cards">
-      <!-- Physics -->
+
       <div class="card physics">
         <img src="/images/theory/physics.jpeg" alt="Physics" />
         <div class="content">
@@ -254,7 +254,7 @@
         </div>
       </div>
 
-      <!-- Chemistry -->
+
       <div class="card chemistry">
         <img src="/images/theory/chemistry.avif" alt="Chemistry" />
         <div class="content">
@@ -266,7 +266,7 @@
         </div>
       </div>
 
-      <!-- Biology -->
+
       <div class="card biology">
         <img src="/images/theory/biology.avif" alt="Biology" />
         <div class="content">
@@ -279,9 +279,9 @@
       </div>
 
     </div>
-  </div>
+  </div> --->
 
-  <!--- <div class="container">
+  <div class="container">
     <h2>Choose topic to practice:</h2>
     <div class="cards">
       <div class="card physics">
@@ -376,12 +376,12 @@
             <option value="1_085">Solar system</option>
             <option value="1_086">Celestial mechanics</option>
           </select>
-          <label for="physicsLevel">Choose difficulty:</label>
+          <!---<label for="physicsLevel">Choose difficulty:</label>
           <select name="physicsLevel" id="physicsLevel" multiple>
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
-          </select>
+          </select>--->
           <a href="../Practice Questions/test.html?subject=physics&unit=1_001&level=111" id="physicsLink">Practice physics</a>
         </div>
       </div>
@@ -449,12 +449,12 @@
             <option value="2_057">Crystal Hydrates</option>
             <option value="2_058">Properties of Common Compounds</option>
           </select>
-          <label for="chemistryLevel">Choose difficulty:</label>
+          <!---<label for="chemistryLevel">Choose difficulty:</label>
           <select name="chemistryLevel" id="chemistryLevel" multiple>
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
-          </select>
+          </select>--->
           <a href="../Practice Questions/test.html?subject=chemistry&unit=2_001&level=111" id="chemistryLink">Practice chemistry</a>
         </div>
       </div>
@@ -561,17 +561,17 @@
             <option value="3_096">Animal Classification</option>
             <option value="3_097">Plant Classification</option>
           </select>
-          <label for="biologyLevel">Choose difficulty:</label>
+          <!---<label for="biologyLevel">Choose difficulty:</label>
           <select name="biologyLevel" id="biologyLevel" multiple>
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
-          </select>
+          </select>--->
           <a href="../Practice Questions/test.html?subject=biology&unit=3_001&level=111" id="biologyLink">Practice biology</a>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
    <div class="back-button-right">
     <a href="../Start Learning/startlearning.html">← Back to Start Preparing</a>
@@ -585,7 +585,7 @@
 
 
   <script>
-    /*let physicsSelect = document.getElementById('physicsSelect');
+    let physicsSelect = document.getElementById('physicsSelect');
     let chemistrySelect = document.getElementById('chemistrySelect');
     let biologySelect = document.getElementById('biologySelect');
 
@@ -597,6 +597,8 @@
     let chemistryLink = document.getElementById('chemistryLink');
     let biologyLink = document.getElementById('biologyLink');
 
+    let tempAllLevels = true;
+
     physicsSelect.addEventListener('change', ()=>{
       updatePhysicsLink();
     })
@@ -606,7 +608,7 @@
     biologySelect.addEventListener('change', ()=>{
       updateBiologyLink();
     })
-    physicsLevel.addEventListener('change', ()=>{
+    /*physicsLevel.addEventListener('change', ()=>{
       updatePhysicsLink();
     })
     chemistryLevel.addEventListener('change', ()=>{
@@ -614,48 +616,103 @@
     })
     biologyLevel.addEventListener('change', ()=>{
       updateBiologyLink();
+    })*/
+   
+
+
+    let filePath = "./systemData.json";
+    (async (filePath)=>{
+      try {
+        let module = await fetch(filePath)
+        let loadedData = await module.json();
+        systemData = loadedData;
+      } catch (err) {
+        console.error("Failed to load system data:", err);
+      }
+    })(filePath)
+    .then(()=>{
+      let displayQ = [];
+      ["physics", "chemistry", "biology"].forEach(subjectName => {
+        let subjectCode;
+        if (subjectName == "physics") subjectCode = 1
+        else if (subjectName == "chemistry") subjectCode = 2
+        else if (subjectName == "biology") subjectCode = 3
+        for (let unitKey in systemData["problemCount"][subjectCode]){
+          for (let topicKey in systemData["problemCount"][subjectCode][unitKey]){
+            console.log(topicKey)
+            let topicData = systemData["problemCount"][subjectCode][unitKey][topicKey];
+            let totalQ = topicData["easy"] + topicData["medium"] + topicData["hard"];
+            if (totalQ != 0) displayQ.push(topicKey)
+          }
+        }
+      })
+      console.log(displayQ)
+      physicsSelect.querySelectorAll("option").forEach(e => {
+        if (!displayQ.includes(e.value)){
+          console.log(e.value)
+          e.remove()
+        }
+      })
+      chemistrySelect.querySelectorAll("option").forEach(e => {
+        if (!displayQ.includes(e.value)){
+          console.log(e.value)
+          e.remove()
+        }
+      })
+      biologySelect.querySelectorAll("option").forEach(e => {
+        if (!displayQ.includes(e.value)){
+          console.log(e.value)
+          e.remove()
+        }
+      })
     })
 
     function updatePhysicsLink(){
       let physicsUnit = physicsSelect.value;
       let level = [1, 1, 1];
-      Array.from(physicsLevel.options).forEach(element => {
-        if(!element.selected){
-          if(element.value == "easy") level[0] = 0;
-          if(element.value == "medium") level[1] = 0;
-          if(element.value == "hard") level[2] = 0;
-        }
-      });
+      if (!tempAllLevels){
+        Array.from(physicsLevel.options).forEach(element => {
+          if(!element.selected){
+            if(element.value == "easy") level[0] = 0;
+            if(element.value == "medium") level[1] = 0;
+            if(element.value == "hard") level[2] = 0;
+          }
+        });
+      }
       physicsLink.href = "../Practice Questions/test.html?subject=physics&unit=" + physicsUnit + "&level=" + level.join('');
     }
     function updateChemistryLink(){
       let chemistryUnit = chemistrySelect.value;
       let level = [1, 1, 1];
-      Array.from(chemistryLevel.options).forEach(element => {
-        if(!element.selected){
-          if(element.value == "easy") level[0] = 0;
-          if(element.value == "medium") level[1] = 0;
-          if(element.value == "hard") level[2] = 0;
-        }
-      });
+      if (!tempAllLevels){
+        Array.from(chemistryLevel.options).forEach(element => {
+          if(!element.selected){
+            if(element.value == "easy") level[0] = 0;
+            if(element.value == "medium") level[1] = 0;
+            if(element.value == "hard") level[2] = 0;
+          }
+        });
+      }
       chemistryLink.href = "../Practice Questions/test.html?subject=chemistry&unit=" + chemistryUnit + "&level=" + level.join('');
     }
     function updateBiologyLink(){
       let biologyUnit = biologySelect.value;
       let level = [1, 1, 1];
-      Array.from(biologyLevel.options).forEach(element => {
-        if(!element.selected){
-          if(element.value == "easy") level[0] = 0;
-          if(element.value == "medium") level[1] = 0;
-          if(element.value == "hard") level[2] = 0;
-        }
-      });
+      if (!tempAllLevels){
+        Array.from(biologyLevel.options).forEach(element => {
+          if(!element.selected){
+            if(element.value == "easy") level[0] = 0;
+            if(element.value == "medium") level[1] = 0;
+            if(element.value == "hard") level[2] = 0;
+          }
+        });
+      }
       biologyLink.href = "../Practice Questions/test.html?subject=biology&unit=" + biologyUnit + "&level=" + level.join('');
-    }*/
+    }
   </script>
 
   <script>
-    window.location.href = "/mainlaunch.html"
+    window.location.href = "/commingsoon.html"
   </script>
 
 </body>

@@ -170,8 +170,8 @@ nav{
 }
 
 #dynamicProblemImages img, #dynamicExplanationImages img{
-  max-height: 150px;
-  max-width: 150px;
+  max-height: 200px;
+  max-width: 500px;
   margin: 3px;
 }
 
@@ -255,4 +255,10 @@ input[type="radio"] {
 .landing-content h1 {
   font-size: 2rem;
 }
+
+  #dynamicProblemImages img, #dynamicExplanationImages img{
+    max-height: 150px;
+    max-width: 95%;
+    margin: 2px;
+  }
 }
