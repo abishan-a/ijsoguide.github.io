@@ -1,0 +1,88 @@
+{
+  "subject": "biology",
+  "unit": "Human Biology",
+  "title": "Sensory Organs MCQ Problems",
+  "test_id": "3_033",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What is another name for pain receptors?",
+      "options": [
+        "Proprioceptors",
+        "Nociceptors",
+        "Painoceptors",
+        "Vestibuloceptors"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "There is no such thing as vestibuloceptors and painoceptors. The prefix vestibulo means balance.",
+      "detailed": "The correct option is B."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Identify the following statements as true or false: <br><br>Cones are specialized for dim vision <br>There are red, blue, and green cones <br>The optic chiasm occurs in the occipital lobe. <br> The cornea gives the retina an upside-down view of the outside world",
+      "options": [
+        "T, F, F, T",
+        "F, F, F, T",
+        "F, T, F, F",
+        "F, T, F, T"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "The optic chiasm occurs way before the occipital lobe, almost immediately after the optic nerves leave the back of the eye.",
+      "detailed": "The correct answer is option C. Rods, NOT cones are for dim vision. There are indeed red, blue, and green cones. The optic chiasm occurs not too far away from where the optic nerve exits the eye. The LENS gives an upside-down view of the outside world, not the cornea."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What is the name of the first membrane that creates vibrations from sound waves in the ear?",
+      "options": [
+        "Tectorial membrane",
+        "Oval window",
+        "Basilar membrane",
+        "Tympanic membrane"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "The basilar membrane runs along the inside of the cochlea.",
+      "detailed": "The correct answer is option D. The tympanic membrane is another name for the eardrum, which vibrates in response to sound waves in the ear."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What is the ONLY type of sensory input that DOES NOT go through the thalamus to be distributed to its sensory cortex?",
+      "options": [
+        "Optic (visual) information",
+        "Olfactory information",
+        "Vestibular information",
+        "Gustatory information"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Optic (visual information passes through the lateral geniculate nucleus in the thalamus.",
+      "detailed": "The correct answer is option B. Olfactory information passes straight through the cribiform plate and into the olfactory cortex via the olfactory nerve (CN I)."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which part of the eye helps to refract/bend light so it lands on the retina?",
+      "options": [
+        "Cornea",
+        "Conjunctiva",
+        "Upper eyelid",
+        "Lens"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "The lens thickens and reduces thickness.",
+      "detailed": "The correct answer is option D. The lens can become thicker and thinner depending on the distance between the object and the individual."
+    }
+  ]
+}

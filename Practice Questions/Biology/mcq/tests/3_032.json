@@ -1,0 +1,136 @@
+{
+  "subject": "biology",
+  "unit": "Human Biology",
+  "title": "Structure and function of Neuron MCQ Problems",
+  "test_id": "3_032",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is CORRECT with regards to myelin production?",
+      "options": [
+        "In the peripheral nervous system (PNS), myelin is produced by oligodendrocytes.",
+        "In the central nervous system (CNS), myelin is produced by Schwann cells.",
+        "Myelin is primarily composed of carbohydrates and sugars.",
+        "Myelin sheaths are not continuous"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Myelin has gaps, called nodes of Ranvier. Schwann cells produce myelin in the PNS, not CNS.",
+      "detailed": "The correct answer is D, myelin sheaths have gaps that allow impulses to travel faster due to saltatory conduction. The myelin in the PNS is produced by Schwann cells and the myelin in the CNS is produced by oligodendrocytes. Myelin is composed primarily of lipids and proteins, explaining why it is a good insulator."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is CORRECT?",
+      "options": [
+        "Sensory neurons are also known as efferent neurons.",
+        "Efferent neurons LEAVE the central nervous system and initiate action in the body.",
+        "Interneurons are ONLY found in the central nervous system.",
+        "Motor neurons are also known as afferent neurons."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Sensory neurons are known as afferent neurons, motor neurons are known as efferent neurons.",
+      "detailed": "Option A is incorrect, sensory neurons are afferent because they take information from the body back to the brain. Option B is incorrect; efferent neurons take information from the brain to the body. Option C is correct as interneurons are ONLY found in the central nervous system. Option D is incorrect — motor neurons are also known as efferent neurons."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Fill in the blanks: ____________ stimuli are localized and not strong enough to be fully propagated. An action potential is an all or nothing event, so ___________ potentials, unless added together, cannot trigger an action potential.",
+      "options": [
+        "Stronger; simple",
+        "Weaker, simple",
+        "Weaker, graded",
+        "Stronger, graded"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": " If an action potential is an all or nothing event, weaker stimuli cannot do anything.",
+      "detailed": "The correct answer is C. Weaker stimuli are not strong enough to be propagated. Graded potentials are added together to reach a threshold and trigger an action potential."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which glial cell type is responsible for immune surveillance in the central nervous system?",
+      "options": [
+        "Ependymal cells",
+        "Microglia",
+        "Schwann cells",
+        "Astrocytes"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Ependymal cells produce CNS (cerebrospinal fluid) and schwann cells produce myelin.",
+      "detailed": "The correct answer here is option B, microglia. Microglia have immune responsibilities in the brain."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "The axon hillock is essential for:",
+      "options": [
+        "Releasing neurotransmitters into the synaptic cleft",
+        "Maintaining the neuron's resting membrane potential",
+        "Synthesizing neurotransmitters from amino acids",
+        "Integrating graded potentials and initiating action potentials"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "The axon terminal releases neurotransmitters, NOT the axon hillock.",
+      "detailed": "The correct answer is D, the axon hillock integrates graded potentials and decides whether not to move forward with an action potential."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What are action potentials characterized by?",
+      "options": [
+        "Rapid repolarization",
+        "Passing the +40 mV threshold",
+        "Rapid depolarization",
+        "Partial propagation of impulse along the axon"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Depolarization is the process by which the cell becomes more positive. Hyperpolarization is the process by which the cell becomes more negative. Action potentials make the cell more positive.",
+      "detailed": "The correct answer here is option C. Rapid depolarization is key because resting potential is -70mV, while the threshold for action potential is at -55mV. Therefore, the cell becomes more positive, which is characteristic of rapid depolarization."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "During an action potential, which event occurs first?",
+      "options": [
+        "Potassium channels open, causing repolarization",
+        "Sodium channels close, halting depolarization",
+        "Voltage-gated sodium channels open",
+        "The neuron reaches the hyperpolarization threshold"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "To accomplish an action potential, we don’t want to repolarize, we want to DEPOLARIZE.",
+      "detailed": "The correct answer to this question is option C. When sodium ions enter the neuron, the voltage becomes positive. A more positive voltage brings the neuron closer to an action potential."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Why is hyperpolarization (undershoot of cell potential) a thing?",
+      "options": [
+        "Voltage gated sodium channels stay open more than they should so the cell loses too much of its positive charge.",
+        "For there to be a refractory period, there must be an undershoot so the cell tries to catch up.",
+        "The sodium potassium pump momentarily stops working.",
+        "Potassium ion channels take a while to close so extra potassium leaves the cell making it more negative than -70mV."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "This has nothing to do with a refractory period. Sodium potassium pumps are always working.",
+      "detailed": " The correct answer is D, after voltage gated sodium channels close potassium ion channels close slowly allowing extra potassium to slip out making the cell more negative than necessary."
+    }
+  ]
+}

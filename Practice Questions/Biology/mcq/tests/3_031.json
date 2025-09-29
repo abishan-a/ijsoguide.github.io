@@ -1,0 +1,136 @@
+{
+  "subject": "biology",
+  "unit": "Human Biology",
+  "title": "Nervous System MCQ Problems",
+  "test_id": "3_031",
+  "problems": [
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "Which of the following is correct?",
+      "options": [
+        "Threshold level is at -70 mV",
+        "From stage A to B, the cell membrane's voltage difference will decrease",
+        "At stage C, \\(\\ce{K+}\\) will flow out of the cell by active transport",
+        "At stage D, \\(\\ce{Na+}\\) will flow into the cell"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Resting potential is at -70 mV",
+      "detailed": "(A) The graph shows the resting potential at -70 mV. Stage A: The threshold level, indicated by the dashed line E, is approximately -55 mV. This is the voltage that must be reached to trigger an action potential. <br><br> (B) From stage A to B, the cell membrane's voltage difference will decrease. This is correct. At stage A (resting potential), there's a large voltage difference of 70 mV across the membrane (the inside is 70 mV more negative than the outside). Stage B represents depolarization, where positively charged sodium ions (\\(\\ce{Na+}\\)) flood into the cell. This influx of positive charge makes the inside of the cell less negative, thereby decreasing the potential difference across the membrane as it moves towards 0 mV and then becomes positive. <br><br> (C) At stage C, \\(\\ce{K+}\\) will flow out of the cell by active transport. This is incorrect. Stage C is repolarization, where potassium ions (\\(\\ce{K+}\\)) do flow out of the cell. However, this occurs via voltage-gated \\(\\ce{K+}\\) channels, which is a form of facilitated diffusion (a type of passive transport). The ions move down their electrochemical gradient and do not require energy (ATP). Active transport is primarily associated with the sodium-potassium pump, which maintains the resting potential. <br><br> (D) At stage D, \\(\\ce{Na+}\\) will flow into the cell. This is incorrect. Stage D is hyperpolarization. During this phase, the voltage-gated \\(\\ce{Na+}\\) channels are inactivated, and voltage-gated \\(\\ce{K+}\\) channels are slowly closing. There is no significant influx of \\(\\ce{Na+}\\) into the cell at this stage."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "Tetrotoxin found in puffer fish has effects on neurological pathways by closing voltage-gated Na+ channels adhering in cell membranes. If we test this toxin with neurons, which stage of the action potential will be affected?",
+      "options": [
+        "Depolarization",
+        "Resting membrane potentials",
+        "Repolarization",
+        "Hyperpolarization"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Each phase of the action potential is defined by the opening and closing of specific ion channels. Consider which phase is directly caused by the rapid influx of sodium (\\(\\ce{Na+}\\)) through voltage-gated channels.",
+      "detailed": "An action potential begins with depolarization, the rapid rising phase of the membrane potential. This phase is entirely dependent on the opening of voltage-gated sodium (\\(\\ce{Na+}\\)) channels. When these channels open, \\(\\ce{Na+}\\) ions rush into the neuron, causing the inside of the membrane to become positively charged. Tetrodotoxin (TTX) specifically blocks these channels. By doing so, it prevents the influx of \\(\\ce{Na+}\\) ions. Without the influx of sodium, the neuron cannot depolarize to fire an action potential. Therefore, TTX directly inhibits the depolarization stage."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "Satitoxin(STX) secreted by dinoflagellates has effects on neurological pathways by closing voltage-gated Na+ channels adhering in cell membranes. Which of the following is correct?",
+      "options": [
+        "STX will have the same effect as acetylcholine",
+        "STX can be used as a local anesthetic",
+        "STX stimulates heart beating dramatically",
+        "By injecting STX into the spinal cord, skeletal muscle will contract"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "The mechanism of STX is to block action potentials from occurring. Think about the broader consequences of this blockage. What happens if signals for pain or muscle movement cannot be transmitted by nerves?",
+      "detailed": "(A) STX will have the same effect as acetylcholine. This is incorrect. Acetylcholine is typically an excitatory neurotransmitter that promotes the firing of an action potential. STX prevents action potentials. Their effects are opposite. <br><br> (B) STX can be used as a local anesthetic. This is correct. Local anesthetics, such as lidocaine, work by the exact same mechanism: they block voltage-gated Na^+ channels. By preventing nerves in a specific area from firing action potentials, they block the transmission of pain signals to the brain, resulting in a loss of sensation. <br><br> (C) STX stimulates heart beating dramatically. This is incorrect. The electrical conduction in the heart relies on action potentials. Blocking sodium channels would disrupt the heart's rhythm, leading to a slowed heart rate (bradycardia) or cardiac arrest, not stimulation. <br><br> (D) By injecting STX into the spinal cord, skeletal muscle will contract. This is incorrect. Motor neurons must fire action potentials to signal muscles to contract. If STX blocks these neurons from firing, the signal will never reach the muscles, leading to flaccid paralysis (the inability to contract muscles), not contraction."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "Which of the following orders the neurons' ability to transport impulse from fastest to slowest?",
+      "options": [
+        "A, B, C, D",
+        "B, A, D, C",
+        "C, D, A, B",
+        "D, C, B, A"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Remember: “Two main physical characteristics of an axon determine the speed of nerve impulse transmission. Consider the effects of insulation (myelin sheath) and the diameter (thickness) of the axon.",
+      "detailed": "The speed of a nerve impulse is determined by two main factors: <br><br> Myelination: Neurons with a myelin sheath (the bead-like structures) conduct impulses much faster than unmyelinated neurons. The myelin acts as an insulator, allowing the electrical signal to 'jump' from one gap (Node of Ranvier) to the next in a process called saltatory conduction. <br><br> Neurons D and C are myelinated, so they are the fastest. <br><br> Neurons B and A are unmyelinated, so they are the slowest. <br><br> Axon Diameter: For neurons with the same level of myelination, a thicker axon has less internal resistance and conducts impulses faster. Comparing the two myelinated neurons: Neuron D has a thicker axon than neuron C, so D is faster than C. <br><br> Comparing the two unmyelinated neurons: Neuron B has a thicker axon than neuron A, so B is faster than A. <br><br> Combining these facts, the order from fastest to slowest is D > C > B > A."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "Which of the following processes is not found during chemical synapse?",
+      "options": [
+        "\\(\\ce{Ca^{2+}}\\) ions flow toward the axon terminal of the presynaptic neuron",
+        "\\(\\ce{Na+}\\) ions flow into the dendrite of the postsynaptic neuron",
+        "Neurotransmitter’s endocytosis takes place at postsynaptic neuron",
+        "Neurotransmitter sac’s exocytosis takes place at presynaptic neuron"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Trace the journey of the signal. The neurotransmitter is released from the presynaptic neuron and acts as a key to unlock a channel on the postsynaptic neuron. Does the key itself need to go inside the lock's room to work?",
+      "detailed": "Neurotransmitter’s endocytosis takes place at postsynaptic neuron. Here is a step-by-step breakdown of why the other options are correct processes and why C is not: <br><br> (A) \\(\\ce{Ca^{2+}}\\) ions flow toward the axon terminal of the presynaptic neuron. This is a correct step. When an action potential arrives, it opens voltage-gated calcium channels, and the influx of \\(\\ce{Ca^{2+}}\\) is the direct trigger for the release of neurotransmitters. <br><br> (B) \\(\\ce{Na+}\\) ions flow into the dendrite of the postsynaptic neuron. This is a correct step for an excitatory synapse. The neurotransmitter binds to receptors on the postsynaptic neuron, opening channels that allow positive ions like \\(\\ce{Na+}\\) to enter, which can trigger a new action potential. <br><br> (D) Neurotransmitter sac’s exocytosis takes place at presynaptic neuron. This is a correct step. Neurotransmitters are stored in vesicles (sacs). When \\(\\ce{Ca^{2+}}\\) enters the terminal, these sacs fuse with the cell membrane and release their contents into the synapse. This process is called exocytosis. <br><br> (C) Neurotransmitter’s endocytosis takes place at postsynaptic neuron. This is incorrect. Endocytosis is the process of bringing something into a cell. Neurotransmitters simply bind to receptors on the surface of the postsynaptic neuron to pass the signal along. They are not taken into the postsynaptic cell."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "Which of the following is an example of a sympathetic nervous system’s action?",
+      "options": [
+        "Pupil undilated",
+        "Slower heartbeats",
+        "Bile sac contraction; causing bile secretion",
+        "Epinephrine and norepinephrine secretion"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "The sympathetic nervous system is responsible for the 'fight-or-flight' response. Its actions prepare the body for high-stress, high-energy situations. In contrast, the parasympathetic system handles the 'rest-and-digest' functions.",
+      "detailed": "(A) Pupil undilated: 'Undilated' (constricted) pupils are characteristic of a relaxed state, managed by the parasympathetic system. The sympathetic system dilates the pupils to let in more light for better awareness. <br><br> (B) Slower heart beats: A slow heart rate conserves energy and is a 'rest-and-digest' function of the parasympathetic system. The sympathetic system increases the heart rate to pump more blood to the muscles. <br><br> (C) Bile sac contraction; causing bile secretion: The release of bile is a key part of digestion, which is a 'rest-and-digest' function promoted by the parasympathetic system. The sympathetic system typically inhibits digestion. <br><br> (D) Epinephrine and norepinephrine secretion: This is a classic sympathetic action. The sympathetic nervous system directly stimulates the adrenal glands to release epinephrine (adrenaline) and norepinephrine (noradrenaline). These hormones act throughout the body to increase heart rate, blood pressure, and energy availability, amplifying the fight-or-flight response."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "A patient experiences a head injury that primarily affects their ability to interpret visual information, such as recognizing objects or faces, even though their eyes are functioning correctly. Which lobe of the brain is most likely damaged, and what is its primary role in sensory processing?",
+      "options": [
+        "Frontal lobe",
+        "Parietal lobe",
+        "Temporal lobe",
+        "Occipital lobe"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Consider the specific sensory function affected and the brain region dedicated to it.",
+      "detailed": "The occipital lobe, located at the back of the brain, is the primary processing center for visual information. Damage to this lobe can lead to difficulties in interpreting what is seen, even if the eyes themselves are healthy. The other lobes have different primary functions."
+    },
+    {
+      "author": "Panisara Kositsurangkakul",
+      "level": "easy",
+      "question": "A traffic accident victim hit his head on the road. He later has difficulty with coordinated movements like walking a straight line and challenges with tasks requiring fine motor control, such as buttoning a shirt. Which specific brain region is most likely affected, and what crucial motor function does it normally regulate?",
+      "options": [
+        "Cerebrum",
+        "Brainstem",
+        "Cerebellum",
+        "Thalamus"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "This brain region is essential for smooth, coordinated movements and maintaining posture.",
+      "detailed": "The cerebellum, located at the back of the brain, plays a critical role in coordinating voluntary movements, maintaining balance, posture, and motor learning. Damage to the cerebellum often results in ataxia (lack of coordination), gait disturbances, and difficulty with fine motor skills, directly matching the patient's symptoms."
+    }
+  ]
+}
