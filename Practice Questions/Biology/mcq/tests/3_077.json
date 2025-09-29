@@ -1,0 +1,88 @@
+{
+  "subject": "biology",
+  "unit": "Ecology and Environment",
+  "title": "Nitrogen Cycle MCQ Problems",
+  "test_id": "3_077",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What is the process by which atmospheric nitrogen, \\(\\ce{N2}\\)(g), is converted to ammonium?",
+      "options": [
+        "Nitrification",
+        "Ammonification",
+        "Ammonitiation",
+        "Nitrogen fixation"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Nitrification is going from ammonium to nitrite and possibly nitrate.",
+      "detailed": "The correct answer is nitrogen fixation, turning nitrogen gas into a usable form for plants, which is usually ammonium, which can be more directly converted to nitrite and nitrate to be assimilated."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following accurately describes nitrogen assimilation?",
+      "options": [
+        "The conversion of ammonium to nitrogen gas to re-assimilate it into the atmosphere",
+        "The integration of nitrogen into the amino acids and nucleic acids of the plant",
+        "The use of nitrobacter and nitrosomonas to convert ammonium to nitrite and nitrate",
+        "The integration of nitrogen into carbohydrates in the plant"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Carbohydrates are only made of carbon, hydrogen, and oxygen. Nitrogen is not assimilated into carbohydrates.",
+      "detailed": "The correct answer here is B. Nitrogen assimilation is the process by which nitrites and nitrates are readily taken up by the plant and integrated into the amino acids and nucleic acids that build plant structure and perform plant function. A is incorrect as it describes denitrification. C is incorrect as it describes nitrification. D is incorrect because nitrogen is not part of carbohydrates."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following has CORRECTLY matched the process to the name?",
+      "options": [
+        "Assimilation - removal of nitrate (\\(\\ce{NO3-}\\)) or ammonium (\\(\\ce{NH4+}\\)) into amino acids and organic compounds by plants.",
+        "Nitrogen fixation - conversion of atmospheric nitrogen into ammonium (\\(\\ce{NH4+}\\)).",
+        "Ammonification - conversion of atmospheric nitrogen (\\(\\ce{N2}\\)) into ammonia (\\(\\ce{NH3}\\)).",
+        "Nitrification - conversion of nitrate (\\(\\ce{NO3-}\\)) into nitrogen gas (\\(\\ce{N2}\\))."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Assimilation is the INTEGRATION, not removal of nitrate into amino acids",
+      "detailed": "The correct answer is B. Nitrogen fixation is indeed the conversion of atmospheric nitrogen into ammonia"
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is an INCORRECT outcome of fertilizer OVERUSE?",
+      "options": [
+        "Short-term plant benefit, at the expense of slower growing species",
+        "Eutrophication, potentially leading to an algal bloom.",
+        "Long-term increase in plant growth due to plentiful nutrient availability, also supporting microbial ecosystems.",
+        "Increased nitrous oxide emissions, contributing to the greenhouse gas effect."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Fertilizer overuse is only beneficial in the short-term, before the plants and ecosystems realize there is excess.",
+      "detailed": "The correct answer is C. Fertilizer overuse is short-term beneficial, not long-term. In the long term, it contributes to not-so-positive things like eutrophication and increased nitrous oxide emissions."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which part of the eye helps to refract/bend light so it lands on the retina?",
+      "options": [
+        "Cornea",
+        "Conjunctiva",
+        "Upper eyelid",
+        "Lens"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "The lens thickens and reduces thickness.",
+      "detailed": "The correct answer is option D. The lens can become thicker and thinner depending on the distance between the object and the individual."
+    }
+  ]
+}
