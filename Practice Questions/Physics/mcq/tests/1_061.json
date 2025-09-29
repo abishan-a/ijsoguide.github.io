@@ -1,0 +1,120 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Electric Field MCQ Problems",
+    "test_id": "1_061",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Calculate the magnitude of the electric field made by a 2.00 C charge from 10.0 meters away.",
+        "options": [
+          "\\(1.80 \\times 10^6 \\; \\text{N/C}\\)",
+          "\\(9.00 \\times 10^6 \\; \\text{N/C}\\)",
+          "\\(9.00 \\times 10^7 \\; \\text{N/C}\\)",
+          "\\(1.80 \\times 10^8 \\; \\text{N/C}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Use the relation \\( E = \\frac{1}{4\\pi \\epsilon_0} \\frac{q}{r^2} \\).",
+        "detailed": "We compute: \\( E = \\frac{1}{4\\pi \\epsilon_0} \\frac{2.00}{(10.0)^2} = 1.80 \\times 10^8 \\, \\text{N/C} \\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "Positive charge A creates an electric field with magnitude of 8.64 N/C from 0.540 m away. Calculate the charge of A.",
+        "options": [
+          "\\(2.80 \\times 10^{-12} \\; \\text{C}\\)",
+          "\\(5.60 \\times 10^{-12} \\; \\text{C}\\)",
+          "\\(1.12 \\times 10^{-11} \\; \\text{C}\\)",
+          "\\(2.80 \\times 10^{-10} \\; \\text{C}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Use the relation \\( E = \\frac{1}{4\\pi \\epsilon_0} \\frac{q}{r^2} \\).",
+        "detailed": "Rearranging: \\( q = E (4\\pi \\epsilon_0) r^2 = 8.64 \\times 4\\pi \\epsilon_0 (0.540^2) = 2.80 \\times 10^{-10} \\, \\text{C} \\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "How far away from a 3.00 C charge should you be, in order to feel 2.00 N/C of electric field?",
+        "options": [
+          "\\(1.16 \\times 10^4 \\; \\text{m}\\)",
+          "\\(5.80 \\times 10^4 \\; \\text{m}\\)",
+          "\\(1.16 \\times 10^5 \\; \\text{m}\\)",
+          "\\(5.80 \\times 10^5 \\; \\text{m}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use the relation \\( E = \\frac{1}{4\\pi \\epsilon_0} \\frac{q}{r^2} \\).",
+        "detailed": "Rearranging: \\( r = \\sqrt{ \\frac{q}{4\\pi \\epsilon_0 E} } = \\sqrt{ \\frac{3.00}{4\\pi \\epsilon_0 (2.00)} } = 1.16 \\times 10^5 \\, \\text{m} \\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "Consider the situation where the magnitude of the electric field at \\((x, y, z)\\) is equal to \\(|34.7x - 34.8xy + 891z^3| \\, N/C\\). Calculate the magnitude of the force a 2.00 C charge would feel in (45.6 m, 11.0 m, -33.1 m).",
+        "options": [
+          "\\(5.45 \\times 10^7 \\; \\text{N}\\)",
+          "\\(6.47 \\times 10^7 \\; \\text{N}\\)",
+          "\\(5.45 \\times 10^8 \\; \\text{N}\\)",
+          "\\(6.47 \\times 10^8 \\; \\text{N}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Calculate the electric field’s magnitude in the given coordinates.",
+        "detailed": "At (45.6, 11.0, -33.1): \\( E = |34.7(45.6) - 34.8(45.6)(11.0) + 891(-33.1)^3| = 3.2327713 \\times 10^7 \\, \\text{N/C} \\). Then \\( F = qE = 2.00 (3.2327713 \\times 10^7) = 6.47 \\times 10^7 \\, \\text{N} \\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "Consider two +3.00 C charges on the x-axis. One is at (-3.00 m, 0), and the other at (3.00 m, 0). Calculate the electric field at (6.00 m, 0).",
+        "options": [
+          "\\(0.00 \\; \\text{N/C}\\)",
+          "\\(2.22 \\times 10^6 \\; \\text{N/C}\\), +x direction",
+          "\\(3.33 \\times 10^9 \\; \\text{N/C}\\), +x direction",
+          "Neither A, B, nor C"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Add up the electric fields made by each of the charges.",
+        "detailed": "From (-3,0): \\( E_1 = \\tfrac{1}{4\\pi \\epsilon_0} \\frac{3.00}{(9.00)^2} \\), direction +x. From (3,0): \\( E_2 = \\frac{1}{4\\pi \\epsilon_0} \\frac{3.00}{(3.00)^2} \\), direction +x. Net field: sum in +x, \\( 3.33 \\times 10^9 \\, \\text{N/C} \\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "medium",
+        "question": "A +6.00 C charge is placed at (0.00 m, 5.00 m), and a -6.00 C charge is at (0.00 m, -5.00 m). Calculate the magnitude of the electric field at (26.0 m, 0.00 m).",
+        "options": [
+          "\\(1.86 \\times 10^6 \\; \\text{N/C}\\)",
+          "\\(3.99 \\times 10^6 \\; \\text{N/C}\\)",
+          "\\(2.91 \\times 10^7 \\; \\text{N/C}\\)",
+          "\\(6.10 \\times 10^7 \\; \\text{N/C}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": ["1_061s_01.png"],
+        "correct": "C",
+        "hint": "Find x and y-components of the field from each charge.",
+        "detailed": "Angle: \\( \\tan \\theta = 5/26 \\Rightarrow \\theta = 10.89^\\circ \\). Field magnitude from one charge: \\( E = \\frac{1}{4\\pi \\epsilon_0} \\frac{6.00}{26^2+5^2} = 7.69 \\times 10^7 \\, \\text{N/C} \\). Components: +x: \\( 7.55 \\times 10^7 \\), -y: \\( 1.45 \\times 10^7 \\). From -6 C: -x: \\( 7.55 \\times 10^7 \\), -y: \\( 1.45 \\times 10^7 \\). Sum: \\(0, -2.91 \\times 10^7\\). Magnitude = \\( 2.91 \\times 10^7 \\, \\text{N/C} \\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "medium",
+        "question": "A +1.00 C charge with mass 1.00 kg is inside a uniform field of 8.31 N/C. Initial velocity is 680 m/s perpendicular to the field. Find its speed after 35.0 s.",
+        "options": [
+          "185 m/s",
+          "370 m/s",
+          "555 m/s",
+          "740 m/s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Velocity’s x-component is constant; y-component accelerates.",
+        "detailed": "Acceleration: \\( a = \\frac{qE}{m} = \\frac{1.00 \\times 8.31}{1.00} = 8.31 \\, \\text{ms}^{-2} \\). In 35.0 s, y-velocity = \\( 8.31(35.0) = 290.9 \\, \\text{ms}^{-1} \\). Speed = \\( \\sqrt{680^2 + 290.9^2} = 740 \\, \\text{ms}^{-1} \\).",
+        "author": "Doyoon Kim"
+      }
+    ]
+  }
