@@ -793,8 +793,8 @@
                 "title": "Acidity and Basicity constants and the pH scale"
                 },
                 "2_042": {
-                "easy": 0,
-                "medium": 0,
+                "easy": 5,
+                "medium": 4,
                 "hard": 0,
                 "title": "Buffer solutions and the Henderson-Hasselbach equation"
                 },
