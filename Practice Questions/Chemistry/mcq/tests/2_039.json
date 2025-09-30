@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "other topics",
+    "title": "Factors Affecting Equilibrium Position MCQ Problems",
+    "test_id": "2_039",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Which of these factors do affect equilibrium position?<br><br>Pressure<br>Temperature<br>Concentration<br>Catalysts",
+        "options": [
+          "Pressure",
+          "Temperature",
+          "Concentration",
+          "Catalysts"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Think about what factors affect it.",
+        "detailed": "The only factor here that does not directly affect the equilibrium position is <b>catalysts</b>. Pressure, concentration, and temperature directly influence the final concentrations of products and reactants.",
+        "author": "Jailson Godeiro"
+      },
+      {
+        "level": "easy",
+        "question": "What happens to the equilibrium position of a reaction if the temperature increases?",
+        "options": [
+          "It is shifted towards the reactants",
+          "It is shifted towards the products",
+          "It is not affected by temperature",
+          "It will depend whether the reaction is endothermic or exothermic"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Remember how temperature affects the equilibrium position.",
+        "detailed": "It depends whether the reaction is endothermic \\((\\Delta H>0)\\) or exothermic \\((\\Delta H<0)\\). If endothermic, the equilibrium shifts toward the products. If exothermic, it shifts toward the reactants.",
+        "author": "Jailson Godeiro"
+      },
+      {
+        "level": "easy",
+        "question": "Consider the reaction:<br><br>\\[\\ce{H2 + Cl2 -> 2 HCl}\\]<br><br>What happens if more \\(\\ce{H2}\\) is added?",
+        "options": [
+          "The concentration of \\(\\ce{HCl}\\) increases",
+          "The concentration of \\(\\ce{Cl2}\\) increases",
+          "The concentration of \\(\\ce{HCl}\\) decreases",
+          "Nothing happens"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Remember how concentration affects equilibrium position.",
+        "detailed": "Increasing the concentration of \\(\\ce{H2}\\) shifts the equilibrium toward the products. Therefore, the concentration of \\(\\ce{HCl}\\) <b>increases</b>.",
+        "author": "Jailson Godeiro"
+      },
+      {
+        "level": "easy",
+        "question": "Consider the reaction:<br><br>\\[\\ce{2 H2(g) + O2(g) -> 2 H2O(g)}\\]<br><br>What will change if the pressure of the system decreases?",
+        "options": [
+          "The concentration of \\(\\ce{H2O}\\) increases",
+          "The concentration of \\(\\ce{H2}\\) remains unchanged",
+          "The concentration of \\(\\ce{H2}\\) increases",
+          "The concentration of \\(\\ce{O2}\\) decreases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Remember how pressure affects equilibrium position.",
+        "detailed": "Decreasing the pressure shifts the equilibrium to the side with more moles of gas. Reactants have 3 moles (2 \\(\\ce{H2}\\) + 1 \\(\\ce{O2}\\)) and products have 2 moles (2 \\(\\ce{H2O}\\)). Therefore, the concentration of \\(\\ce{H2}\\) <b>increases</b>.",
+        "author": "Jailson Godeiro"
+      },
+      {
+        "level": "easy",
+        "question": "Which of these statements about catalysts is correct?",
+        "options": [
+          "It speeds up the rate of the forward reaction, but slows down the reverse one",
+          "It affects the reaction rate",
+          "It does affect the position of equilibrium",
+          "It can shift the equilibrium depending on concentrations"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Remember the role of catalysts in a chemical reaction.",
+        "detailed": "Catalysts speed up <b>both</b> the forward and reverse reactions equally, so they do not affect equilibrium position. They only influence the reaction rate. Therefore, the correct answer is B.",
+        "author": "Jailson Godeiro"
+      }
+    ]
+  }

@@ -1,0 +1,134 @@
+{
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "title": "Activity Series of Metals MCQ Problems",
+    "test_id": "2_049",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Which of the following reactions is possible?",
+        "options": [
+          "\\(\\ce{MnSO4 + Cu -> CuSO4 + Mn}\\)",
+          "\\(\\ce{2HCl + Cu -> CuCl2 + H2}\\)",
+          "\\(\\ce{MgSO4 + 2Na -> Na2SO4 + Mg}\\)",
+          "\\(\\ce{FeSO4 + Ni -> NiSO4 + Fe}\\)"
+        ],
+        "correct": "C",
+        "hint": "Check the reactivity series: more reactive metals displace less reactive ones from compounds.",
+        "detailed": "Sodium is above magnesium in the reactivity series, so \\(\\ce{Na}\\) can displace \\(\\ce{Mg}\\) from \\(\\ce{MgSO4}\\). Other reactions are not possible because the single metal is less reactive than the one in the compound.",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "easy",
+        "question": "A piece of \\(\\ce{Zn}\\) is placed in a solution of \\(\\ce{CuSO4}\\). The statement that describes what happens is:",
+        "options": [
+          "The reaction occurs because Zn is more reactive than Cu",
+          "The reaction does not occur because the metals are equally reactive",
+          "The reaction does not occur because Zn is less reactive than Cu",
+          "The reaction occurs only upon strong heating"
+        ],
+        "correct": "A",
+        "hint": "Compare Zn and Cu on the reactivity series.",
+        "detailed": "Since zinc is above copper in the activity series, it displaces copper from its salt: \\(\\ce{Zn + CuSO4 -> ZnSO4 + Cu}\\).",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "easy",
+        "question": "Which of these reactions is wrong?",
+        "options": [
+          "\\(\\ce{Cu + MgCl2 -> CuCl2 + Mg}\\)",
+          "\\(\\ce{Fe + AgNO3 -> Fe(NO3)2 + Ag}\\)",
+          "\\(\\ce{Zn + CuSO4 -> ZnSO4 + Cu}\\)",
+          "\\(\\ce{2Al + 6HCl -> 2AlCl3 + 3H2}\\)"
+        ],
+        "correct": "A",
+        "hint": "Check whether the free metal is more reactive than the metal in the salt.",
+        "detailed": "Copper is less reactive than magnesium, so it cannot displace magnesium from \\(\\ce{MgCl2}\\). Therefore (A) is the incorrect reaction.",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "easy",
+        "question": "A chemist analyzed a sample of 3 unknown metals. The results: X displaces Y\\(^{2+}\\), Y displaces Z\\(^{2+}\\), but X cannot displace Mg\\(^{2+}\\). What is the correct order of electropositivity?",
+        "options": [
+          "Mg > X > Y > Z",
+          "X > Mg > Y > Z",
+          "Z > Y > X > Mg",
+          "Y > X > Mg > Z"
+        ],
+        "correct": "A",
+        "hint": "Stronger displacers are higher in the activity series.",
+        "detailed": "Since X > Y > Z in reactivity, but Mg is above X, the order is Mg > X > Y > Z.",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "easy",
+        "question": "A Fe plate (5.6 g) and a Cu plate (6.4 g) are placed in heated \\(\\ce{H2SO4}\\). The correct statement is:",
+        "options": [
+          "16 g of salt is formed",
+          "Neither plate reacts",
+          "31.2 g of salt is formed",
+          "4.48 L of gas is released"
+        ],
+        "correct": "A",
+        "hint": "Consider which metal reacts with acids under heating.",
+        "detailed": "Copper does not react with acids under normal conditions, but Fe does: \\(\\ce{Fe + H2SO4 -> FeSO4 + H2}\\). Moles Fe = 5.6/56 = 0.1. Mass of FeSO4 = 0.1 × 160 = 16 g.",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "medium",
+        "question": "An equimolar mixture of \\(\\ce{Fe}\\), \\(\\ce{Cu}\\) and \\(\\ce{Al}\\) has a mass of 14.7 g. A solution of \\(\\ce{HCl}\\) is added. What is the volume of \\(\\ce{H2}\\) released at STP?",
+        "options": [
+          "3.3 L",
+          "5.6 L",
+          "6.7 L",
+          "7.8 L"
+        ],
+        "correct": "B",
+        "hint": "Only \\(\\ce{Fe}\\) and \\(\\ce{Al}\\) react with HCl, not Cu. Use moles, stoichiometry, and gas laws.",
+        "detailed": "1 mol Fe (56 g), 1 mol Cu (63.5 g), 1 mol Al (27 g). Total = 146.5 g for 1 mol each. For 14.7 g, divide by 146.5 ≈ 0.1 mol each. Reaction: \\(\\ce{2Al + 6HCl -> 2AlCl3 + 3H2}\\), \\(\\ce{Fe + 2HCl -> FeCl2 + H2}\\). Moles \\(\\ce{H2}\\) = 0.1 (Fe) + 0.15 (Al) = 0.25 mol. Volume = 0.25 × 22.4 = 5.6 L.",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "medium",
+        "question": "A piece of \\(\\ce{Zn}\\) is placed in 100 mL \\(\\ce{FeSO4}\\) solution of 0.15 M (consider yield 100%). What’s the mass of the Zn piece that reacts?",
+        "options": [
+          "0.875 g",
+          "0.975 g",
+          "Reaction does not occur",
+          "0.014 moles"
+        ],
+        "correct": "B",
+        "hint": "Use \\(\\ce{Zn + FeSO4 -> ZnSO4 + Fe}\\). Calculate moles of \\(\\ce{FeSO4}\\) from volume and molarity, then relate to moles of Zn.",
+        "detailed": "Moles of \\(\\ce{FeSO4}\\) = 0.1 L × 0.15 M = 0.015 mol. Stoichiometry is 1:1, so \\(n_{Zn} = 0.015\\). Mass of Zn = \\(0.015 × 65 = 0.975 g\\).",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "medium",
+        "question": "An unknown mass of aluminium is placed in a \\(\\ce{HCl}\\) solution. The mass of hydrogen released is 3 g. Consider the yield 80%. What’s the mass of aluminium?",
+        "options": [
+          "25 g",
+          "27 g",
+          "30 g",
+          "33.75 g"
+        ],
+        "correct": "D",
+        "hint": "Use the balanced equation \\(\\ce{2Al + 6HCl -> 2AlCl3 + 3H2}\\). Relate molar masses to hydrogen mass and adjust for yield.",
+        "detailed": "Moles of \\(\\ce{H2}\\): \\(3/2 = 1.5\\) mol. At 100% yield, this would require \\(2/3 \\times 1.5 = 1.0\\) mol \\(\\ce{Al}\\). Mass of Al = 27 g. Since yield is 80%, actual mass = \\(27/0.8 = 33.75\\, g\\).",
+        "author": "Alexia 'Jujen' Butu"
+      },
+      {
+        "level": "medium",
+        "question": "An Aluminum wire (6.7 g) is placed in \\(\\ce{Cu(NO3)2}\\). After some time, its mass is 20.5 g. What is the mass of copper deposited?",
+        "options": [
+          "13.8 g",
+          "18.3 g",
+          "19.3 g",
+          "20.5 g"
+        ],
+        "correct": "C",
+        "hint": "Set up a mass balance: final mass = remaining Al + deposited Cu.",
+        "detailed": "Reaction: \\(\\ce{2Al + 3Cu^{2+} -> 2Al^{3+} + 3Cu}\\). Thus, 1 mol Al deposits 1.5 mol Cu. <br>Mass balance: \\(m_{final} = m_{Al,0} - x \\times M_{Al} + 1.5x \\times M_{Cu}\\).<br>Substitute: \\(20.50 = 6.70 - 26.98x + 1.5(63.55)x\\).<br> \\(x = 13.80 / 68.34 \\approx 0.202\\ mol\\).<br>Mass of Cu = \\(1.5 \\times 0.202 \\times 63.55 \\approx 19.3\\ g\\).",
+        "author": "Alexia 'Jujen' Butu"
+      }
+    ]
+  }
