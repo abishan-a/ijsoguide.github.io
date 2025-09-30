@@ -213,7 +213,7 @@
             },
             "Light": {
                 "1_035": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Nature of Light"
@@ -231,7 +231,7 @@
                 "title": "Refraction of Light and Snell's Law"
                 },
                 "1_038": {
-                "easy": 0,
+                "easy": 3,
                 "medium": 0,
                 "hard": 0,
                 "title": "Dispersion of Light"
