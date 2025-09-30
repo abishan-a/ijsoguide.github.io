@@ -1,0 +1,248 @@
+{
+    "subject": "biology",
+    "unit": "Human Biology",
+    "title": "Drugs MCQ Problems",
+    "test_id": "3_043",
+    "problems": [
+        {
+          "level": "easy",
+          "question": "Arrange these routes of drug administration from fastest to slowest onset of effects.",
+          "options": [
+            "Injection → Inhalation → Ingestion → Absorption (skin patches)",
+            "Inhalation → Injection → Absorption → Ingestion",
+            "Ingestion → Injection → Inhalation → Absorption",
+            "Absorption → Ingestion → Injection → Inhalation"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "A",
+          "hint": "Think about how directly each route delivers the drug to the bloodstream.",
+          "detailed": "Injection delivers the drug directly, making it fastest. Inhalation is next because lungs rapidly absorb chemicals. Ingestion takes longer due to digestion. Skin patches (absorption) are slowest. Correct order: Injection → Inhalation → Ingestion → Absorption.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "What structure must many drugs cross to affect the brain?",
+          "options": [
+            "Alveolar membrane",
+            "Blood–brain barrier",
+            "Renal tubules",
+            "Blood–air interface"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "B",
+          "hint": "It’s the brain’s protective filter for chemicals.",
+          "detailed": "The blood–brain barrier selectively allows certain molecules to enter brain tissue. Drugs that act on the brain must cross it. Answer: B.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Cocaine produces its effects mainly by:",
+          "options": [
+            "Enhancing GABA activity",
+            "Blocking dopamine reuptake",
+            "Mimicking serotonin",
+            "Binding opioid receptors"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "B",
+          "hint": "It keeps dopamine in the synapse longer than normal.",
+          "detailed": "Cocaine blocks dopamine reuptake transporters, causing buildup of dopamine in the synaptic cleft. This produces intense euphoria. Answer: B.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Which neurotransmitter system is most directly targeted by alcohol and benzodiazepines?",
+          "options": [
+            "Dopamine",
+            "Norepinephrine",
+            "GABA",
+            "Serotonin"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "C",
+          "hint": "These drugs are depressants that enhance an inhibitory neurotransmitter.",
+          "detailed": "Alcohol and benzodiazepines both enhance GABA activity, leading to sedation and relaxation. Answer: C.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Which class of drugs is most associated with 'pinpoint pupils'?",
+          "options": [
+            "Opioids",
+            "Stimulants",
+            "Hallucinogens",
+            "Cannabinoids"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "A",
+          "hint": "Think about heroin overdoses often shown in medicine.",
+          "detailed": "Opioids characteristically cause constricted pupils ('miosis'). Answer: A.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Which short-term effect is typical of stimulants but not depressants?",
+          "options": [
+            "Increased appetite",
+            "Slowed breathing",
+            "Increased alertness",
+            "Drowsiness"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "C",
+          "hint": "These drugs increase CNS activity.",
+          "detailed": "Stimulants cause increased alertness, energy, and reduced fatigue. Depressants have the opposite effect. Answer: C.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "In drug metabolism, which organ is primarily responsible for breaking down substances?",
+          "options": [
+            "Kidney",
+            "Lungs",
+            "Liver",
+            "Stomach"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "C",
+          "hint": "Think about the body’s 'detox factory'.",
+          "detailed": "The liver is the main organ for drug metabolism, using enzymes like cytochrome P450. Answer: C.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Which term refers to the state where more of a drug is required to achieve the same effect?",
+          "options": [
+            "Addiction",
+            "Dependence",
+            "Tolerance",
+            "Withdrawal"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "C",
+          "hint": "This happens when the body adapts to repeated drug exposure.",
+          "detailed": "Tolerance means higher doses are needed for the same effect. Answer: C.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Which systemic effect of opioids is especially dangerous?",
+          "options": [
+            "Rapid heartbeat",
+            "Slowed breathing",
+            "High body temperature",
+            "Increased appetite"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "B",
+          "hint": "This is the main cause of death in overdoses.",
+          "detailed": "Opioids can cause life-threatening respiratory depression. Answer: B.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "easy",
+          "question": "Which neurotransmitter pathway is mostly hijacked by amphetamines?",
+          "options": [
+            "Excessive dopamine release",
+            "GABA enhancement",
+            "Serotonin receptor blocking",
+            "Endorphin mimicry"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "A",
+          "hint": "Amphetamines cause massive release of this 'reward' neurotransmitter.",
+          "detailed": "Amphetamines cause excessive dopamine release, leading to strong stimulation and euphoria. Answer: A.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "medium",
+          "question": "A patient reports taking LSD multiple times a week. They complain of persistent hallucinations and paranoia even when not using the drug. Their doctor suspects drug-induced psychosis. Which neurotransmitter system is most implicated in these effects?",
+          "options": [
+            "Dopamine",
+            "Serotonin",
+            "GABA",
+            "Endorphins"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "B",
+          "hint": "LSD is a hallucinogen closely tied to this system.",
+          "detailed": "LSD strongly activates serotonin receptors (especially 5-HT2A). Repeated use can lead to lasting serotonin-related disturbances. Answer: B.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "medium",
+          "question": "A man collapses after snorting cocaine at a party. He has chest pain, sweating, and an irregular pulse. Which acute complication is most likely occurring?",
+          "options": [
+            "Cardiac arrhythmia",
+            "Stroke",
+            "Seizure",
+            "Respiratory depression"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "A",
+          "hint": "Think about the immediate danger to the heart.",
+          "detailed": "Cocaine greatly increases risk of acute cardiac arrhythmias due to its stimulant effect on the heart. Answer: A.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "medium",
+          "question": "A physician explains to a patient that combining opioids with benzodiazepines is extremely dangerous. Which shared effect makes this combination life-threatening?",
+          "options": [
+            "Elevated blood pressure",
+            "Excessive sedation and respiratory depression",
+            "Increased heart rate",
+            "Hallucinations"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "B",
+          "hint": "Both drug classes act as depressants.",
+          "detailed": "Opioids and benzodiazepines both suppress the central nervous system, especially breathing. Combined, this can cause fatal respiratory depression. Answer: B.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "medium",
+          "question": "A drug user is hospitalized with fever and heart murmurs. Blood cultures show bacterial infection of the heart valves (endocarditis). Which unsafe practice most likely caused this?",
+          "options": [
+            "Snorting cut powders",
+            "Reusing contaminated needles",
+            "Taking oral pills",
+            "Wearing nicotine patches"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "B",
+          "hint": "Endocarditis is often linked to IV drug use.",
+          "detailed": "Reusing contaminated needles introduces bacteria into the bloodstream, which can infect heart valves. Answer: B.",
+          "author": "Kotryna Mieldažytė"
+        },
+        {
+          "level": "medium",
+          "question": "Students learn that MDMA has both stimulant and hallucinogenic properties. Teachers emphasize the risk of dehydration, confusion, and altered perception of time. Which two neurotransmitter systems are most disrupted by MDMA?",
+          "options": [
+            "Dopamine and norepinephrine",
+            "GABA and glutamate",
+            "Endorphins and acetylcholine",
+            "Histamine and serotonin"
+          ],
+          "questionImages": [],
+          "solutionImages": [],
+          "correct": "A",
+          "hint": "It boosts 'reward' and 'alertness' transmitters.",
+          "detailed": "MDMA causes large release of dopamine and norepinephrine, while also affecting serotonin. But the most direct pair is dopamine and norepinephrine. Answer: A.",
+          "author": "Kotryna Mieldažytė"
+        }
+      ]
+  }

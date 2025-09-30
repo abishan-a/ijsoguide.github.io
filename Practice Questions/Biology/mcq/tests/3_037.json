@@ -1,0 +1,152 @@
+{
+    "subject": "biology",
+    "unit": "Human Biology",
+    "title": "Muscular System MCQ Problems",
+    "test_id": "3_037",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "You see a cell under the microscope. It is striated (striped), contains many nuclei in one cell, and is attached to bone. What type of cell is this?",
+        "options": [
+          "Skeletal muscle",
+          "Cardiac muscle",
+          "Smooth muscle",
+          "Tendon"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Striations and multinucleation attached to bone indicate skeletal muscle.",
+        "detailed": "Skeletal muscle fibers are long, cylindrical, striated, multinucleated, and attach to bones to produce voluntary movement. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "Which choice correctly contrasts cardiac muscle with smooth muscle?",
+        "options": [
+          "Cardiac: involuntary, striated, has intercalated discs; Smooth: involuntary, non-striated, found in the GI tract",
+          "Cardiac: voluntary, non-striated; Smooth: voluntary, striated",
+          "Cardiac: mononucleated and voluntary; Smooth: multinucleated and involuntary",
+          "Cardiac: found in the GI tract; Smooth: makes up the heart wall"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Both are involuntary, but cardiac is striated with discs; smooth is non-striated.",
+        "detailed": "Cardiac muscle is involuntary, striated, and has intercalated discs; smooth muscle is involuntary, non-striated, and found in organs like the GI tract. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A weightlifter increases training intensity and, over months, their muscles become larger. What is this change called and which is a direct cause mentioned in the theory text?",
+        "options": [
+          "Hypertrophy — muscle fibres grow larger due to increased physical strain",
+          "Atrophy — muscle fibres contract in length so they grow in size from exercise",
+          "Hypertrophy — muscles get more nuclei because of starvation causing them to grow",
+          "Atrophy — muscles swell from increased activity"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Muscles grow larger in response to exercise, not smaller.",
+        "detailed": "Hypertrophy is the increase in muscle fiber size due to consistent physical strain or resistance training. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A motor neuron stops working for one muscle. Where does a healthy motor neuron normally meet the muscle fiber, and which neurotransmitter does it release there?",
+        "options": [
+          "Neuromuscular junction; acetylcholine",
+          "Synaptic cleft on bone; dopamine",
+          "Intercalated disc; norepinephrine",
+          "Tendon junction; serotonin"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Think of the special synapse between nerve and muscle.",
+        "detailed": "A motor neuron releases acetylcholine at the neuromuscular junction to trigger muscle contraction. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "Why is ATP required both for muscle contraction and for muscle relaxation?",
+        "options": [
+          "ATP powers myosin movement for contraction and also lets myosin detach and helps pump calcium back for relaxation",
+          "ATP is only used for contraction; relaxation is passive and needs no ATP",
+          "ATP creates actin; without ATP there is no actin to contract",
+          "ATP cools the muscle during exercise so it can relax"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "ATP is needed both to move myosin and to detach it.",
+        "detailed": "ATP hydrolysis powers myosin head movement for contraction and allows detachment during relaxation. It also powers calcium pumps in the sarcoplasmic reticulum. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "In a sarcomere diagram the labels mean: A = region containing only thin (actin) filaments; B = region that contains thick (myosin) filaments; C = structure that anchors thin filaments and marks the sarcomere boundary. Which label is the I band, A band, and Z disc respectively?",
+        "options": [
+          "I band = A, A band = B, Z disc = C",
+          "I band = B, A band = C, Z disc = A",
+          "I band = A, A band = B, Z disc = C",
+          "I band = C, A band = A, Z disc = B"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "I band = thin only, A band = thick, Z disc = boundary.",
+        "detailed": "I band consists of actin only (A), A band contains thick myosin filaments (B), and Z disc anchors actin and marks sarcomere boundaries (C). Correct answer: C.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A child bends their elbow to throw a ball (bringing the hand closer to the shoulder). Is that motion a flexion or an extension, and which muscle primarily produces it?",
+        "options": [
+          "Flexion — biceps brachii",
+          "Extension — triceps brachii",
+          "Flexion — triceps brachii",
+          "Extension — biceps brachii"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Bending the arm = flexion; front of upper arm muscle?",
+        "detailed": "Flexion at the elbow is produced by the biceps brachii. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "Why are intercalated discs important in cardiac muscle?",
+        "options": [
+          "They contain gap junctions that allow rapid electrical conduction so cells beat together",
+          "They store calcium for long contractions",
+          "They prevent blood from entering the muscle fibers",
+          "They make cardiac muscle voluntary"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "They allow cardiac cells to contract as a unit.",
+        "detailed": "Intercalated discs contain gap junctions for rapid electrical conduction, coordinating heart contractions. Correct answer: A.",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "Put these steps of voluntary muscle activation in the correct order: 1 = Acetylcholine binds receptors on the muscle fiber; 2 = Motor neuron fires an impulse; 3 = Myosin heads bind actin and perform a power stroke; 4 = Calcium is released inside the muscle fiber and moves troponin/tropomyosin",
+        "options": [
+          "2 → 1 → 4 → 3",
+          "1 → 2 → 3 → 4",
+          "2 → 4 → 1 → 3",
+          "4 → 2 → 1 → 3"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Impulse fires first, neurotransmitter binds, calcium released, then contraction.",
+        "detailed": "Motor neuron fires (2), acetylcholine binds (1), calcium released and moves troponin/tropomyosin (4), myosin binds actin and performs power stroke (3). Correct answer: A.",
+        "author": "Filip Kilibarda"
+      }
+    ]
+  }
