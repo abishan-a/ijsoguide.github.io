@@ -11,7 +11,7 @@
           "\\(\\ce{M + H2O -> MO + H2}\\)",
           "\\(\\ce{2M + 2H2O -> 2MOH + H2}\\)",
           "\\(\\ce{M + 2H2O -> M(OH)2 + H2}\\)",
-          "\\(\\ce{M + H2O -> M(OH) + H}\\)"
+          "\\(\\ce{2M + H2O -> M2O + H2}\\)"
         ],
         "questionImages": [],
         "solutionImages": [],
@@ -48,7 +48,7 @@
         "questionImages": [],
         "solutionImages": [],
         "correct": "B",
-        "hint": "The general reaction is \\(\\ce{Metal + Acid -> Salt + H2}\\).",
+        "hint": "An example reaction is \\(\\ce{Fe + 2HCl -> FeCl2 + H2}\\).",
         "detailed": "A reactive metal displaces hydrogen from the acid, producing a salt and hydrogen gas: \\(\\ce{M + 2HCl -> MCl2 + H2}\\). Thus option B is correct.",
         "author": "Cabir Abassov"
       },
