@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Momentum and Conservation of Momentum MCQ Problems",
+    "test_id": "1_019",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What does momentum depend on?",
+        "options": [
+          "Only mass",
+          "Only velocity",
+          "Mass and velocity",
+          "Acceleration"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Momentum measures how hard it is to stop a moving object.",
+        "detailed": "Momentum is defined as \\(p = mv\\). Both the mass \\(m\\) and the velocity \\(v\\) determine the momentum, so the correct answer is C.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "What is impulse?",
+        "options": [
+          "Force applied to an object without time",
+          "Change in momentum of an object",
+          "The total mass of a system",
+          "The distance an object travels"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about how a force acting over time changes motion.",
+        "detailed": "Impulse equals the force multiplied by the time interval over which it acts: \\(J = F \\Delta t\\). By Newton's second law integrated in time, impulse equals the change in momentum: \\(J = \\Delta p\\). Thus the correct answer is B.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "According to the law of conservation of momentum, how does the momentum of a closed system change?",
+        "options": [
+          "Increases over time",
+          "Decreases over time",
+          "Depends on the type of objects only",
+          "Remains constant unless an external force acts"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Consider an isolated two-cart collision with no outside forces.",
+        "detailed": "In a closed (isolated) system with no external forces, the total momentum is conserved: \\(\\sum p_{before} = \\sum p_{after}\\). So the total momentum remains constant unless an external force acts. Answer: D.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "Two objects collide in a perfectly elastic collision. Which of the following is true?",
+        "options": [
+          "Momentum is conserved, kinetic energy is not",
+          "Momentum is not conserved, kinetic energy is conserved",
+          "Both momentum and kinetic energy are conserved",
+          "Neither momentum nor kinetic energy is conserved"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Elastic collisions conserve mechanical energy as well as momentum.",
+        "detailed": "A perfectly elastic collision conserves both total momentum and total kinetic energy. Therefore both conservation laws hold simultaneously and the correct answer is C.",
+        "author": "Nemanja Maslak"
+      },
+      {
+        "level": "easy",
+        "question": "A 2 kg cart moving at 3 m/s collides and sticks to a 3 kg cart at rest. What is the velocity of the combined carts after the collision?",
+        "options": [
+          "1.2 m/s",
+          "1.5 m/s",
+          "2 m/s",
+          "3 m/s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use conservation of momentum for an inelastic (sticking) collision.",
+        "detailed": "Before collision: total momentum \\(p_{before} = m_1 v_1 + m_2 v_2 = 2 \\times 3 + 3 \\times 0 = 6 \\, \\text{kg} \\cdot \\text{m/s}\\). After collision the masses stick, so \\((m_1+m_2)v = 5v\\). Conservation gives \\(5v = 6 \\Rightarrow v = 6/5 = 1.2\\,\\text{m/s}\\). Answer: A.",
+        "author": "Nemanja Maslak"
+      }
+    ]
+  }
