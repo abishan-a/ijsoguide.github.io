@@ -14,6 +14,13 @@ onAuthStateChanged(auth, (user) => {
       // https://firebase.google.com/docs/reference/js/auth.user
       uid = user.uid;
       console.log(uid)
+
+      let loginOK = new CustomEvent("loginOK", {
+        detail: {
+          time: Date.now(),
+        }
+      });
+      window.dispatchEvent(loginOK);
       
 
       /* On correctly solved problem */
@@ -142,5 +149,8 @@ onAuthStateChanged(auth, (user) => {
       // User is signed out
       // ...
       window.location.href = "../../../Account/sign-in.html?redirect=" + window.location.href
+      window.addEventListener("testStarted", (e)=>{
+        window.location.href = "../../../Account/sign-in.html?redirect=" + window.location.href
+      })
     }
   });

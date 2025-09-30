@@ -1,4 +1,7 @@
-
+let loginfinished = false;
+window.addEventListener("loginOK", (e)=>{
+  loginfinished = true;
+})
 
 function getQueryParam(param) {
   const queryString = window.location.search.substring(1);
@@ -146,10 +149,18 @@ function main(data){
 
   document.getElementById('startPracticeButton').addEventListener('click', startPractice)
   function startPractice() {
-    document.getElementById("landing").classList.add('non-active')
-    document.getElementById("main-content").classList.remove('non-active')
-    document.getElementById('result').classList.add('non-active')
-    nextProblem(0);
+    let testStarted = new CustomEvent("testStarted", {
+      detail: {
+        time: Date.now(),
+      }
+    });
+    window.dispatchEvent(testStarted);
+    if (loginfinished){
+      document.getElementById("landing").classList.add('non-active')
+      document.getElementById("main-content").classList.remove('non-active')
+      document.getElementById('result').classList.add('non-active')
+      nextProblem(0);
+    }
   }
 
   function checkMCQ(id) {
