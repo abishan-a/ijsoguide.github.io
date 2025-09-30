@@ -591,8 +591,8 @@
                 "title": "Intermolecular Forces"
                 },
                 "2_010": {
-                "easy": 0,
-                "medium": 0,
+                "easy": 7,
+                "medium": 2,
                 "hard": 0,
                 "title": "Basic VSEPR and molecular geometries"
                 }
@@ -661,13 +661,13 @@
                 "title": "The Single and Double Displacement reactions"
                 },
                 "2_021": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Chemical Properties of Main Group Metals"
                 },
                 "2_022": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Chemical Properties of Nonmetals"
