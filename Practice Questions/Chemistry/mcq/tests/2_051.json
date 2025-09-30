@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "Electrochemistry",
+    "title": "Electrolysis MCQ Problems",
+    "test_id": "2_051",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is electrolysis?",
+        "options": [
+          "A spontaneous redox reaction",
+          "An electrolytic cell operating under no external power",
+          "Using electrical energy to drive a non-spontaneous chemical reaction",
+          "Dissolving salts in water"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Electrolysis consumes energy rather than producing it.",
+        "detailed": "Electrolysis is the process in which electrical energy is used to force a chemical reaction that would not occur spontaneously. It requires a power source. Answer: C.",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "At which electrode does reduction occur during electrolysis?",
+        "options": [
+          "Anode",
+          "Cathode",
+          "Salt bridge",
+          "External circuit"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Reduction means gain of electrons; that occurs at the negative electrode.",
+        "detailed": "In electrolysis, electrons are supplied from the external circuit and arrive at the cathode, where reduction (gain of electrons) occurs. Answer: B.",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "Which ions migrate to the cathode during electrolysis?",
+        "options": [
+          "Cations (positive ions)",
+          "Anions (negative ions)",
+          "Neutral molecules",
+          "Electrons"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Cathode is negatively charged, so positive ions are attracted.",
+        "detailed": "Cations are positively charged and are attracted to the negative electrode (cathode), where they are reduced. Answer: A.",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "In the electrolysis of aqueous \\(\\ce{NaCl}\\), which gas is released at the anode?",
+        "options": [
+          "Hydrogen, \\(\\ce{H2}\\)",
+          "Oxygen, \\(\\ce{O2}\\)",
+          "Chlorine, \\(\\ce{Cl2}\\)",
+          "Sodium vapor, \\(\\ce{Na}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Chloride ions are easier to oxidize than water in brine solution.",
+        "detailed": "In aqueous \\(\\ce{NaCl}\\) electrolysis, chloride ions are oxidized at the anode to form chlorine gas: \\(\\ce{2Cl- -> Cl2 + 2e-}\\). So chlorine is released. Answer: C.",
+        "author": "Thenura Wickramaratna"
+      },
+      {
+        "level": "easy",
+        "question": "In electrolysis of molten \\(\\ce{CuSO4}\\) using copper electrodes, what happens at the anode?",
+        "options": [
+          "Copper ions gain electrons and deposit as copper metal",
+          "Copper metal dissolves as \\(\\ce{Cu^2+}\\) ions",
+          "Sulphate ions are reduced to sulphur dioxide",
+          "Oxygen gas is produced"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "At the anode, oxidation occurs; the electrode dissolves into ions.",
+        "detailed": "In molten \\(\\ce{CuSO4}\\) electrolysis using copper electrodes, the anode dissolves: \\(\\ce{Cu(s) -> Cu^{2+} + 2e-}\\). Thus copper metal is oxidized into ions. Answer: B.",
+        "author": "Thenura Wickramaratna"
+      }
+    ]
+  }
