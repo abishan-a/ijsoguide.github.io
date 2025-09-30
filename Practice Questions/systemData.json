@@ -775,7 +775,7 @@
                 "title": "Conversions Between Equilibrium Constants"
                 },
                 "2_039": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Factors affecting equilibrium position"
@@ -837,8 +837,8 @@
                 "title": "Electrochemical Potentials (+Nernst Equation)"
                 },
                 "2_049": {
-                "easy": 0,
-                "medium": 0,
+                "easy": 5,
+                "medium": 4,
                 "hard": 0,
                 "title": "Activity Series of Metals"
                 },
