@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "Modern Physics",
+    "title": "Radioactive Decay Law MCQ Problems",
+    "test_id": "1_082",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is the mathematical form of the radioactive decay law for number of nuclei \\(N(t)\\)?",
+        "options": [
+          "\\(N(t) = N_0 + \\lambda t\\)",
+          "\\(N(t) = N_0 e^{-\\lambda t}\\)",
+          "\\(N(t) = N_0 - \\lambda t\\)",
+          "\\(N(t) = N_0 e^{+\\lambda t}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Decay causes exponential decrease; the exponent is negative.",
+        "detailed": "The radioactive decay law states that the number of undecayed nuclei decreases exponentially: \\(N(t) = N_0 e^{-\\lambda t}\\), where \\(\\lambda\\) is the decay constant.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which equation correctly relates the half-life \\(t_{1/2}\\) and the decay constant \\(\\lambda\\)?",
+        "options": [
+          "\\(t_{1/2} = \\lambda \\ln 2\\)",
+          "\\(t_{1/2} = \\frac{\\ln 2}{\\lambda}\\)",
+          "\\(t_{1/2} = \\frac{\\lambda}{\\ln 2}\\)",
+          "\\(t_{1/2} = \\frac{1}{\\lambda} \\ln 2\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Half-life is inversely proportional to the decay constant.",
+        "detailed": "The relationship is \\(t_{1/2} = \\frac{\\ln 2}{\\lambda}\\). This comes from setting \\(N(t_{1/2}) = \\tfrac12 N_0\\) in the exponential law.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "If a radioactive sample has a half-life of 10 years, what fraction of the original nuclei remains after 10 years?",
+        "options": [
+          "1/4",
+          "1/2",
+          "1/8",
+          "None remains"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "By definition of half-life.",
+        "detailed": "After one half-life, exactly half (1/2) of the original nuclei remain. So the correct fraction is 1/2.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "What happens to the activity \\(A\\) of a radioactive sample over time (assuming no new nuclei added)?",
+        "options": [
+          "It increases exponentially",
+          "It remains constant",
+          "It decreases exponentially",
+          "It drops instantly to zero"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Activity is proportional to the number of remaining nuclei.",
+        "detailed": "Activity \\(A\\) is proportional to the number of undecayed nuclei, so as \\(N(t)\\) decreases exponentially, the activity also decreases exponentially following \\(A(t)=\\lambda N(t)\\).",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which of these is true about the decay constant \\(\\lambda\\)?",
+        "options": [
+          "It depends on the initial amount of the sample",
+          "Larger \\(\\lambda\\) means slower decay",
+          "It has units of \\(s^{-1}\\)",
+          "It changes with temperature"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "It is a probability per unit time.",
+        "detailed": "The decay constant \\(\\lambda\\) is the probability per unit time that a given nucleus will decay; hence its units are inverse time (e.g. \\(s^{-1}\\)). It is independent of sample size and external conditions.",
+        "author": "Mubarak Aouda"
+      }
+    ]
+  }

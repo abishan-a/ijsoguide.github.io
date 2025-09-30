@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "Modern Physics",
+    "title": "Radioactive Decay MCQ Problems",
+    "test_id": "1_081",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is the process called when an unstable atomic nucleus emits radiation to become more stable?",
+        "options": [
+          "Fusion",
+          "Fission",
+          "Radioactive decay",
+          "Ionization"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "The nucleus is unstable and spontaneously loses particles or energy.",
+        "detailed": "Radioactive decay is the spontaneous transformation of an unstable nucleus, emitting particles or energy to reach a more stable state. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which of these is a type of radioactive decay in which a nucleus emits a Helium nucleus?",
+        "options": [
+          "Beta decay",
+          "Alpha decay",
+          "Gamma emission",
+          "Positron emission"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Alpha decay emits a helium nucleus (2 protons + 2 neutrons).",
+        "detailed": "Alpha decay is the emission of an alpha particle (\\(\\ce{^4_2 He}\\)) from the nucleus. Correct answer: B.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "In beta decay (negative), what particle is emitted from the nucleus?",
+        "options": [
+          "Alpha particle",
+          "Positron",
+          "Electron",
+          "Neutron"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Beta minus decay converts a neutron to a proton and emits a particle.",
+        "detailed": "In beta minus decay, a neutron is converted into a proton and an **electron** (beta particle) is emitted. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "What is the meaning of the half-life of a radioactive isotope?",
+        "options": [
+          "Time for all atoms to decay",
+          "Time for half the atoms to decay",
+          "Time for a quarter to decay",
+          "Time for decay to stop"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Half-life is a statistical concept about quantity of radioactive atoms.",
+        "detailed": "Half-life is the time required for half of the radioactive nuclei in a sample to decay. Correct answer: B.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which type of emitted radiation has no mass and no charge, and merely carries energy?",
+        "options": [
+          "Alpha particle",
+          "Beta particle",
+          "Gamma ray",
+          "Positron"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "This radiation is electromagnetic in nature.",
+        "detailed": "Gamma rays are high-energy photons — they have no mass or charge and simply carry energy away from the nucleus. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      }
+    ]
+  }

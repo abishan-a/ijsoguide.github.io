@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "Modern Physics",
+    "title": "Photoelectric Effect MCQ Problems",
+    "test_id": "1_083",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What happens in the photoelectric effect when light shines on a metal surface?",
+        "options": [
+          "The metal emits photons",
+          "Electrons are ejected from the metal",
+          "The metal becomes magnetic",
+          "The metal changes color"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Light gives energy to electrons to escape the metal.",
+        "detailed": "In the photoelectric effect, incident photons impart energy to electrons in the metal such that if the photon energy is sufficient, electrons overcome the work function and are ejected. Correct answer: B.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which relation expresses Einstein’s photoelectric equation?",
+        "options": [
+          "\\(h \\nu = K + \\lambda\\)",
+          "\\(K = h \\nu + \\Phi\\)",
+          "\\(h \\nu = \\Phi + K\\)",
+          "\\(h = \\nu \\Phi K\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Photon energy = work function + kinetic energy of ejected electron.",
+        "detailed": "Einstein’s photoelectric equation is given by \\(h \\nu = \\Phi + K_{\\text{max}}\\), where \\(\\Phi\\) is the work function and \\(K_{\\text{max}}\\) is the maximum kinetic energy of ejected electrons. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "What is the ‘threshold frequency’ in the photoelectric effect?",
+        "options": [
+          "Minimum frequency above which electrons are ejected",
+          "Maximum frequency of incident photons",
+          "Frequency at which current is maximum",
+          "Frequency of emitted electrons"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Below this, no electrons are ejected regardless of intensity.",
+        "detailed": "The threshold frequency \\(\\nu_{\\text{th}}\\) is the minimum frequency of incident light required to eject electrons from the metal surface. If \\(\\nu < \\nu_{th}\\), no photoelectric emission occurs. Answer: A.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "If the intensity of incident light is increased (but frequency remains above threshold), what changes in the photoelectric effect?",
+        "options": [
+          "Maximum kinetic energy of electrons increases",
+          "More electrons are ejected per second",
+          "Threshold frequency shifts",
+          "Work function increases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Intensity means more photons striking per unit time.",
+        "detailed": "Increasing intensity increases the number of photons hitting the surface per second, so more electrons are ejected. However, the maximum kinetic energy per electron remains unchanged (it depends on frequency). Correct answer: B.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which of the following is true about the kinetic energy of ejected electrons in the photoelectric effect?",
+        "options": [
+          "It depends on the intensity of light",
+          "It is independent of the frequency of light",
+          "It increases linearly with frequency (above threshold)",
+          "It decreases as frequency increases"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Excess photon energy beyond the work function becomes kinetic energy.",
+        "detailed": "Once the incident light’s frequency exceeds the threshold, the extra energy \\(h\\nu - \\Phi\\) goes into kinetic energy of liberated electrons, so maximum kinetic energy increases linearly with frequency. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      }
+    ]
+  }
