@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "Light",
+    "title": "Nature of Light MCQ Problems",
+    "test_id": "1_035",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is the primary characteristic of light in the context of wave theory?",
+        "options": [
+          "Light is a continuous electromagnetic wave.",
+          "Light is composed of discrete particles called photons.",
+          "Light cannot travel through a vacuum.",
+          "Light is only visible to the human eye."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Consider how light behaves over large distances and in various media.",
+        "detailed": "In wave theory, light is described as a continuous electromagnetic wave that propagates through space. This theory explains phenomena like reflection, refraction, and diffraction. Correct answer: A.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which part of the electromagnetic spectrum is visible light?",
+        "options": [
+          "Between ultraviolet and infrared radiation.",
+          "Between X-rays and microwaves.",
+          "Between radio waves and gamma rays.",
+          "Between ultraviolet and X-rays."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Think about the range of wavelengths that the human eye can detect.",
+        "detailed": "Visible light falls between ultraviolet and infrared radiation in the electromagnetic spectrum, with wavelengths approximately between 400 nm and 700 nm. Correct answer: A.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "What does the wave theory of light fail to explain?",
+        "options": [
+          "Reflection and refraction.",
+          "Diffraction and interference.",
+          "The photoelectric effect.",
+          "Polarization."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Consider phenomena that involve the emission of electrons from a material.",
+        "detailed": "The photoelectric effect, where electrons are emitted from a material when it absorbs light, cannot be explained by wave theory alone. This led to the development of quantum theory. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Who first proposed the concept of quantized energy levels in light?",
+        "options": [
+          "Albert Einstein",
+          "Isaac Newton",
+          "Max Planck",
+          "Niels Bohr"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "This physicist introduced the idea of energy quanta to explain blackbody radiation.",
+        "detailed": "Max Planck proposed that energy is quantized, introducing the concept of energy quanta, which laid the foundation for quantum theory. Correct answer: C.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "What is the term used to describe the dual nature of light?",
+        "options": [
+          "Light-Quantum Duality",
+          "Wave-Particle Duality",
+          "Electromagnetic Duality",
+          "Photon-Wave Duality"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "This term reflects light's ability to exhibit both wave-like and particle-like properties.",
+        "detailed": "Wave-particle duality refers to the concept that light exhibits both wave-like and particle-like properties, depending on the experimental context. Correct answer: B.",
+        "author": "Mubarak Aouda"
+      }
+    ]
+  }

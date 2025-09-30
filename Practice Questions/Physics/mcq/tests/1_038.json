@@ -1,0 +1,56 @@
+{
+    "subject": "physics",
+    "unit": "Light",
+    "title": "Dispersion of Light MCQ Problems",
+    "test_id": "1_038",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is the phenomenon called when white light splits into its constituent colors?",
+        "options": [
+          "Reflection",
+          "Refraction",
+          "Dispersion",
+          "Diffraction"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "This occurs due to the varying speeds of different wavelengths in a medium.",
+        "detailed": "Dispersion is the separation of white light into its component colors because different wavelengths travel at different speeds in a medium.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which color of light bends the most when passing through a prism?",
+        "options": [
+          "Red",
+          "Green",
+          "Blue",
+          "Violet"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "The bending depends on the wavelength; shorter wavelengths bend more.",
+        "detailed": "Violet light has the shortest wavelength and thus bends the most when passing through a prism.",
+        "author": "Mubarak Aouda"
+      },
+      {
+        "level": "easy",
+        "question": "Which of the following is a dispersive medium?",
+        "options": [
+          "Vacuum",
+          "Air",
+          "Glass",
+          "Water"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Dispersive media cause different wavelengths to travel at different speeds.",
+        "detailed": "Glass is a dispersive medium because it causes different wavelengths of light to refract by different amounts, leading to dispersion.",
+        "author": "Mubarak Aouda"
+      }
+    ]
+  }
