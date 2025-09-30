@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "Main Group Metals",
+    "title": "Main Group Metals Reactions MCQ Problems",
+    "test_id": "2_021",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Which general equation describes how an alkali metal (M) reacts with water?",
+        "options": [
+          "\\(\\ce{M + H2O -> MO + H2}\\)",
+          "\\(\\ce{2M + 2H2O -> 2MOH + H2}\\)",
+          "\\(\\ce{M + 2H2O -> M(OH)2 + H2}\\)",
+          "\\(\\ce{M + H2O -> M(OH) + H}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Alkali metals form hydroxide and hydrogen gas when reacting with water.",
+        "detailed": "Alkali metals lose one electron to form \\(\\ce{M+}\\). Reaction with water gives hydroxide and hydrogen gas: \\(\\ce{2M + 2H2O -> 2MOH + H2}\\). Thus option B is correct.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Which statement is true about the reactivity of alkali metals as you go down the group?",
+        "options": [
+          "They become less reactive",
+          "They become more reactive",
+          "Their reactivity does not change",
+          "They no longer react with oxygen"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Larger atoms lose electrons more easily.",
+        "detailed": "As you go down Group 1, the outer electron is further from the nucleus and more easily lost. This makes the metals more reactive down the group.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "What products form when a metal reacts with a dilute acid, provided the metal is above hydrogen in the reactivity series?",
+        "options": [
+          "Salt and water",
+          "Salt and hydrogen gas",
+          "Metal oxide and water",
+          "No reaction"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The general reaction is \\(\\ce{Metal + Acid -> Salt + H2}\\).",
+        "detailed": "A reactive metal displaces hydrogen from the acid, producing a salt and hydrogen gas: \\(\\ce{M + 2HCl -> MCl2 + H2}\\). Thus option B is correct.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "What happens to a metal oxide when it dissolves in water (for many main group metals)?",
+        "options": [
+          "It forms an acid",
+          "It forms a base (hydroxide)",
+          "It forms a neutral solution",
+          "It decomposes"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Most metal oxides are basic in nature.",
+        "detailed": "Many main group metal oxides dissolve in water to form metal hydroxides. For example: \\(\\ce{Na2O + H2O -> 2NaOH}\\). These solutions are basic (alkaline).",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "What is the reactivity of metals like copper, silver, and gold toward dilute acids or water?",
+        "options": [
+          "They react vigorously",
+          "They react slowly",
+          "They react only with steam",
+          "They are largely unreactive"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "These metals are low in the reactivity series.",
+        "detailed": "Copper, silver, and gold are much less reactive than hydrogen. Therefore, they do not displace hydrogen from acids or react with water under normal conditions. They are largely unreactive in these cases.",
+        "author": "Cabir Abassov"
+      }
+    ]
+  }

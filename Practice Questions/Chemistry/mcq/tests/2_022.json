@@ -1,0 +1,88 @@
+{
+    "subject": "chemistry",
+    "unit": "Non-Metals",
+    "title": "Non-Metals Chemical Reactions MCQ Problems",
+    "test_id": "2_022",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "When a non-metal burns in oxygen, what kind of oxide does it typically form?",
+        "options": [
+          "Basic oxide",
+          "Neutral oxide",
+          "Acidic oxide",
+          "No oxide"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Non-metal oxides tend to behave like acids in water.",
+        "detailed": "Non-metals reacting with oxygen generally form oxides which are acidic in nature. For example, \\(\\ce{C + O2 -> CO2}\\), and \\(\\ce{CO2 + H2O -> H2CO3}\\). So the correct answer is an acidic oxide.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Carbon reacts with oxygen to form what product under excess oxygen?",
+        "options": [
+          "\\(\\ce{CO}\\)",
+          "\\(\\ce{CO2}\\)",
+          "\\(\\ce{C2O}\\)",
+          "No reaction"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "In full combustion, carbon combines fully with oxygen.",
+        "detailed": "In excess oxygen, carbon oxidizes fully to carbon dioxide: \\(\\ce{C + O2 -> CO2}\\). So the product is \\(\\ce{CO2}\\).",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Which reaction shows a non-metal displacing another from its salt solution?",
+        "options": [
+          "\\(\\ce{Cl2 + 2NaBr -> 2NaCl + Br2}\\)",
+          "\\(\\ce{Br2 + 2NaCl -> 2NaBr + Cl2}\\)",
+          "\\(\\ce{I2 + 2NaBr -> 2NaI + Br2}\\)",
+          "\\(\\ce{O2 + 2NaCl -> 2NaO + Cl2}\\)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Only more reactive non-metal can displace a less reactive one from compounds.",
+        "detailed": "Chlorine is more reactive than bromine, so \\(\\ce{Cl2}\\) can displace bromine from \\(\\ce{NaBr}\\): \\(\\ce{Cl2 + 2NaBr -> 2NaCl + Br2}\\). Hence option A is correct.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "Non-metals are generally unable to displace hydrogen from dilute acids. Which of these is a correct consequence?",
+        "options": [
+          "They evolve hydrogen gas",
+          "They form basic salts",
+          "They show no reaction with dilute acids",
+          "They reduce acids"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Non-metals do not donate electrons to hydrogen ions.",
+        "detailed": "Non-metals are electron acceptors and cannot reduce \\(\\ce{H+}\\) ions to hydrogen gas. Thus they do not displace hydrogen in dilute acid and show no reaction. So option C is correct.",
+        "author": "Cabir Abassov"
+      },
+      {
+        "level": "easy",
+        "question": "What kind of hydrides do non-metals form when reacting with hydrogen?",
+        "options": [
+          "Ionic hydrides",
+          "Metallic hydrides",
+          "Covalent hydrides",
+          "No hydrides"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Non-metals share electrons rather than transfer when bonding with hydrogen.",
+        "detailed": "Non-metals form covalent hydrides by sharing electrons with hydrogen, e.g. \\(\\ce{NH3}\\) or \\(\\ce{HCl}\\). They do not form ionic hydrides in most normal cases. Option C is correct.",
+        "author": "Cabir Abassov"
+      }
+    ]
+  }

@@ -1,0 +1,152 @@
+{
+  "subject": "chemistry",
+  "unit": "chemical structures",
+  "title": "VSEPR Theory and Molecular Geometries MCQ problems",
+  "test_id": "2_010",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "What is the geometry of \\(\\ce{BeCl2}\\) according to VSEPR theory?",
+      "options": [
+        "Trigonal Planar",
+        "Tetrahedral",
+        "Bent",
+        "Linear"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Beryllium uses both of its 2 valence electrons for bonding",
+      "detailed": "Beryllium has 2 valence electrons and forms two bonds with chlorine atoms. There are no lone pairs on Be, so the molecule adopts a linear geometry with a bond angle of 180°.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "easy",
+      "question": "What is the geometry of \\(\\ce{NH3}\\) according to VSEPR theory?",
+      "options": [
+        "Trigonal Planar",
+        "Linear",
+        "Trigonal Pyramidal",
+        "Tetrahedral"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Nitrogen has 5 valence electrons. In ammonia it forms three bonds.",
+      "detailed": "Nitrogen has one lone pair and forms three bonds with hydrogen atoms. The lone pair repels the bonding pairs, causing a trigonal pyramidal shape with bond angles slightly less than 109.5°.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "easy",
+      "question": "What is the geometry of \\(\\ce{SF4}\\) according to VSEPR theory?",
+      "options": [
+        "Bent",
+        "T-Shaped",
+        "Square Planar",
+        "Seesaw"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Out of its 6 valence electrons, sulfur uses 4 for bonding.",
+      "detailed": "Sulfur has 6 valence electrons. In \\(\\ce{SF4}\\), four electrons form bonds with fluorine and the remaining two form a lone pair. This gives a seesaw geometry with one lone pair occupying an equatorial position, slightly distorting the idealized trigonal bipyramidal angles.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "easy",
+      "question": "Which of the following molecules has a bent shape?",
+      "options": [
+        "\\(\\ce{CO2}\\)",
+        "\\(\\ce{GeCl2}\\)",
+        "\\(\\ce{BeCl2}\\)",
+        "\\(\\ce{NH3}\\)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "In bent molecules, the central atom forms two bonds and has one or two lone pairs.",
+      "detailed": "\\(\\ce{GeCl2}\\) has two bonded pairs and two lone pairs on germanium. The lone pairs repel each other and the bonded pairs, resulting in a bent shape with bond angles less than 109.5°.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "easy",
+      "question": "Which of the following molecules is T-Shaped?",
+      "options": [
+        "\\(\\ce{BF3}\\)",
+        "\\(\\ce{CO2}\\)",
+        "\\(\\ce{ClF3}\\)",
+        "\\(\\ce{SF6}\\)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "In T-shaped molecules, the central atom forms three bonds and has two lone pairs.",
+      "detailed": "\\(\\ce{ClF3}\\) has three bonded fluorine atoms and two lone pairs on chlorine. The two lone pairs occupy equatorial positions in a trigonal bipyramidal arrangement, leaving the bonded atoms in a T-shaped geometry.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "easy",
+      "question": "How many lone paris are there on the central atom in \\(\\ce{ICl3}\\)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Iodine, a halogen, has 7 valence electrons. How many electrons does it use for bonding?",
+      "detailed": "Iodine has 7 valence electrons and forms three bonds with chlorine atoms. The remaining 4 electrons form 2 lone pairs. Therefore, \\(\\ce{ICl3}\\) has 2 lone pairs on the central iodine atom.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "easy",
+      "question": "Often, in VSEPR theory, we use the representation \\(AX_nE_m\\) for a molecule, where A is the central atom, X are atoms bonded to it and E are lone pairs. Using this notation, how would you represent \\(\\ce{BrF5}\\)?",
+      "options": [
+        "\\(AX_5E_7\\)",
+        "\\(AX_5E_2\\)",
+        "\\(AXE_5\\)",
+        "\\(AX_5E\\)"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Bromine has 7 valence electrons. How many of those go in lone pairs and how many are bonding electrons.",
+      "detailed": "Out of bromine's 5 valence electrons, 5 go towards bonding with fluorine. We are left with 2 electrons, which form one lone pair. This means, the bromine pentafluoride molecule corresponds to the \\(AX_5E\\) prototype.",
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "medium",
+      "question": "The \\(\\ce{XeF2}\\) molecule doesn't have a dipole moment, even though fluorine is more electronegative then xenon. Based on VSEPR, which molecular shape explains this observation?",
+      "options": [
+        "Linear",
+        "Tetrahedral",
+        "Trigonal-Planar",
+        "T-Shaped"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "The individual Xe-F bonds would be polarized, but the dipole moments cancel out due to symmetry.",
+      "detailed": "\\(\\ce{XeF2}\\) has three lone pairs and two bonded fluorine atoms. The lone pairs occupy equatorial positions in a trigonal bipyramidal arrangement, leaving the bonded atoms in a linear arrangement. The dipole moments of the bonds cancel, making the molecule nonpolar.",
+      "author": "Alexia 'Jujen' Butu"
+    },
+    {
+      "level": "medium",
+      "question": "A chemist compares the structures of \\(\\ce{NH3}\\), \\(\\ce{H2O}\\) and \\(\\ce{CH4}\\). Which of the following is true?",
+      "options": [
+        "Lone pairs repel stronger than bond pairs, therefore bond angles are decreasing in the order \\(\\ce{CH4} > \\ce{NH3} > \\ce{H2O}\\)",
+        "Bond pairs repel stronger than bond pairs, therefore bond angles are increasing in the order \\(\\ce{CH4} < \\ce{NH3} < \\ce{H2O}\\)",
+        "They have the same bond angles and polarity, because the central atom is surrounded by 4 pairs of electrons (lone or bonding) in all three molecules",
+        "They have the same bond angles, but different polarities because lone pairs created a dipole moment."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Molecules arrange into their geometries because the tendency to maximize distances between the negatively charged electrons (therefore minimizing the interaction energy). When analyzing these interactions, we must realize that lone pairs are concentrated electrons, while bonding pairs are more 'stretched' along the bond.",
+      "detailed": "In \\(\\ce{CH4}\\), there are no lone pairs, so bond angles are 109.5°. In \\(\\ce{NH3}\\), the lone pair on nitrogen compresses the H-N-H bond angles to about 107°. In \\(\\ce{H2O}\\), two lone pairs compress the H-O-H bond angle further to about 104.5°. Thus, the bond angles decrease in the order \\(\\ce{CH4} > \\ce{NH3} > \\ce{H2O}\\).",
+      "author": "Alexia 'Jujen' Butu"
+    }
+  ]
+}
