@@ -14,7 +14,7 @@
         "At stage C, \\(\\ce{K+}\\) will flow out of the cell by active transport",
         "At stage D, \\(\\ce{Na+}\\) will flow into the cell"
       ],
-      "questionImages": [],
+      "questionImages": ["3_031q_01.png"],
       "solutionImages": [],
       "correct": "B",
       "hint": "Resting potential is at -70 mV",
@@ -62,7 +62,7 @@
         "C, D, A, B",
         "D, C, B, A"
       ],
-      "questionImages": [],
+      "questionImages": ["3_031q_02.png"],
       "solutionImages": [],
       "correct": "D",
       "hint": "Remember: “Two main physical characteristics of an axon determine the speed of nerve impulse transmission. Consider the effects of insulation (myelin sheath) and the diameter (thickness) of the axon.",
