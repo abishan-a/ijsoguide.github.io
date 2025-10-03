@@ -1,0 +1,88 @@
+{
+  "subject": "biology",
+  "unit": "Genetics",
+  "title": "Pedigree Analysis",
+  "test_id": "3_068",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What key characteristic of a pedigree shows that it represents the inheritance of an autosomal DOMINANT trait?",
+      "options": [
+        "Most circles are shaded",
+        "Most squares are shaded",
+        "Presence of the trait in every generation",
+        "Presence of the trait in every other generation"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Circles represent females while squares represent males. If only one sex is consistently shaded in, it likely represents a sex-linked inheritance pattern. Is that really what the question is asking for?",
+      "detailed": "The correct answer is C, if you notice that there are shaded individuals in EVERY generation, it points towards there being a dominant trait."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "When analyzing a family pedigree, a biologist observes that the trait is more common in males. She also notices that affected sons are often born to carrier mothers, and there is no father-to-son transmission. She concludes that the most likely mode of inheritance is…",
+      "options": [
+        "Autosomal recessive",
+        "Autosomal dominant",
+        "X-linked recessive",
+        "Y-linked"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Males only have one X chromosome, therefore, ALL diseases from carrier mothers will be passed onto sons as there is “no backup X.” Males only need one X to be affected while females need both Xs to be affected.",
+      "detailed": "The correct answer here is C. This is the exact description of X-linked recessive inheritance. Carrier mothers are “carriers” because they only have one affected allele so they have a 50% chance of passing the disease on to their sons (depending on which X they inherit). Fathers only pass on a Y chromosome to their son’s so there is no way of father-to-son transmission, confirming X-linked recessive transmission."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "A pedigree shows 40 individuals across multiple generations. A total of 16 individuals are affected, but only when both parents are carriers. Carrier frequency in the population is estimated at 1/25. What inheritance pattern does this suggest?",
+      "options": [
+        "Autosomal dominant",
+        "Autosomal recessive",
+        "X-linked dominant",
+        "Mitochondrial"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "The MOST important part of this question is 'individuals are affected, but only when BOTH parents are CARRIERS.'",
+      "detailed": "If BOTH parents must be carriers for offspring to be affected, this must be recessive inheritance. This is unlike dominant inheritance, which only requires one allele to be affected. The problem never mentions anything sex-inheritance related, like “males are more affected than females.” Therefore, it is safe to decide that this is autosomal recessive inheritance."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "A pedigree shows a trait that appears in every generation. Affected individuals always have at least one affected parent, and both males and females are equally affected. What is the most likely inheritance pattern? Choose the CORRECT answer:",
+      "options": [
+        "Autosomal recessive",
+        "Autosomal dominant",
+        "X-linked recessive",
+        "X-linked dominant"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "'The KEY parts of this question are “appears in every generation” and “males and females are EQUALLY affected.'",
+      "detailed": "The correct answer is B, a trait that appears in every generation and only requires only one allele to be affected is characteristic of dominance. If males and females are equally affected, there is no sex-linked inheritance so it must be autosomal."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Question - A pedigree shows a rare trait present in both males and females. The trait: <br> Often skips generations. <br> Appears in children of unaffected parents. <br> Affects males and females equally. <br> Which of the following statements is incorrect?",
+      "options": [
+        "The inheritance pattern is most consistent with autosomal recessive.",
+        "Two carrier parents have a 25% chance of having an affected child.",
+        "An affected child must inherit the mutant allele from both parents.",
+        "An affected father cannot pass the allele to his daughters."
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "If males and females are affected equally and there is no sign of sex-linked inheritance, it must be autosomal.",
+      "detailed": "The correct answer is D. This is in fact autosomal recessive inheritance because it skips generations and there is no sign of sex-linked inheritance. For a recessive inheritance pattern, there is a 25% chance of having an affected child, which can be confirmed by drawing a simple punnet square. Option C can also be confirmed by a drawing of a simple punnet square. Option D is incorrect because an affected father CAN pass the allele to his daughters; it just means that the father’s X chromosome must be affected."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "subject": "biology",
+  "unit": "Molecular Biology",
+  "title": "Vaccines and Antibiotics",
+  "test_id": "3_016",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What is the main purpose of vaccines?",
+      "options": [
+        "Kill bacteria directly",
+        "Prepare the immune system to recognize pathogens",
+        "Neutralize toxins already in the body",
+        "Stop DNA replication"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Vaccines are NOT the same as a cure.",
+      "detailed": "The main purpose of vaccines is to prepare the immune system to recognize pathogens and be able to produce the right antibodies if afflicted once again."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which type of vaccine provides strong, long-lasting immunity but uses weakened microbes?",
+      "options": [
+        "Inactivated",
+        "Live attenuated",
+        "Toxoid",
+        "Subunit"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Inactivated vaccines involve dead pathogens.",
+      "detailed": "The correct answer is B, because live attenuated vaccines contain living pathogens that have been weakened. They are not for those with an already weak immune system, but they provide longer-lasting immune responses because they can closely replicate the body's response to said infection."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which definition best fits 'antibody'?",
+      "options": [
+        "Harmless virus used in vaccines",
+        "Protein made by immune cells that binds antigens",
+        "Medicine used to kill bacteria",
+        "Molecule from a pathogen"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Antibodies to something to antigens.",
+      "detailed": "An antibody is a protein made by immune cells that binds to a specific antigen and marks it for destruction by other immune cells."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which type of vaccine uses inactivated bacterial toxins?",
+      "options": [
+        "Toxoid",
+        "Subunit",
+        "Inactivated",
+        "Viral vector"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Viral vector vaccines use a harmless, modified virus to deliver genetic material into your cells.",
+      "detailed": "The correct answer is option A. Toxoids use inactivated bacterial toxins, triggering an immune response."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Antibiotics are effective against:",
+      "options": [
+        "Bacteria only",
+        "Antigens",
+        "Viruses only",
+        "Both viruses and bacteria"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "There is a hint in the word itself: 'biotic'",
+      "detailed": "Antibiotics are ONLY effective against bacteria."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which term describes resistance to disease from vaccination or past exposure?",
+      "options": [
+        "Resistance",
+        "Antigen",
+        "Immunity",
+        "Pathogen"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Think of the body's ability to remember and fight off infections after being exposed once.",
+      "detailed": "Vaccination or previous infection trains the immune system to recognize a pathogen quickly. This acquired ability to resist disease is called immunity. Answer: C."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Penicillin works by targeting which bacterial feature?",
+      "options": [
+        "Protein synthesis",
+        "Cell wall synthesis",
+        "DNA replication",
+        "Antigen production"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Protein synthesis is regulated by hormones and intracellular signalling cascades.",
+      "detailed": "The correct answer is cell wall synthesis, by inhibiting penicillin-binding proteins (PBPs)."
+    }
+  ]
+}

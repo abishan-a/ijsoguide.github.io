@@ -1,0 +1,72 @@
+{
+  "subject": "biology",
+  "unit": "Evolutionary Devolopment",
+  "title": "Plant Classification",
+  "test_id": "3_096",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What is the difference between bryophytes and tracheophytes?",
+      "options": [
+        "Bryophytes have fibrous roots while tracheophytes have a singular taproot",
+        "Bryophytes are vascular, tracheophytes are nonvascular",
+        "Bryophytes have a red pigment, tracheophytes have a green pigment",
+        "Bryophytes are nonvascular, tracheophytes are vascular"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "This comparison has to do entirely with vascularization",
+      "detailed": "The correct answer is option B, bryophytes (like moss, fern, etc) do not have a vascular system, so they make use of diffusion and osmosis. Tracheophytes, on the other hand, have a vascular system to supply tall plants (think of trees)."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What are the three types of vascular (Tracheophytes) plants?",
+      "options": [
+        "Gymnosperms, bryophytes, and vascular plants",
+        "Sporophytes, gametophytes, and vascular plants",
+        "Angiosperms, monocots, and dicots",
+        "Angiosperms, gymnosperms, and seedless vascular plants"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Sporophytes and gametophytes are plant generations, not types of vascular plants.",
+      "detailed": "The correct answer here is option D. Vascular plants can be further divided into angiosperms (flowering and fruit-producing plants); gymnosperms (cone and needle producing plants); and seedless vascular plants."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is INCORRECT?",
+      "options": [
+        "Monocots have parallel veins while dicots have net-like veins",
+        "Dicots roots have vascular system arranged in a ring; monocot roots have a vascular system that is scattered",
+        "Monocots have 1 a cotyleton; eudicots have 3 cotyledons",
+        "Monocots have a fibrous root system, dicots have a taproot system"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Focus on option C.",
+      "detailed": "The correct answer is option C, monocots have 1 cotyledon while eudicots have 2 cotyledons."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Correctly match the picture to the plant type:",
+      "options": [
+        "dicot ",
+        "monocot (5 petals per flower)",
+        "monocot leaf",
+        "monocot (one cotyledon split into two)"
+      ],
+      "questionImages": ["3_096q_01.png"],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "It is not possible to split one cotyledon into two.",
+      "detailed": "The correct answer is C. All information needed to solve that was given in the lesson."
+    }
+  ]
+}
