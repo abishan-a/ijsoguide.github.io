@@ -87,11 +87,15 @@ border-bottom: 2px solid #cde8ff;
     color: #56a9ff;
   }
 
-  p, ul, ol {
+  p, ul, ol, figcaption{
     line-height: 1.7;
-        text-align: justify;
-        color: #d0d0d0;
+    text-align: justify;
+    color: #d0d0d0;
 
+  }
+
+  figcaption{
+    margin: 0 0 1rem 0;
   }
 
   ul {
