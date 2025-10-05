@@ -1,0 +1,88 @@
+{
+  "subject": "biology",
+  "unit": "Cellular and Microbiology",
+  "title": "Biomolecules MCQ Problems",
+  "test_id": "3_002",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is correct with regards to the nucleus?",
+      "options": [
+        "Hepatocytes are multinucleated due to cytokinesis failure",
+        "Red blood cells are anucleated, to maximize space for hemoglobin",
+        "Skeletal muscle cells are multinucleated due to the fission of cells",
+        "Sieve tube element cells have a nucleus"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "There is no such thing as fission of cells",
+      "detailed": "The correct answer is option B, red blood cells DO NOT have a nucleus to ensure that there is maximal space for hemoglobin. The more hemoglobin, the more oxygen it can carry. Option A is incorrect because hepatocytes are BINUCLEATED due to cytokinesis failure.  Option C is incorrect because skeletal muscle cells are multinucleated due to the fusion, not fission of cells. Option D is incorrect because sieve tube elements DO NOT have a nucleus, they rely on companion cells for metabolic needs."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Fill in the blanks:",
+      "options": [
+        "Heterochromatin; euchromatin",
+        "Euchromatin, heterochromatin",
+        "Chromochroid, chromatin",
+        "Chromatid; chromochroid"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "There is no such thing as chromochroid.",
+      "detailed": "The correct answer here is option A. Heterochromatin is indeed non-transcriptable, extremely condensed. Euchromatin is transcriptable and less condensed."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Choose the INCORRECT answer with regards to the cytoskeleton:",
+      "options": [
+        "Microtubules are the thickest of the three cytoskeletal components",
+        "Microfilaments are the thinnest of the three cytoskeletal components, made of tubulin",
+        "Intermediate filaments have a thickness between that of microtubules and microfilaments",
+        "Microtubules provide structural support"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Tubulin are found in microtubules",
+      "detailed": "The correct answer is option B. Microfilaments are made of actin, NOT tubulin."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Choose the CORRECT answer with regards to chloroplasts:",
+      "options": [
+        "Thylokoids are stacks of granum, containing chlorophyll",
+        "The stroma is the site of gas exchange, stomata is the fluid-filled space within the chloroplast",
+        "Chloroplasts have their own circular DNA",
+        "Chloroplasts do not support the endosymbiotic theory"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "The stomata is the side of gas exchange",
+      "detailed": "The correct answer is C. Chloroplasts have their own circular DNA, which is one reason why option D is wrong, because chloroplasts support the endosymbiotic theory. Option A is incorrect because thylakoid grana are stacks of thylakoids. The stomata is the site of the gas exchange, the stroma is the fluid-filled space within the chloroplast, where the Calvin cycle occurs."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is CORRECT? <br> i) Vacuoles are permanently found in plants, fungi, and algae (green protists) <br> ii) Ribosomes have a membrane and they function in protein synthesis <br> iii) Mitochondria are found in both aerobic and anaerobic cells <br> iv) The cytoplasm resembles a colloidal solution",
+      "options": [
+        " i, iv, iii",
+        "i, ii",
+        "ii, iii",
+        "i, iv"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Ribosomes do not have a membrane",
+      "detailed": "The correct answer is option D. (i) is correct, because PERMANENT vacuoles are found in plants, fungi, and algae. (ii) is incorrect, ribosomes DO NOT have a membrane. (iii) is incorrect, mitochondria are ONLY found in aerobic cells. Option (iv), is correct, the cytoplasm resembles a colloidal solution."
+    }
+  ]
+}
