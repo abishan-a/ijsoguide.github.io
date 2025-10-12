@@ -1,3 +1,7 @@
+:root{
+  --textColor: #d8d8d8;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -15,13 +19,13 @@ body {
 
   header h1 {
     font-size: 1.5em;
-    color: #00e676;
+    color: var(--textColor);
     margin: 0;
   }
 
   h2 {
     text-align: center;
-    color: #00e676;
+    color: var(--textColor);
     margin: 30px 0 10px;
   }
 
@@ -29,14 +33,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 20px;
+    margin: 2rem;
   }
 
   .tab-bar button {
     padding: 10px 20px;
-    background-color: #1e1e1e;
-    color: #00e676;
-    border: 2px solid #00e676;
+    background-color: transparent;
+    color: var(--textColor);
+    border: 2px solid var(--textColor);
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
@@ -45,7 +49,7 @@ body {
 
   .tab-bar button:hover,
   .tab-bar button.active {
-    background-color: #00e676;
+    background-color: var(--textColor);
     color: #100839;
   }
 
@@ -64,7 +68,8 @@ body {
   }
   
   .event-card {
-    background-color: #1e1e1e;
+    /*background-color: #1e1e1e;*/
+    background: linear-gradient(#11154b, #1b2767);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -86,7 +91,7 @@ body {
 
   .event-title {
     font-size: 1.2em;
-    color: #00e676;
+    color: var(--textColor);
     margin: 15px 0 5px;
   }
 
@@ -101,19 +106,34 @@ body {
     color: #f0f0f0;
     padding: 1rem 2rem 2rem;
     text-align: left;
+    display: flex;
+    flex-direction: column;
   }
+  
+.event-card a {
+  display: inline-block;
+  margin: 1rem auto 0 auto;
+  padding: 0.75rem 1.5rem;
+  background-color: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: all 0.3s ease-in-out;
+}
 
-  .event-button {
-    margin: 15px 0 20px;
-    padding: 10px 20px;
-    background-color: #00e676;
-    color: #100839;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-  }
+.event-button {
+  margin: 15px 0 20px;
+  padding: 10px 20px;
+  background-color: var(--textColor);
+  color: #100839;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
   
   .event-button:hover {
     background-color: #00c96b;

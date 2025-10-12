@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Competitions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+    <div class="glowing-spots" id="glowingSpots"></div>
+    <div class="cursor"></div>
+
+
+    <!-- Header -->
+    <header>
+        <h1>IJSO guide competitions</h1>
+        <br>
+        <p>Take part in our competitions simulating the real IJSO and put your knowledge to the test!</p>
+    </header>
+
+    <div class="container">
+        <div id="about" class="containerSection">
+            <h2>About the competition</h2>
+            The IJSO Guide Challenge was created with the
+            intention of promoting science learning
+            through a competition, popularizing the
+            IJSO, while also creating an IJSO-style
+            competition, both for people who are not
+            participating in the IJSO and for those who
+            are participating and want to test themselves.
+            <br>
+             The contest is open and free of charge for all
+            students throughout the world who meet
+            IJSO age standards (born in 2010 or after).
+        </div>
+        <div id="editions" class="containerSection">
+            <h2>Next competition:</h2>
+            <p>IJSO Guide Challenge 2025 - 1st edition <br> 1-2 November 2025, Online <br> Free participation</p>
+            <div class="buttonRow">
+                <a href="https://forms.gle/ttdpHGCZXwB5a2EP6">Register now!</a>
+                <a href="./IJSOGuideChallengeRules.pdf">Contest rules</a>
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 A Guide to the IJSO. All rights reserved.</p>
+    </footer>
+
+    <script src="/glowingspots.js"></script>
+    <script type="module">
+        import { guard } from "../authenticationGuard.js";
+        guard();
+    </script>
+</body>
+</html>
