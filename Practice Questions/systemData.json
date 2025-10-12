@@ -995,7 +995,7 @@
             },
             "Molecular Biology": {
                 "3_016": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Structure of DNA and RNA"
@@ -1007,7 +1007,7 @@
                 "title": "Types of RNA and their functions"
                 },
                 "3_018": {
-                "easy": 0,
+                "easy": 4,
                 "medium": 0,
                 "hard": 0,
                 "title": "DNA Replication"
@@ -1081,7 +1081,7 @@
                 "title": "Lymphatic System"
                 },
                 "3_030": {
-                "easy": 0,
+                "easy": 11,
                 "medium": 0,
                 "hard": 0,
                 "title": "Excretory System"
