@@ -1,0 +1,184 @@
+{
+  "subject": "biology",
+  "unit": "Human Biology",
+  "title": "Excretory System MCQ Problems",
+  "test_id": "3_030",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which hormone increases the number of aquaporins in the collecting duct, allowing more water to be reabsorbed?",
+      "options": [
+        "Aldosterone",
+        "ADH",
+        "Renin",
+        "Erythropoietin"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Renin regulates blood pressure and balance of sodium and potassium in the body via RAAS.",
+      "detailed": "ADH (antidiuretic hormone), also known as vasopressin, reabsorbs water to prevent dehydration."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which nephron structure creates the medullary salt gradient that allows the collecting duct to reabsorb water?",
+      "options": [
+        "Bowman's capsule",
+        "Loop of Henle",
+        "Proximal tubule",
+        "Distal tubule"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Bowman's capsule simply filters larger components like proteins and glucose.",
+      "detailed": "The loop of Henle creates a salt gradient, allowing the collecting duct to reabsorb water."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which waste product results mainly from the breakdown of purines?",
+      "options": [
+        "Uric acid",
+        "Creatinine",
+        "Urea",
+        "Ammonia"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Creatinine remains from the breakdown of creatine.",
+      "detailed": "Uric acid is the waste product remaining from the breakdown of purines."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which of the following is reabsorbed in both the proximal and distal tubules to help maintain blood pH?",
+      "options": [
+        "Urea",
+        "Bicarbonate",
+        "NaCl",
+        "Glucose"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Urea is the waste product; it will not be reabsorbed.",
+      "detailed": "Bicarbonate is reabsorbed in the tubules to help maintain blood pH."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which vessels bring blood directly to the glomerulus?",
+      "options": [
+        "Renal artery",
+        "Renal vein",
+        "Afferent arterioles",
+        "Efferent arterioles"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Afferent means BRINGING TO, efferent means LEAVING",
+      "detailed": "Afferent arterioles BRING blood directly to the glomerulus."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What structure connects the renal medulla to the calyx?",
+      "options": [
+        "Papilla",
+        "Cortex",
+        "Loop of Henle",
+        "Collecting duct"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "The loop of Henle dips into the kidney's medulla, its purpose is to create a concentration gradient for urine concentration.",
+      "detailed": "The papilla connects the renal medulla to the calyx, it is the tips of the renal pyramid where the end of the collecting duct receives fluid from the loop of Henle."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Why is the filtrate most concentrated at the elbow of the loop of Henle?",
+      "options": [
+        "NaCl has been reabsorbed",
+        "Water has left while solutes remain",
+        "Glucose is secreted",
+        "Urea has diffused in"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "High concentration means low solvent and high solute!",
+      "detailed": "Water has left while solutes remain makes the most sense, because the more concentrated the urine is, the less water is diluting it. This question is simply testing your understanding of concentration."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which type of nephron makes up the majority of all nephrons?",
+      "options": [
+        "Juxtamedullary",
+        "Cortical",
+        "Papillary",
+        "Collecting"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "There is no standard classification called 'papillary' nephrons.",
+      "detailed": "The correct answer here is option B. About 85% of nephrons are cortical, while the remaining 15% are juxtamedullary."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which organ temporarily stores urine before excretion?",
+      "options": [
+        "Kidney",
+        "Bladder",
+        "Ureter",
+        "Urethra"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "The urethra is just a channel connecting the bladder to the external environment, its only function is expelling urine and semen in male vertebrates.",
+      "detailed": "The correct answer is option B. The bladder acts like a 'waiting room' for urine to accumulate, causing the bladder walls to stretch and send signals to the brain to trigger the urge to urinate."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which kidney product is a hormone directly regulating calcium absorption?",
+      "options": [
+        "Renin",
+        "1,25-dihydroxyvitamin D",
+        "ADH",
+        "Creatinine"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Renin is an enzyme produced by the kidneys playing a crucial role in regulating blood pressure via the RAAS system.",
+      "detailed": "The correct answer is option B, 1,25-dihydroxyvitamin D, AKA calcitriol, is the active form of vitamin D produced in the kidneys, helping to regulate calcium blood levels and its absorption."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which region of the nephron is impermeable to water but allows NaCl diffusion and active transport?",
+      "options": [
+        "Ascending limb of Henle",
+        "Descending limb of Henle",
+        "Proximal tubule",
+        "Collecting duct"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "The descending limb of Henle is impermeable to NaCl and permeable to water.",
+      "detailed": "The correct answer here is option A. The ascending limb of Henle is focused on water absorption, creating an effective gradient against that of the descending limb."
+    }
+  ]
+}

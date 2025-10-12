@@ -1,0 +1,88 @@
+{
+  "subject": "biology",
+  "unit": "Molecular biology",
+  "title": "Structure of DNA and RNA MCQ Problems",
+  "test_id": "3_016",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What is both DNA and RNA made of?",
+      "options": [
+        "Nitrogen groups",
+        "Alkalides",
+        "Nucleotides",
+        "Riboses"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Alkalides are basic compounds, they have nothing to do with DNA and RNA structure.",
+      "detailed": "The correct answer is option C. Nucleotides are the building blocks of DNA and RNA."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following correctly lists the components of nucleotides?",
+      "options": [
+        "Deoxyribose, nitrogenous base, phosphate group",
+        "Phosphate group, nitrogenous base, and ribose",
+        "Phosphate group, nitrogenous acid, and ribose",
+        "Deoxyribose, nitrogenous base, and phosphate group"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "There is no such thing as a nitrogenous acid.",
+      "detailed": "The correct option is B, which was taken from the lesson."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which option correctly describes the difference between purines and pyrimidines?",
+      "options": [
+        "Purines contain one ring while pyrimidines contain two fused rings",
+        "Purines contain two rings while pyrimidines contain one ring",
+        "Purines are smaller than pyrimidines",
+        "Pyrimidines contain adenine and guanine"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Purines are indeed larger than pyrimidines.",
+      "detailed": "The correct answer is option B. Purines contain two rings while pyrimidine contains one ring."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following nucleotides does uracil replace in RNA?",
+      "options": [
+        "Guanine",
+        "Tryptophan",
+        "Thymine",
+        "Cytosine"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Tryptophan is an amino acid.",
+      "detailed": "The correct answer is option C. Uracil replaces thymine in RNA."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Select the CORRECT option:",
+      "options": [
+        "Figure 1 is a DNA molecule; Figure 2 is an RNA molecule",
+        "Figure 1 is an RNA molecule; Figure 2 is a DNA molecule",
+        "Figure 1 is a purine; figure 2 is a pyrimidine",
+        "Figure 1 is a pyrimidine; figure 2 is a purine"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Deoxyriboses have ONE LESS oxygen molecule than riboses.",
+      "detailed": "The correct answer is option A. Figure one has ONE LESS oxygen molecule than figure, which means figure 1 is a DNA molecule and figure 2 is an RNA molecule."
+    }
+  ]
+}

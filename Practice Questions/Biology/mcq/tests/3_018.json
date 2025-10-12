@@ -1,0 +1,72 @@
+{
+  "subject": "biology",
+  "unit": "Molecular Biology",
+  "title": "DNA Replication MCQ Problems",
+  "test_id": "3_018",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What does semi-conservative mean?",
+      "options": [
+        "DNA conserves its original form in BOTH strands",
+        "DNA has one old and one new strand",
+        "The DNA strands are not unzipped during DNA replication; they are kept together.",
+        "The DNA does not have a leading and lagging strand"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "This does not have anything to do with leading and lagging strands. Think about the prefix - semi.",
+      "detailed": "The correct answer is B. The semi-conservative property of DNA means that it has one new AND one old strand of DNA."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is correct?",
+      "options": [
+        "New DNA strands are always built in the 3' --> 5' direction",
+        "New nucleotides are added to the 5' end",
+        "New DNA strands are always built in the 5' --> 3' direction",
+        "Old nucleotides are removed in the 3' direction"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Old nucleotides are NOT removed.",
+      "detailed": "The correct answer is option C. New DNA strands are always built in the 5' to 3' direction."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Choose the INCORRECT answer with regards to enzymes involved in DNA replication:",
+      "options": [
+        "Single-Strand Binding (SSBs) proteins remove RNA primers",
+        "Topoisomerase unzips the double helix",
+        "DNA polymerase I adds nucleotides in the 5' --> 3' direction",
+        "DNA Ligase seals gaps between Okazaki fragments to create one continuous strand"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Helicase unzips the double helix.",
+      "detailed": "The correct answer is option D. SSBs keep the two DNA strands from rejoining, NOT removing RNA primers. DNA polymerase I removed RNA primers and replaces them with DNA nucleotides. Topoisomerase relieves tension ahead of the replication fork. "
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Choose the CORRECT answer with regards to leading and lagging strand:",
+      "options": [
+        "Leading strands are synthesized with the use of multiple fragments.",
+        "Lagging strand has Okazaki fragments",
+        "Okazaki fragments are later joined by topoisomerase ",
+        "Lagging strands are synthesized continuously AWAY from the fork"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Lagging strands are synthesized discontinuously",
+      "detailed": "The correct answer is B. Leading strands are synthesized continuously and AWAY from the replication fork. Lagging strand does indeed have Okazaki fragments. Okazaki fragments are joined together by DNA ligase."
+    }
+  ]
+}
