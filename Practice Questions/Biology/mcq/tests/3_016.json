@@ -78,7 +78,7 @@
         "Figure 1 is a purine; figure 2 is a pyrimidine",
         "Figure 1 is a pyrimidine; figure 2 is a purine"
       ],
-      "questionImages": [],
+      "questionImages": ["3_016q_01.png"],
       "solutionImages": [],
       "correct": "A",
       "hint": "Deoxyriboses have ONE LESS oxygen molecule than riboses.",
