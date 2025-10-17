@@ -32,10 +32,12 @@ onAuthStateChanged(auth, (user) => {
                     .then((allUsers)=> {
                         allUsers.forEach((doc) => {
                             let userData = doc.data();
-                            if(userData.name && userData.name.includes('test')) return;
+                            if(userData.testAccount && userData.testAccount == true) return;
                             if(!userData.name) return;
                             totalUsers += 1;
-                            if (userData.updates) mailingList.push(userData.email);
+                            if (userData.updates) {
+                                mailingList.push([userData.name, userData.surname, userData.email]);
+                            }
 
                             let country = userData.country;
                             if(country) countryStats[country] = (countryStats[country] || 0) + 1;
@@ -48,9 +50,20 @@ onAuthStateChanged(auth, (user) => {
                         document.getElementById('mainContent').style.display = "block";
                         document.getElementById('mailingListLength').innerHTML = mailingList.length;
                         mailingList.forEach(e => {
-                            let li1 = document.createElement('li');
+                            /*let li1 = document.createElement('li');
                             li1.innerHTML = e;
-                            document.getElementById('mailingList').appendChild(li1);
+                            document.getElementById('mailingList').appendChild(li1);*/
+                            let tr = document.createElement('tr');
+                            let td1 = document.createElement('td');
+                            let td2 = document.createElement('td');
+                            let td3 = document.createElement('td');
+                            td1.innerHTML = e[0];
+                            td2.innerHTML = e[1];
+                            td3.innerHTML = e[2];
+                            tr.appendChild(td1);
+                            tr.appendChild(td2);
+                            tr.appendChild(td3);
+                            document.getElementById('mailingListTable').appendChild(tr);
                         })
                         for(let country in countryStats){
                             let tr = document.createElement('tr');
