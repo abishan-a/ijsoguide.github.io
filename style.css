@@ -63,6 +63,8 @@ header {
   padding: 3rem 1rem;
 }
 
+
+/*For Romania*/
 #newest{
   display: flex;
   box-sizing: border-box;
@@ -76,6 +78,8 @@ header {
 #newest *{
   margin: 0;
 }
+
+
 
 .hero-box {
   background-color: #131347;
@@ -583,4 +587,54 @@ footer {
 
 .contact-form button:hover {
   background: linear-gradient(45deg, #00f2fe, #4facfe);
+}
+
+
+/* Countdown */
+#countdown{
+  display: none;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 1rem;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(45deg, #19870d, #096305);
+}
+#countdownLink{
+  text-decoration: none;
+  color: white;
+}
+#countdown *{
+  margin: 0;
+}
+#countdownLabel{
+  margin: 0.5rem 0 1rem 0;
+}
+#countdownTime{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#countdownTime div{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+#countdownTime div p{
+  font-size: xx-large;
+}
+
+@media(width < 768px){
+  #countdown{
+    font-size: medium;
+  }
+  #countdownLabel{
+    margin: 0 0 0 0 ;
+  }
 }

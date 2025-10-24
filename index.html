@@ -13,6 +13,7 @@
   <link rel="icon" href="./favicon.png" type="image/x-ico" />
   <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
   <script src="/navigationimport.js" type="module"></script>
+  <script src="/countdown.js" defer></script>
 </head>
 <style>
     .gradient-text {
@@ -27,10 +28,34 @@
 
   <div class="glowing-spots" id="glowingSpots"></div>
 
-  <div id="newest" style="display: none;">
+  <!---<div id="newest" style="display: none;">
     <p>Succes tuturor românilor la ONSJ din partea echipei "A Guide to the IJSO"!</p>
     <p>Good luck to all Romanians at ONSJ from the "A Guide to the IJSO" team!</p>
-  </div>
+  </div>--->
+
+  <a id="countdownLink">
+    <div id="countdown">
+      <p id="countdownLabel">Countdown label</p>
+      <div id="countdownTime">
+        <div>
+          <p id="countdownDays">00</p>
+          <span>Days</span>
+        </div>
+        <div>
+          <p id="countdownHours">00</p>
+          <span>Hours</span>
+        </div>
+        <div>
+          <p id="countdownMinutes">00</p>
+          <span>Minutes</span>
+        </div>
+        <div>
+          <p id="countdownSeconds">00</p>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
+  </a>
 
   <div class="hero-box" style="position: relative; z-index: 2;">
     <h1><span class="gradient-text">Your Ultimate Guide to IJSO Preparation</span></h1>
