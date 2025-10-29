@@ -4,11 +4,16 @@
     padding: 0;
 }
 
+html{
+
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #0b0c2a;
     color: #f0f0f0;
+    overflow-x: hidden;
 }
 
 header {
@@ -35,7 +40,15 @@ header {
 #editions{
     background: linear-gradient(#11154b, #25368b);
 }
-.containerSection a {
+
+#problemsLink{
+    display: none;
+}
+.regularLink{
+    color: white;
+    max-width: 0.7vw
+}
+.containerSection a:not(.regularLink){
   display: inline-block;
   margin: 1rem;
   padding: 0.75rem 1.5rem;
