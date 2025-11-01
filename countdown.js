@@ -2,7 +2,6 @@ let countdownList = [
     ["IJSO Guide Challenge countdown", new Date(Date.UTC(2025, 10, 1, 0, 0, 0)).getTime()],
     ["IJSO Guide Challenge is in progress. The competition is ending in: ", new Date(Date.UTC(2025, 10, 2, 23, 59, 59)).getTime()]
 ]
-
 document.getElementById('countdownLink').href = "/competitions/";
 
 let nextTarget;
