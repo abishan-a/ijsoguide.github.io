@@ -59,6 +59,7 @@ header {
   text-decoration: none;
   font-weight: 550;
   transition: all 0.3s ease-in-out;
+  min-width: 110px;
 }
 .containerSection a:hover {
   background-color: #0e1236;
@@ -141,6 +142,14 @@ footer {
 
     .container{
         padding: 0.5rem;
+    }
+    .buttonRow{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .containerSection a:not(.regularLink){
+        text-align: center;
+        margin: 0.5rem;
     }
 }
 

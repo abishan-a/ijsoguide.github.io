@@ -5,7 +5,7 @@ let startDate = new Date('2025-11-01T00:00:00Z')
 let endDate = new Date('2026-11-01T00:00:00Z')
 let current = new Date();
 if (startDate < current && current < endDate){
-    document.getElementById('registrationButton').style.display = "none";
+    if(document.contains(document.getElementById('registrationButton'))) document.getElementById('registrationButton').style.display = "none";
 
     /** Obtaining the problems link */
     let problemsLink = "";
