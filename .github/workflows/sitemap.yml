@@ -1,8 +1,7 @@
 name: Generate xml sitemap
 
 on:
-  push:
-    branches: [ new_website ]
+  page_build
 
 concurrency:
   group: sitemap-workflow
