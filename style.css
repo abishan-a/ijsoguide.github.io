@@ -64,12 +64,14 @@ header {
 }
 
 
-/*For Romania*/
+
 #newest{
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #002B7F 0% 31%,  #FCD116 33% 64%, #CE1126 66% 100%);
+  /*background: linear-gradient(rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #002B7F 0% 31%,  #FCD116 33% 64%, #CE1126 66% 100%);*/
+  background: linear-gradient(45deg, #120c38, #3f32f6);
+  font-size: large;
   font-weight: bold;
   padding: 1rem;
   flex-direction: column;
