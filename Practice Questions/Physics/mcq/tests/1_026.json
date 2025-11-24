@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Pressure & Pascal's Law MCQ Problems",
+    "test_id": "1_027",
+    "problems": [
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "5.60N of force is applied to a surface with an area of 61.0 \\(\\text{m}^2\\) at an angle of \\(67.6^{\\circ}\\) . Calculate the pressure. (\\(0^{\\circ}\\) is perpendicular to the area.)",
+            "options": [
+                "0.0102 Pa",
+                "0.0350 Pa",
+                "0.0918 Pa",
+                "1.11 Pa"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "B",
+            "hint": "\\(\\frac{\\text{P} = \\text{F} \\cos \\theta}{\\text{A}}\\)",
+            "detailed": "\\(\\text{P} = \\frac{\\text{F} \\cos \\theta}{\\text{A}} = \\frac{5.60 \\; \\text{N} \\cos 67.6^{\\circ}}{61.0 \\; \\text{m}^2 } = 0.0350 \\; \\text{Pa}\\)"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "Calculate the pressure at a depth of 3.13 m. The outside atmospheric pressure is 101325 Pa, the density of the fluid is 5.17 kg/L, and the gravitational constant is 9.81 \\(\\text{m/s}^2\\).",
+            "options": [
+                "\\(6.50 \\times 10^4 \\; \\text{Pa}\\)",
+                "\\(1.30 \\times 10^5 \\; \\text{Pa}\\)",
+                "\\(2.60 \\times 10^5 \\; \\text{Pa}\\)",
+                "Neither of the above"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "C",
+            "hint": "\\(P = P_0 + \\rho g h\\)",
+            "detailed": "\\(P = 101325 \\; \\text{Pa} + \\frac{5.17 \\; \\text{kg}}{1 \\; \\text{L}} \\frac{1 \\; \\text{L}}{0.001 \\; \\text{m}^3} \\times 9.81 \\; \\text{m/s}^2 \\times 3.13 \\; \\text{m} = 2.60 \\times 10^5\\; \\text{Pa}\\)"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "The external pressure applied to the fluid increases by 3.0 Pa. If the pressure at depth h was 3.5 Pa before the pressure increase, what is the pressure at that depth now?",
+            "options": [
+                "0.5 Pa",
+                "3.5 Pa",
+                "5.0 Pa",
+                "6.5 Pa"
+            ],
+            "questionImages": ["1_026q_01.png"],
+            "solutionImages": [],
+            "correct": "D",
+            "hint": "Use Pascal’s law.",
+            "detailed": "Since applied pressure is transmitted undiminished to all parts of the fluid, the answer is 3.5 Pa + 3.0 Pa = 6.5 Pa"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "If you press M1 with force of F, what is the force created on the other side?",
+            "options": [
+                "\\(\\frac{\\text{A}_2}{\\text{A}_1} \\text{F}\\)",
+                "\\(\\frac{\\text{A}_1}{\\text{A}_2} \\text{F}\\)",
+                "\\text{F}\\)",
+                "\\(\\frac{\\text{M}_2}{\\text{M}_1} \\text{F}\\)"
+            ],
+            "questionImages": ["1_026q_02.png"],
+            "solutionImages": [],
+            "correct": "A",
+            "hint": "Pressure applied would be transmitted undiminished to all parts of the fluid.",
+            "detailed": "If the created force is G, <br> \\(\\text{P} = \\frac{\\text{F}}{\\text{A}_1} = \\frac{\\text{G}}{\\text{A}_2}\\) <br> \\(\\text{G} = \\frac{\\text{A}_2}{\\text{A}_1}  \\text{F}\\)"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "Which of the following expressions is equal to \\(\\frac{A}_1 \\text{M}_2 - \\text{A}_2 \\text{M}_1\\)? d is the density of the fluid, \\(\\text{A}_1\\) and \\(\\text{A}_2\\) are the areas, and \\(\\text{M}_1\\) and \\(\\text{M}_2\\) are the masses.",
+            "options": [
+                "\\(\\text{A}_1^2 \\text{d}^2\\)",
+                "\\(\\text{A}_2^2 \\text{h}^2\\)",
+                "\\(\\text{A}_1 \\text{A}_2 \\text{d} \\text{h}\\)",
+                "Neither of the above"
+            ],
+            "questionImages": ["1_026q_02.png"],
+            "solutionImages": [],
+            "correct": "C",
+            "hint": "External Pressure + Pressure by Mass + Pressure by Fluid Column is the same for both left and right, if the level is the same.",
+            "detailed": "If the external pressure is P, <br> \\(\\text{P} + \\frac{\\text{M}_1 \\text{g}}{\\text{A}_1} + \\text{dgh} = \\text{P} + \\frac{\\text{M}_2 \\text{g}}{\\text{A}_2} + \\text{dg} \\times 0\\) <br> \\(\\text{A}_1 \\text{M}_2 - \\text{A}_2 \\text{M}_1 = \\text{A}_1 \\text{A}_2 \\text{dh}\\)"
+        }
+    ]
+}

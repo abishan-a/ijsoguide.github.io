@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Buoyancy & Archimedes' Principle MCQ Problems",
+    "test_id": "1_027",
+    "problems": [
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "An object is submerged in a fluid of density 1.23 \\(\\text{kg/m}^3\\). Volume is 23.44 \\(\\text{m}^3\\), and gravitational constant is 9.81 \\(\\text{m/s}^2\\). Calculate the buoyant force.",
+            "options": [
+                "28.3 N",
+                "283 N",
+                "298 N",
+                "341 N"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "B",
+            "hint": "\\(F_b = \\rho V g\\)",
+            "detailed": "Buoyant Force = \\(1.23 \\; \\text{kg/m}^3 \\times 23.44 \\; \\text{m}^3 \\times 9.81 \\; \\text{m/s}^2 = 283 \\; \\text{N}\\)"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "An object is hung on a spring scale. Right now, the scale reads 6.70 N. However, when the object is completely submerged in a fluid with density of 1.00 kg/L, the scale reads 4.20N. If the gravitational constant is 10.0 \\(\\text{m/s}^2\\), what is the volume of this object?",
+            "options": [
+                "0.250 L",
+                "0.420 L",
+                "250 L",
+                "420 L"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "A",
+            "hint": "The difference between the two scale reads is the buoyant force.",
+            "detailed": "Buoyant Force = \\(6.70 \\; \\text{N} - 4.20 \\; \\text{N} = 2.50 \\; \\text{N} = 1.00 \\; \\text{kg/L} \\times V \\times 10.0 \\; \\text{m/s}^2\\) <br> V = 0.250 L."
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "Let's say the density of ice is 90% that of water's. If some amount of water freezes into ice, how much of the ice's volume is submerged underwater? You may ignore significant figures for this one.",
+            "options": [
+                "10 %",
+                "20 %",
+                "45 %",
+                "90 %"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "D",
+            "hint": "The gravity applied to the ice isn't affected by how much volume is submerged.",
+            "detailed": "Let's say the volume of the ice is V, the density of water is d, and the gravitational constant is g. Also, the submerged volume is u. <br> Since the gravity and the buoyant force applied to the ice must be the same, <br> \\(\\text{mass} \\times \\text{g} = \\text{dug} \\rightarrow \\text{u} = \\frac{\\text{mass}}{\\text{d}}\\) <br> Since \\(\\text{mass} = \\text{ice density} \\times \\text{ice volume} = 0.9 \\; \\text{d} \\times \\text{V} \\rightarrow \\text{u} = 0.9 \\; \\text{V}\\) <br> Therefore, \\(\\frac{\\text{u}}{\\text{V}} = 0.9 = 90 \\% \\)"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "Calculate the net force applied to a helium balloon with volume of 34 \\(\\text{L}\\). The density of air and helium are 0.0012 \\(\\text{kg/L}\\) and 0.0001785 \\(\\text{kg/L}\\), and the gravitational constant is 10.0 \\(\\text{m/s}^2\\). Ignore the mass of the balloon and only consider the mass of the helium inside.",
+            "options": [
+                "0.00 N",
+                "0.35 N",
+                "0.70 N",
+                "7.00 N"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "B",
+            "hint": "Net Force = Buoyant Force - Gravity",
+            "detailed": "\\(F_{\\text{net}} = F_b - F_g = 0.0012 \\; \\text{kg/L} \\times 34 \\; \\text{L} \\times 10.0 \\; \\text{m/s}^2 - 0.0001785 \\; \\text{kg/L} \\times 34 \\; \\text{L} \\times 10.0 \\; \\text{m/s}^2 = 0.35 \\; \\text{N}\\)"
+        },
+        {
+            "author": "Doyoon Kim",
+            "level": "easy",
+            "question": "Consider an object that doesn’t interact with water in any way. When completely submerging it into 25 L of water, the level increases to 36 L. In addition, this object has a mass of 3.5 kg. If we completely submerge this object in liquid X, the object neither floats up nor sinks down. What is the density of X?",
+            "options": [
+                "0.057 kg/L",
+                "0.097 kg/L",
+                "0.320 kg/L",
+                "0.670 kg/L"
+            ],
+            "questionImages": [],
+            "solutionImages": [],
+            "correct": "C",
+            "hint": "The density of the object is equal to the density of X.",
+            "detailed": "Density of X = Density of Object = \\(\\frac{3.5 \\; \\text{kg}}{36 \\; \\text{L} - 25 \\; \\text{L}} = 0.32 \\; \\text{kg/L}\\)"
+        }
+    ]
+}
