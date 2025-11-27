@@ -17,7 +17,7 @@
             },
             "Mechanics": {
                 "1_003": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Vectors"
@@ -107,7 +107,7 @@
                 "title": "Mechanical Energy & Work"
                 },
                 "1_018": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Power & Efficiency"
