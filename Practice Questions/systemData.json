@@ -281,13 +281,13 @@
                 "title": "Thermal Equilibrium"
                 },
                 "1_046": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Zeroth Law of Thermodynamics"
                 },
                 "1_047": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Mechanisms of Heat Transfer"
@@ -317,13 +317,13 @@
                 "title": "Specific Heat Capacity"
                 },
                 "1_052": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Latent heat"
                 },
                 "1_053": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Calorimeter"
