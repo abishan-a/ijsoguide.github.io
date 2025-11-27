@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Power and Efficiency MCQ Problems",
+    "test_id": "1_018",
+    "problems": [
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "What is the SI unit of power?",
+        "options": [
+          "Joule (J)",
+          "Watt (W)",
+          "Newton (N)",
+          "Pascal (Pa)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Power is the rate at which work is done.",
+        "detailed": "Power measures how quickly work is done or energy is transferred, and its SI unit is the watt (W)."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "A machine does 200 J of work in 5 seconds. What is its power output?",
+        "options": [
+          "5 W",
+          "20 W",
+          "40 W",
+          "200 W"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use P = Work ÷ Time.",
+        "detailed": "Power = 200 J ÷ 5 s = 40 W."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "Which expression correctly represents power when a constant force moves an object at constant velocity?",
+        "options": [
+          "P = F / v",
+          "P = F × v",
+          "P = F + v",
+          "P = v − F"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about how work changes with force and displacement.",
+        "detailed": "If force and velocity are constant and in the same direction, power can be expressed as P = F × v."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "A machine has an output power of 300 W and an input power of 500 W. What is its efficiency?",
+        "options": [
+          "40 %",
+          "50 %",
+          "60 %",
+          "90 %"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Efficiency = (output ÷ input) × 100 %.",
+        "detailed": "Efficiency = (300 ÷ 500) × 100 % = 60 %."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "Which statement is true for all real machines?",
+        "options": [
+          "They have 100% efficiency.",
+          "Their efficiency is always less than 100 %.",
+          "They lose no energy during operation.",
+          "They increase total energy in the system."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Real machines always waste some energy.",
+        "detailed": "Friction and other losses prevent real machines from reaching 100 % efficiency, so their efficiency is always below 100 %."
+      }
+    ]
+  }

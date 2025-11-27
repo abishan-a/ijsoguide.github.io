@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Vectors MCQ Problems",
+    "test_id": "1_003",
+    "problems": [
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "Which of the following is a vector quantity?",
+        "options": [
+          "Speed",
+          "Distance",
+          "Time",
+          "Velocity"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Think about magnitude and direction.",
+        "detailed": "Velocity has both magnitude and direction, making it a vector, unlike speed, distance, or time."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "What is the resultant of two equal vectors of magnitude 5 units pointing in opposite directions?",
+        "options": [
+          "0 units",
+          "5 units",
+          "10 units",
+          "Cannot be determined"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Opposite vectors cancel out.",
+        "detailed": "Two equal vectors in opposite directions add up to the zero vector, giving a resultant magnitude of 0."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "If vector A = (3, 4) and vector B = (-3, -4), what is A + B?",
+        "options": [
+          "(0, 0)",
+          "(3, 0)",
+          "(0, 4)",
+          "(-6, -8)"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Add components separately.",
+        "detailed": "Adding component-wise: (3 + -3, 4 + -4) = (0, 0)."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "A vector has magnitude 10 pointing east. Which is the opposite vector?",
+        "options": [
+          "Magnitude 10 pointing west",
+          "Magnitude 10 pointing east",
+          "Magnitude 5 pointing west",
+          "Magnitude 10 pointing north"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Same magnitude, opposite direction.",
+        "detailed": "The opposite vector must point west with the same magnitude of 10."
+      },
+      {
+        "author": "Mubarak Aouda",
+        "level": "easy",
+        "question": "Which operation results in a scalar when applied to two vectors?",
+        "options": [
+          "Vector addition",
+          "Vector subtraction",
+          "Dot product",
+          "Cross product"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "The name gives it away.",
+        "detailed": "The dot product (scalar product) produces a scalar value."
+      }
+    ]
+  }
