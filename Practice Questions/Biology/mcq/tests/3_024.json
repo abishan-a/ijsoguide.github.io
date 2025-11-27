@@ -1,0 +1,136 @@
+{
+  "subject": "biology",
+  "unit": "Human Biology",
+  "title": "Animal Tissues MCQ Problems",
+  "test_id": "3_024",
+  "problems": [
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Cuboidal epithelium is specialized for",
+      "options": [
+        "Protein synthesis",
+        "Filtration",
+        "Degradation",
+        "Secretion"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "Think of the surface area to volume ratio",
+      "detailed": "The correct answer is D. Cuboidal epithelia have a balanced surface area and volume, so they have enough volume to contain necessary structures (Golgi apparatus and endoplasmic reticulum) while having enough surface area for secretion of substances."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is an organ where cuboidal epithelium would be found?",
+      "options": [
+        "Thyroid",
+        "Heart",
+        "Lung",
+        "Stomach"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "Think of parts of the body that deal with secreting substances.",
+      "detailed": "The correct option is A, the thyroid secretes thyroid hormone. The other organs do not secrete substances as much."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following epithelial cells is important for diffusion?",
+      "options": [
+        "Simple columnar epithelium",
+        "Pseudostratified columnar epithelium",
+        "Stratified squamous epithelium",
+        "Simple squamous epithelium"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "It has to be very thin, and plate-like for diffusion to occur easily.",
+      "detailed": "The correct answer is option D, simple squamous epithelia are plate-like and specialized for diffusion. They would likely be found in blood vessels and lungs where gas exchange is important."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "What type of epithelia is typically found lining the intestines?",
+      "options": [
+        "Pseudostratified columnar epithelium",
+        "Simple columnar epithelium",
+        "Simple squamous epithelium",
+        "Cuboidal epithelium"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "D",
+      "hint": "It cannot be simple squamous epithelium, as they are found in THIN areas with lots of diffusion. Focus on something that will be good at absorption.",
+      "detailed": "Simple columnar epithelium are found in areas important in secretion and/or absorption, like the intestines."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which option best describes pseudostratified columnar epithelium?",
+      "options": [
+        "Multiple layers of slanted cells",
+        "One layer of cells without nuclei",
+        "One layer of cells with nuclei at different heights",
+        "Only nuclei stacked on top of one another"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Nuclei cannot exist on their own outside of the cell.",
+      "detailed": "Pseudostratidies columnar epithelium are made out of a single layer of cells with nuclei placed at different heights."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following correctly identifies the two types of cells in connective tissue?",
+      "options": [
+        "Lymphocytes and eosinophils",
+        "Macrophages and erythrocytes",
+        "Macrophages and fibroblasts",
+        "Eosinophils and leukocytes"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Eosinophils are specialized immune cells targeting parasites. They are also released during allergic reactions.",
+      "detailed": "The two types of cells in connective tissue are macrophages and fibroblasts. Macrophages engulf foreign particles as a part of the immune system, and fibroblasts secrete fibre proteins."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is NOT a type of connective tissue?",
+      "options": [
+        "Skin",
+        "Adipose tissue",
+        "Neurons",
+        "Bone"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Bone is mineralized connective tissue.",
+      "detailed": "Neurons are part of the nervous system, they are specialized to conduct electrical signals - they are NOT a type of connective tissue."
+    },
+    {
+      "author": "Josephine Ankomah",
+      "level": "easy",
+      "question": "Which of the following is INCORRECT?",
+      "options": [
+        "Cardiac muscle is found in the contractile wall of the heart",
+        "Smooth tissue has intercalated discs that send signals",
+        "Skeletal muscle is responsible for voluntary contractions",
+        "Glial cells support neurons by nourishing and insulating them"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Smooth muscle does not need to send signals",
+      "detailed": "Cardiac muscle, not smooth muscle has intercalated discs to send signals."
+    }
+  ]
+}

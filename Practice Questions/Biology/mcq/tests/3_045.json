@@ -1,0 +1,136 @@
+{
+  "subject": "biology",
+  "unit": "Human Biology",
+  "title": "Symmetry and Body Plans MCQ Problems",
+  "test_id": "3_045",
+  "problems": [
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which group of animals lacks any definite symmetry?",
+      "options": [
+        "Echinoderms",
+        "Sponges",
+        "Flatworms",
+        "Roundworms"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Flatworms and roundworms have bilateral symmetry, meaning their bodies can be divided into two mirrored halves.",
+      "detailed": "Sponges are unique, they do not have a defined body plan/symmetry. Sponges are considered asymmetrical. They have no true tissues or organs either."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Radial symmetry is most advantageous for:",
+      "options": [
+        "Fast, directed movement",
+        "Detecting stimuli from all directions",
+        "Producing complex organs",
+        "Segmentation"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Imagine having arms and senses in all directions! What would you be able to do?",
+      "detailed": "Radial symmetry is advantageous for detecting stimuli from all directions. For example, when feeding, one could reach out in all directions, increasing their chances of capturing food."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which adaptation is most closely associated with bilateral symmetry?",
+      "options": [
+        "Sessile lifestyle",
+        "Cephalization",
+        "Radial growth",
+        "Filter feeding"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Bilateral and radial are two very different body plans. Option C is qustionable.",
+      "detailed": "Bilateral symmetry is closely associated with cephalization. Cephalization is the collection of sensory organs and nervous tissue at the front-most portion of the body. It makes sense because the 'control center' is at the front of the body."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "How many primary germ layers are lacking in diploblastic animals?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "A",
+      "hint": "The maximum number of layers is 3.",
+      "detailed": "An organism can either be diploclastic or triploblastic. Diploblastic organisms have only the ectoderm and endoderm (no mesoderm). That means biploblastic aniamsl lack one layer."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which group is triploblastic?",
+      "options": [
+        "Cnidarians",
+        "Ctenophores",
+        "Flatworms",
+        "Sponges"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Cnidarians are diploblastic. They only have a ectoderm and endoderm.",
+      "detailed": "Flatworms are triploblastic, they have an ectoderm, mesoderm, and endoderm."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which germ layer is responsible for forming muscles and circulatory systems?",
+      "options": [
+        "Ectoderm",
+        "Mesoderm",
+        "Endoderm",
+        "Blasocoel"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "The blastocoel is a fluid-filled cavity within the blastula, it is not a germ layer.",
+      "detailed": "The mesoderm is responsible for forming the muscle and circulatory system."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "What type of body cavity do roundworms (Nematoda) possess?",
+      "options": [
+        "Acoelomate",
+        "Coelomate",
+        "Pseudocoelomate",
+        "No cavity at all"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "C",
+      "hint": "Acoelomate is the same as having no cavity at all",
+      "detailed": "Roundworms are pseudocoelomate, meaning they have a partially lined body cavity - not fully lined by mesoderm, unlike a true coelom."
+    },
+    {
+      "author": "Kotryna Mieldažytė",
+      "level": "easy",
+      "question": "Which feature allows organs to grow and move independently of the body wall?",
+      "options": [
+        "Segmentation",
+        "Coelom",
+        "Germ Layers",
+        "Radial symmetry"
+      ],
+      "questionImages": [],
+      "solutionImages": [],
+      "correct": "B",
+      "hint": "Think of a cavity that separates the internal organs from the cell wall.",
+      "detailed": "The coelom allows organs to grow independently of the body wall."
+    }
+  ]
+}
