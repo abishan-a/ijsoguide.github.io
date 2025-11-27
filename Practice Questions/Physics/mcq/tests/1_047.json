@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Mechanisms of Heat Transfer MCQ Problems",
+    "test_id": "1_047",
+    "problems": [
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which mechanism of heat transfer does not require a medium?",
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Conduction and Convection"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about how the Sun warms Earth.",
+        "detailed": "Radiation transfers heat through electromagnetic waves and does not require a medium."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "When you touch a metal spoon after it has been in hot water, why does it feel hot?",
+        "options": [
+          "Because of convection within the spoon",
+          "Because of conduction through the spoon material",
+          "Because of radiation from the water",
+          "Because of evaporation of water"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Heat travels through contact in solids.",
+        "detailed": "Heat flows through solids by conduction. The metal’s atoms transfer kinetic energy down the spoon, making it feel hot."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which heat transfer mechanism is at work when a pot of water warms up on a stove and the water at the bottom rises while cooler water sinks?",
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Evaporation"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Look for movement of fluid carrying heat with it.",
+        "detailed": "Convection transfers heat via movement of fluid; hot water rises and cool water sinks, distributing heat through the pot."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which of these materials is a poor conductor of heat and would make a good insulator?",
+        "options": [
+          "Aluminum",
+          "Copper",
+          "Wood",
+          "Steel"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about insulating your house walls.",
+        "detailed": "Wood has low thermal conductivity compared to metals, making it a poor conductor and a good insulator."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which mechanism of heat transfer explains why you feel warmth near a fireplace even if the air feels cool?",
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Convection and Conduction"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Heat travels through waves, not air flow.",
+        "detailed": "Radiation transfers heat through infrared waves from the fire to your body, warming you even if the surrounding air remains cool."
+      }
+    ]
+  }

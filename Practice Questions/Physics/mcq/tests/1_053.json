@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Calorimeter MCQ Problems",
+    "test_id": "1_053",
+    "problems": [
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What principle underlies calorimetry in an ideal calorimeter?",
+        "options": [
+          "Heat lost = Heat gained",
+          "Heat loss = 0",
+          "Temperature change = 0",
+          "Mass lost = Mass gained"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Energy conservation in an isolated system.",
+        "detailed": "In an ideal calorimeter, if no heat is lost to the surroundings, the heat lost by the hotter body equals the heat gained by the colder body."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "If a red-hot metal block is placed into cool water inside a perfect calorimeter, what happens in the system at equilibrium?",
+        "options": [
+          "Metal is hotter than water",
+          "Water and metal have equal temperature",
+          "Water is hotter than metal",
+          "Temperatures keep fluctuating"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Equilibrium means no net heat flow.",
+        "detailed": "At thermal equilibrium inside a calorimeter, the metal and water settle at the same temperature because heat exchange stops once both bodies reach the same temperature."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What additional factor must be considered if the calorimeter itself absorbs heat?",
+        "options": [
+          "Mass of water only",
+          "Heat capacity of calorimeter",
+          "Density of water",
+          "Ambient temperature"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The container absorbs some heat too.",
+        "detailed": "If the calorimeter has non-zero heat capacity, the heat it absorbs must be included alongside the heat gained by water to correctly balance the heat lost by the hot body."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which of these is NOT required for an ideal calorimetry experiment to be valid?",
+        "options": [
+          "No heat loss to surroundings",
+          "Stirring for uniform temperature",
+          "Temperature measurement",
+          "Sunlight exposure"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Keep heat exchange isolated.",
+        "detailed": "An ideal calorimeter requires insulation (no heat loss), uniform mixing, and accurate temperature measurement. Sunlight exposure is irrelevant or harmful."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What is the main purpose of a calorimeter in thermodynamics experiments?",
+        "options": [
+          "Measure mass changes",
+          "Measure heat exchanged during a process",
+          "Measure light intensity",
+          "Measure speed of particles"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think energy transfer.",
+        "detailed": "A calorimeter is used to measure heat absorbed or released during physical or chemical processes using temperature changes, mass, and specific heat data."
+      }
+    ]
+  }

@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Zeroth Law of Thermodynamics MCQ Problems",
+    "test_id": "1_046",
+    "problems": [
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What does the Zeroth Law of Thermodynamics primarily define?",
+        "options": [
+          "The direction of heat flow",
+          "The conservation of energy",
+          "The concept of temperature",
+          "The conversion of heat to work"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about what allows us to compare 'hotness.'",
+        "detailed": "The Zeroth Law establishes the concept of temperature by stating that if two bodies are each in thermal equilibrium with a third, they are in equilibrium with each other."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "According to the Zeroth Law, if object A is in thermal equilibrium with object B, and B is in equilibrium with C, what can be concluded?",
+        "options": [
+          "A and C must be made of the same material",
+          "A and C are in thermal equilibrium",
+          "A is hotter than C",
+          "B must transfer heat to both A and C"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "It's a transitive relationship.",
+        "detailed": "The Zeroth Law states that if A is in thermal equilibrium with B, and B with C, then A and C are also in thermal equilibrium."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What does 'thermal equilibrium' mean?",
+        "options": [
+          "Two objects stop exchanging net heat",
+          "Two objects have the same mass",
+          "Heat flows continuously between objects",
+          "Two objects are made of identical substances"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Equilibrium means balance.",
+        "detailed": "Thermal equilibrium means no net heat flow occurs between two objects because they are at the same temperature."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Why is the Zeroth Law important for thermometers?",
+        "options": [
+          "It explains how thermometers produce heat",
+          "It ensures thermometers have constant volume",
+          "It allows thermometers to measure temperature consistently",
+          "It makes thermometers unnecessary"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about why a thermometer works the same for any object.",
+        "detailed": "The Zeroth Law allows thermometers to work because they reach thermal equilibrium with the body being measured and display a consistent temperature reading."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which situation BEST demonstrates the Zeroth Law?",
+        "options": [
+          "A hot pan cooling on a counter",
+          "Three objects that all have the same temperature",
+          "Ice melting in warm water",
+          "A stove heating a pot"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think equilibrium, not heat transfer.",
+        "detailed": "If three objects share the same temperature and are in thermal equilibrium, this directly demonstrates the Zeroth Law."
+      }
+    ]
+  }

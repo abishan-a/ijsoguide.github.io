@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "thermodynamics",
+    "title": "Latent Heat MCQ Problems",
+    "test_id": "1_052",
+    "problems": [
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What does latent heat refer to?",
+        "options": [
+          "Heat required to change temperature",
+          "Heat released by radiation",
+          "Heat required to change the state of a substance without changing temperature",
+          "Heat lost to the surroundings"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "No temperature change occurs during this process.",
+        "detailed": "Latent heat is the heat absorbed or released by a substance during a phase change, without change in temperature."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "During melting of ice at 0°C, what happens to the temperature of the ice-water mixture while heat is supplied?",
+        "options": [
+          "Temperature rises above 0°C",
+          "Temperature remains at 0°C",
+          "Temperature drops below 0°C",
+          "Temperature fluctuates"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Phase change occurs at constant temperature.",
+        "detailed": "During melting, the supplied heat is used for the phase change; temperature stays at 0 °C until all ice melts."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What is the name of the latent heat required for liquid to become vapor at boiling point?",
+        "options": [
+          "Latent heat of fusion",
+          "Latent heat of vaporization",
+          "Specific heat capacity",
+          "Thermal equilibrium"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about boiling water turning into steam.",
+        "detailed": "The heat required to convert liquid into gas at its boiling point is called latent heat of vaporization."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "What happens to the temperature of water while it is boiling at constant pressure, as more heat is added?",
+        "options": [
+          "Temperature increases",
+          "Temperature remains constant",
+          "Temperature decreases",
+          "Temperature fluctuates"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "During phase change temperature remains stable.",
+        "detailed": "During boiling, as long as both liquid and vapor coexist, added heat goes into latent heat of vaporization, so temperature remains constant."
+      },
+      {
+        "author": "Cabir Abbasov",
+        "level": "easy",
+        "question": "Which latent heat is associated with a substance freezing (liquid → solid)?",
+        "options": [
+          "Latent heat of melting",
+          "Latent heat of vaporization",
+          "Latent heat of fusion",
+          "Latent heat of conduction"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Freezing is the reverse of melting.",
+        "detailed": "The latent heat involved when a liquid becomes a solid is called latent heat of fusion."
+      }
+    ]
+  }
