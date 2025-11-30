@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "light",
+    "title": "Magnification MCQ Problems",
+    "test_id": "1_041",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "An object has a height of 12 cm, and the image of this object made by a lens has a height of 36 cm. Calculate the magnification.",
+        "options": [
+          "3.0",
+          "0.33",
+          "48",
+          "Insufficient Data"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Magnification is the ratio of image height to object height, but its sign depends on whether the image is upright or inverted.",
+        "detailed": "Magnification equals image height divided by object height, giving 36/12 = 3.0. However, the problem does not state whether the image is upright or inverted, so the sign of the magnification cannot be determined. Therefore, the correct choice is Insufficient Data."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "An object is placed 20 cm in front of a convex lens with a focal length of 10 cm. Calculate the magnification.",
+        "options": [
+          "-1.0",
+          "1.0",
+          "0.5",
+          "-0.5"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use the thin lens equation to find the image distance.",
+        "detailed": "Using the thin lens equation: 1/20 + 1/b = 1/10. Solving gives b = 20 cm. The magnification is given by m = -b/a = -20/20 = -1.0."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A system contains 5 lenses with individual magnifications of 1.00, 2.00, 3.00, −4.00, and −5.00. What is the total magnification of the system?",
+        "options": [
+          "-120",
+          "120",
+          "-3.00",
+          "15.0"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Multiply all the individual magnifications together.",
+        "detailed": "Total magnification equals the product of individual magnifications: 1.00 × 2.00 × 3.00 × (−4.00) × (−5.00) = 120."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "The angular size of an image is 2.0° without a magnifier and becomes 5.0° when viewed through a magnifying glass. Calculate the angular magnification.",
+        "options": [
+          "10",
+          "0.40",
+          "2.5",
+          "0.10"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Angular magnification equals the angular size with the instrument divided by the angular size without it.",
+        "detailed": "Angular magnification = (5.0°)/(2.0°) = 2.5."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A simple magnifier has a focal length of 5.0 cm. The near point of a relaxed human eye is 20 cm. What is the angular magnification?",
+        "options": [
+          "5.0",
+          "0.25",
+          "0.20",
+          "4.0"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Use the formula: magnification = near point / focal length.",
+        "detailed": "Magnification = 20 cm / 5.0 cm = 4.0."
+      }
+    ]
+  }

@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "light",
+    "title": "Optical Instruments MCQ Problems",
+    "test_id": "1_042",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A camera has a focal length of 25.0 cm and an aperture diameter of 50.0 cm. What is the f-number?",
+        "options": [
+          "0.500",
+          "2.00",
+          "8.00",
+          "75.0"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use f-number = focal length ÷ aperture diameter.",
+        "detailed": "f-number = 25.0 cm / 50.0 cm = 0.500."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "If the aperture diameter of a camera is doubled, how does the intensity of light striking the surface change?",
+        "options": [
+          "Doubled",
+          "Tripled",
+          "Quadrupled",
+          "No change"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Light intensity is inversely proportional to the square of the f-number.",
+        "detailed": "Doubling the aperture halves the f-number. Since intensity varies with the inverse square of f-number, the intensity increases by a factor of four."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A corrective lens has a focal length of 0.20 m. What is its optical power?",
+        "options": [
+          "0.20 D",
+          "5.0 D",
+          "-0.70 D",
+          "-1.6 D"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Power equals 1 divided by focal length (in meters).",
+        "detailed": "Power = 1 / 0.20 m = 5.0 D."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "A simple magnifier gives an angular magnification of 2.00. If the near point is 24.4 cm, what is the focal length?",
+        "options": [
+          "14.4 cm",
+          "24.4 cm",
+          "26.4 cm",
+          "12.2 cm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Use magnification = near point ÷ focal length.",
+        "detailed": "Focal length = 24.4 cm / 2.00 = 12.2 cm."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Where is the mistake in the statement: “In a compound microscope, the objective lens forms a first image in the barrel and the eyepiece forms a final virtual image. In a reflecting telescope, the objective lens is replaced by a convex mirror.”",
+        "options": [
+          "Compound microscope",
+          "Virtual image",
+          "Telescope principle",
+          "Convex mirror"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Reflecting telescopes use a curved mirror, but not convex.",
+        "detailed": "The mirror used in a reflecting telescope is concave, not convex. Therefore the mistake is 'convex mirror'."
+      }
+    ]
+  }

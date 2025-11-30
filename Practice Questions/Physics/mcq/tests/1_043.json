@@ -1,0 +1,56 @@
+{
+    "subject": "physics",
+    "unit": "light",
+    "title": "Diffraction MCQ Problems",
+    "test_id": "1_043",
+    "problems": [
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider a wave passing through an aperture and diffracting. What is the relation of the aperture’s size and the amount of diffraction?",
+        "options": [
+            "More diffraction for smaller apertures.",
+            "Less diffraction for bigger apertures.",
+            "Amount of diffraction not dependent on the aperture’s size.",
+            "None of the above."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "What is diffraction?",
+        "detailed": "For large apertures the wave passes by or through the obstacle without any significant diffraction."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider an interference pattern by the double-slit experiment. There are bright fringes and dark fringes. Which of these is caused by constructive interference?",
+        "options": [
+            "Bright fringes.",
+            "Dark fringes.",
+            "Both bright and dark fringes.",
+            "None of the above."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "When two waves interfere constructively, do they form a wave with a larger amplitude or a smaller one?",
+        "detailed": "Two waves interfering constructively form a wave with a larger amplitude; therefore, A is the answer."
+      },
+      {
+        "author": "Doyoon Kim",
+        "level": "easy",
+        "question": "Consider the double-slit experiment. In this scenario, the diffraction by each slit cannot be ignored. When you block one of the two slits, how does the pattern change?",
+        "options": [
+            "It stays the same",
+            "It doesn’t stay the same, but the new pattern still has bright and dark fringes repeatedly appearing.",
+            "The entirety of the screen becomes bright.",
+            "The screen is completely black."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "The situation changes from interference + diffraction to diffraction only.",
+        "detailed": "Since one slit is blocked, the pattern changes. But patterns caused by diffraction only also have bright and dark fringes repeatedly appearing."
+      }
+    ]
+  }
