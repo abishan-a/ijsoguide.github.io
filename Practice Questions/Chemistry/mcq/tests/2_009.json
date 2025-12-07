@@ -1,0 +1,99 @@
+{
+  "subject": "chemistry",
+  "unit": "chemicalstructures",
+  "title": "Intermolecular forces MCQ Questions",
+  "test_id": "2_009",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "Find the odd one out!",
+      "options": [
+        "London Forces",
+        "Hydrogen Bonds",
+        "Dipole-dipole Interactions",
+        "Covalent Bonds"
+      ],
+      "correct": "D",
+      "hint": "3 options are intermolecular forces, while the other one isn't.",
+      "detailed": "Covalent bonds are strong bonds in which atoms share electrons, being the foundation of molecular compounds. The other 3 options are weak intermolecular forces.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "We can say about dipole-dipole forces:",
+      "options": [
+        "Due to quantum effects on the molecular scale, they are of the unexpected orientation (similar charges attract)",
+        "They are relatively strong in the \\(CH_4\\) molecules",
+        "In diatomic molecules, their strength increases as the electronegativity difference increases",
+        "They appear between a polar molecule and a non-polar molecule."
+      ],
+      "correct": "C",
+      "hint": "Dipole-dipole attractions are electrostatic forces between atoms of polar molecules.",
+      "detailed": "The first option is false, partially negative (\\(-\\delta\\)) atoms are attracted by partially positive (\\(+\\delta\\)) atoms. The electronegativities of carbon and hydrogen are relatively close to each other, with hydrocarbons being notoriously non-polar, making the second option false. The third option is true - larger electronegativity difference leads to large dipole moments, larger partial charges and larger electrostatic forces. The fourth option is false because non-polar molecules do not have charged poles and electrostatic forces appear between two charges, not an charged particle and an uncharged one.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "The picture depicts intermolecular forces in an aqueous solution containing chloride ions. Choose the correct option.",
+      "options": [
+        "The forces depicted by the dotted lines are hydrogen bonds",
+        "The forces depicted by the solid lines are weaker than those depicted by the dotted lines",
+        "The forces depicted by the solid lines involve both the hydrogen and the oxygen atoms of water",
+        "The forces depicted by the dotted lines are between the chloride ions and the oxygen atoms of water"
+      ],
+      "correct": "C",
+      "hint": "Dotted lines depict ion-dipole forces and solid lines depict hydrogen bonds.",
+      "detailed": "Dotted lines depict ion-dipole forces and solid lines depict hydrogen bonds. Only fluorine, oxyegn and nitrogen are electronegative enough to form hydrogen bonds.<br>The solid hydrogen bonds are the strongest intermolecular forces, so stronger than the ion-dipole interactions depicted by the dotted lines.<br>The hydrogen bonds between the water molecules form between a hydrogen atom of a molecule and the oxygen atom of another molecule, so the third option is correct.<br>The ion-dipole forces are formed between the negative chloride ion and the positive H pole of the water molecule.",
+      "questionImages": [
+        "2_009q03.png"
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Which of the following forces can exist?",
+      "options": [
+        "\\(Ne - Ne\\) induction forces",
+        "\\(CO_2 - CO_2\\) dispersion forces",
+        "\\(H_2O - HF\\) hydrogen bonds",
+        "\\(H_2O - Br^-\\) dipole-dipole forces"
+      ],
+      "correct": "B",
+      "hint": "Think about why each force arises and if the species in the given pairs have the required properties to present these forces.",
+      "detailed": "Induction forces appear when a polar molecule/ion induces a dipole in a non-polar molecule. Since the \\(Ne - Ne\\) pair contains no charged species, induction forces cannot appear.<br>Dispersion forces appear between any molecules, so the \\(CO_2 - CO_2\\) pair will have them.<br>Hydrogen bonds are formed only by molecules containing F, N and O, because: the negative pole has to be negative enough; the positive pole (the hydrogen atom) has to be positive enough, so bonded to a very electronegative atom.<br>Since \\(Br^-\\) is an ion, the \\(H_2O - Br^-\\) force is an ion-dipole force, not a dipole-dipole force.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    },
+    {
+      "level": "easy",
+      "question": "Which option shows the correct relationship between the strength of chemical forces?",
+      "options": [
+        "Ion-dipole forces > dipole-dipole forces",
+        "Hydrogen bonds \\(\\aprox\\) covalent bonds",
+        "Induction forces \\(\\aprox\\) dipole-dipole forces",
+        "Dispersion forces > covalent bonds"
+      ],
+      "correct": "A",
+      "hint": "All intermolecular forces can eventually be compared to electrostatic forces. Think in which case the electrostatic forces are stronger.",
+      "detailed": "Since electrostatic forces increase with the magnitude of the charges, ion-dipole forces (between a full ionic charge and a partial charge) are stronger than dipole-dipole forces (between two partial charges).<br>Although hydrogen bonds are the strongest intermolecular forces, they are still much weaker than covalent bonds, by a factor of around 30.<br>Although induction forces are dipole-dipole forces, one of the dipoles is induced in a non-polar molecule and very small in magnitude, making the force much weaker than a tipical dipole-dipole force between two polar molecules.<br>Not only are dispersion forces intermolecular forces, which are much weaker than covalent bonds), but they are towards the weaker side of the intermolecular forces.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Alex Jicu"
+    }
+  ]
+}
