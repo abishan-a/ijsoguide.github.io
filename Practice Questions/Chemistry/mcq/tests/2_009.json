@@ -82,8 +82,8 @@
       "question": "Which option shows the correct relationship between the strength of chemical forces?",
       "options": [
         "Ion-dipole forces > dipole-dipole forces",
-        "Hydrogen bonds \\(\\aprox\\) covalent bonds",
-        "Induction forces \\(\\aprox\\) dipole-dipole forces",
+        "Hydrogen bonds \\(\\approx\\) covalent bonds",
+        "Induction forces \\(\\approx\\) dipole-dipole forces",
         "Dispersion forces > covalent bonds"
       ],
       "correct": "A",
@@ -98,4 +98,5 @@
   ]
 
 }
+
 
