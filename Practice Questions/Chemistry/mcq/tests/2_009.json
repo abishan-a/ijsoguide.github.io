@@ -65,7 +65,7 @@
       "options": [
         "\\(Ne - Ne\\) induction forces",
         "\\(CO_2 - CO_2\\) dispersion forces",
-        "\\(H_2O - HF\\) hydrogen bonds",
+        "\\(H_2O - HCl\\) hydrogen bonds",
         "\\(H_2O - Br^-\\) dipole-dipole forces"
       ],
       "correct": "B",
@@ -98,3 +98,4 @@
   ]
 
 }
+
