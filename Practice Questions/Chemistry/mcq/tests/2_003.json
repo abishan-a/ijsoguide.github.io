@@ -1,0 +1,117 @@
+{
+  "subject": "chemistry",
+  "unit": "chemicalstructures",
+  "title": "Elements and Isotopes MCQ Questions",
+  "test_id": "2_003",
+  "problems": [
+    {
+      "level": "easy",
+      "question": "The chemical element an atom belongs to is determined by:",
+      "options": [
+        "Number of Nucleons",
+        "Number of Protons",
+        "Number of Electrons",
+        "Number of Shells"
+      ],
+      "correct": "B",
+      "hint": "The answer is also known as the 'atomic number'",
+      "detailed": "The chemical element is determined by the number of protons, also known as the atomic number.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "Given two isotopes, what is the true statement?",
+      "options": [
+        "They are not the same chemical element",
+        "Because they are isotopes, one of them will always be radioactive.",
+        "They must always have a different number of neutrons",
+        "Two isotopes of the same element can't naturally occur"
+      ],
+      "correct": "C",
+      "hint": "One of the properties of isotopes is that they have the same number of protons.",
+      "detailed": "In order for two atoms to be considered isotopes, they must have the same number of protons, but the amount of neutrons must be different. So, the correct answer is C), while A) is false. D) is false, because it is possible for more than one isotope of a element to exist naturally. B) is false because not all isotopes are radioactive, they are only radioactive if they are unstable (one element can have more stable isotopes, in fact most light elements do).",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "Which of these is NOT a pair of isotopes?",
+      "options": [
+        "Carbon-13 and Nitrogen-13",
+        "Carbon-14 and Carbon-13",
+        "Deuterium and Tritium",
+        "Uranium-235 and Uranium-238"
+      ],
+      "correct": "A",
+      "hint": "Isotopes must have the same number of protons",
+      "detailed": "The answer is A) Carbon-13 and Nitrogen-13, because their chemical elements are different (Carbon and Nitrogen), so they have a different number of protons. C) Is true because Deuterium is hydrogen with 1 neutron and Tritium is hydrogen with 2 neutrons.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "What is the correct name of this isotope?",
+      "options": [
+        "Carbon-6",
+        "Carbon-8",
+        "Carbon-14",
+        "6-Carbon-14"
+      ],
+      "correct": "C",
+      "hint": "The name of an isotope consists of the element, followed by its mass number.",
+      "detailed": "The mass number is located on the top left corner (14), the number of the bottom left corner is the atomic number. The name of the isotope contains the mass number, so it must be Carbon-14.",
+      "questionImages": [
+        "2_003q04.png"
+      ],
+      "solutionImages": [
+      ],
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "What is true about radioactive isotopes?",
+      "options": [
+        "They are not relevant in the real world because most of them exist for a short period of time due to instability",
+        "They tend to be very stable",
+        "They tend to have more neutrons, when compared to a non radioactive isotope of the same element",
+        "They tend to be more abundant in nature"
+      ],
+      "correct": "C",
+      "hint": "Radioactivity is related to instability",
+      "detailed": "<ul><li>A) False, radioactive isotopes have many real world applications, ranging from medical treatment to carbon dating.</li><li>B) False, radioactive isotopes are unstable, if they were stable they would not be considered to be radioactive.</li><li>C) Correct, the nuclei of radioactive isotopes are heavier, so they have more neutrons.</li><li>D) False, the most abundant isotopes are the stable ones.</li></ul>",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Jailson Godeiro"
+    },
+    {
+      "level": "easy",
+      "question": "What is the difference between cations and anions?",
+      "options": [
+        "They are the same thing, referring to charged atoms",
+        "They are the same thing, referring to neutral atoms",
+        "Anions are positively charged, while cations are negatively charged",
+        "Cations are positively charged, while anions are negatively charged"
+      ],
+      "correct": "D",
+      "hint": "The general term for charged particles are ions.",
+      "detailed": "The correct answer is D) Cations are positively charged, while anions are negatively charged.",
+      "questionImages": [
+      ],
+      "solutionImages": [
+      ],
+      "author": "Jailson Godeiro"
+    }
+  ]
+}
