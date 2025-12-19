@@ -1,0 +1,104 @@
+{
+    "subject": "biology",
+    "unit": "Molecular Biology",
+    "title": "Types of RNA and their functions MCQ Problems",
+    "test_id": "3_017",
+    "problems": [
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "What is one key difference between RNA and DNA?",
+        "options": [
+          "RNA uses thymine instead of uracil",
+          "RNA is usually single-stranded",
+          "RNA contains deoxyribose sugar",
+          "RNA cannot help in protein synthesis"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about how each molecule is shaped, not just what bases they contain",
+        "detailed": "RNA is usually single-stranded. This is a clear structural difference compared with DNA. Option A is wrong because it says RNA uses thymine, but it uses uracil instead. Option C describes DNA; deoxyribose is part of DNA, not RNA. Option D is incorrect because RNA is needed for making proteins."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "What is the main role of messenger RNA (mRNA)?",
+        "options": [
+          "It brings amino acids to the ribosome",
+          "It forms the structure of ribosomes",
+          "It carries genetic instructions from DNA to the ribosome",
+          "It blocks harmful viruses"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about what kind of information needs to leave the nucleus before a protein can be made, and which molecule carries that information.",
+        "detailed": "The correct answer is B. RNA is usually single-stranded. mRNA acts like a 'messenger' delivering the recipe for building proteins. Option A is incorrect because it is the job of tRNA, not mRNA. Option B is wrong because it describes rRNA, which helps build ribosomes. D doesn't relate to what mRNA normally does in a cell."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Why is the anticodon on tRNA important?",
+        "options": [
+          "It destroys incorrect amino acids",
+          "It attaches to ribosomes to form proteins",
+          "It matches the codon on mRNA to ensure the correct amino acid is added",
+          "It produces mRNA in the nucleus"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "The anticodon is like a 'check' that makes sure the amino acid being added is the right one.",
+	      "detailed": "The correct answer is C. It matches the codon on mRNA to ensure the correct amino acid is added. The anticodon allows tRNA to pair with the right section of the mRNA strand. The other options are wrong because option A makes tRNA sound like it breaks dow amino acids, which it doesn't do. Option B suggests tRNA builds ribosomes, but that isn't its role. Option D says tRNA produces mRNA, but mRNa is made during transcription, not by tRNA."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Besides forming part of the ribosome, what else does rRNA do?",
+        "options": [
+          "It stores DNA",
+          "It catalyzes the reaction that links amino acids together",
+          "It creates new tRNA molecules",
+          "It carries amino acids to the ribosome"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Consider whether rRNA has an active role during protein building, not just a structural one.",
+        "detailed": "The correct answer is B. It catalyzes the reaction that links amino acids together. rRNA isn't just structural; it helps form peptide bonds during translation. The other options are wrong because option A refers to storing DNA, which is not an rRNA function. Option C claims rRNA makes tRNA, but it doesn't. Option D is describing tRNA's job, not rRNA's."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which RNA type is responsible for helping process and edit mRNA?",
+        "options": [
+          "snRNA - silences viral genes",
+          "miRNA - helps process and edit mRNA",
+          "siRNA - controls gene expression by blocking mRNA",
+          "snRNA - helps process and edit mRNA"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Think about which type of RNA works in the. nucleus to modify mRNA before it's ready to make a protein.",
+        "detailed": "The correct answer is D. snRNA helps process and edit mRNA. Option A gives snRNA a job it doesn't do. Option B gives miRNA a functions linked to editing but miRNA mainly controls gene expression. Option C is actually true for siRNA, but it's not the match that fits the specific task the question is focusing on."
+      },
+      {
+        "author": "Josephine Ankomah",
+        "level": "easy",
+        "question": "Which option best describes how mRNA, tRNA, and rRNA work together?",
+        "options": [
+          "tRNA makes DNA, mRNA destroys it, rRNA stores it",
+          "mRNA carries the code, tRNA brings amino acids, rRNA helps assemble them",
+          "rRNA carries amino acids, mRNA builds ribosomes, tRNA reads DNA",
+          "All three types of RNA do the same job"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Imagine the process like building something: one brings directions, one brings parts, one puts them together.",
+        "detailed": "The correct answer is optionB. mRNA carries the code, tRNA brings amino acids, and rRNA helps assemble them. All three work as a coordinated system during protein synthesis. The other options are incorrect because option A is made-up and doesn't match what RNA actually does. Option C mixes up all the functions and assigns each RNA the wrong job. Option D is incorrect because each RNA type plays a different role."
+      }
+    ]
+  }
