@@ -107,14 +107,14 @@
         "options": [
           "\\(\\text{kg} \\cdot \\text{s}^{-5} \\cdot \\text{m}^{-6}\\)",
           "\\(\\text{kg} \\cdot \\text{m}^2/\\text{s}^3\\)",
-          "\\(\\text{kg} \\cdot \\text{s}^{-3} \\cdot \\text{m}^{-6}\\)",
+          "\\(\\text{kg} \\cdot \\text{s}^{-4} \\cdot \\text{m}^{-4}\\)",
           "\\(\\text{kg} \\cdot \\text{m}^4/\\text{s}^5\\)"
         ],
         "questionImages": [],
         "solutionImages": [],
         "correct": "C",
         "hint": "Balance the units: \\([\\text{P}] = [\\text{k}][\\text{A}^3][\\text{T}]\\)",
-        "detailed": "Power (P) = \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^3 \\), \\(\\text{A}^3 =  \\text{m}^6 \\), T = s. Solving for \\( \\text{k} \\), \\( \\text{k} = \\text{P}/(\\text{A}^3 \\text{T}) = \\text{kg} \\cdot \\text{s}^{-3} \\cdot \\text{m}^{-6} \\)."
+        "detailed": "Power (P) = \\( \\text{kg} \\cdot \\text{m}^2/\\text{s}^3 \\), \\(\\text{A}^3 =  \\text{m}^6 \\), T = s. Solving for \\( \\text{k} \\), \\( \\text{k} = \\text{P}/(\\text{A}^3 \\text{T}) = \\text{kg} \\cdot \\text{s}^{-4} \\cdot \\text{m}^{-4} \\)."
       }
     ]
   }
