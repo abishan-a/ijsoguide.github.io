@@ -1,0 +1,241 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0b0c2a;
+  color: #f0f0f0;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 6rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav{
+  z-index: 2;
+}
+
+.userInput{
+  background-color: none;
+}
+
+button{
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: all 0.3s ease-in-out;
+  min-width: 110px;
+}
+button:hover {
+  background-color: #0e1236;
+}
+
+.top-bar {
+  max-width: 1100px;
+  margin: 2rem auto 1rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--subjectColor);
+}
+
+.top-bar h2 {
+  font-size: 1.8rem;
+  margin: auto;
+}
+
+.back-btn {
+  background-color: var(--subjectColor);
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.toggle-bar {
+  max-width: 900px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #1f1359;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.toggle-button span {
+  position: relative;
+  z-index: 2;
+  color: #f0f0f0;
+}
+
+.toggle-button.green { background-color: #4caf50; }
+.toggle-button.red { background-color: #f44336; }
+
+.toggle-button.green.hint::after,
+.toggle-button.green.wrong::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  bottom: 0;
+  background-color: #aaa; /* grey for hint */
+  z-index: 1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.toggle-button.green.wrong::after {
+  background-color: #f44336;
+}
+
+.toggle-button.green.hint::after,
+.toggle-button.green.wrong::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.toggle-button.green.hint::after { background: #aaa; }
+.toggle-button.green.wrong::after { background: #f44336; }
+
+
+.toggle-button[activity="active"]{
+  border: 2px solid white;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #1f1359;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#dynamicProblemImages img, #dynamicExplanationImages img{
+  max-height: 200px;
+  max-width: 500px;
+  margin: 3px;
+}
+
+form label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.buttons button,
+.result-page .buttons a{
+  padding: 0.5rem 1rem;
+  background-color: var(--subjectColor);
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#dynamicButtons{
+  margin-top: 2rem;
+}
+
+.feedback, .hintText {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.non-active{
+  display: none;
+}
+
+#authors{
+  display: flex;
+  width: 100%;
+  text-align: right;
+  justify-content: right;
+  align-items: right;
+  margin: 1rem 0 0 0;
+  font-size: 0.8rem;
+}
+
+.result-page{
+  margin: 2rem auto auto auto;
+}
+
+.footer {
+  background: #1f1359;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 3rem;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+
+@media(width < 768px){
+  .top-bar h2 {
+    font-size: 1.5rem;
+  }
+  .back-btn {
+    font-size: 0.8rem;
+}
+
+.landing-content h1 {
+  font-size: 2rem;
+}
+
+  #dynamicProblemImages img, #dynamicExplanationImages img{
+    max-height: 150px;
+    max-width: 95%;
+    margin: 2px;
+  }
+}
