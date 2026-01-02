@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Problem of the week | Dashboard</title>
+<link rel="stylesheet" href="./dashboard.css">
+<link rel="stylesheet" href="./preload.css">
+<script type="module" src="./preload.js"></script>
+<!---<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>--->
+<script type="module" src="./dashboard_script.js"></script>
+<script src="/navigationimport.js" type="module"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/mhchem.min.js" integrity="sha384-F2ptQFZqNJuqfGGl28mIXyQ5kXH48spn7rcoS0Y9psqIKAcZPLd1NzwFlm/bl1mH"  crossorigin="anonymous"></script>
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
+</head>
+<body>
+
+    <div class="center" id="preload"></div>
+
+    <main id="mainContent">
+        <h2>Problem of the week - Dashboard</h2>
+        <div class="container">
+            <section id="allProblemsSection">
+                <div id="allProblemsSettings">
+                    <div class="settingsRow">
+                        <label>Start date: </label>
+                        <input type="datetime-local" id="filterStart">
+                    </div>
+                    <div class="settingsRow">
+                        <label>End date: </label>
+                        <input type="datetime-local" id="filterEnd">
+                    </div>
+                    <div class="settingsRow">
+                        <label>Title</label>
+                        <input type="text" id="filterTitle">
+                    </div>
+                    <div class="settingsRow2">
+                        <button id="filterButton">Apply filter</button>
+                        <a href="#newProblemSection"><button id="skipToNew">New problem</button></a>
+                    </div>
+                </div>
+                <div id="allProblemsList"></div>
+            </section>
+
+            <section id="newProblemSection">
+                <h3 id="newProblemSectionHeader">New problem</h3>
+                <input type="text" id="newProblemTitle" placeholder="Problem title">
+                <textarea id="newProblemText" rows="20"></textarea>
+                <input type="number" id="newProblemSolution" placeholder="Correct solution">
+                <input type="text" id="newProblemAuthors" placeholder="Problem authors">
+                <input type="datetime-local" id="newProblemStarttime">
+                <input type="datetime-local" id="newProblemEndtime">
+                <button id="newProblemRender">Render</button>
+                <button id="newProblemSubmit">Submit</button>
+                <button id="exitEditing">Clear</button>
+                <button id="deleteProblem">Delete</button>
+                
+
+                <div id="exampleProblem">
+                    <p>This is how the problem will look like:</p>
+                    <h3 id="exampleProblemTitle"></h3>
+                    <p id="exampleProblemText"></p>
+                    <p id="exampleProblemAuthors"></p>
+                </div>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        &copy; 2025 A Guide to the IJSO. All rights reserved.
+    </footer>
+
+</body>
+</html>
