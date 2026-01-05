@@ -43,6 +43,7 @@
                     </div>
                     <div class="settingsRow2">
                         <button id="filterButton">Apply filter</button>
+                        <button id="currentFilter">Show current problems</button>
                         <a href="#newProblemSection"><button id="skipToNew">New problem</button></a>
                     </div>
                 </div>
@@ -51,12 +52,31 @@
 
             <section id="newProblemSection">
                 <h3 id="newProblemSectionHeader">New problem</h3>
+                <p class="newProblemAdditionalText" id="subCount"></p>
                 <input type="text" id="newProblemTitle" placeholder="Problem title">
                 <textarea id="newProblemText" rows="20"></textarea>
                 <input type="number" id="newProblemSolution" placeholder="Correct solution">
+                <div class="newProblemRow">
+                    <label>Solution margin [%]: </label>
+                    <input type="number" id="newProblemMargin" placeholder="Correct solution margin" min="0" max="100" value="1">
+                </div>
+                <div class="newProblemRow">
+                    <label>Points: </label>
+                    <select id="newProblemTypeSelect">
+                        <option value="standard">Standard (1, 0.7, 0.6, 0.5)</option>
+                        <option value="mcq">MCQ (1, 0.5, 0)</option>
+                    </select>
+                </div>
                 <input type="text" id="newProblemAuthors" placeholder="Problem authors">
-                <input type="datetime-local" id="newProblemStarttime">
-                <input type="datetime-local" id="newProblemEndtime">
+                <div class="newProblemRow">
+                    <label>Start time: </label>
+                    <input type="datetime-local" id="newProblemStarttime">
+                </div>
+                <div class="newProblemRow">
+                    <label>End time: </label>
+                    <input type="datetime-local" id="newProblemEndtime">
+                </div>
+                <p class="newProblemAdditionalText">* All times are regarded as UTC times!</p>
                 <button id="newProblemRender">Render</button>
                 <button id="newProblemSubmit">Submit</button>
                 <button id="exitEditing">Clear</button>

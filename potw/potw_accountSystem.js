@@ -3,8 +3,8 @@ import {app} from '/centralAuthenticationSystem.js';
 import {auth} from '/centralAuthenticationSystem.js';
 import {db} from '/centralAuthenticationSystem.js';
 import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-import { getFirestore,  doc, setDoc , getDoc , getDocs, collection, query, deleteDoc, updateDoc} from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js"
-
+import { getFirestore,  doc, setDoc , getDoc , increment, updateDoc} from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js"
+import { newScoreCalculator } from './potw_script.js';
 
 let uid;
 
@@ -22,9 +22,7 @@ onAuthStateChanged(auth, (user) => {
       window.dispatchEvent(loginOK);
 
       window.addEventListener('solutionSubmitted', (e)=>{
-        let {season, problemId, correct} = e.detail;
-        console.log(correct);
-
+        let {season, problemId, correct, corrSubs, problemType, triggerElement, submissionTime} = e.detail;
         let finalPoints;
         
         getDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid))
@@ -34,13 +32,20 @@ onAuthStateChanged(auth, (user) => {
                 let currentPoints = d.currentPoints;
                 if (correct){
                   finalPoints = currentPoints;
-                  updateDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid), {
+                  setDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid), {
                     solved: true,
+                    currentPoints: currentPoints,
+                    time: submissionTime,
+                  })
+                  .then(()=>{
+                    updateDoc(doc(db, "otherData", "potw", season, problemId), {
+                      correctSubmissions: increment(1),
+                    })
                   })
                 } else{
-                  let newPoints = currentPoints - 0.2;
+                  finalPoints = newScoreCalculator(problemType, currentPoints);
                   updateDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid), {
-                    currentPoints: newPoints,
+                    currentPoints: finalPoints,
                   })
                 }
             } else{
@@ -49,43 +54,48 @@ onAuthStateChanged(auth, (user) => {
                   setDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid), {
                     solved: true,
                     currentPoints: 1,
+                    time: submissionTime,
+                  })
+                  .then(()=>{
+                    updateDoc(doc(db, "otherData", "potw", season, problemId), {
+                      correctSubmissions: increment(1),
+                    })
                   })
                   .catch((error) => {
-                    const errorCode = error.code;
-                    const errorMessage = error.message;
-                    console.log(errorCode)
-                    console.log(errorMessage)
+                    alert("An error occured: " + error.code + "; " + error.message);
                     // ..
                   });
                 } else{
+                  finalPoints = newScoreCalculator(problemType, 1);
                   setDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid), {
                     solved: false,
-                    currentPoints: 0.9,
+                    currentPoints: finalPoints,
+                    time: submissionTime,
                   })
                   .catch((error) => {
-                    const errorCode = error.code;
-                    const errorMessage = error.message;
-                    console.log(errorCode)
-                    console.log(errorMessage)
-                    // ..
+                    alert("An error occured: " + error.code + "; " + error.message);
                   });
                 }
             }
         })
         .then(()=>{
           if (correct){
-          setDoc(doc(db, "userData", uid, "potw", problemId), {
-            solved: true,
-            points: finalPoints,
-          })
-          .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            console.log(errorCode)
-            console.log(errorMessage)
-            // ..
-          });
-        }
+            setDoc(doc(db, "userData", uid, "potw", problemId), {
+              solved: true,
+              points: finalPoints,
+              time: submissionTime,
+            })
+            .then(()=>{
+              alert('Problem solved correctly! Points: ' + finalPoints);
+            })
+            .catch((error) => {
+              alert("An error occured: " + error.code + "; " + error.message);
+              // ..
+            });
+          } else{
+            alert('Incorrect solution! New point base: ' + finalPoints);
+            triggerElement.disabled = false;
+          }
         })
         .catch(error => {
             console.log("Error getting document:", error);
@@ -95,9 +105,6 @@ onAuthStateChanged(auth, (user) => {
     } else {
       // User is signed out
       // ...
-      window.location.href = "../../../Account/sign-in.html?redirect=" + window.location.href
-      window.addEventListener("testStarted", (e)=>{
-        window.location.href = "../../../Account/sign-in.html?redirect=" + window.location.href
-      })
+      window.location.href = "/Account/sign-in.html?redirect=" + window.location.href;
     }
   });

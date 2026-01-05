@@ -4,6 +4,11 @@
 
 html, body{
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html{
+  width: 100%;
 }
 
 body {
@@ -16,7 +21,10 @@ body {
   padding-bottom: 6rem;
   box-sizing: border-box;
   overflow-x: hidden;
-  box-sizing: border-box;
+}
+
+#mainContent{
+  overflow-x: hidden;
 }
 
 nav{
@@ -122,7 +130,6 @@ h2{
   border-radius: 8px;
   font-size: 0.9rem;
   transition: border-color 0.2s, box-shadow 0.2s;
-  font-size: 0.7rem;
 }
 .settingsRow{
   font-size: 0.7rem;
@@ -207,8 +214,28 @@ h2{
   color: #0b0c2a;
 }
 
+.newProblemAdditionalText{
+  font-size: 0.8rem;
+  color: rgb(159, 159, 159);
+  width: 100%;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.newProblemRow{
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  width: 100%;
+  align-items: center;
+}
+.newProblemRow label{
+  color: black;
+  font-size: 0.8rem;
+}
+
 #newProblemSection input,
-#newProblemSection textarea {
+#newProblemSection textarea,
+#newProblemSection select {
   width: 100%;
   padding: 10px 15px;
   border: 1px solid #dcdde1;

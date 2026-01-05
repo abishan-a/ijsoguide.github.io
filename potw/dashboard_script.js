@@ -2,7 +2,7 @@ import {app} from '/centralAuthenticationSystem.js';
 import {auth} from '/centralAuthenticationSystem.js';
 import {db} from '/centralAuthenticationSystem.js';
 import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-import { getFirestore,  doc, setDoc , getDoc , getDocs, collection, query, deleteDoc} from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js"
+import { getFirestore,  doc, setDoc , getDoc , getDocs, collection, query, deleteDoc, updateDoc} from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js"
 
 let uid;
 
@@ -32,11 +32,8 @@ onAuthStateChanged(auth, (user) => {
                         })
                     
                     })
-                    .then(() => {
-                        console.log(problemsList)
-                    })
                     .catch(error => {
-                        console.log("Error getting document:", error);
+                        alert("An error occured: " + error.code + "; " + error.message);
                     });
 
                 } else{
@@ -45,12 +42,12 @@ onAuthStateChanged(auth, (user) => {
             }
         })
         .catch(error => {
-            console.log("Error getting document:", error);
+            alert("An error occured: " + error.code + "; " + error.message);
         });
     } else {
         // User is signed out
         // ...
-        window.location.href = "sign-in.html"
+        window.location.href = "/Account/sign-in.html?redirect=" + window.location.href;
         console.log('signed out')
     }
 });
@@ -66,61 +63,89 @@ window.addEventListener("load", function(){
     document.querySelector('footer').style.display = "block";
 })
 
-let problemsList = [];
+let problemsList = {};
 
 let newProblemID = "";
+let correctSubmissions = 0;
 let editing = false;
 updateEditingButtons();
 
 document.getElementById('newProblemSubmit').addEventListener('click', ()=>{
-    if (editing){
-        const result = confirm("You are editing " + newProblemID + ". Do you want to continue?");
-        if (result) {
-            console.log("User clicked OK");
-
-        } else {
-            console.log("User clicked Cancel");
-            return;
+    document.getElementById('newProblemSubmit').disabled = true;
+    if (allFieldsFilled() == false){
+        alert("Some fields were not filled out! Please fill out the remaining fields.");
+        document.getElementById('newProblemSubmit').disabled = false;
+    } else{
+        if (editing){
+            const result = confirm("You are editing " + newProblemID + ". Do you want to continue?");
+            if (result) {
+            } else {
+                document.getElementById('newProblemSubmit').disabled = false;
+                return;
+            }
         }
-    }
-    if (newProblemID == "") newProblemID = update_newProblemID();
-    let problemId = newProblemID;
-    let dataToWrite = {
-        problemText: document.getElementById('newProblemText').value,
-        problemTitle: document.getElementById('newProblemTitle').value,
-        problemAuthors: document.getElementById('newProblemAuthors').value,
-        startTime: inputToUnix(document.getElementById('newProblemStarttime').value),
-        endTime: inputToUnix(document.getElementById('newProblemEndtime').value),
-        correctSolution: Number(document.getElementById('newProblemSolution').value),
-    }
-    setDoc(doc(db, "otherData", "potw", "2026", problemId), dataToWrite)
-    .then(()=>{
-        alert("Problem successfully saved!");
-        problemsList[problemId] = dataToWrite;
-        exitEditing();
-        refreshDisplayedProblemList(problemsList, {
-            title: document.getElementById('filterTitle').value,
-            startTime: inputToUnix(document.getElementById('filterStart').value),
-            endTime: inputToUnix(document.getElementById('filterEnd').value)
+        if (newProblemID == "") newProblemID = update_newProblemID();
+        let problemId = newProblemID;
+        let correctSubmissions = 0;
+        let dataToWrite = {
+            problemText: document.getElementById('newProblemText').value,
+            problemTitle: document.getElementById('newProblemTitle').value,
+            problemAuthors: document.getElementById('newProblemAuthors').value,
+            startTime: inputToUnix(document.getElementById('newProblemStarttime').value),
+            endTime: inputToUnix(document.getElementById('newProblemEndtime').value),
+            correctSolution: Number(document.getElementById('newProblemSolution').value),
+            problemType: document.getElementById('newProblemTypeSelect').value,
+            solutionMargin: document.getElementById('newProblemMargin').value / 100,
+            correctSubmissions: correctSubmissions,
+        }
+        setDoc(doc(db, "otherData", "potw", "2026", problemId), dataToWrite)
+        .then(()=>{
+            alert("Problem successfully saved!");
+            dataToWrite.id = problemId;
+            problemsList[problemId] = dataToWrite;
+            exitEditing();
+            refreshDisplayedProblemList(problemsList, {
+                title: document.getElementById('filterTitle').value,
+                startTime: inputToUnix(document.getElementById('filterStart').value),
+                endTime: inputToUnix(document.getElementById('filterEnd').value),
+                current: false
+            });
+            document.getElementById('newProblemSubmit').disabled = false;
+        })
+        .catch((error) => {
+            alert("An error occured: " + error.code + "; " + error.message);
+        // ..
         });
-    })
-    .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        console.log(errorCode)
-        console.log(errorMessage)
-    // ..
-    });
+    }
 })
 
 document.getElementById('deleteProblem').addEventListener('click', ()=>{
+    document.getElementById('deleteProblem').disabled = true;
     const result = confirm("You tried to delete " + newProblemID + ". This action cannot be undone. Do you want to continue?");
-    if (result) console.log('Del pr.' + newProblemID);
-    else console.log('Not del.' + newProblemID)
+    if (result) {
+        deleteDoc(doc(db, "otherData", "potw", "2026", newProblemID))
+            .then(()=>{
+                delete problemsList[newProblemID];
+                exitEditing();
+                refreshDisplayedProblemList(problemsList, {
+                    current: true,
+                })
+                alert("Problem " + newProblemID + " successfully deleted.");
+                document.getElementById('deleteProblem').disabled = false;
+            })
+            .catch((error) => {
+                alert("An error occured: " + error.code + "; " + error.message);
+            // ..
+            });
+    }
+    else {
+        document.getElementById('deleteProblem').disabled = false;
+    }
 })
 
 document.getElementById('filterStart').clear;
 document.getElementById('filterEnd').clear;
+exitEditing();
 
 document.getElementById('newProblemRender').addEventListener('click', renderNewProblem)
 
@@ -130,7 +155,14 @@ document.getElementById('filterButton').addEventListener('click', ()=>{
     refreshDisplayedProblemList(problemsList, {
         title: document.getElementById('filterTitle').value,
         startTime: inputToUnix(document.getElementById('filterStart').value),
-        endTime: inputToUnix(document.getElementById('filterEnd').value)
+        endTime: inputToUnix(document.getElementById('filterEnd').value),
+        current: false
+    })
+})
+
+document.getElementById('currentFilter').addEventListener('click', ()=>{
+    refreshDisplayedProblemList(problemsList, {
+        current: true
     })
 })
 
@@ -143,12 +175,15 @@ function renderNewProblem(){
 
 function loadDataToEdit(problemData, id){
     newProblemID = id;
+    if (problemData.correctSubmissions) correctSubmissions = problemData.correctSubmissions;
     editing = true;
     updateEditingButtons();
     document.getElementById('newProblemTitle').value = problemData.problemTitle;
     document.getElementById('newProblemText').value = problemData.problemText;
     document.getElementById('newProblemAuthors').value = problemData.problemAuthors;
     document.getElementById('newProblemSolution').value = problemData.correctSolution;
+    document.getElementById('newProblemTypeSelect').value = problemData.problemType;
+    document.getElementById('newProblemMargin').value = problemData.solutionMargin * 100;
     document.getElementById('newProblemStarttime').value = setDateTimeInputValue(problemData.startTime);
     document.getElementById('newProblemEndtime').value = setDateTimeInputValue(problemData.endTime);
     renderNewProblem();
@@ -161,8 +196,10 @@ function exitEditing(){
     document.getElementById('newProblemText').value = "";
     document.getElementById('newProblemAuthors').value = "";
     document.getElementById('newProblemSolution').value = 0;
+    document.getElementById('newProblemTypeSelect').value = "standard";
+    document.getElementById('newProblemMargin').value = 1;
     document.getElementById('newProblemStarttime').value = setDateTimeInputValue(Date.now());
-    document.getElementById('newProblemEndtime').value = setDateTimeInputValue(Date.now());
+    document.getElementById('newProblemEndtime').value = setDateTimeInputValue(Date.now() + 604800000);
 
     document.getElementById('exampleProblemTitle').innerHTML = "";
     document.getElementById('exampleProblemText').innerHTML = "";
@@ -173,7 +210,6 @@ function exitEditing(){
 
 function addProblemToDisplay(problemData){
     let div = document.createElement('div');
-    console.log(problemData.id)
     div.id = problemData.id;
     let p1 = document.createElement('p');
     p1.innerHTML = problemData.problemTitle;
@@ -224,11 +260,11 @@ function inputToUnix(value){
 function setDateTimeInputValue(unixMs) {
   const date = new Date(unixMs);
 
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  const hour = String(date.getHours()).padStart(2, "0");
-  const minute = String(date.getMinutes()).padStart(2, "0");
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  const hour = String(date.getUTCHours()).padStart(2, "0");
+  const minute = String(date.getUTCMinutes()).padStart(2, "0");
 
   return `${year}-${month}-${day}T${hour}:${minute}`;
 }
@@ -237,34 +273,55 @@ function updateEditingButtons(){
     //document.getElementById('exitEditing').disabled = !editing;
     let deleteBtn = document.getElementById('deleteProblem');
     let header = document.getElementById('newProblemSectionHeader');
+    let counter = document.getElementById('subCount');
     switch(editing){
         case true:
-            header.innerHTML = "Editing problem " + newProblemID
+            header.innerHTML = "Editing problem " + newProblemID;
+            counter.style.display = "flex";
+            counter.innerHTML = "Correct submissions: " + correctSubmissions;
             deleteBtn.style.display = "block";
             break;
         case false:
             header.innerHTML = "New problem"
             deleteBtn.style.display = "none";
+            counter.style.display = "none";
             break;
     }
 }
 
 function filterPass(problemData, filter){
-    // Title check
-    if (filter.title) {
-        if (!problemData.problemTitle.toLowerCase().includes(filter.title.toLowerCase())) return false;
+    if (filter.current){
+        let timeNow = Date.now();
+        if (problemData.startTime <= timeNow && timeNow <= problemData.endTime) return true;
+        else return false;
+    } else{
+        // Title check
+        if (filter.title) {
+            if (!problemData.problemTitle.toLowerCase().includes(filter.title.toLowerCase())) return false;
+        }
+        // Start time check
+        if (filter.startTime) {
+            if (problemData.startTime < filter.startTime) return false;
+        }
+        // End time check
+        if (filter.endTime) {
+            if (problemData.endTime >= filter.endTime) return false;
+        }
+        return true;
     }
-    // Start time check
-    if (filter.startTime) {
-        if (problemData.startTime < filter.startTime) return false;
-    }
-    // End time check
-    if (filter.endTime) {
-        if (problemData.endTime >= filter.endTime) return false;
-    }
-    return true;
 }
 
+function allFieldsFilled(){
+    if (document.getElementById('newProblemText').value === "") return false;
+    if (document.getElementById('newProblemTitle').value === "") return false;
+    if (document.getElementById('newProblemAuthors').value === "") return false;
+    if (!document.getElementById('newProblemStarttime').value) return false;
+    if (!document.getElementById('newProblemEndtime').value) return false;
+    if (document.getElementById('newProblemSolution').value === "") return false;
+    if (!document.getElementById('newProblemTypeSelect').value) return false;
+    if (document.getElementById('newProblemMargin').value === "") return false;
+    return true;
+}
 
 
 
