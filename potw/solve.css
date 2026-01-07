@@ -1,7 +1,6 @@
 
 *{
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 html, body{
@@ -47,6 +46,20 @@ a{
   display: flex;
   flex: 1 1 100%;
 }
+#dashboardBtn{
+  display: none;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+  cursor: pointer;
+  margin: auto;
+}
 
 #allProblemsSection{
   display: flex;
@@ -62,21 +75,25 @@ a{
 }
 
 .problem{
-  background-color: white;
+  /*background-color: white;*/
+  background: linear-gradient(#11154b, #25368b);
+  border: 1px solid white;
   border-radius: 6px;
   padding: 1rem 2rem;
-  color: black;
+  color: white;
   width: 80%;
 }
 .problem.solvedProblem{
   position: relative;
+  border: none;
 }
 .problem.solvedProblem::after{
   content: "";
   position: absolute;
   inset: 0; 
-  background: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
   border-radius: inherit;
+  z-index: 1;
 }
 .problem .problemText{
   font-size: 0.9rem;
@@ -87,8 +104,10 @@ a{
 }
 .additionalText2{
   font-size: 0.9rem;
-  color: green;
+  color: rgb(0, 201, 0);
   font-weight: bold;
+  z-index: 2;
+  position: relative;
 }
 .userInput{
   display: flex;
@@ -106,8 +125,7 @@ a{
 .userInput button{
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color: none;
-  background-color: #0b0c2a;
+  background-color: transparent;
   border: 1px solid white;
   color: white;
   border-radius: 8px;
@@ -115,6 +133,7 @@ a{
   font-weight: 550;
   transition: all 0.3s ease-in-out;
   min-width: 110px;
+  cursor: pointer;
 }
 button:hover {
   background-color: #0e1236;

@@ -3,11 +3,18 @@ import { doc, getDoc , getDocs, collection} from "https://www.gstatic.com/fireba
 
 let loginfinished = false;
 let uid;
+let by;
+let admin;
 window.addEventListener("loginOK", (e)=>{
-  let {userId, time} = e.detail;
+  let {userId, time, birthYear, executive} = e.detail;
   uid = userId;
+  by = birthYear;
+  admin = executive;
   loginfinished = true;
   loadProblems();
+  if (admin){
+    document.getElementById('dashboardBtn').style.display = "block";
+  }
 })
 
 let correctSolution;
@@ -26,25 +33,6 @@ function loadProblems(){
       if (problemData.startTime < now && problemData.endTime > now){
         let alreadyDone = false;
         let currentBase = 1;
-        /*const pr = getDoc(doc(db, "userData", uid, "potw", document.id))
-        .then((data)=> {
-          if(data.exists()){
-              let d = data.data()
-              //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! prikaz tren. baze poena
-              if (d.points > 0) alreadyDone = true;
-          } else{
-            alreadyDone = false;
-          }
-        })
-        .then(() => {
-          if (!alreadyDone){
-            problemData.id = document.id;
-            problemList[problemData.id] = problemData;
-          }
-        })
-        .catch(error => {
-          console.log("Error getting document:", error);
-        });*/
         const pr = getDoc(doc(db, "otherData", "potw", "2026", document.id, "submissions", uid))
         .then((data)=>{
           if (data.exists()){
@@ -58,6 +46,7 @@ function loadProblems(){
           problemData.id = document.id;
           problemData.currentBase = currentBase;
           problemData.alreadyDone = alreadyDone;
+          problemData.problemText = problemData.problemText//.replaceAll("\\\\", "\\");
           problemList[problemData.id] = problemData;
         })
         .catch(error => {
@@ -145,6 +134,7 @@ function addProblemToDisplay(problemData){
           problemType: problemData.problemType,
           triggerElement: button,
           submissionTime: Date.now(),
+          birthYear: by,
         }
       });
       window.dispatchEvent(eventToDispatch);
@@ -152,6 +142,7 @@ function addProblemToDisplay(problemData){
   }
   
   document.getElementById('allProblemsSection').appendChild(problemDiv);
+  renderMathInElement(document.getElementById('allProblemsSection'));
 }
 
 function updateProblemList(problemList){

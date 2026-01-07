@@ -126,12 +126,12 @@ document.getElementById('deleteProblem').addEventListener('click', ()=>{
         deleteDoc(doc(db, "otherData", "potw", "2026", newProblemID))
             .then(()=>{
                 delete problemsList[newProblemID];
+                alert("Problem " + newProblemID + " successfully deleted.");
+                document.getElementById('deleteProblem').disabled = false;
                 exitEditing();
                 refreshDisplayedProblemList(problemsList, {
                     current: true,
                 })
-                alert("Problem " + newProblemID + " successfully deleted.");
-                document.getElementById('deleteProblem').disabled = false;
             })
             .catch((error) => {
                 alert("An error occured: " + error.code + "; " + error.message);

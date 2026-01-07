@@ -7,22 +7,35 @@ import { getFirestore,  doc, setDoc , getDoc , increment, updateDoc} from "https
 import { newScoreCalculator } from './potw_script.js';
 
 let uid;
+let birthYear;
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
       uid = user.uid;
       console.log(uid)
-
-      let loginOK = new CustomEvent("loginOK", {
-        detail: {
-          time: Date.now(),
-          userId: uid,
+      getDoc(doc(db, "users", uid))
+      .then((data)=> {
+        if(data.exists()){
+          let d = data.data();
+          birthYear = d.birthYear;
+          let executive;
+          if (d.executive) executive = true;
+          else executive = false;
+          let loginOK = new CustomEvent("loginOK", {
+            detail: {
+              time: Date.now(),
+              userId: uid,
+              birthYear: birthYear,
+              executive: executive,
+            }
+          });
+          window.dispatchEvent(loginOK);
         }
-      });
-      window.dispatchEvent(loginOK);
+      })
+
 
       window.addEventListener('solutionSubmitted', (e)=>{
-        let {season, problemId, correct, corrSubs, problemType, triggerElement, submissionTime} = e.detail;
+        let {season, problemId, correct, corrSubs, problemType, triggerElement, submissionTime, birthYear} = e.detail;
         let finalPoints;
         
         getDoc(doc(db, "otherData", "potw", season, problemId, "submissions", uid))
@@ -36,6 +49,7 @@ onAuthStateChanged(auth, (user) => {
                     solved: true,
                     currentPoints: currentPoints,
                     time: submissionTime,
+                    birthYear: birthYear,
                   })
                   .then(()=>{
                     updateDoc(doc(db, "otherData", "potw", season, problemId), {
@@ -55,6 +69,7 @@ onAuthStateChanged(auth, (user) => {
                     solved: true,
                     currentPoints: 1,
                     time: submissionTime,
+                    birthYear: birthYear,
                   })
                   .then(()=>{
                     updateDoc(doc(db, "otherData", "potw", season, problemId), {
@@ -71,6 +86,7 @@ onAuthStateChanged(auth, (user) => {
                     solved: false,
                     currentPoints: finalPoints,
                     time: submissionTime,
+                    birthYear: birthYear,
                   })
                   .catch((error) => {
                     alert("An error occured: " + error.code + "; " + error.message);
@@ -84,6 +100,7 @@ onAuthStateChanged(auth, (user) => {
               solved: true,
               points: finalPoints,
               time: submissionTime,
+              birthYear: birthYear,
             })
             .then(()=>{
               alert('Problem solved correctly! Points: ' + finalPoints);

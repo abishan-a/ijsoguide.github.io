@@ -53,9 +53,15 @@
             <section id="newProblemSection">
                 <h3 id="newProblemSectionHeader">New problem</h3>
                 <p class="newProblemAdditionalText" id="subCount"></p>
-                <input type="text" id="newProblemTitle" placeholder="Problem title">
+                <div class="newProblemRow">
+                    <label>Problem title: </label>
+                    <input type="text" id="newProblemTitle" placeholder="Problem title">
+                </div>
                 <textarea id="newProblemText" rows="20"></textarea>
-                <input type="number" id="newProblemSolution" placeholder="Correct solution">
+                <div class="newProblemRow">
+                    <label>Correct solution: </label>
+                    <input type="number" id="newProblemSolution" placeholder="Correct solution">
+                </div>
                 <div class="newProblemRow">
                     <label>Solution margin [%]: </label>
                     <input type="number" id="newProblemMargin" placeholder="Correct solution margin" min="0" max="100" value="1">
@@ -67,7 +73,10 @@
                         <option value="mcq">MCQ (1, 0.5, 0)</option>
                     </select>
                 </div>
-                <input type="text" id="newProblemAuthors" placeholder="Problem authors">
+                <div class="newProblemRow">
+                    <label>Authors: </label>
+                    <input type="text" id="newProblemAuthors" placeholder="Problem authors">
+                </div>
                 <div class="newProblemRow">
                     <label>Start time: </label>
                     <input type="datetime-local" id="newProblemStarttime">
