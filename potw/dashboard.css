@@ -1,0 +1,342 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html{
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0b0c2a;
+  color: #f0f0f0;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 6rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#mainContent{
+  overflow-x: hidden;
+}
+
+nav{
+  z-index: 2;
+}
+
+button{
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: none;
+  background-color: #0b0c2a;
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: all 0.3s ease-in-out;
+  min-width: 110px;
+}
+button:hover {
+  background-color: #0e1236;
+  cursor: pointer;
+}
+
+button:disabled{
+  opacity: 0.5;
+}
+
+h2{
+  display: flex;
+  margin: 2rem auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1.5rem;
+  width: 100%;
+  overflow-x: hidden;
+  margin: auto;
+  /*height: 1100px;*/
+}
+#allProblemsSection, #newProblemSection{
+  flex: 1 1 43% ;
+}
+
+
+#newProblemRender{
+  position: relative;
+}
+#newProblemRender::after {
+  content: "See how the problem will look like when showed to the users.";
+  font-weight: 500;
+  position: absolute;
+  bottom: -90%;     
+  left: 100%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  width: 100px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+#newProblemRender:hover::after {
+  opacity: 1;
+}
+
+#allProblemsSection{
+  /*max-height: 100%;
+  overflow-y: auto;*/
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#allProblemsSettings{
+  margin: 0;
+  /*position: sticky;
+  top: 0;*/
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  gap: 0.5rem;
+  border-radius: 12px;
+}
+#allProblemsSettings input{
+  width: 90%;
+  padding: 10px 15px;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.settingsRow{
+  font-size: 0.7rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.settingsRow2{
+  font-size: 0.7rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}
+#allProblemsSettings:hover button{
+  cursor: pointer;
+}
+
+.settingsRow2 a{
+  text-decoration: none;
+}
+#skipToNew{
+  display: none;
+}
+
+#allProblemsList{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  border-radius: 12px;
+}
+#allProblemsList div{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  background-color: #0b0c2a;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+#allProblemsList div *{
+  margin: 0.5rem;
+}
+
+#allProblemsList div p:nth-child(1) {
+  font-weight: 600;
+}
+
+#allProblemsList div p:nth-child(2) {
+  font-size: 0.9rem;
+}
+
+/* --- New Problem Section --- */
+#newProblemSection {
+  background-color: #ffffff;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+  align-items: center;
+}
+
+#newProblemSection h3{
+  color: #0b0c2a;
+}
+
+.newProblemAdditionalText{
+  font-size: 0.8rem;
+  color: rgb(159, 159, 159);
+  width: 100%;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.newProblemRow{
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  width: 100%;
+  align-items: center;
+}
+.newProblemRow label{
+  color: black;
+  font-size: 0.8rem;
+}
+
+#newProblemSection input,
+#newProblemSection textarea,
+#newProblemSection select {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#newProblemSection input[type="datetime-local"]{
+  font-size: 0.7rem;
+}
+
+#newProblemSection input:focus,
+#newProblemSection textarea:focus {
+  border-color: #273c75;
+  box-shadow: 0 0 5px rgba(39, 60, 117, 0.2);
+  outline: none;
+}
+
+#newProblemSection textarea {
+  font-size: 0.8rem;
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* --- Buttons --- */
+#newProblemSection button {
+  padding: 10px 20px;
+  margin: 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0b0c2a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#newProblemSection button:hover:not(:disabled) {
+  background-color: #0b0c2a;
+}
+
+#newProblemSection button:disabled {
+  background-color: #dcdde1;
+  cursor: not-allowed;
+  color: #7f8fa6;
+}
+
+#newProblemSection #deleteProblem{
+  background-color: rgb(109, 7, 7);
+}
+
+/* --- Example Problem Preview --- */
+#exampleProblem {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-left: 4px solid #0b0c2a;
+  background-color: #f1f2f6;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#exampleProblem h3 {
+  margin-bottom: 8px;
+  color: #0b0c2a;
+}
+
+#exampleProblem p {
+  color: #333;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+@media(width < 1024px){
+  .container{
+    height: auto;
+    gap: 1rem;
+  }
+  #allProblemsSection, #newProblemSection{
+    flex: 1 1 90% ;
+  }
+  #skipToNew{
+    display: block;
+  }
+  #allProblemsList, #newProblemSection{
+    padding: 1rem 1rem;
+  }
+}
+
+
+.footer {
+  background: #1f1359;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 3rem;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  box-sizing: border-box;
+}

@@ -28,21 +28,16 @@ header {
     padding: 0 2rem 2rem 2rem;
 }
 
-#about p{
-    margin: 1rem 0 0 0;
-}
-
 .containerSection{
     padding: 2rem;
     border-radius: 1rem;
     line-height: 1.4;
-    margin: 0 0 1rem 0;
 }
 .containerSection h2{
     margin: 0 1rem 1rem 0;
 }
 
-.editions{
+#editions{
     background: linear-gradient(#11154b, #25368b);
 }
 
