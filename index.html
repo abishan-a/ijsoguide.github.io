@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>A Guide to the IJSO</title>
@@ -12,115 +13,161 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="icon" href="./favicon.png" type="image/x-ico" />
   <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
-  <script src="/navigationimport.js" type="module"></script>
-  <script src="/countdown.js" defer></script>
-</head>
-<style>
-    .gradient-text {
-      background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      display: inline;
+  <style>
+    /* Homepage specific navigation override */
+    nav {
+      background-color: transparent !important;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
     }
-</style>
+
+    @media (max-width: 768px) {
+      nav {
+        position: relative;
+        background-color: transparent !important;
+      }
+    }
+  </style>
+
+</head>
+
 <body>
 
-  <div class="glowing-spots" id="glowingSpots"></div>
+  <canvas id="particleCanvas"></canvas>
 
-  <!---<div id="newest" style="display: none;">
-    <p>Good luck to everyone participating in the IJSO 2025!</p>
-  </div>-->
-
-  <a id="countdownLink">
-    <div id="countdown">
-      <p id="countdownLabel">Countdown label</p>
-      <div id="countdownTime">
-        <div>
-          <p id="countdownDays">00</p>
-          <span>Days</span>
-        </div>
-        <div>
-          <p id="countdownHours">00</p>
-          <span>Hours</span>
-        </div>
-        <div>
-          <p id="countdownMinutes">00</p>
-          <span>Minutes</span>
-        </div>
-        <div>
-          <p id="countdownSeconds">00</p>
-          <span>Seconds</span>
-        </div>
-      </div>
-    </div>
-  </a>
-
-  <div class="hero-box" style="position: relative; z-index: 2;">
-    <h1><span class="gradient-text">Your Ultimate Guide to IJSO Preparation</span></h1>
-    <p class="hero-description">Comprehensive resources, theory, practice questions, mock tests, national selection tests with solutions, lab and mindset guides, and more – all in one place!</p>
-    <div class="hero-cta">
-      <a href="Start Learning/startlearning.html" class="cta-button primary">Start Preparing Now</a>
-      <a href="Account/sign-up.html" class="cta-button secondary">Join the Community</a>
-    </div>
+  <div id="newest" style="display: none;">
+    <p>Succes tuturor românilor la ONSJ din partea echipei "A Guide to the IJSO"!</p>
+    <p>Good luck to all Romanians at ONSJ from the "A Guide to the IJSO" team!</p>
   </div>
-  
-
-  <div class="cursor"></div>
 
 
-  <section id="about" style="position: relative; z-index: 2;">
-    <h2 style="border-left: 5px solid #469df6;">About the IJSO Guide</h2>
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1><span class="gradient-text">Your Ultimate Guide to IJSO Preparation</span></h1>
+      <p class="hero-description">Comprehensive resources, theory, practice questions, mock tests, and mindset guides –
+        all crafted by former medalists to help you excel.</p>
+      <div class="hero-cta">
+        <a href="Start Learning/startlearning.html" class="cta-button primary">Start Preparing Now</a>
+        <a href="Account/sign-up.html" class="cta-button secondary">Join the Community</a>
+      </div>
+    </div><br><br>
+  </section>
+
+
+  <section id="about" class="reveal">
+    <div class="section-header">
+      <h2>About the IJSO Guide</h2>
+    </div>
     <p class="about-description">
-      Created by talented students and former IJSO medalists, this guide aims to provide accessible, high-quality resources for students preparing for the International Junior Science Olympiad. Our mission is to level the playing field and help students worldwide excel in science competitions.
+      Created by talented students and former IJSO medalists, this guide aims to provide accessible, high-quality
+      resources for students preparing for the International Junior Science Olympiad. Our mission is to level the
+      playing field and help students worldwide excel in science competitions.
     </p>
   </section>
 
-  <section id="features" style="position: relative; z-index: 2;">
-    <h2 style="border-left: 5px solid #b561ff;">Features</h2>
-    <div class="features">
-      <div class="feature-box" onclick="window.location.href='Theory/theory.html'">
-        <h3 style="color: #56a9ff;">Theory Content</h3>
+  <section id="features" class="reveal">
+    <div class="section-header">
+      <h2>Explore Features</h2>
+    </div>
+    <div class="features-grid">
+      <!-- 1 -->
+      <div class="feature-card card-large reveal stagger-1" onclick="window.location.href='Theory/theory.html'">
+        <i class="fa-solid fa-book-open"></i>
+        <h3>Theory Content</h3>
         <p>Comprehensive coverage of physics, chemistry, and biology topics in the IJSO syllabus.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='Practice Questions/practicequestions.html'">
-        <h3 style="color: #b561ff;">Practice Questions</h3>
+      <!-- 2 -->
+      <div class="feature-card card-large reveal stagger-2"
+        onclick="window.location.href='Practice Questions/practicequestions.html'">
+        <i class="fa-solid fa-pen-to-square"></i>
+        <h3>Practice Questions</h3>
         <p>Targeted, topic-wise questions across all IJSO subjects—complete with hints and solutions.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='Mock Tests/mocktests.html'">
-        <h3 style="color: #40cb7a;">Mock Tests & Quizzes</h3>
+      <!-- 3 -->
+      <div class="feature-card card-wide reveal stagger-3" onclick="window.location.href='Mock Tests/mocktests.html'">
+        <i class="fa-solid fa-vial"></i>
+        <h3>Mock Tests & Quizzes</h3>
         <p>Practice with full-length, realistic mock exams with answers.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='National Selection Tests/selections.html'">
-        <h3 style="color: #ffcb58;">National Junior Science Olympiad Papers</h3>
+      <!-- 4 -->
+      <div class="feature-card reveal stagger-4"
+        onclick="window.location.href='National Selection Tests/selections.html'">
+        <i class="fa-solid fa-globe"></i>
+        <h3>National Junior Science Olympiad Papers</h3>
         <p>Massive collection of national junior science olympiad papers of different countries.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='/commingsoon.html'">
-        <h3 style="color: #56a9ff;">Tips & Tricks</h3>
-        <p>Avoid frequent pitfalls and exam traps with this helpful guide.</p>
-      </div>
-      <div class="feature-box" onclick="window.location.href='Study Materials/studymaterials.html'">
-        <h3 style="color: #b561ff;">Study Materials</h3>
+      <!-- 5 -->
+      <div class="feature-card reveal stagger-5" onclick="window.location.href='Study Materials/studymaterials.html'">
+        <i class="fa-solid fa-file-pdf"></i>
+        <h3>Study Materials</h3>
         <p>Top books, notes, and links for mastering all IJSO topics.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='/commingsoon.html'">
-        <h3 style="color: #40cb7a;">Mindset & Motivation</h3>
+      <!-- 6 -->
+      <div class="feature-card card-wide reveal stagger-1" onclick="window.location.href='./commingsoon.html'">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Tips & Tricks</h3>
+        <p>Avoid frequent pitfalls and exam traps with this helpful guide.</p>
+      </div>
+      <!-- 7 -->
+      <div class="feature-card reveal stagger-2" onclick="window.location.href='./commingsoon.html'">
+        <i class="fa-solid fa-brain"></i>
+        <h3>Mindset & Motivation</h3>
         <p>Learn from gold medalists how to think, work, and win.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='/apparatusGuideIJSO.pdf'">
-        <h3 style="color: #ffcb58;">Lab Apparatus Guide</h3>
+      <!-- 8 -->
+      <div class="feature-card reveal stagger-3" onclick="window.location.href='./commingsoon.html'">
+        <i class="fa-solid fa-microscope"></i>
+        <h3>Lab Apparatus Guide</h3>
         <p>Understand and recognize all key experimental tools in physics, chem, and bio.</p>
       </div>
-      <div class="feature-box" onclick="window.location.href='/commingsoon.html'">
-        <h3 style="color: #56a9ff;">Success Stories</h3>
+      <!-- 9 -->
+      <div class="feature-card card-wide reveal stagger-1" onclick="window.location.href='./commingsoon.html'">
+        <i class="fa-solid fa-trophy"></i>
+        <h3>Success Stories</h3>
         <p>Read inspiring journeys of students who triumphed at the IJSO and beyond.</p>
       </div>
     </div>
   </section>
 
+  <section id="feedback" class="reveal">
+    <div class="section-header">
+      <h2>What Students Say</h2>
+    </div>
+    <div class="feedback-carousel-container">
+      <button class="carousel-btn prev-btn" aria-label="Previous Slide"><i
+          class="fa-solid fa-chevron-left"></i></button>
 
+      <div class="feedback-carousel">
+        <div class="feedback-card active">
+          <div class="feedback-avatar"></div>
+          <p>"The resources here are top-notch. Helped me secure a gold medal!"</p>
+          <h4>— Alex D.</h4>
+        </div>
+        <div class="feedback-card">
+          <div class="feedback-avatar"></div>
+          <p>"A must-have guide for any serious IJSO aspirant. Highly recommended."</p>
+          <h4>— Samsung M.</h4>
+        </div>
+        <div class="feedback-card">
+          <div class="feedback-avatar"></div>
+          <p>"Clear, concise, and incredibly helpful practice questions."</p>
+          <h4>— Sarah J.</h4>
+        </div>
+      </div>
 
-  <section class="contact-section">
+      <button class="carousel-btn next-btn" aria-label="Next Slide"><i class="fa-solid fa-chevron-right"></i></button>
+
+      <div class="carousel-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section reveal">
     <div class="contact-container">
       <h2>Contact Us</h2>
       <form class="contact-form" action="https://formsubmit.co/ijsoguide@gmail.com" method="POST">
@@ -133,8 +180,6 @@
     </div>
   </section>
 
-
-
   <div class="pre-footer" style="position: relative; z-index: 2;">
     <div class="pre-footer-left">
       <h3>A Guide to the IJSO</h3>
@@ -145,6 +190,7 @@
       <div class="pre-footer-icons">
         <a href="https://www.instagram.com/ijsoguide/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <i class="fa-brands fa-instagram"></i>
+          <span class="social-handle">@ijsoguide</span>
         </a>
       </div>
     </div>
@@ -154,17 +200,71 @@
     <p>&copy; 2025 A Guide to the IJSO. All rights reserved.</p>
   </footer>
 
-  <script src="/glowingspots.js"></script>
-  
+  <script src="script.js" type="module"></script>
   <script>
     /* Expiration for the "newest" element */
-    /*let startDate = new Date('2025-11-21T00:00:00Z')
-    let endDate = new Date('2025-12-15T00:00:00Z')
-    
+    let startDate = new Date('2025-07-22T00:00:00Z')
+    let endDate = new Date('2025-07-23T00:00:00Z')
     let current = new Date();
-    if (startDate < current && current < endDate) document.getElementById('newest').style.display = "flex"; */
+    if (startDate < current && current < endDate) document.getElementById('newest').style.display = "flex"; 
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.feedback-card');
+      const dots = document.querySelectorAll('.dot');
+      const prevBtn = document.querySelector('.prev-btn');
+      const nextBtn = document.querySelector('.next-btn');
+      let currentSlide = 0;
+      let slideInterval;
 
+      function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove('active'));
+        dots.forEach(dot => dot.classList.remove('active'));
+
+        // Handle wrapping
+        if (index >= slides.length) currentSlide = 0;
+        else if (index < 0) currentSlide = slides.length - 1;
+        else currentSlide = index;
+
+        slides[currentSlide].classList.add('active');
+        dots[currentSlide].classList.add('active');
+
+        // Reset timer on interaction
+        resetInterval();
+      }
+
+      function nextSlide() {
+        showSlide(currentSlide + 1);
+      }
+
+      function prevSlide() {
+        showSlide(currentSlide - 1);
+      }
+
+      function resetInterval() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 5000);
+      }
+
+      // Event Listeners
+      nextBtn.addEventListener('click', nextSlide);
+      prevBtn.addEventListener('click', prevSlide);
+
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          showSlide(parseInt(dot.dataset.slide));
+        });
+      });
+
+      // Pause on hover
+      const container = document.querySelector('.feedback-carousel-container');
+      container.addEventListener('mouseenter', () => clearInterval(slideInterval));
+      container.addEventListener('mouseleave', resetInterval);
+
+      // Start auto-play
+      resetInterval();
+    });
+  </script>
 </body>
 
 </html>
